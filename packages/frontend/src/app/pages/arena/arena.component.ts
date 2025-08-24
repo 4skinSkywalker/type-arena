@@ -44,6 +44,24 @@ export class ArenaComponent {
     this.avgWordLength = words.reduce((acc, word) => acc + word.length, 0) / words.length;
   }
 
+  ngAfterViewInit() {
+    this.keepCursorAtTheEnd();
+  }
+
+  keepCursorAtTheEnd() {
+    const moveCaretToEnd = (el: HTMLInputElement) => {
+      const length = el.value.length;
+      el.setSelectionRange(length, length);
+    };
+
+    this.textControl.addEventListener("click", () => moveCaretToEnd(this.textControl));
+    this.textControl.addEventListener("focus", () => moveCaretToEnd(this.textControl));
+    this.textControl.addEventListener("input", () => moveCaretToEnd(this.textControl));
+    this.textControl.addEventListener("keydown", () => {
+      setTimeout(() => moveCaretToEnd(this.textControl), 0);
+    });
+  }
+
   inputText(event: any) {
     if (!this.started) {
       this.textControl.value = "";
