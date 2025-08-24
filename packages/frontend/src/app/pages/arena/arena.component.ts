@@ -8,11 +8,20 @@ import { LaneComponent } from './lane/lane.component';
   styleUrl: './arena.component.scss'
 })
 export class ArenaComponent {
-  @Input("quote") quote: string = "Don't practice too much at first";
+  @Input("started") started = false;
+  @Input("quote") quote = "Don't practice too much at first";
   chars: ({ index: number, char: string, active: boolean, digited: boolean, error: boolean })[] = [];
   activeIndex = 0;
   finished = false;
   percentage = 0;
+
+  _textControl!: HTMLInputElement;
+  get textControl() {
+    if (!this._textControl) {
+      this._textControl = document.querySelector("#text-control")!;
+    }
+    return this._textControl;
+  }
 
   constructor() {}
 
@@ -29,6 +38,12 @@ export class ArenaComponent {
   }
 
   inputText(event: any) {
+    if (!this.started) {
+      this.textControl.value = "";
+      this.textControl.blur();
+      return;
+    }
+
     const text = event.target.value;
 
     this.finished = false;

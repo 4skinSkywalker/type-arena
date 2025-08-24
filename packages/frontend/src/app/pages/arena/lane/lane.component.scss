@@ -12,12 +12,19 @@
         top: 0;
         right: 100%;
         height: 24px;
+        aspect-ratio: 400/128;
+
+        .username {
+            position: absolute;
+            bottom: 0;
+            left: 110%;
+        }
     }
 
     .reward {
         position: absolute;
         top: 0;
-        left: 102%;
+        left: 105%;
         height: 24px;
     }
 }

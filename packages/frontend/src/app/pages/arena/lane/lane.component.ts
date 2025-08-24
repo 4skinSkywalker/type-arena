@@ -11,4 +11,5 @@ export class LaneComponent {
   @Input("position") position = 0;
   @Input("percentage") percentage = 0;
   @Input("car") car = 1;
+  @Input("username") username = "Anonymous";
 }

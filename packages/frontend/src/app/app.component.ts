@@ -13,7 +13,7 @@ import { BasicModule } from './basic.module';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'js-arena';
+  title = 'type-arena';
   username = new FormControl("", { nonNullable: true });
 
   handlers: Handlers = {};

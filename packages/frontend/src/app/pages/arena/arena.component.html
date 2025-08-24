@@ -1,6 +1,9 @@
+<button class="btn btn-primary" (click)="started = true">Start</button>
+<button class="btn btn-secondary" (click)="started = false">Stop</button>
+
 <div style="display: block; max-width: 800px; margin: 5rem auto 0;">
     <div class="lanes">
-        <app-lane [percentage]="percentage" [car]="1"></app-lane>
+        <app-lane [percentage]="percentage" [car]="1" username="Fredo"></app-lane>
         <app-lane [car]="2"></app-lane>
         <app-lane [car]="3"></app-lane>
     </div>
@@ -16,5 +19,10 @@
         }
     </div>
 
-    <input class="form-control" type="text" (input)="inputText($event)" autofocus>
+    <input
+        id="text-control"
+        class="form-control"
+        type="text"
+        (input)="inputText($event)"
+    >
 </div>
