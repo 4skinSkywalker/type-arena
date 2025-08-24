@@ -1,0 +1,52 @@
+.lanes {
+    display: grid;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.text {
+    margin-bottom: 16px;
+
+    .finished {
+        .char {
+            color: rgba(var(--primary-color), 1);
+            animation: pulsing-char 0.5s 5 ease-in-out alternate forwards;
+        }
+    }
+
+    .char {
+        font-size: 2rem;
+        color: rgba(var(--primary-color), 0.5);
+        border-left: 3px solid transparent;
+
+        &.active {
+            animation: pulsing-border 0.5s infinite alternate;
+        }
+
+        &.digited {
+            color: rgba(var(--primary-color), 1);
+        }
+
+        &.error {
+            color: red;
+        }
+    }
+
+    @keyframes pulsing-char {
+        0% {
+            color: rgba(var(--primary-color), 1);
+        }
+        100% {
+            color: rgba(var(--primary-color), 0.5);
+        }
+    }
+
+    @keyframes pulsing-border {
+        0% {
+            border-color: rgba(var(--primary-color), 1);
+        }
+        100% {
+            border-color: transparent;
+        }
+    }
+}

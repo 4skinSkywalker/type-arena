@@ -1,0 +1,32 @@
+.loader-wrap {
+    display: grid;
+    height: 100svh;
+    width: 100svw;
+    justify-items: center;
+    align-content: center;
+    gap: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background: #0008;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.loader-wrap.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.spinner {
+    width: 150px;
+    mask: radial-gradient(58px, #0000 98%, #000);
+}
+
+.loader-text {
+    font-size: 1.25rem;
+    max-width: 400px;
+    text-align: center;
+}

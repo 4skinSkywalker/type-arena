@@ -1,0 +1,25 @@
+{
+    "rating": 7,
+    "tests": [
+        {
+            "input": {"s": "ab"},
+            "expectedOutput": 81
+        },
+        {
+            "input": {"s": "zzz"},
+            "expectedOutput": -1
+        },
+        {
+            "input": {"s": "aba"},
+            "expectedOutput": 900
+        },
+        {
+            "input": {"s": "abcdef"},
+            "expectedOutput": 937024
+        },
+        {
+            "input": {"s": "abcabc"},
+            "expectedOutput": 797449
+        }
+    ]
+}

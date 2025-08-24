@@ -1,0 +1,25 @@
+{
+    "rating": 5,
+    "tests": [
+        {
+            "input": {"n": 37},
+            "expectedOutput": 8
+        },
+        {
+            "input": {"n": 44},
+            "expectedOutput": 2
+        },
+        {
+            "input": {"n": 52},
+            "expectedOutput": 2
+        },
+        {
+            "input": {"n": 381},
+            "expectedOutput": 128
+        },
+        {
+            "input": {"n": 250},
+            "expectedOutput": 4
+        }
+    ]
+}

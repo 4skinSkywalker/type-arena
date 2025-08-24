@@ -1,0 +1,8 @@
+<img
+    class="car"
+    [style.right.%]="100 - percentage * 100"
+    [src]="'assets/cars/car-' + car + '.png'"
+>
+@if (finished && position === 3) { <img class="reward" src="assets/rewards/bronze.png"> }
+@if (finished && position === 2) { <img class="reward" src="assets/rewards/silver.png"> }
+@if (finished && position === 1) { <img class="reward" src="assets/rewards/gold.png"> }

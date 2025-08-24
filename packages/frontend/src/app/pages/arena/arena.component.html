@@ -1,0 +1,20 @@
+<div style="display: block; max-width: 800px; margin: 5rem auto 0;">
+    <div class="lanes">
+        <app-lane [percentage]="percentage" [car]="1"></app-lane>
+        <app-lane [car]="2"></app-lane>
+        <app-lane [car]="3"></app-lane>
+    </div>
+
+    <div class="text" [class.finished]="finished">
+        @for (char of chars; track $index) {
+        <span
+            class="char"
+            [class.active]="char.active"
+            [class.digited]="char.digited"
+            [class.error]="char.error"
+        >{{ char.char }}</span>
+        }
+    </div>
+
+    <input class="form-control" type="text" (input)="inputText($event)" autofocus>
+</div>
