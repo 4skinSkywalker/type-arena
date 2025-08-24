@@ -9,11 +9,15 @@ import { LaneComponent } from './lane/lane.component';
 })
 export class ArenaComponent {
   @Input("started") started = false;
-  @Input("quote") quote = "Don't practice too much at first";
+  @Input("quote") quote = `So, I'm tending bar there at Ecklund & Swedlin's last Tuesday and this little guy's drinking and he says, "So where can a guy find some action - I'm goin' crazy down there at the lake." And I says, "What kinda action?" and he says, "Woman action, what do I look like?" And I says, "Well, what do I look like? I don't arrange that kinda thing."`;
   chars: ({ index: number, char: string, active: boolean, digited: boolean, error: boolean })[] = [];
   activeIndex = 0;
   finished = false;
   percentage = 0;
+  wpm = 0;
+  dirty = false;
+  startTime = 0;
+  avgWordLength = 0;
 
   _textControl!: HTMLInputElement;
   get textControl() {
@@ -35,14 +39,25 @@ export class ArenaComponent {
         digited: false,
         error: false
       }));
+    
+    const words = this.quote.split(" ");
+    this.avgWordLength = words.reduce((acc, word) => acc + word.length, 0) / words.length;
   }
 
   inputText(event: any) {
     if (!this.started) {
       this.textControl.value = "";
       this.textControl.blur();
+      this.dirty = false;
+      this.startTime = 0;
       return;
     }
+
+    if (!this.dirty) {
+      this.startTime = Date.now();
+    }
+
+    this.dirty = true;
 
     const text = event.target.value;
 
@@ -65,12 +80,16 @@ export class ArenaComponent {
       qchar.error = hasError;
     }
 
-    this.percentage = this.chars.filter(char => char.digited && !char.error).length / this.chars.length;
+    const correctChars = this.chars.filter(char => char.digited && !char.error).length;
+    this.percentage = correctChars / this.chars.length;
 
     if (text.length >= this.chars.length) {
       this.finished = this.chars.every(char => char.digited && !char.error);
       return;
     }
+
+    const deltaTime = Date.now() - this.startTime;
+    this.wpm = Math.round((correctChars * 60) / (this.avgWordLength * (deltaTime / 1000)));
 
     if (this.chars[i]) {
       this.chars[i].active = true;
