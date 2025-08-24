@@ -15,6 +15,8 @@ export class ArenaComponent {
   finished = false;
   percentage = 0;
   wpm = 0;
+  mistakes = 0;
+  accuracy = 0;
   dirty = false;
   startTime = 0;
   avgWordLength = 0;
@@ -66,6 +68,9 @@ export class ArenaComponent {
     if (!this.started) {
       this.textControl.value = "";
       this.textControl.blur();
+      this.wpm = 0;
+      this.mistakes = 0;
+      this.accuracy = 0;
       this.dirty = false;
       this.startTime = 0;
       return;
@@ -77,7 +82,7 @@ export class ArenaComponent {
 
     this.dirty = true;
 
-    const text = event.target.value;
+    const userText = event.target.value;
 
     this.finished = false;
     this.chars.forEach(char => {
@@ -88,12 +93,13 @@ export class ArenaComponent {
 
     let i = 0;
     let hasError = false;
-    for (; i < Math.min(text.length, this.chars.length); i++) {
-      const char = text[i];
+    for (; i < Math.min(userText.length, this.chars.length); i++) {
+      const char = userText[i];
       const qchar = this.chars[i];
       qchar.digited = true;
       if (char !== qchar.char) {
         hasError = true;
+        this.mistakes++;
       }
       qchar.error = hasError;
     }
@@ -101,13 +107,14 @@ export class ArenaComponent {
     const correctChars = this.chars.filter(char => char.digited && !char.error).length;
     this.percentage = correctChars / this.chars.length;
 
-    if (text.length >= this.chars.length) {
+    if (userText.length >= this.chars.length) {
       this.finished = this.chars.every(char => char.digited && !char.error);
       return;
     }
 
     const deltaTime = Date.now() - this.startTime;
     this.wpm = Math.round((correctChars * 60) / (this.avgWordLength * (deltaTime / 1000)));
+    this.accuracy = Math.round(correctChars / (userText.length + this.mistakes) * 100);
 
     if (this.chars[i]) {
       this.chars[i].active = true;
