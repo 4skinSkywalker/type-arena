@@ -43,12 +43,19 @@ export class GameMultiplayerComponent {
   clients = computed<IClientJSON[]>(() => {
     return [...(this.room()?.clients || [])];
   });
+  clientsSortByPercentage = computed<IClientJSON[]>(() => {
+    return [...(this.room()?.clients || [])]
+      .map(client => ({
+        ...deepCopy(client),
+        percentage: this.clientProgressDataMap()?.[client.id]?.percentage || 0
+      }))
+      .sort((a, b) => b.percentage - a.percentage);
+  });
   clientsSortByWpm = computed<IClientJSON[]>(() => {
     return [...(this.room()?.clients || [])]
       .map(client => ({
         ...deepCopy(client),
-        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0,
-        accuracy: this.clientProgressDataMap()?.[client.id]?.accuracy || 1
+        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0
       }))
       .sort((a, b) => b.wpm - a.wpm);
   });
@@ -56,7 +63,6 @@ export class GameMultiplayerComponent {
     return [...(this.room()?.clients || [])]
       .map(client => ({
         ...deepCopy(client),
-        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0,
         accuracy: this.clientProgressDataMap()?.[client.id]?.accuracy || 1
       }))
       .sort((a, b) => a.accuracy - b.accuracy);
@@ -319,7 +325,8 @@ export class GameMultiplayerComponent {
       ...prev,
       [msg.client.id]: {
         wpm: msg.wpm ?? prev[msg.client.id]?.wpm,
-        accuracy: msg.accuracy ?? prev[msg.client.id]?.accuracy
+        accuracy: msg.accuracy ?? prev[msg.client.id]?.accuracy,
+        percentage: msg.percentage ?? prev[msg.client.id]?.percentage
       }
     }));
     this.room.set(this.room()); // Recompute dependant signals

@@ -93,7 +93,7 @@ class Client {
     }
     
     handleProgress(msg: IProgressMessage) {
-        this.getRoom().sendProgress(this, msg.wpm, msg.accuracy);
+        this.getRoom().sendProgress(this, msg);
     }
 
     handleListClients() {
@@ -283,13 +283,14 @@ class Room {
         }
     }
 
-    sendProgress(client: Client, wpm?: number, accuracy?: number) {
+    sendProgress(client: Client, msg: IProgressMessage) {
         for (const _client of this.clients.values()) {
             _client.send("progressReceived", {
                 room: this.toJSON(),
                 client: client.toJSON(),
-                wpm,
-                accuracy
+                wpm: msg.wpm,
+                accuracy: msg.accuracy,
+                percentage: msg.percentage
             });
         }
     }
