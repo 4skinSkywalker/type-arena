@@ -10,7 +10,6 @@ export interface IClientToJSONOptions {
 
 export interface IRoomToJSONOptions {
     includeClients?: boolean;
-    includeProblem?: boolean;
 }
 
 export interface IAudioMessage {
@@ -19,30 +18,29 @@ export interface IAudioMessage {
     data: number[];
 }
 
-export interface ILogMessage {
-    level: "log" | "warn" | "error";
-    text: string;
+export interface IQuote {
+    author: string;
+    bio: string;
+    quote: string;
+    source: string;
 }
 
-export interface ITest {
-    input: any;
-    expectedOutput: any;
-    status?: "running" | "passed" | "failed";
-    output?: any;
-    logs?: ILogMessage[];
-}
-
-export interface IProblem {
-    filename: string;
-    title: string;
-    description: string;
-    tests: ITest[];
-    rating: number;
+export interface IRace {
+    quote: IQuote;
+    isRunning: boolean;
+    winners: {
+        gold: string | null;
+        silver: string | null;
+        bronze: string | null;
+    }
 }
 
 export interface IClientJSON {
     id: string;
     name: string;
+    car: number;
+    wpm: number;
+    accuracy: number;
     room?: IRoomJSON;
 }
 
@@ -50,8 +48,7 @@ export interface IRoomJSON {
     id: string;
     name: string;
     enableLateJoin: boolean;
-    started: boolean;
-    problem?: IProblem;
+    race: IRace;
     host: IClientJSON;
     clients: IClientJSON[];
 }
@@ -67,9 +64,8 @@ export interface IChatMessage {
 }
 
 export interface IProgressDetails {
-    testsPassed?: number;
-    charCount?: number;
-    editorContent?: string;
+    wpm?: number;
+    accuracy?: number;
 }
 
 export interface IProgressMessage extends IProgressDetails {
@@ -92,10 +88,6 @@ export interface IRoomDetailsMessage {
 
 export interface IStartGameMessage {
     roomId: string;
-}
-
-export interface IGetProblemMessage {
-    filename: string;
 }
 
 //      ██╗      ███████╗██████╗  ██████╗ ███╗   ██╗████████╗███████╗███╗   ██╗██████╗ 
@@ -140,21 +132,3 @@ export interface IClientWithRoomMessage {
 }
 
 export interface IProgressReceivedMessage extends IClientWithRoomMessage, IProgressDetails {}
-
-export interface IProblemSnippet {
-    filename: string;
-    title: string;
-    rating: number;
-}
-
-export interface IProblemTitlesReceivedMessage {
-    problemTitles: Array<IProblemSnippet>;
-}
-
-export interface IProblemWithNext extends IProblem {
-    nextProblemFilename?: string | null;
-}
-
-export interface IGetProblemReceivedMessage {
-    problem: IProblemWithNext;
-}

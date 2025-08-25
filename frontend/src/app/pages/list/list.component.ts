@@ -35,7 +35,7 @@ export class ListComponent {
         switchMap((value: string) => {
           return this.api.rooms$.pipe(
             map(rooms =>
-              rooms.filter(room => !room.started && room.name.toUpperCase().includes(value.toUpperCase()))
+              rooms.filter(room => !room.race.isRunning && room.name.toUpperCase().includes(value.toUpperCase()))
             )
           );
         })
@@ -44,7 +44,7 @@ export class ListComponent {
     this.closedRooms$ = this.api.rooms$
       .pipe(
         map(rooms =>
-          rooms.filter(room => room.started)
+          rooms.filter(room => room.race.isRunning)
         )
       );
 

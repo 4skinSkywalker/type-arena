@@ -1,7 +1,7 @@
-import { getNextEntry, getUid, parseEvent } from "./utils";
+import { getUid, parseEvent } from "./utils";
 import WebSocket from 'ws';
-import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IProblem, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IGetProblemMessage, IProblemWithNext } from "./models";
-import { problems, filenameProblemMap } from "./problems";
+import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage } from "./models";
+import { getRandomQuote } from "./quotes";
 
 const globalRooms = new Map<string, Room>();
 const globalClients = new Map<string, Client>();
@@ -30,6 +30,9 @@ class Client {
     ws: WebSocket;
     id = getUid();
     name = "Anonymous";
+    car = 0;
+    wpm = 20;
+    accuracy = 1;
     room?: Room = undefined;
     handlers: Record<string, (msg: any) => void> = {
         "voice": this.handleVoice.bind(this),
@@ -45,8 +48,6 @@ class Client {
         "roomDetails": this.handleRoomDetails.bind(this),
         "startGame": this.handleStartGame.bind(this),
         "restartGame": this.handleRestartGame.bind(this),
-        "getProblemTitles": this.handleGetProblemTitles.bind(this),
-        "getProblem": this.handleGetProblem.bind(this),
     };
 
     constructor(ws: WebSocket) {
@@ -92,7 +93,7 @@ class Client {
     }
     
     handleProgress(msg: IProgressMessage) {
-        this.getRoom().sendProgress(this, msg.testsPassed, msg.charCount, msg.editorContent);
+        this.getRoom().sendProgress(this, msg.wpm, msg.accuracy);
     }
 
     handleListClients() {
@@ -154,7 +155,7 @@ class Client {
         if (room.host !== this) {
             throw new Error("Only the host can start the game");
         }
-        if (room.started && !bypass) {
+        if (room.race.isRunning && !bypass) {
             throw new Error("Game already started");
         }
         room.setStarted(true);
@@ -162,25 +163,6 @@ class Client {
 
     handleRestartGame(msg: IStartGameMessage) {
         this.handleStartGame(msg, true);
-    }
-
-    handleGetProblemTitles() {
-        this.send("getProblemTitlesReceived", {
-            problemTitles: Array.from(filenameProblemMap.entries())
-                .map(([filename, problem]) => ({
-                    filename,
-                    title: problem.title,
-                    rating: problem.rating,
-                }))
-        });
-    }
-
-    handleGetProblem(msg: IGetProblemMessage) {
-        const problem = filenameProblemMap.get(msg.filename) as IProblemWithNext;
-        problem.nextProblemFilename = getNextEntry(filenameProblemMap, msg.filename)?.filename;
-        this.send("getProblemReceived", {
-            problem: filenameProblemMap.get(msg.filename)
-        });
     }
 
     handleMessage(event: any) {
@@ -222,8 +204,11 @@ class Client {
         return {
             id: this.id,
             name: this.name,
+            car: this.car,
+            wpm: this.wpm,
+            accuracy: this.accuracy,
             room: includeRoom
-                ? this.room?.toJSON({ includeClients: false })
+                ? this.room?.toJSON()
                 : undefined
         };
     }
@@ -233,8 +218,7 @@ class Room {
     id: string;
     name: string;
     enableLateJoin: boolean;
-    started = false;
-    problem = this.getRandomProblem();
+    race = this.createRace();
     host: Client;
     clients = new Map<string, Client>();
 
@@ -260,14 +244,22 @@ class Room {
         }
     }
 
-    getRandomProblem() {
-        return problems[Math.floor(Math.random() * problems.length)];
+    createRace() {
+        return {
+            quote: getRandomQuote(),
+            isRunning: false,
+            winners: {
+                gold: null,
+                silver: null,
+                bronze: null
+            }
+        };
     }
 
     setStarted(value: boolean) {
         console.log("Game starting in room", this.id);
-        this.started = value;
-        this.problem = this.getRandomProblem();
+        this.race = this.createRace();
+        this.race.isRunning = value;
 
         for (const client of this.clients.values()) {
             client.send("gameStarted");
@@ -291,14 +283,13 @@ class Room {
         }
     }
 
-    sendProgress(client: Client, testsPassed?: number, charCount?: number, editorContent?: string) {
+    sendProgress(client: Client, wpm?: number, accuracy?: number) {
         for (const _client of this.clients.values()) {
             _client.send("progressReceived", {
                 room: this.toJSON(),
                 client: client.toJSON(),
-                testsPassed,
-                charCount,
-                editorContent
+                wpm,
+                accuracy
             });
         }
     }
@@ -307,13 +298,13 @@ class Room {
         if (client) {
             // Send to the client that requested the details
             client.send("roomDetailsReceived", {
-                room: this.toJSON({ includeProblem: true })
+                room: this.toJSON()
             });
         } else {
             // Send to all clients in the room
             for (const _client of this.clients.values()) {
                 _client.send("roomDetailsReceived", {
-                    room: this.toJSON({ includeProblem: true })
+                    room: this.toJSON()
                 });
             }
         }
@@ -339,7 +330,7 @@ class Room {
         this.clients.set(client.id, client);
         for (const _client of this.clients.values()) {
             _client.send("clientJoined", {
-                room: this.toJSON({ includeClients: false }),
+                room: this.toJSON(),
                 client: client.toJSON({ includeRoom: false })
             });
         }
@@ -354,7 +345,7 @@ class Room {
         this.clients.delete(client.id);
         for (const _client of this.clients.values()) {
             _client.send("clientLeft", {
-                room: this.toJSON({ includeClients: false }),
+                room: this.toJSON(),
                 client: client.toJSON({ includeRoom: false })
             });
         }
@@ -378,19 +369,14 @@ class Room {
 
     toJSON(opts?: IRoomToJSONOptions): IRoomJSON {
         opts = opts || {};
-        const includeClients = opts.includeClients == null ? true : opts.includeClients;
-        const includeProblem = opts.includeProblem == null ? false : opts.includeProblem;
         return {
             id: this.id,
             name: this.name,
             enableLateJoin: this.enableLateJoin,
-            started: this.started,
-            problem: (this.started && includeProblem) ? this.problem : undefined,
+            race: this.race,
             host: this.host.toJSON({ includeRoom: false }),
-            clients: includeClients
-                ? Array.from(this.clients.values())
-                    .map(client => client.toJSON({ includeRoom: false }))
-                : []
+            clients: Array.from(this.clients.values())
+                .map(client => client.toJSON({ includeRoom: false }))
         };
     }
 }

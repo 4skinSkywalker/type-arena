@@ -48,8 +48,9 @@
     .lobby-content {
         flex-grow: 1;
         display: grid;
-        grid-template-columns: auto 1fr;
-        gap: 0 var(--tertiary-space);
+        grid-template-columns: auto 100px auto 1fr;
+        gap: 0 3px;
+        margin-right: 10px;
 
         > * {
             white-space: nowrap;
@@ -59,6 +60,13 @@
         
         > *:nth-child(even) {
             font-weight: 700;
+        }
+
+        .lobby-players {
+            grid-column: span 4;
+            font-size: 14px;
+            font-weight: 700;
+            margin-left: 10px;
         }
     }
 }

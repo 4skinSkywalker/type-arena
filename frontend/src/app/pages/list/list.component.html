@@ -12,10 +12,15 @@
                 @for (item of openedRooms$ | async; track item.id) {
                 <li class="list-group-item lobby lobby-open">
                     <div class="lobby-content">
-                        <div>ROOM ///</div>
+                        <div>ROOM:</div>
                         <div>{{ item.name }}</div>
-                        <div>HOST ///</div>
+                        <div style="margin-left: 12px;">AUTHOR:</div>
+                        <div>{{ item.race.quote.author }}</div>
+                        <div>HOST:</div>
                         <div>{{ item.host.name }}</div>
+                        <div style="margin-left: 12px;">SOURCE:</div>
+                        <div>{{ item.race.quote.source }}</div>
+                        <div class="lobby-players">{{ item.clients.length }} players</div>
                     </div>
                     
                     <button class="btn btn-primary" [routerLink]="['/multiplayer', item.id]">Join</button>
