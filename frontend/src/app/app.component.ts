@@ -15,6 +15,8 @@ import { BasicModule } from './basic.module';
 export class AppComponent {
   title = 'type-arena';
   username = new FormControl("", { nonNullable: true });
+  cars = [1, 2, 3, 4, 5, 6, 7];
+  carSelected = 1;
 
   handlers: Handlers = {};
 
@@ -30,6 +32,10 @@ export class AppComponent {
 
   ngOnDestroy() {
     this.api.unsubscribe(this.handlers);
+  }
+
+  carSelect(idx: number) {
+    this.carSelected = idx;
   }
 
   sendClientInfo() {
@@ -64,7 +70,7 @@ export class AppComponent {
       return console.error("Username is empty");
     }
 
-    const clientInfo = { name: username };
+    const clientInfo = { name: username, car: this.carSelected };
     uncheck("#username-modal-trigger");
     saveIntoLS("clientInfo", clientInfo);
     this.api.send("clientInfo", clientInfo);

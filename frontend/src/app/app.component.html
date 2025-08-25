@@ -11,6 +11,12 @@
         <div class="form-control-wrap">
             <input type="text" class="form-control" [formControl]="username" placeholder="Insert your alias">
         </div>
+
+        <div class="cars">
+          @for (car of cars; track car) {
+          <img class="car" [class.car-selected]="car === carSelected" src="assets/cars/car-{{ car }}.png" class="car" (click)="carSelect(car)">
+          }
+        </div>
     </div>
 
     <div class="modal-footer">

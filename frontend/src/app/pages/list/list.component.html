@@ -12,13 +12,13 @@
                 @for (item of openedRooms$ | async; track item.id) {
                 <li class="list-group-item lobby lobby-open">
                     <div class="lobby-content">
-                        <div>ROOM:</div>
+                        <div>Room</div>
                         <div>{{ item.name }}</div>
-                        <div style="margin-left: 12px;">AUTHOR:</div>
+                        <div>Author</div>
                         <div>{{ item.race.quote.author }}</div>
-                        <div>HOST:</div>
+                        <div>Host</div>
                         <div>{{ item.host.name }}</div>
-                        <div style="margin-left: 12px;">SOURCE:</div>
+                        <div>Source</div>
                         <div>{{ item.race.quote.source }}</div>
                         <div class="lobby-players">{{ item.clients.length }} players</div>
                     </div>
@@ -37,10 +37,15 @@
                 @for (item of closedRooms$ | async; track item.id) {
                 <li class="list-group-item lobby lobby-close" [class.lobby-late-join]="item.enableLateJoin">
                     <div class="lobby-content">
-                        <div>ROOM ///</div>
+                        <div>Room</div>
                         <div>{{ item.name }}</div>
-                        <div>HOST ///</div>
+                        <div>Author</div>
+                        <div>{{ item.race.quote.author }}</div>
+                        <div>Host</div>
                         <div>{{ item.host.name }}</div>
+                        <div>Source</div>
+                        <div>{{ item.race.quote.source }}</div>
+                        <div class="lobby-players">{{ item.clients.length }} players</div>
                     </div>
 
                     @if (item.enableLateJoin) {
