@@ -10,8 +10,6 @@ import { LoaderService } from '../../components/loader/loader-service.service';
 import { getFakeClient, getFakeRoom } from './game-multiplayer.util';
 import { VoipService } from '../../services/voip.service';
 
-// interface IClientWithScore extends IClientJSON, IProgressDetails {}
-
 @Component({
   selector: 'app-game-multiplayer',
   imports: [BasicModule],
@@ -20,117 +18,88 @@ import { VoipService } from '../../services/voip.service';
   styleUrl: './game-multiplayer.component.scss'
 })
 export class GameMultiplayerComponent {
-//   DEFAULT_EDITOR_CONTENT = DEFAULT_EDITOR_CONTENT;
-//   JSON = JSON;
-//   check = check;
-//   uncheck = uncheck;
-//   roomId;
-//   editor: any;
-//   spyEditor: any;
-//   editorContentKey;
-//   editorContent = signal("");
-//   consoleMode = signal<"console" | "spy">("console");
-//   selectedSpyClient = signal("");
-//   navTab = signal<"instructions" | "benchmark">("instructions");
-//   consoleLogMessages = signal<ILogMessage[]>([]);
-//   consoleEval = new FormControl("", { nonNullable: true });
-//   exprHistory: string[] = [];
-//   exprHistoryIndex = 0;
-//   chatMessages = signal<IChatReceivedMessage[]>([]);
-//   chatMessage = new FormControl("", { nonNullable: true });
-//   initializedRoom = signal(false);
-//   alreadyStartedOnInit = signal(false);
-//   room = signal<IRoomJSON | null | undefined>(null);
-//   client: Signal<IClientJSON | null | undefined>;
-//   isHost: Signal<boolean>;
+  JSON = JSON;
+  check = check;
+  uncheck = uncheck;
+  roomId;
+  chatMessages = signal<IChatReceivedMessage[]>([]);
+  chatMessage = new FormControl("", { nonNullable: true });
+  initializedRoom = signal(false);
+  alreadyStartedOnInit = signal(false);
+  room = signal<IRoomJSON | null | undefined>(null);
+  client: Signal<IClientJSON | null | undefined>;
+  isHost: Signal<boolean>;
 
-//   testsRunning = signal(false);
-//   roomStarted = signal(false);
-//   countdown = signal(0);
-//   countdownRunning = signal(false);
-//   countdownExpired = signal(false);
-//   hasGameStarted = computed(() => 
-//     this.alreadyStartedOnInit() || 
-//     (this.roomStarted() && this.countdownExpired())
-//   );
-//   problemDescription = signal("");
-//   problemTests = signal<ITest[]>([]);
-//   clientProgressDataMap = signal<Record<string, IProgressDetails>>({});
-//   clients = computed<IClientJSON[]>(() => {
-//     return [...(this.room()?.clients || [])];
-//   });
-//   clientsSortByScore = computed<IClientWithScore[]>(() => {
-//     return [...(this.room()?.clients || [])]
-//       .map(client => ({
-//         ...deepCopy(client),
-//         testsPassed: this.clientProgressDataMap()?.[client.id]?.testsPassed || 0,
-//         charCount: this.clientProgressDataMap()?.[client.id]?.charCount || solutionLength(DEFAULT_EDITOR_CONTENT)
-//       }))
-//       .sort((a, b) => b.testsPassed - a.testsPassed);
-//   });
-//   clientsSortByCharCount = computed<IClientWithScore[]>(() => {
-//     return [...(this.room()?.clients || [])]
-//       .map(client => ({
-//         ...deepCopy(client),
-//         testsPassed: this.clientProgressDataMap()?.[client.id]?.testsPassed || 0,
-//         charCount: this.clientProgressDataMap()?.[client.id]?.charCount || solutionLength(DEFAULT_EDITOR_CONTENT)
-//       }))
-//       .sort((a, b) => a.charCount - b.charCount);
-//   });
-//   winnerName = signal("");
-//   matrixInterval: any;
+  roomStarted = signal(false);
+  countdown = signal(0);
+  countdownRunning = signal(false);
+  countdownExpired = signal(false);
+  hasGameStarted = computed(() => 
+    this.alreadyStartedOnInit() || 
+    (this.roomStarted() && this.countdownExpired())
+  );
+  quote = signal("");
+  clientProgressDataMap = signal<Record<string, IProgressDetails>>({});
+  clients = computed<IClientJSON[]>(() => {
+    return [...(this.room()?.clients || [])];
+  });
+  clientsSortByWpm = computed<IClientJSON[]>(() => {
+    return [...(this.room()?.clients || [])]
+      .map(client => ({
+        ...deepCopy(client),
+        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0,
+        accuracy: this.clientProgressDataMap()?.[client.id]?.accuracy || 1
+      }))
+      .sort((a, b) => b.wpm - a.wpm);
+  });
+  clientsSortByAccuracy = computed<IClientJSON[]>(() => {
+    return [...(this.room()?.clients || [])]
+      .map(client => ({
+        ...deepCopy(client),
+        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0,
+        accuracy: this.clientProgressDataMap()?.[client.id]?.accuracy || 1
+      }))
+      .sort((a, b) => a.accuracy - b.accuracy);
+  });
+  winnerName = signal("");
+  matrixInterval: any;
 
-//   handlers: Handlers = {
-//     "chatReceived": this.handleChatReceived.bind(this),
-//     "roomDetailsReceived": this.handleRoomDetailsReceived.bind(this),
-//     "clientJoined": this.handleClientJoined.bind(this),
-//     "clientLeft": this.handleClientLeft.bind(this),
-//     "gameStarted": this.handleGameStarted.bind(this),
-//     "progressReceived": this.handleProgressReceived.bind(this),
-//   };
+  handlers: Handlers = {
+    "chatReceived": this.handleChatReceived.bind(this),
+    "roomDetailsReceived": this.handleRoomDetailsReceived.bind(this),
+    "clientJoined": this.handleClientJoined.bind(this),
+    "clientLeft": this.handleClientLeft.bind(this),
+    "gameStarted": this.handleGameStarted.bind(this),
+    "progressReceived": this.handleProgressReceived.bind(this),
+  };
 
-//   @HostListener("document:keydown", ["$event"])
-//   handleKeyboardEvent(event: KeyboardEvent) {
-//     if (event.shiftKey && event.key === "Enter") {
-//       event.preventDefault();
-//       this.runCode(this.problemTests()[0]?.input || null);
-//     }
+  constructor(
+    public api: ApiService,
+    public voip: VoipService,
+    private route: ActivatedRoute,
+    private loaderService: LoaderService,
+  ) {
+    this.roomId = this.route.snapshot.paramMap.get("id")!;
+    this.client = toSignal(this.api.client$);
+    this.isHost = computed(() => {
+      const room = this.room();
+      const client = this.client();
+      return !!room && !!room.host && !!client && room.host.id === client.id;
+    });
 
-//     if (event.ctrlKey && event.key === "Enter") {
-//       event.preventDefault();
-//       this.runAllTests();
-//     }
-//   }
-
-//   constructor(
-//     public api: ApiService,
-//     public markdownService: MarkdownService,
-//     public voip: VoipService,
-//     private route: ActivatedRoute,
-//     private loaderService: LoaderService,
-//   ) {
-//     this.roomId = this.route.snapshot.paramMap.get("id")!;
-//     this.editorContentKey = `multiplayer-editor-content-${this.roomId}`;
-//     this.client = toSignal(this.api.client$);
-//     this.isHost = computed(() => {
-//       const room = this.room();
-//       const client = this.client();
-//       return !!room && !!room.host && !!client && room.host.id === client.id;
-//     });
-
-//     // Initialize voip
-//     this.voip.initialize(this.roomId);
-//     let voipCalling = this.voip.calling();
-//     effect(() => {
-//       const username = this.client()?.name || "Anonymous";
-//       if (voipCalling && !this.voip.calling()) {
-//         this.sendChatMessage(`${username} disconnected from voice chat`, true);
-//       } else if (this.voip.calling()) {
-//         this.sendChatMessage(`${username} connected to voice chat`, true);
-//       }
-//       voipCalling = this.voip.calling();
-//     });
-//   }
+    // Initialize voip
+    this.voip.initialize(this.roomId);
+    let voipCalling = this.voip.calling();
+    effect(() => {
+      const username = this.client()?.name || "Anonymous";
+      if (voipCalling && !this.voip.calling()) {
+        this.sendChatMessage(`${username} disconnected from voice chat`, true);
+      } else if (this.voip.calling()) {
+        this.sendChatMessage(`${username} connected to voice chat`, true);
+      }
+      voipCalling = this.voip.calling();
+    });
+  }
 
 //   ngOnInit() {
 //     (window as any).game = this;

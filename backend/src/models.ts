@@ -64,8 +64,8 @@ export interface IChatMessage {
 }
 
 export interface IProgressDetails {
-    wpm?: number;
-    accuracy?: number;
+    wpm: number;
+    accuracy: number;
 }
 
 export interface IProgressMessage extends IProgressDetails {
