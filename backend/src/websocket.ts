@@ -1,6 +1,6 @@
 import { getUid, parseEvent } from "./utils";
 import WebSocket from 'ws';
-import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage } from "./models";
+import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace } from "./models";
 import { getRandomQuote } from "./quotes";
 
 const globalRooms = new Map<string, Room>();
@@ -244,7 +244,7 @@ class Room {
         }
     }
 
-    createRace() {
+    createRace(): IRace {
         return {
             quote: getRandomQuote(),
             isRunning: false,
@@ -292,6 +292,37 @@ class Room {
                 accuracy: msg.accuracy,
                 percentage: msg.percentage
             });
+        }
+
+        if (msg.percentage === 1) {
+            let shouldSend = false;
+            let shouldStop = false;
+            if (this.race.winners.gold === null) {
+                this.race.winners.gold = client.id;
+                shouldSend = true;
+                if (this.clients.size === 1) {
+                    shouldStop = true;
+                }
+            } else if (this.race.winners.silver === null) {
+                this.race.winners.silver = client.id;
+                shouldSend = true;
+                if (this.clients.size === 2) {
+                    shouldStop = true;
+                }
+            } else if (this.race.winners.bronze === null) {
+                this.race.winners.bronze = client.id;
+                shouldSend = true;
+                if (this.clients.size === 3) {
+                    shouldStop = true;
+                }
+            }
+
+            if (shouldSend) {
+                if (shouldStop) {
+                    this.race.isRunning = false;
+                }
+                this.sendRoomDetails();
+            }
         }
     }
 

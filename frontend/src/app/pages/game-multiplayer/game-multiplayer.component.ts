@@ -1,18 +1,23 @@
-import { Component, computed, effect, HostListener, Signal, signal } from '@angular/core';
+import { Component, computed, effect, Signal, signal } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService, Handlers } from '../../services/api.service';
-import { focus, check, debounce, deepCopy, delay, drag, equal, matrixRain, uncheck, copyToClipboard, runInWorker } from '../../shared/utils';
+import { check, deepCopy, delay, uncheck, copyToClipboard } from '../../shared/utils';
 import { IChatReceivedMessage, IClientJSON, IClientWithRoomMessage, IProgressDetails, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
 import { getFakeClient, getFakeRoom } from './game-multiplayer.util';
 import { VoipService } from '../../services/voip.service';
+import { ArenaComponent } from '../../components/arena/arena.component';
+
+interface IClientWithPercentage extends IClientJSON {
+  percentage: number;
+}
 
 @Component({
   selector: 'app-game-multiplayer',
-  imports: [BasicModule],
+  imports: [BasicModule, ArenaComponent],
   providers: [VoipService],
   templateUrl: './game-multiplayer.component.html',
   styleUrl: './game-multiplayer.component.scss'
@@ -29,46 +34,25 @@ export class GameMultiplayerComponent {
   room = signal<IRoomJSON | null | undefined>(null);
   client: Signal<IClientJSON | null | undefined>;
   isHost: Signal<boolean>;
-
   roomStarted = signal(false);
   countdown = signal(0);
   countdownRunning = signal(false);
   countdownExpired = signal(false);
-  hasGameStarted = computed(() => 
-    this.alreadyStartedOnInit() || 
-    (this.roomStarted() && this.countdownExpired())
-  );
+  hasGameStarted = computed(() => this.alreadyStartedOnInit() || (this.roomStarted() && this.countdownExpired()));
   quote = signal("");
+  gold = signal("");
+  silver = signal("");
+  bronze = signal("");
   clientProgressDataMap = signal<Record<string, IProgressDetails>>({});
-  clients = computed<IClientJSON[]>(() => {
-    return [...(this.room()?.clients || [])];
-  });
-  clientsSortByPercentage = computed<IClientJSON[]>(() => {
-    return [...(this.room()?.clients || [])]
+  clients = computed<IClientJSON[]>(() => [...(this.room()?.clients || [])]);
+  clientsSortByPercentage = computed<IClientWithPercentage[]>(() => 
+    [...(this.room()?.clients || [])]
       .map(client => ({
         ...deepCopy(client),
         percentage: this.clientProgressDataMap()?.[client.id]?.percentage || 0
       }))
-      .sort((a, b) => b.percentage - a.percentage);
-  });
-  clientsSortByWpm = computed<IClientJSON[]>(() => {
-    return [...(this.room()?.clients || [])]
-      .map(client => ({
-        ...deepCopy(client),
-        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0
-      }))
-      .sort((a, b) => b.wpm - a.wpm);
-  });
-  clientsSortByAccuracy = computed<IClientJSON[]>(() => {
-    return [...(this.room()?.clients || [])]
-      .map(client => ({
-        ...deepCopy(client),
-        accuracy: this.clientProgressDataMap()?.[client.id]?.accuracy || 1
-      }))
-      .sort((a, b) => a.accuracy - b.accuracy);
-  });
-  winnerName = signal("");
-  matrixInterval: any;
+      .sort((a, b) => b.percentage - a.percentage)
+  );
 
   handlers: Handlers = {
     "chatReceived": this.handleChatReceived.bind(this),
@@ -115,8 +99,6 @@ export class GameMultiplayerComponent {
 
   async ngAfterViewInit() {
     await delay(0.2);
-    this.initGameResize();
-    this.initContentResize();
     this.api.send("joinRoom", { roomId: this.roomId });
     this.api.send("roomDetails", { roomId: this.roomId });
   }
@@ -124,7 +106,6 @@ export class GameMultiplayerComponent {
   ngOnDestroy() {
     this.api.unsubscribe(this.handlers);
     this.loaderService.isLoading.set(false);
-    clearInterval(this.matrixInterval);
   }
 
   shareLink() {
@@ -136,46 +117,6 @@ export class GameMultiplayerComponent {
     copyToClipboard(window.location.href);
     linkEl.innerText = "Copied!"
     setTimeout(() => linkEl.innerText = prevText, 2000);
-  }
-
-  initGameResize() {
-    const gameContainer = document.querySelector(".game-container") as HTMLDivElement;
-    const editorContainer = document.querySelector(".editor-container");
-    const contentContainer = document.querySelector(".content-container");
-    const sectionsDivider = document.querySelector(".sections-divider");
-    drag({
-      target: sectionsDivider,
-      downCb: (evt: any, ctx: any) => {
-        ctx.editorContainerWidth = editorContainer?.clientWidth;
-        ctx.contentContainerWidth = contentContainer?.clientWidth;
-      },
-      moveCb: (evt: any, ctx: any) => {
-        if (gameContainer) {
-          gameContainer.style.gridTemplateColumns = `${ctx.editorContainerWidth + ctx.pos}px ${ctx.contentContainerWidth - ctx.pos}px`;
-        }
-      },
-      direction: "x"
-    });
-  }
-
-  initContentResize() {
-    const contentContainer = document.querySelector(".content-container") as HTMLDivElement;
-    const instructionsContainer = document.querySelector(".instructions-container");
-    const chatContainer = document.querySelector(".chat-container");
-    const chatTitle = document.querySelector(".chat-title");
-    drag({
-      target: chatTitle,
-      downCb: (evt: any, ctx: any) => {
-        ctx.instructionsContainerHeight = instructionsContainer?.clientHeight;
-        ctx.chatContainerHeight = chatContainer?.clientHeight;
-      },
-      moveCb: (evt: any, ctx: any) => {
-        if (contentContainer) {
-          contentContainer.style.gridTemplateRows = `${ctx.instructionsContainerHeight + ctx.pos}px ${ctx.chatContainerHeight - ctx.pos}px`;
-        }
-      },
-      direction: "y"
-    });
   }
 
   async scrollToBottom(selector: string) {
@@ -235,18 +176,6 @@ export class GameMultiplayerComponent {
     this.api.send("startGame", { roomId: this.roomId });
   }
 
-  gameOver() {
-    this.generateSystemMessage(`Game over. User ${this.winnerName()} won the game!`);
-    check("#game-over-trigger");
-    focus(".game-over-modal button");
-    this.matrixInterval = matrixRain("#matrix-canvas");
-  }
-
-  gameOverOk() {
-    clearInterval(this.matrixInterval);
-    uncheck("#game-over-trigger");
-  }
-
   areYouSureNewGame() {
     check("#are-you-sure-new-game");
   }
@@ -292,18 +221,12 @@ export class GameMultiplayerComponent {
   }
 
   resetGame() {
-    this.quote.set("");
-
     this.alreadyStartedOnInit.set(false);
     this.roomStarted.set(false);
     this.countdownExpired.set(false);
-    this.winnerName.set("");
-
-    this.api.send("progress", {
-      roomId: this.roomId,
-      wpm: 0,
-      accuracy: 1
-    });
+    this.gold.set("");
+    this.silver.set("");
+    this.bronze.set("");
   }
 
   handleGameStarted() {
@@ -312,13 +235,17 @@ export class GameMultiplayerComponent {
   }
 
   handleProgressReceived(msg: IProgressReceivedMessage) {
-    // Does the player reached 100%?
-    // Is there already a gold? No, then gold
-    // Is there already a silver? No, then silver
-    // Is there already a bronze? No, then bronze
-    if (!this.winnerName() && msg.testsPassed === this.problemTests().length) {
-      this.winnerName.set(msg.client.name);
-      this.gameOver();
+    const gold = this.room()?.race.winners.gold;
+    const silver = this.room()?.race.winners.silver;
+    const bronze = this.room()?.race.winners.bronze;
+    if (!this.gold() && gold) {
+      this.generateSystemMessage(`User ${gold} got the gold medal!`);
+    }
+    if (!this.silver() && silver) {
+      this.generateSystemMessage(`User ${silver} got the silver medal!`);
+    }
+    if (!this.bronze() && bronze) {
+      this.generateSystemMessage(`User ${bronze} got the bronze medal!`);
     }
 
     this.clientProgressDataMap.update(prev => ({

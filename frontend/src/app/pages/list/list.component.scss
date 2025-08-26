@@ -49,7 +49,7 @@
         flex-grow: 1;
         display: grid;
         grid-template-columns: auto 100px auto 1fr;
-        gap: 0 8px;
+        gap: 5px;
         margin-right: 10px;
 
         > * {
@@ -60,13 +60,6 @@
         
         > *:nth-child(even) {
             font-weight: 700;
-        }
-
-        .lobby-players {
-            grid-column: span 4;
-            font-size: 14px;
-            font-weight: 700;
-            padding-top: 4px;
         }
     }
 }

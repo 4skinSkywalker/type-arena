@@ -14,13 +14,15 @@
                     <div class="lobby-content">
                         <div>Room</div>
                         <div>{{ item.name }}</div>
-                        <div>Author</div>
-                        <div>{{ item.race.quote.author }}</div>
-                        <div>Host</div>
-                        <div>{{ item.host.name }}</div>
                         <div>Source</div>
                         <div>{{ item.race.quote.source }}</div>
-                        <div class="lobby-players">{{ item.clients.length }} players</div>
+                        <div>Host</div>
+                        <div>{{ item.host.name }}</div>
+                        <div>Author</div>
+                        <div class="d-flex">
+                            <div>{{ item.race.quote.author }}</div>
+                            <div class="ms-auto me-1">{{ item.clients.length }} players</div>
+                        </div>
                     </div>
                     
                     <button class="btn btn-primary" [routerLink]="['/multiplayer', item.id]">Join</button>

@@ -1,7 +1,4 @@
-<button class="btn btn-primary" (click)="started = true">Start</button>
-<button class="btn btn-secondary" (click)="started = false">Stop</button>
-
-<div style="display: block; max-width: 800px; margin: 5rem auto 0;">
+<div style="display: block; max-width: 800px; margin: 5rem auto;">
     <div class="lanes">
         <app-lane [percentage]="percentage" [car]="1" [username]="'Fredo (' + wpm + 'wpm-' + accuracy + '%)'"></app-lane>
         <app-lane [car]="2"></app-lane>
