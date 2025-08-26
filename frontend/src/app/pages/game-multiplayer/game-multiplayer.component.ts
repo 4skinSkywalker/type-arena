@@ -1,4 +1,4 @@
-import { Component, computed, effect, Signal, signal, ViewChild } from '@angular/core';
+import { Component, computed, effect, HostListener, Signal, signal, ViewChild } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService, Handlers } from '../../services/api.service';
@@ -63,6 +63,23 @@ export class GameMultiplayerComponent {
     "progressReceived": this.handleProgressReceived.bind(this),
   };
 
+  @HostListener("document:keydown", ["$event"])
+  handleKeyboardEvent(event: KeyboardEvent) {
+    if (event.shiftKey && event.key === "Enter") {
+      event.preventDefault();
+      if (!this.raceStarted()) {
+        this.startGame();
+      }
+    }
+
+    if (event.ctrlKey && event.key === "Enter") {
+      event.preventDefault();
+      if (this.raceStarted()) {
+        this.newGame();
+      }
+    }
+  }
+
   constructor(
     public api: ApiService,
     public voip: VoipService,
@@ -77,18 +94,18 @@ export class GameMultiplayerComponent {
       return !!room && !!room.host && !!client && room.host.id === client.id;
     });
 
-    // Initialize voip
-    this.voip.initialize(this.roomId);
-    let voipCalling = this.voip.calling();
-    effect(() => {
-      const username = this.client()?.name || "Anonymous";
-      if (voipCalling && !this.voip.calling()) {
-        this.sendChatMessage(`${username} disconnected from voice chat`, true);
-      } else if (this.voip.calling()) {
-        this.sendChatMessage(`${username} connected to voice chat`, true);
-      }
-      voipCalling = this.voip.calling();
-    });
+    // // Initialize voip
+    // this.voip.initialize(this.roomId);
+    // let voipCalling = this.voip.calling();
+    // effect(() => {
+    //   const username = this.client()?.name || "Anonymous";
+    //   if (voipCalling && !this.voip.calling()) {
+    //     this.sendChatMessage(`${username} disconnected from voice chat`, true);
+    //   } else if (this.voip.calling()) {
+    //     this.sendChatMessage(`${username} connected to voice chat`, true);
+    //   }
+    //   voipCalling = this.voip.calling();
+    // });
   }
 
   ngOnInit() {
@@ -217,7 +234,6 @@ export class GameMultiplayerComponent {
   handleGameStarted() {
     this.countdownAnimation(() => {
       this.raceStarted.set(true);
-      this.arenaComponent.reset();
       this.arenaComponent.focusTextControl();
     });
   }
@@ -229,8 +245,7 @@ export class GameMultiplayerComponent {
     this.gold.set("");
     this.silver.set("");
     this.bronze.set("");
-    this.arenaComponent.textControl.value = "";
-    this.arenaComponent.inputText("")
+    this.arenaComponent.reset();
   }
 
   handleProgressReceived(msg: IProgressReceivedMessage) {

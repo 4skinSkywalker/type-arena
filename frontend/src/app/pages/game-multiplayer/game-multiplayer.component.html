@@ -27,21 +27,21 @@
         @if (isHost()) {
         <div class="host-commands">
             <h3 class="m-0">Host commands</h3>
-            <div class="d-grid gap-2" style="grid-template-columns: 100px 100px;">
+            <div class="d-grid gap-2" style="grid-template-columns: 150px 150px;">
                 <button
                     class="btn compact"
                     [class.btn-primary]="!raceStarted()"
                     [class.btn-secondary]="raceStarted()"
                     [disabled]="raceStarted()"
                     (click)="startGame()"
-                >Start</button>
+                >Start  (⇧ + ↵)</button>
                 <button
                     class="btn compact"
                     [class.btn-primary]="raceStarted()"
                     [class.btn-secondary]="!raceStarted()"
                     [disabled]="!raceStarted()"
                     (click)="newGame()"
-                >New game</button>
+                >New (⌘ + ↵)</button>
             </div>
         </div>
         }
@@ -69,7 +69,7 @@
     </div>
 
     <div class="chat-container">
-        <div class="chat-title">
+        <!-- <div class="chat-title">
             <span>Chat</span>
             @if (voip.calling()) {
             <button class="btn btn-secondary compact" (click)="voip.stopCall()">
@@ -81,7 +81,7 @@
                 Start call <i class="bi bi-mic"></i>
             </button>
             }
-        </div>
+        </div> -->
         <div class="chat">
             @for (msg of chatMessages(); track $index) {
             <div 
