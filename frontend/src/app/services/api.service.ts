@@ -32,8 +32,8 @@ export class ApiService {
   connectWebSocket() {
     this.loaderService.isLoading.set(true);
 
-    this.ws = new WebSocket("ws://localhost:5000");
-    // this.ws = new WebSocket("wss://js-arena-a762750b0e8d.herokuapp.com");
+    // this.ws = new WebSocket("ws://localhost:5000");
+    this.ws = new WebSocket("wss://type-racer-b2866e81db34.herokuapp.com/");
 
     this.ws.addEventListener("open", () => {
       this.ready = true;

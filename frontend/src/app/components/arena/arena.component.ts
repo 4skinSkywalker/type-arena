@@ -146,7 +146,7 @@ export class ArenaComponent {
     this.percentage = correctChars / this.chars.length;
 
     const deltaTime = Date.now() - this.startTime;
-    this.wpm = Math.round((correctChars * 60) / (this.avgWordLength() * (deltaTime / 1000)));
+    this.wpm = Math.round((correctChars * 60) / (5 * (deltaTime / 1000))); // can use this.avgWordLength() instead of 5
     this.accuracy = Math.round(100 * correctChars / (userText.length + this.mistakes)) / 100;
 
     scrollElementIntoView(".char.active + .char + .char + .char");

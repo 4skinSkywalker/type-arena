@@ -21,8 +21,8 @@ function _exec(cmd) {
     fs.copyFileSync("docs/browser/index.html", "docs/browser/404.html");
     fs.copyFileSync("CNAME", "docs/browser/CNAME");
     console.log("Files copied");
-    fs.rmSync(path.join(currentDir, "..", "..", "docs"), { recursive: true });
+    fs.rmSync(path.join(currentDir, "..", "docs"), { recursive: true });
     console.log("Removed old deployment");
-    fs.cpSync("docs/browser", path.join(currentDir, "..", "..", "docs"), { recursive: true });
+    fs.cpSync("docs/browser", path.join(currentDir, "..", "docs"), { recursive: true });
     console.log("Successfully moved new deployment to root");
 })();
