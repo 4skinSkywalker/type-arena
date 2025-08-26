@@ -1,7 +1,13 @@
-import { Component, computed, effect, input, Input } from '@angular/core';
+import { Component, computed, effect, EventEmitter, input, Input, Output } from '@angular/core';
 import { LaneComponent } from './lane/lane.component';
 import { IClientWithPercentage } from '../../../../../backend/src/models';
 import { CommonModule } from '@angular/common';
+
+export interface IArenaProgress {
+  wpm: number;
+  accuracy: number;
+  percentage: number;
+}
 
 @Component({
   selector: 'app-arena',
@@ -26,7 +32,8 @@ export class ArenaComponent {
   avgWordLength = computed<number>(() => {
     const words = this.quote().split(" ");
     return words.reduce((acc, word) => acc + word.length, 0) / words.length;
-  })
+  });
+  @Output("onProgress") onProgress = new EventEmitter<any>();
 
   _textControl!: HTMLInputElement;
   get textControl() {
@@ -69,6 +76,14 @@ export class ArenaComponent {
     this.textControl.addEventListener("input", () => moveCaretToEnd(this.textControl));
     this.textControl.addEventListener("keydown", () => {
       setTimeout(() => moveCaretToEnd(this.textControl), 0);
+    });
+  }
+
+  emitProgress() {
+    this.onProgress.emit({
+      wpm: this.wpm,
+      accuracy: this.accuracy,
+      percentage: this.percentage
     });
   }
 
@@ -115,14 +130,16 @@ export class ArenaComponent {
     const correctChars = this.chars.filter(char => char.digited && !char.error).length;
     this.percentage = correctChars / this.chars.length;
 
+    const deltaTime = Date.now() - this.startTime;
+    this.wpm = Math.round((correctChars * 60) / (this.avgWordLength() * (deltaTime / 1000)));
+    this.accuracy = Math.round(100 * correctChars / (userText.length + this.mistakes)) / 100;
+    
     if (userText.length >= this.chars.length) {
       this.finished = this.chars.every(char => char.digited && !char.error);
       return;
     }
 
-    const deltaTime = Date.now() - this.startTime;
-    this.wpm = Math.round((correctChars * 60) / (this.avgWordLength() * (deltaTime / 1000)));
-    this.accuracy = Math.round(correctChars / (userText.length + this.mistakes) * 100);
+    this.emitProgress();
 
     if (this.chars[i]) {
       this.chars[i].active = true;

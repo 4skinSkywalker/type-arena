@@ -9,7 +9,7 @@ import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
 import { getFakeClient, getFakeRoom } from './game-multiplayer.util';
 import { VoipService } from '../../services/voip.service';
-import { ArenaComponent } from '../../components/arena/arena.component';
+import { ArenaComponent, IArenaProgress } from '../../components/arena/arena.component';
 
 @Component({
   selector: 'app-game-multiplayer',
@@ -45,6 +45,8 @@ export class GameMultiplayerComponent {
     [...(this.room()?.clients || [])]
       .map(client => ({
         ...deepCopy(client),
+        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0,
+        accuracy: this.clientProgressDataMap()?.[client.id]?.accuracy || 0,
         percentage: this.clientProgressDataMap()?.[client.id]?.percentage || 0
       }))
       .sort((a, b) => b.percentage - a.percentage)
@@ -111,6 +113,15 @@ export class GameMultiplayerComponent {
   ngOnDestroy() {
     this.api.unsubscribe(this.handlers);
     this.loaderService.isLoading.set(false);
+  }
+
+  onProgress(p: IArenaProgress) {
+    this.api.send("progress", {
+      roomId: this.roomId,
+      wpm: p.wpm,
+      accuracy: p.accuracy,
+      percentage: p.percentage
+    });
   }
 
   shareLink() {

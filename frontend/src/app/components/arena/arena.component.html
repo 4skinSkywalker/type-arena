@@ -4,14 +4,14 @@
         <app-lane
             [percentage]="me()!.percentage"
             [car]="me()!.car"
-            [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + '%)'"
+            [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + ')'"
         ></app-lane>
         }
         @for(player of others(); track player.id) {
         <app-lane
             [percentage]="player.percentage"
             [car]="player.car"
-            [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + '%)'"
+            [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + ')'"
         ></app-lane>
         }
     </div>

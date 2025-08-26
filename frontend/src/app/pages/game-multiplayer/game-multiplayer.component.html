@@ -3,9 +3,10 @@
         <button class="btn btn-secondary compact" routerLink="../">Leave</button>
     </div>
     <app-arena
-        quote="The quick brown fox jumps over the lazy dog"
+        [quote]="quote()"
         [me]="me()"
         [others]="others()"
+        (onProgress)="onProgress($event)"
     ></app-arena>
 </div>
 
