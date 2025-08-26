@@ -6,12 +6,17 @@
 
 .text {
     margin-bottom: 30px;
+    max-height: 400px;
+    overflow: auto;
+    overflow-x: hidden;
 
-    .finished {
-        .char {
-            color: rgba(var(--primary-color), 1);
-            animation: pulsing-char 0.5s 5 ease-in-out alternate forwards;
-        }
+    &.finished .char {
+        color: rgba(var(--primary-color), 1);
+        animation: pulsing-char 0.5s 5 ease-in-out alternate forwards;
+    }
+
+    &.unfocused .char.active {
+        animation: do-nothing;
     }
 
     .char {
@@ -30,6 +35,15 @@
         &.error {
             color: red;
             box-shadow: 0 2px 0 0 red;
+        }
+    }
+
+    @keyframes do-nothing {
+        0% {
+            border-color: transparent;
+        }
+        100% {
+            border-color: transparent;
         }
     }
 

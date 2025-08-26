@@ -20,7 +20,12 @@
         }
     </div>
 
-    <div class="text" [class.finished]="finished">
+    <div
+        class="text"
+        [class.finished]="finished()"
+        [class.unfocused]="document.activeElement !== textControl"
+        (click)="focusTextControl()"
+    >
         @for (char of chars; track $index) {
         <span
             class="char"
@@ -32,6 +37,8 @@
     </div>
 
     <input
+        #textControl
+        style="opacity: 0;"
         id="text-control"
         class="form-control"
         type="text"

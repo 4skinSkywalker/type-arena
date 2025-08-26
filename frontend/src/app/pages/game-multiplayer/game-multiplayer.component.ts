@@ -2,7 +2,7 @@ import { Component, computed, effect, Signal, signal, ViewChild } from '@angular
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService, Handlers } from '../../services/api.service';
-import { check, delay, uncheck, copyToClipboard, focus } from '../../shared/utils';
+import { check, delay, uncheck, copyToClipboard, focus, scrollToBottom } from '../../shared/utils';
 import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRoomMessage, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
@@ -129,12 +129,6 @@ export class GameMultiplayerComponent {
     setTimeout(() => linkEl.innerText = prevText, 2000);
   }
 
-  async scrollToBottom(selector: string) {
-    await delay(0.15);
-    const el = document.querySelector(selector) as HTMLDivElement;
-    el.scrollTop = el.scrollHeight;
-  }
-
   generateSystemMessage(text: string) {
     const chatMsg = {
       id: "-1",
@@ -145,7 +139,7 @@ export class GameMultiplayerComponent {
       isSystem: true,
     };
     this.chatMessages.update(prev => [...prev, chatMsg]);
-    this.scrollToBottom(".chat");
+    scrollToBottom(".chat");
   }
 
   sendChatMessage(text: string, isSystem = false) {
@@ -185,7 +179,7 @@ export class GameMultiplayerComponent {
 
   handleChatReceived(msg: IChatReceivedMessage) {
     this.chatMessages.update(prev => [...prev, msg]);
-    this.scrollToBottom(".chat");
+    scrollToBottom(".chat");
   }
 
   handleRoomDetailsReceived(msg: IRoomDetailsReceivedMessage) {

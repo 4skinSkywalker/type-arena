@@ -2,7 +2,7 @@ import { Component, computed, effect, EventEmitter, input, Output, signal } from
 import { LaneComponent } from './lane/lane.component';
 import { IClientWithPercentage, IWinners } from '../../../../../backend/src/models';
 import { CommonModule } from '@angular/common';
-import { loadFromLS, saveIntoLS, focus } from '../../shared/utils';
+import { loadFromLS, saveIntoLS, focus, scrollElementIntoView } from '../../shared/utils';
 import { getDefaultWinners } from '../../pages/game-multiplayer/game-multiplayer.util';
 
 export interface IArenaProgress {
@@ -20,6 +20,7 @@ export interface IArenaProgress {
 export class ArenaComponent {
   @Output("onProgress") onProgress = new EventEmitter<any>();
 
+  document = document;
   winners = input<IWinners>(getDefaultWinners(), { alias: "winners"});
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
@@ -147,6 +148,8 @@ export class ArenaComponent {
     const deltaTime = Date.now() - this.startTime;
     this.wpm = Math.round((correctChars * 60) / (this.avgWordLength() * (deltaTime / 1000)));
     this.accuracy = Math.round(100 * correctChars / (userText.length + this.mistakes)) / 100;
+
+    scrollElementIntoView(".char.active + .char + .char + .char");
     
     if (userText.length >= this.chars.length) {
       const clientInfo = loadFromLS("clientInfo");

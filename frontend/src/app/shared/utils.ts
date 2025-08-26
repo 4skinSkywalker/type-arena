@@ -34,6 +34,19 @@ export function loadFromLS(key: string) {
     return JSON.parse(val);
 }
 
+export async function scrollToBottom(selector: string) {
+    await delay(0.15);
+    const el = document.querySelector(selector) as HTMLDivElement;
+    el.scrollTop = el.scrollHeight;
+}
+
+export async function scrollElementIntoView(selector: string) {
+    (document.querySelector(selector) as HTMLElement).scrollIntoView({
+        behavior: "smooth",
+        block: "end"
+    });
+}
+
 export function copyToClipboard(text: string) {
     const dummy = document.createElement("textarea");
     document.body.appendChild(dummy);
