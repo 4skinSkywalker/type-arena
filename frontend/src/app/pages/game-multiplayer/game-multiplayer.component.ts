@@ -7,7 +7,7 @@ import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRo
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
-import { getFakeClient, getFakeRoom } from './game-multiplayer.util';
+import { getDefaultWinners, getFakeClient, getFakeRoom } from './game-multiplayer.util';
 import { VoipService } from '../../services/voip.service';
 import { ArenaComponent, IArenaProgress } from '../../components/arena/arena.component';
 
@@ -24,13 +24,13 @@ export class GameMultiplayerComponent {
   JSON = JSON;
   check = check;
   uncheck = uncheck;
-
   roomId;
   chatMessages = signal<IChatReceivedMessage[]>([]);
   chatMessage = new FormControl("", { nonNullable: true });
   initializedRoom = signal(false);
   room = signal<IRoomJSON | null | undefined>(null);
   quote = computed(() => this.room()?.race.quote.quote || "");
+  winners = computed(() => this.room()?.race.winners || getDefaultWinners());
   client: Signal<IClientJSON | null | undefined>;
   isHost: Signal<boolean>;
   countdown = signal(0);
@@ -106,6 +106,7 @@ export class GameMultiplayerComponent {
   ngOnDestroy() {
     this.api.unsubscribe(this.handlers);
     this.loaderService.isLoading.set(false);
+    this.api.send("leaveRoom", { roomId: this.roomId });
   }
 
   onProgress(p: IArenaProgress) {
@@ -170,7 +171,7 @@ export class GameMultiplayerComponent {
   async countdownAnimation(cb: Function) {
     this.countdownRunning.set(true);
     const countdown = document.querySelector(".countdown");
-    for (const num of [3, 2, 1]) {
+    for (const num of [5, 4, 3, 2, 1]) {
       this.countdown.set(num);
       this.flickAnimation(countdown);
       this.generateSystemMessage(`Game starts in ${num} seconds`);
@@ -228,7 +229,7 @@ export class GameMultiplayerComponent {
   }
 
   handleGameResetted() {
-    this.generateSystemMessage("A new game has been created. Waiting for host to start the game...");
+    this.generateSystemMessage("A new game has been created.\nWaiting for host to start the game...");
     this.raceStarted.set(false);
     this.countdownExpired.set(false);
     this.gold.set("");
@@ -241,6 +242,7 @@ export class GameMultiplayerComponent {
   handleProgressReceived(msg: IProgressReceivedMessage) {
     const { gold, silver, bronze } = msg.room.race.winners;
     const racePlayers = msg.room.race.players;
+
     if (!this.gold() && gold && racePlayers[gold]) {
       this.gold.set(gold);
       this.generateSystemMessage(`User ${racePlayers[gold]?.name} got the gold medal!`);

@@ -16,6 +16,7 @@
             [quote]="quote()"
             [me]="me()"
             [others]="others()"
+            [winners]="winners()"
             (onProgress)="onProgress($event)"
         ></app-arena>
     </div>
@@ -28,12 +29,16 @@
             <h3 class="m-0">Host commands</h3>
             <div class="d-grid gap-2" style="grid-template-columns: 100px 100px;">
                 <button
-                    class="btn compact btn-primary"
+                    class="btn compact"
+                    [class.btn-primary]="!raceStarted()"
+                    [class.btn-secondary]="raceStarted()"
                     [disabled]="raceStarted()"
                     (click)="startGame()"
                 >Start</button>
                 <button
-                    class="btn compact btn-secondary"
+                    class="btn compact"
+                    [class.btn-primary]="raceStarted()"
+                    [class.btn-secondary]="!raceStarted()"
                     [disabled]="!raceStarted()"
                     (click)="newGame()"
                 >New game</button>

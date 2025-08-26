@@ -1,4 +1,6 @@
 import { Component, input } from '@angular/core';
+import { IWinners } from '../../../../../../backend/src/models';
+import { getDefaultWinners } from '../../../pages/game-multiplayer/game-multiplayer.util';
 
 @Component({
   selector: 'app-lane',
@@ -7,6 +9,8 @@ import { Component, input } from '@angular/core';
   styleUrl: './lane.component.scss'
 })
 export class LaneComponent {
+  winners = input<IWinners>(getDefaultWinners(), { alias: "winners"});
+  id = input("", { alias: "id"});
   finished = input(false, { alias: "finished"});
   position = input(0, { alias: "position"});
   percentage = input(0, { alias: "percentage"});

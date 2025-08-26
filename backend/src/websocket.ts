@@ -45,6 +45,7 @@ class Client {
         "listRooms": this.handleListRooms.bind(this),
         "createRoom": this.handleCreateRoom.bind(this),
         "joinRoom": this.handleJoinRoom.bind(this),
+        "leaveRoom": this.handleLeaveRoom.bind(this),
         "roomDetails": this.handleRoomDetails.bind(this),
         "startGame": this.handleStartGame.bind(this),
         "newGame": this.handleNewGame.bind(this),
@@ -139,6 +140,13 @@ class Client {
         }
     }
 
+    handleLeaveRoom(msg: IJoinRoomMessage) {
+        const room = globalRooms.get(msg.roomId);
+        if (room) {
+            this.handleClose(false);
+        }
+    }
+
     handleRoomDetails(msg: IRoomDetailsMessage) {
         const room = this.getRoom();
         if (!room.clients.has(this.id)) {
@@ -186,7 +194,7 @@ class Client {
         this.handleWhoAmI();
     }
 
-    handleClose() {
+    handleClose(disconnecting = true) {
         if (this.room) {
             console.log(`Client "${this.name}" (${this.id}) is leaving the room "${this.room.name}" (${this.room.id})`);
             this.room.removeClient(this);
@@ -198,9 +206,11 @@ class Client {
             sendEverybodyRooms();
         }
         
-        console.log(`Client "${this.name}" (${this.id}) disconnected`);
-        globalClients.delete(this.id); 
-        sendEverybodyClients();
+        if (disconnecting) {
+            console.log(`Client "${this.name}" (${this.id}) disconnected`);
+            globalClients.delete(this.id); 
+            sendEverybodyClients();
+        }
     }
 
     toJSON(opts?: IClientToJSONOptions): IClientJSON {
@@ -319,36 +329,23 @@ class Room {
 
         if (msg.percentage >= 1) {
             let shouldSend = false;
-            let shouldStop = false;
             if (this.race.winners.gold === null) {
                 this.race.winners.gold = client.id;
                 console.log(`Client ${client.name} got the gold medal`);
                 shouldSend = true;
-                if (this.clients.size === 1) {
-                    shouldStop = true;
-                }
             } else if (this.race.winners.silver === null) {
                 this.race.winners.silver = client.id;
                 console.log(`Client ${client.name} got the silver medal`);
                 shouldSend = true;
-                if (this.clients.size === 2) {
-                    shouldStop = true;
-                }
             } else if (this.race.winners.bronze === null) {
                 this.race.winners.bronze = client.id;
                 console.log(`Client ${client.name} got the bronze medal`);
                 shouldSend = true;
-                if (this.clients.size === 3) {
-                    shouldStop = true;
-                }
             } else {
                 console.log(`Client ${client.name} got no medal`);
             }
 
             if (shouldSend) {
-                if (shouldStop) {
-                    this.race.isRunning = false;
-                }
                 this.sendRoomDetails();
             }
         }

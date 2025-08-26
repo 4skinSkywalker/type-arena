@@ -1,8 +1,9 @@
 import { Component, computed, effect, EventEmitter, input, Output, signal } from '@angular/core';
 import { LaneComponent } from './lane/lane.component';
-import { IClientWithPercentage } from '../../../../../backend/src/models';
+import { IClientWithPercentage, IWinners } from '../../../../../backend/src/models';
 import { CommonModule } from '@angular/common';
 import { loadFromLS, saveIntoLS, focus } from '../../shared/utils';
+import { getDefaultWinners } from '../../pages/game-multiplayer/game-multiplayer.util';
 
 export interface IArenaProgress {
   wpm: number;
@@ -19,6 +20,7 @@ export interface IArenaProgress {
 export class ArenaComponent {
   @Output("onProgress") onProgress = new EventEmitter<any>();
 
+  winners = input<IWinners>(getDefaultWinners(), { alias: "winners"});
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
   enabled = input(true, {alias: "enabled"});

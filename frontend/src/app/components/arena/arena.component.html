@@ -2,16 +2,20 @@
     <div class="lanes">
         @if(me()) {
         <app-lane
-            [percentage]="me()!.percentage"
+            [id]="me()!.id"
             [car]="me()!.car"
             [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + ')'"
+            [percentage]="me()!.percentage"
+            [winners]="winners()"
         ></app-lane>
         }
         @for(player of others(); track player.id) {
         <app-lane
-            [percentage]="player.percentage"
+            [id]="player.id"
             [car]="player.car"
             [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + ')'"
+            [percentage]="player.percentage"
+            [winners]="winners()"
         ></app-lane>
         }
     </div>

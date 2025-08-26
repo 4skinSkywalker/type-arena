@@ -25,15 +25,17 @@ export interface IQuote {
     source: string;
 }
 
+export interface IWinners {
+    gold: string | null;
+    silver: string | null;
+    bronze: string | null;
+}
+
 export interface IRace {
     quote: IQuote;
     isRunning: boolean;
     players: Record<string, IClientWithPercentage>;
-    winners: {
-        gold: string | null;
-        silver: string | null;
-        bronze: string | null;
-    }
+    winners: IWinners;
 }
 
 export interface IClientJSON {

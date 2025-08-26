@@ -1,4 +1,4 @@
-import { IClientJSON, IRace, IRoomJSON } from "../../../../../backend/src/models";
+import { IClientJSON, IRace, IRoomJSON, IWinners } from "../../../../../backend/src/models";
 
 export function getFakeClient(): IClientJSON {
     return {
@@ -36,5 +36,13 @@ export function getFakeRoom(): IRoomJSON {
         race: getFakeRace(),
         host: getFakeClient(),
         clients: []
+    };
+}
+
+export function getDefaultWinners(): IWinners {
+    return {
+        gold: null,
+        silver: null,
+        bronze: null
     };
 }
