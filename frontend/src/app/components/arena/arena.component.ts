@@ -19,7 +19,7 @@ export interface IArenaProgress {
 export class ArenaComponent {
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
-  started = input(true, {alias: "started"});
+  enabled = input(true, {alias: "enabled"});
   finished = signal(false);
   quote = input("", {alias: "quote"});
   chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];
@@ -93,7 +93,7 @@ export class ArenaComponent {
       return;
     }
 
-    if (!this.started()) {
+    if (!this.enabled()) {
       this.textControl.value = "";
       this.textControl.blur();
       this.wpm = 0;

@@ -28,6 +28,7 @@ export interface IQuote {
 export interface IRace {
     quote: IQuote;
     isRunning: boolean;
+    players: Record<string, IClientWithPercentage>;
     winners: {
         gold: string | null;
         silver: string | null;
@@ -51,7 +52,6 @@ export interface IClientWithPercentage extends IClientJSON {
 export interface IRoomJSON {
     id: string;
     name: string;
-    enableLateJoin: boolean;
     race: IRace;
     host: IClientJSON;
     clients: IClientJSON[];
@@ -83,7 +83,6 @@ export interface IProgressMessage extends IProgressDetails {
 export interface ICreateRoomMessage {
     roomId?: string;
     name: string;
-    enableLateJoin: boolean;
 }
 
 export interface IJoinRoomMessage {
@@ -139,4 +138,6 @@ export interface IClientWithRoomMessage {
     room: IRoomJSON;
 }
 
-export interface IProgressReceivedMessage extends IClientWithRoomMessage, IProgressDetails {}
+export interface IProgressReceivedMessage {
+    room: IRoomJSON;
+}

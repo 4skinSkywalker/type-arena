@@ -2,12 +2,23 @@
     <div class="top-bar">
         <button class="btn btn-secondary compact" routerLink="../">Leave</button>
     </div>
-    <app-arena
-        [quote]="'hello are you there?'"
-        [me]="me()"
-        [others]="others()"
-        (onProgress)="onProgress($event)"
-    ></app-arena>
+
+    <div style="position: relative;">
+        <div class="prestart-overlay" [hidden]="raceHasStarted()">
+            @if (!countdownRunning() && !isHost()) {
+            <p style="padding: 20px; background: #000a;">Waiting for host to start the game...</p>
+            }
+            <div class="countdown">{{ countdown() }}</div>
+        </div>
+    
+        <app-arena
+            [enabled]="raceHasStarted()"
+            [quote]="quote()"
+            [me]="me()"
+            [others]="others()"
+            (onProgress)="onProgress($event)"
+        ></app-arena>
+    </div>
 </div>
 
 <div class="side">
@@ -15,15 +26,16 @@
         @if (isHost()) {
         <div class="host-commands">
             <h3 class="m-0">Host commands</h3>
-            <button
-                class="btn compact btn-primary"
-                [disabled]="!hasGameStarted()"
-                (click)="areYouSureNewGame()"
-            >New game</button>
-            <button
-                class="btn compact btn-primary"
-                (click)="kickPlayer()"
-            >Kick player</button>
+            <div class="d-grid gap-2" style="grid-template-columns: 100px 100px;">
+                <button
+                    class="btn compact btn-primary"
+                    (click)="startGame()"
+                >Start</button>
+                <button
+                    class="btn compact btn-secondary"
+                    (click)="newGame()"
+                >New game</button>
+            </div>
         </div>
         }
 
@@ -38,7 +50,7 @@
                 </tr>
             </thead>
             <tbody>
-                @for (client of clientsSortByPercentage(); track client.id) {
+                @for (client of racePlayersSortByPercentage(); track client.id) {
                 <tr>
                     <td class="text-center">{{ $index + 1 }}</td>
                     <td class="text-start">{{ client.name }}</td>
@@ -93,23 +105,6 @@
                 class="btn compact"
                 (click)="sendChatMessage(chatMessage.value)"
             >Send (↵)</button>
-        </div>
-    </div>
-</div>
-
-<div class="modal">
-    <input class="modal-trigger" type="checkbox" id="are-you-sure-new-game">
-
-    <div class="modal-dialog" style="max-width: 500px; width: 98%;">
-        <h2 class="modal-title">Start New Game</h2>
-
-        <div class="modal-body">
-            <p class="text-center">Are you sure you want to start a new game? All current progress will be lost. This action cannot be undone.</p>
-        </div>
-
-        <div class="modal-footer">
-            <button class="btn btn-secondary" (click)="uncheck('#are-you-sure-new-game')">Cancel</button>
-            <button class="btn btn-primary" (click)="areYouSureNewGameOk()">Ok</button>
         </div>
     </div>
 </div>

@@ -29,7 +29,6 @@
     z-index: 30;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(8px);
     display: grid;
     place-items: center;
     overflow: hidden;
@@ -40,7 +39,6 @@
 
     .countdown {
         position: absolute;
-        backdrop-filter: blur(8px);
         opacity: 0;
         font-size: 40rem;
         font-weight: 700;
@@ -71,10 +69,10 @@
 }
 
 .leaderboard-container {
-    padding: 40px 20px;
+    padding: 15px;
     background-color: rgba(var(--c1), 1);
     display: grid;
-    gap: 20px;
+    gap: 15px;
     align-content: start;
     overflow-y: auto;
 
@@ -114,7 +112,7 @@
         padding: var(--tertiary-space);
     
         .chat-message-wrap {
-            width: 350px;
+            width: 75%;
             border: 2px solid rgba(var(--c4), 1);
             background-color: rgba(var(--c1), 1);
             padding: var(--tertiary-space);

@@ -1,6 +1,6 @@
 import { getUid, parseEvent } from "./utils";
 import WebSocket from 'ws';
-import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace } from "./models";
+import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace, IClientWithPercentage } from "./models";
 import { getRandomQuote } from "./quotes";
 
 const globalRooms = new Map<string, Room>();
@@ -47,7 +47,7 @@ class Client {
         "joinRoom": this.handleJoinRoom.bind(this),
         "roomDetails": this.handleRoomDetails.bind(this),
         "startGame": this.handleStartGame.bind(this),
-        "restartGame": this.handleRestartGame.bind(this),
+        "newGame": this.handleNewGame.bind(this),
     };
 
     constructor(ws: WebSocket) {
@@ -118,7 +118,6 @@ class Client {
         this.room = new Room({
             id: msg.roomId,
             name: msg.name,
-            enableLateJoin: msg.enableLateJoin,
             host: this
         });
         this.send("roomCreated", { room: this.room.toJSON() });
@@ -135,8 +134,7 @@ class Client {
             console.warn("Room not found, creating it");
             this.handleCreateRoom({
                 roomId: msg.roomId,
-                name: "Untitled room",
-                enableLateJoin: true
+                name: "Untitled room"
             });
         }
     }
@@ -150,7 +148,7 @@ class Client {
         room.sendRoomDetails(this);
     }
 
-    handleStartGame(msg: IStartGameMessage, bypass?: boolean) {
+    handleStartGame(msg: IStartGameMessage) {
         const room = this.getRoom();
         if (!room.clients.has(this.id)) {
             throw new Error("Client not in room");
@@ -158,14 +156,18 @@ class Client {
         if (room.host !== this) {
             throw new Error("Only the host can start the game");
         }
-        if (room.race.isRunning && !bypass) {
-            throw new Error("Game already started");
-        }
-        room.setStarted(true);
+        room.startGame();
     }
 
-    handleRestartGame(msg: IStartGameMessage) {
-        this.handleStartGame(msg, true);
+    handleNewGame(msg: IStartGameMessage) {
+        const room = this.getRoom();
+        if (!room.clients.has(this.id)) {
+            throw new Error("Client not in room");
+        }
+        if (room.host !== this) {
+            throw new Error("Only the host can reset the game");
+        }
+        room.newGame();
     }
 
     handleMessage(event: any) {
@@ -220,7 +222,6 @@ class Client {
 class Room {
     id: string;
     name: string;
-    enableLateJoin: boolean;
     race = this.createRace();
     host: Client;
     clients = new Map<string, Client>();
@@ -228,14 +229,12 @@ class Room {
     constructor(opts: {
         id?: string,
         name: string,
-        enableLateJoin: boolean,
         host: Client
     }) {
         this.id = opts.id || getUid();
         this.name = opts.name;
-        this.enableLateJoin = opts.enableLateJoin;
         this.host = opts.host;
-        this.clients.set(opts.host.id, opts.host);
+        this.addClient(opts.host);
         globalRooms.set(this.id, this);
     }
 
@@ -247,10 +246,11 @@ class Room {
         }
     }
 
-    createRace(): IRace {
+    createRace(players?: Record<string, IClientWithPercentage>): IRace {
         return {
             quote: getRandomQuote(),
             isRunning: false,
+            players: { ...players },
             winners: {
                 gold: null,
                 silver: null,
@@ -259,13 +259,32 @@ class Room {
         };
     }
 
-    setStarted(value: boolean) {
+    startGame() {
         console.log("Game starting in room", this.id);
-        this.race = this.createRace();
-        this.race.isRunning = value;
+
+        this.race.isRunning = true;
 
         for (const client of this.clients.values()) {
             client.send("gameStarted");
+            this.sendRoomDetails(client);
+        }
+
+        sendEverybodyRooms();
+    }
+
+    newGame() {
+        console.log("Game resetting in room", this.id);
+
+        this.race.isRunning = false;
+
+        // Reset players percentage
+        for (const player of Object.values(this.race.players)) {
+            player.percentage = 0;
+        }
+        this.race = this.createRace(this.race.players);
+
+        for (const client of this.clients.values()) {
+            client.send("gameResetted");
             this.sendRoomDetails(client);
         }
 
@@ -287,15 +306,16 @@ class Room {
     }
 
     sendProgress(client: Client, msg: IProgressMessage) {
-        for (const _client of this.clients.values()) {
-            _client.send("progressReceived", {
-                room: this.toJSON(),
-                client: client.toJSON(),
-                wpm: msg.wpm,
-                accuracy: msg.accuracy,
-                percentage: msg.percentage
-            });
+        if (!this.race.players[client.id]) {
+            return console.error("Client not in race", client.id);
         }
+
+        this.race.players[client.id] = {
+            ...client.toJSON({ includeRoom: false }),
+            wpm: msg.wpm,
+            accuracy: msg.accuracy,
+            percentage: msg.percentage
+        };
 
         if (msg.percentage >= 1) {
             let shouldSend = false;
@@ -331,6 +351,10 @@ class Room {
                 }
                 this.sendRoomDetails();
             }
+        }
+
+        for (const _client of this.clients.values()) {
+            _client.send("progressReceived", { room: this.toJSON({ includeClients: false }) });
         }
     }
 
@@ -376,10 +400,16 @@ class Room {
             });
         }
 
-        // If the host is not in the room, set it to the new client
+        // If the room doens't have a host, set it to this new client
         if (!this.clients.has(this.host.id)) {
             this.host = client;
         }
+
+        this.race.players[client.id] = {
+            ...client.toJSON({ includeRoom: false }),
+            percentage: 0
+        };
+        console.log("Added client", client.id, "to race");
 
         this.sendRoomDetails();
     }
@@ -396,19 +426,24 @@ class Room {
                 client: client.toJSON({ includeRoom: false })
             });
         }
+
+        delete this.race.players[client.id];
+        console.log("Deleted client", client.id, "from race");
+
         this.sendRoomDetails();
+
         return true;
     }
 
     deleteFromGlobalIfEmpty() {
         if (!this.clients.size) {
-            // Wait 15 minutes before deleting the room
+            // Wait 30 seconds before deleting the room
             setTimeout(() => {
                 if (!this.clients.size) {
                     globalRooms.delete(this.id);
                     sendEverybodyRooms();
                 }
-            }, 15 * 60 * 1000);
+            }, 30 * 1000);
             return true;
         }
         return false;
@@ -419,7 +454,6 @@ class Room {
         return {
             id: this.id,
             name: this.name,
-            enableLateJoin: this.enableLateJoin,
             race: this.race,
             host: this.host.toJSON({ includeRoom: false }),
             clients: Array.from(this.clients.values())

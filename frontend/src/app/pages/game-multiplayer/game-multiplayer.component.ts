@@ -34,29 +34,28 @@ export class GameMultiplayerComponent {
   countdown = signal(0);
   countdownRunning = signal(false);
   countdownExpired = signal(false);
-  hasGameStarted = computed(() => this.alreadyStartedOnInit() || (this.roomStarted() && this.countdownExpired()));
+  raceHasStarted = computed(() => this.alreadyStartedOnInit() || (this.roomStarted() && this.countdownExpired()));
   quote = signal("");
   gold = signal("");
   silver = signal("");
   bronze = signal("");
-  clientProgressDataMap = signal<Record<string, IProgressDetails>>({});
-  clients = computed<IClientJSON[]>(() => [...(this.room()?.clients || [])]);
-  clientsSortByPercentage = computed<IClientWithPercentage[]>(() => 
-    [...(this.room()?.clients || [])]
+  racePlayers = signal<Record<string, IClientWithPercentage>>({});
+  racePlayersSortByPercentage = computed<IClientWithPercentage[]>(() => 
+    Object.values(this.room()?.race.players || {})
       .map(client => ({
         ...deepCopy(client),
-        wpm: this.clientProgressDataMap()?.[client.id]?.wpm || 0,
-        accuracy: this.clientProgressDataMap()?.[client.id]?.accuracy || 0,
-        percentage: this.clientProgressDataMap()?.[client.id]?.percentage || 0
+        wpm: this.racePlayers()?.[client.id]?.wpm || client.wpm || 0,
+        accuracy: this.racePlayers()?.[client.id]?.accuracy || client.accuracy || 0,
+        percentage: this.racePlayers()?.[client.id]?.percentage || client.percentage || 0
       }))
       .sort((a, b) => b.percentage - a.percentage)
   );
   me = computed<IClientWithPercentage | null>(() => 
-    this.clientsSortByPercentage()
+    this.racePlayersSortByPercentage()
       .find(client => client.id === this.client()?.id) || null
   );
   others = computed<IClientWithPercentage[]>(() =>
-    this.clientsSortByPercentage()
+    this.racePlayersSortByPercentage()
       .filter(client => client.id !== this.client()?.id)
       .sort((a, b) => a.id > b.id ? 1 : -1)
   );
@@ -188,23 +187,6 @@ export class GameMultiplayerComponent {
     this.countdownRunning.set(false);
   }
 
-  startGame() {
-    this.api.send("startGame", { roomId: this.roomId });
-  }
-
-  areYouSureNewGame() {
-    check("#are-you-sure-new-game");
-  }
-
-  areYouSureNewGameOk() {
-    this.api.send("restartGame", { roomId: this.roomId });
-    uncheck("#are-you-sure-new-game");
-  }
-
-  kickPlayer() {
-    alert("Not implemented yet"); // TODO
-  }
-
   handleChatReceived(msg: IChatReceivedMessage) {
     this.chatMessages.update(prev => [...prev, msg]);
     this.scrollToBottom(".chat");
@@ -236,6 +218,14 @@ export class GameMultiplayerComponent {
     this.generateSystemMessage(`Client ${msg.client.name} left the room`);
   }
 
+  startGame() {
+    this.api.send("startGame", { roomId: this.roomId });
+  }
+
+  newGame() {
+    this.api.send("newGame", { roomId: this.roomId });
+  }
+
   resetGame() {
     this.alreadyStartedOnInit.set(false);
     this.roomStarted.set(false);
@@ -251,30 +241,21 @@ export class GameMultiplayerComponent {
   }
 
   handleProgressReceived(msg: IProgressReceivedMessage) {
-    const gold = this.room()?.race.winners.gold;
-    const silver = this.room()?.race.winners.silver;
-    const bronze = this.room()?.race.winners.bronze;
-    if (!this.gold() && gold) {
+    const { gold, silver, bronze } = msg.room.race.winners;
+    if (!this.gold() && gold && this.racePlayers()[gold]) {
       this.gold.set(gold);
-      this.generateSystemMessage(`User ${gold} got the gold medal!`);
+      this.generateSystemMessage(`User ${this.racePlayers()[gold]?.name} got the gold medal!`);
     }
-    if (!this.silver() && silver) {
+    if (!this.silver() && silver && this.racePlayers()[silver]) {
       this.silver.set(silver);
-      this.generateSystemMessage(`User ${silver} got the silver medal!`);
+      this.generateSystemMessage(`User ${this.racePlayers()[silver]?.name} got the silver medal!`);
     }
-    if (!this.bronze() && bronze) {
+    if (!this.bronze() && bronze && this.racePlayers()[bronze]) {
       this.bronze.set(bronze);
-      this.generateSystemMessage(`User ${bronze} got the bronze medal!`);
+      this.generateSystemMessage(`User ${this.racePlayers()[bronze]?.name} got the bronze medal!`);
     }
 
-    this.clientProgressDataMap.update(prev => ({
-      ...prev,
-      [msg.client.id]: {
-        wpm: msg.wpm ?? prev[msg.client.id]?.wpm,
-        accuracy: msg.accuracy ?? prev[msg.client.id]?.accuracy,
-        percentage: msg.percentage ?? prev[msg.client.id]?.percentage
-      }
-    }));
+    this.racePlayers.update(prev => ({ ...prev, ...msg.room.race.players }));
     this.room.set(this.room()); // Recompute dependant signals
   }
 }

@@ -20,6 +20,7 @@ export function getFakeRace(): IRace {
             source: ""
         },
         isRunning: false,
+        players: {},
         winners: {
             gold: null,
             silver: null,
@@ -32,7 +33,6 @@ export function getFakeRoom(): IRoomJSON {
     return {
         id: "-1",
         name: "",
-        enableLateJoin: true,
         race: getFakeRace(),
         host: getFakeClient(),
         clients: []
