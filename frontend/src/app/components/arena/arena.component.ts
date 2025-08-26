@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, computed, effect, input, Input } from '@angular/core';
 import { LaneComponent } from './lane/lane.component';
 
 @Component({
@@ -8,9 +8,9 @@ import { LaneComponent } from './lane/lane.component';
   styleUrl: './arena.component.scss'
 })
 export class ArenaComponent {
-  @Input("started") started = false;
-  @Input("quote") quote = `So, I'm tending bar there at Ecklund & Swedlin's last Tuesday and this little guy's drinking and he says, "So where can a guy find some action - I'm goin' crazy down there at the lake." And I says, "What kinda action?" and he says, "Woman action, what do I look like?" And I says, "Well, what do I look like? I don't arrange that kinda thing."`;
-  chars: ({ index: number, char: string, active: boolean, digited: boolean, error: boolean })[] = [];
+  started = input(true, {alias: "started"});
+  quote = input("", {alias: "quote"});
+  chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];
   activeIndex = 0;
   finished = false;
   percentage = 0;
@@ -19,7 +19,10 @@ export class ArenaComponent {
   accuracy = 0;
   dirty = false;
   startTime = 0;
-  avgWordLength = 0;
+  avgWordLength = computed<number>(() => {
+    const words = this.quote().split(" ");
+    return words.reduce((acc, word) => acc + word.length, 0) / words.length;
+  })
 
   _textControl!: HTMLInputElement;
   get textControl() {
@@ -32,22 +35,26 @@ export class ArenaComponent {
   constructor() {}
 
   ngOnInit() {
-    this.chars = this.quote.
-      split("").
-      map((char, index) => ({
+    this.setChars(this.quote());
+    effect(() => {
+      this.setChars(this.quote());
+    });
+  }
+
+  ngAfterViewInit() {
+    this.keepCursorAtTheEnd();
+  }
+
+  setChars(quote: string) {
+    this.chars = quote
+      .split("")
+      .map((char, index) => ({
         index,
         char,
         active: index === 0,
         digited: false,
         error: false
       }));
-    
-    const words = this.quote.split(" ");
-    this.avgWordLength = words.reduce((acc, word) => acc + word.length, 0) / words.length;
-  }
-
-  ngAfterViewInit() {
-    this.keepCursorAtTheEnd();
   }
 
   keepCursorAtTheEnd() {
@@ -65,7 +72,7 @@ export class ArenaComponent {
   }
 
   inputText(event: any) {
-    if (!this.started) {
+    if (!this.started()) {
       this.textControl.value = "";
       this.textControl.blur();
       this.wpm = 0;
@@ -113,7 +120,7 @@ export class ArenaComponent {
     }
 
     const deltaTime = Date.now() - this.startTime;
-    this.wpm = Math.round((correctChars * 60) / (this.avgWordLength * (deltaTime / 1000)));
+    this.wpm = Math.round((correctChars * 60) / (this.avgWordLength() * (deltaTime / 1000)));
     this.accuracy = Math.round(correctChars / (userText.length + this.mistakes) * 100);
 
     if (this.chars[i]) {

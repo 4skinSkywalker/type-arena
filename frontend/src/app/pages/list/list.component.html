@@ -12,13 +12,13 @@
                 @for (item of openedRooms$ | async; track item.id) {
                 <li class="list-group-item lobby lobby-open">
                     <div class="lobby-content">
-                        <div>Room</div>
+                        <div>ROOM ///</div>
                         <div>{{ item.name }}</div>
-                        <div>Source</div>
+                        <div>SOURCE ///</div>
                         <div>{{ item.race.quote.source }}</div>
-                        <div>Host</div>
+                        <div>HOST ///</div>
                         <div>{{ item.host.name }}</div>
-                        <div>Author</div>
+                        <div>AUTHOR ///</div>
                         <div class="d-flex">
                             <div>{{ item.race.quote.author }}</div>
                             <div class="ms-auto me-1">{{ item.clients.length }} players</div>
