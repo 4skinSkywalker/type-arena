@@ -1,7 +1,8 @@
-import { Component, computed, effect, EventEmitter, input, Input, Output } from '@angular/core';
+import { Component, computed, effect, EventEmitter, input, Input, Output, signal } from '@angular/core';
 import { LaneComponent } from './lane/lane.component';
 import { IClientWithPercentage } from '../../../../../backend/src/models';
 import { CommonModule } from '@angular/common';
+import { loadFromLS, saveIntoLS } from '../../shared/utils';
 
 export interface IArenaProgress {
   wpm: number;
@@ -19,10 +20,10 @@ export class ArenaComponent {
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
   started = input(true, {alias: "started"});
+  finished = signal(false);
   quote = input("", {alias: "quote"});
   chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];
   activeIndex = 0;
-  finished = false;
   percentage = 0;
   wpm = 0;
   mistakes = 0;
@@ -88,6 +89,10 @@ export class ArenaComponent {
   }
 
   inputText(event: any) {
+    if (this.finished()) {
+      return;
+    }
+
     if (!this.started()) {
       this.textControl.value = "";
       this.textControl.blur();
@@ -107,7 +112,7 @@ export class ArenaComponent {
 
     const userText = event.target.value;
 
-    this.finished = false;
+    this.finished.set(false);
     this.chars.forEach(char => {
       char.active = false;
       char.digited = false;
@@ -135,7 +140,12 @@ export class ArenaComponent {
     this.accuracy = Math.round(100 * correctChars / (userText.length + this.mistakes)) / 100;
     
     if (userText.length >= this.chars.length) {
-      this.finished = this.chars.every(char => char.digited && !char.error);
+      const clientInfo = loadFromLS("clientInfo");
+      clientInfo.wpm = this.wpm;
+      clientInfo.accuracy = this.accuracy;
+      saveIntoLS("clientInfo", clientInfo);
+      this.emitProgress();
+      this.finished.set(this.chars.every(char => char.digited && !char.error));
       return;
     }
 

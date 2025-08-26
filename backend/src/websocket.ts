@@ -297,27 +297,32 @@ class Room {
             });
         }
 
-        if (msg.percentage === 1) {
+        if (msg.percentage >= 1) {
             let shouldSend = false;
             let shouldStop = false;
             if (this.race.winners.gold === null) {
                 this.race.winners.gold = client.id;
+                console.log(`Client ${client.name} got the gold medal`);
                 shouldSend = true;
                 if (this.clients.size === 1) {
                     shouldStop = true;
                 }
             } else if (this.race.winners.silver === null) {
                 this.race.winners.silver = client.id;
+                console.log(`Client ${client.name} got the silver medal`);
                 shouldSend = true;
                 if (this.clients.size === 2) {
                     shouldStop = true;
                 }
             } else if (this.race.winners.bronze === null) {
                 this.race.winners.bronze = client.id;
+                console.log(`Client ${client.name} got the bronze medal`);
                 shouldSend = true;
                 if (this.clients.size === 3) {
                     shouldStop = true;
                 }
+            } else {
+                console.log(`Client ${client.name} got no medal`);
             }
 
             if (shouldSend) {

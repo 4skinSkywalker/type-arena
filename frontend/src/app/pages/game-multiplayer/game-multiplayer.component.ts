@@ -255,12 +255,15 @@ export class GameMultiplayerComponent {
     const silver = this.room()?.race.winners.silver;
     const bronze = this.room()?.race.winners.bronze;
     if (!this.gold() && gold) {
+      this.gold.set(gold);
       this.generateSystemMessage(`User ${gold} got the gold medal!`);
     }
     if (!this.silver() && silver) {
+      this.silver.set(silver);
       this.generateSystemMessage(`User ${silver} got the silver medal!`);
     }
     if (!this.bronze() && bronze) {
+      this.bronze.set(bronze);
       this.generateSystemMessage(`User ${bronze} got the bronze medal!`);
     }
 
