@@ -4,15 +4,15 @@
     </div>
 
     <div style="position: relative;">
-        <div class="prestart-overlay" [hidden]="raceHasStarted()">
+        <div class="prestart-overlay" [hidden]="raceStarted()">
             @if (!countdownRunning() && !isHost()) {
             <p style="padding: 20px; background: #000a;">Waiting for host to start the game...</p>
             }
-            <div class="countdown">{{ countdown() }}</div>
+            <div class="countdown" [hidden]="!countdownRunning()">{{ countdown() }}</div>
         </div>
     
         <app-arena
-            [enabled]="raceHasStarted()"
+            [enabled]="raceStarted()"
             [quote]="quote()"
             [me]="me()"
             [others]="others()"
@@ -29,10 +29,12 @@
             <div class="d-grid gap-2" style="grid-template-columns: 100px 100px;">
                 <button
                     class="btn compact btn-primary"
+                    [disabled]="raceStarted()"
                     (click)="startGame()"
                 >Start</button>
                 <button
                     class="btn compact btn-secondary"
+                    [disabled]="!raceStarted()"
                     (click)="newGame()"
                 >New game</button>
             </div>

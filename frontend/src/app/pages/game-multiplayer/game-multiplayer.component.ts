@@ -1,9 +1,9 @@
-import { Component, computed, effect, Signal, signal } from '@angular/core';
+import { Component, computed, effect, Signal, signal, ViewChild } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService, Handlers } from '../../services/api.service';
-import { check, deepCopy, delay, uncheck, copyToClipboard } from '../../shared/utils';
-import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRoomMessage, IProgressDetails, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
+import { check, delay, uncheck, copyToClipboard, focus } from '../../shared/utils';
+import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRoomMessage, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
@@ -19,40 +19,33 @@ import { ArenaComponent, IArenaProgress } from '../../components/arena/arena.com
   styleUrl: './game-multiplayer.component.scss'
 })
 export class GameMultiplayerComponent {
+  @ViewChild(ArenaComponent) arenaComponent!: ArenaComponent;
+
   JSON = JSON;
   check = check;
   uncheck = uncheck;
+
   roomId;
   chatMessages = signal<IChatReceivedMessage[]>([]);
   chatMessage = new FormControl("", { nonNullable: true });
   initializedRoom = signal(false);
-  alreadyStartedOnInit = signal(false);
   room = signal<IRoomJSON | null | undefined>(null);
+  quote = computed(() => this.room()?.race.quote.quote || "");
   client: Signal<IClientJSON | null | undefined>;
   isHost: Signal<boolean>;
-  roomStarted = signal(false);
   countdown = signal(0);
   countdownRunning = signal(false);
   countdownExpired = signal(false);
-  raceHasStarted = computed(() => this.alreadyStartedOnInit() || (this.roomStarted() && this.countdownExpired()));
-  quote = signal("");
   gold = signal("");
   silver = signal("");
   bronze = signal("");
-  racePlayers = signal<Record<string, IClientWithPercentage>>({});
+  raceStarted = signal(false);
   racePlayersSortByPercentage = computed<IClientWithPercentage[]>(() => 
     Object.values(this.room()?.race.players || {})
-      .map(client => ({
-        ...deepCopy(client),
-        wpm: this.racePlayers()?.[client.id]?.wpm || client.wpm || 0,
-        accuracy: this.racePlayers()?.[client.id]?.accuracy || client.accuracy || 0,
-        percentage: this.racePlayers()?.[client.id]?.percentage || client.percentage || 0
-      }))
       .sort((a, b) => b.percentage - a.percentage)
   );
   me = computed<IClientWithPercentage | null>(() => 
-    this.racePlayersSortByPercentage()
-      .find(client => client.id === this.client()?.id) || null
+    this.room()?.race.players[this.client()?.id || ""] || null
   );
   others = computed<IClientWithPercentage[]>(() =>
     this.racePlayersSortByPercentage()
@@ -66,6 +59,7 @@ export class GameMultiplayerComponent {
     "clientJoined": this.handleClientJoined.bind(this),
     "clientLeft": this.handleClientLeft.bind(this),
     "gameStarted": this.handleGameStarted.bind(this),
+    "gameResetted": this.handleGameResetted.bind(this),
     "progressReceived": this.handleProgressReceived.bind(this),
   };
 
@@ -117,9 +111,9 @@ export class GameMultiplayerComponent {
   onProgress(p: IArenaProgress) {
     this.api.send("progress", {
       roomId: this.roomId,
-      wpm: p.wpm,
-      accuracy: p.accuracy,
-      percentage: p.percentage
+      wpm: p.wpm || 0,
+      accuracy: p.accuracy || 0,
+      percentage: p.percentage || 0
     });
   }
 
@@ -173,7 +167,7 @@ export class GameMultiplayerComponent {
     }
   }
 
-  async countdownAnimation() {
+  async countdownAnimation(cb: Function) {
     this.countdownRunning.set(true);
     const countdown = document.querySelector(".countdown");
     for (const num of [3, 2, 1]) {
@@ -185,6 +179,7 @@ export class GameMultiplayerComponent {
     this.generateSystemMessage("Game started. Good luck!");
     this.countdownExpired.set(true);
     this.countdownRunning.set(false);
+    cb();
   }
 
   handleChatReceived(msg: IChatReceivedMessage) {
@@ -198,16 +193,14 @@ export class GameMultiplayerComponent {
     if (!this.initializedRoom()) {
       this.loaderService.isLoading.set(false);
       if (msg.room.race.isRunning) {
-        this.alreadyStartedOnInit.set(true);
+        this.raceStarted.set(true);
         this.generateSystemMessage("Game already started");
+        focus("#text-control");
+      } else {
+        this.generateSystemMessage("Waiting for host to start the game...");
       }
     }
     this.initializedRoom.set(true);
-
-    if (msg.room.race.quote && !this.roomStarted()) {
-      this.roomStarted.set(msg.room.race.isRunning);
-      this.quote.set(msg.room.race.quote.quote);
-    }
   }
 
   handleClientJoined(msg: IClientWithRoomMessage) {
@@ -226,36 +219,41 @@ export class GameMultiplayerComponent {
     this.api.send("newGame", { roomId: this.roomId });
   }
 
-  resetGame() {
-    this.alreadyStartedOnInit.set(false);
-    this.roomStarted.set(false);
+  handleGameStarted() {
+    this.countdownAnimation(() => {
+      this.raceStarted.set(true);
+      this.arenaComponent.reset();
+      this.arenaComponent.focusTextControl();
+    });
+  }
+
+  handleGameResetted() {
+    this.generateSystemMessage("A new game has been created. Waiting for host to start the game...");
+    this.raceStarted.set(false);
     this.countdownExpired.set(false);
     this.gold.set("");
     this.silver.set("");
     this.bronze.set("");
-  }
-
-  handleGameStarted() {
-    this.resetGame();
-    this.countdownAnimation();
+    this.arenaComponent.textControl.value = "";
+    this.arenaComponent.inputText("")
   }
 
   handleProgressReceived(msg: IProgressReceivedMessage) {
     const { gold, silver, bronze } = msg.room.race.winners;
-    if (!this.gold() && gold && this.racePlayers()[gold]) {
+    const racePlayers = msg.room.race.players;
+    if (!this.gold() && gold && racePlayers[gold]) {
       this.gold.set(gold);
-      this.generateSystemMessage(`User ${this.racePlayers()[gold]?.name} got the gold medal!`);
+      this.generateSystemMessage(`User ${racePlayers[gold]?.name} got the gold medal!`);
     }
-    if (!this.silver() && silver && this.racePlayers()[silver]) {
+    if (!this.silver() && silver && racePlayers[silver]) {
       this.silver.set(silver);
-      this.generateSystemMessage(`User ${this.racePlayers()[silver]?.name} got the silver medal!`);
+      this.generateSystemMessage(`User ${racePlayers[silver]?.name} got the silver medal!`);
     }
-    if (!this.bronze() && bronze && this.racePlayers()[bronze]) {
+    if (!this.bronze() && bronze && racePlayers[bronze]) {
       this.bronze.set(bronze);
-      this.generateSystemMessage(`User ${this.racePlayers()[bronze]?.name} got the bronze medal!`);
+      this.generateSystemMessage(`User ${racePlayers[bronze]?.name} got the bronze medal!`);
     }
 
-    this.racePlayers.update(prev => ({ ...prev, ...msg.room.race.players }));
-    this.room.set(this.room()); // Recompute dependant signals
+    this.room.set(msg.room);
   }
 }

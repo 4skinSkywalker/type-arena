@@ -1,6 +1,6 @@
 :host {
     display: grid;
-    grid-template-columns: 1fr minmax(400px, auto);
+    grid-template-columns: 1fr 400px;
     height: 100svh;
 }
 
@@ -15,7 +15,7 @@
 
 .side {
     display: grid;
-    grid-template-rows: auto minmax(350px, 1fr);
+    grid-template-rows: auto 350px;
     border-left: 2px solid rgba(var(--primary-color), 0.5);
     box-shadow: 0 -5px 10px 0 rgba(var(--primary-color), 0.5);
     overflow: hidden;

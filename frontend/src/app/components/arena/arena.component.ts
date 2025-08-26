@@ -1,8 +1,8 @@
-import { Component, computed, effect, EventEmitter, input, Input, Output, signal } from '@angular/core';
+import { Component, computed, effect, EventEmitter, input, Output, signal } from '@angular/core';
 import { LaneComponent } from './lane/lane.component';
 import { IClientWithPercentage } from '../../../../../backend/src/models';
 import { CommonModule } from '@angular/common';
-import { loadFromLS, saveIntoLS } from '../../shared/utils';
+import { loadFromLS, saveIntoLS, focus } from '../../shared/utils';
 
 export interface IArenaProgress {
   wpm: number;
@@ -17,6 +17,8 @@ export interface IArenaProgress {
   styleUrl: './arena.component.scss'
 })
 export class ArenaComponent {
+  @Output("onProgress") onProgress = new EventEmitter<any>();
+
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
   enabled = input(true, {alias: "enabled"});
@@ -34,8 +36,7 @@ export class ArenaComponent {
     const words = this.quote().split(" ");
     return words.reduce((acc, word) => acc + word.length, 0) / words.length;
   });
-  @Output("onProgress") onProgress = new EventEmitter<any>();
-
+  
   _textControl!: HTMLInputElement;
   get textControl() {
     if (!this._textControl) {
@@ -52,6 +53,17 @@ export class ArenaComponent {
 
   ngAfterViewInit() {
     this.keepCursorAtTheEnd();
+  }
+
+  reset() {
+    this.textControl.value = "";
+    this.textControl.blur();
+    this.wpm = 0;
+    this.mistakes = 0;
+    this.accuracy = 0;
+    this.dirty = false;
+    this.startTime = 0;
+    this.finished.set(false);
   }
 
   setChars(quote: string) {
@@ -88,19 +100,12 @@ export class ArenaComponent {
     });
   }
 
-  inputText(event: any) {
-    if (this.finished()) {
-      return;
-    }
+  focusTextControl() {
+    focus("#text-control");
+  }
 
-    if (!this.enabled()) {
-      this.textControl.value = "";
-      this.textControl.blur();
-      this.wpm = 0;
-      this.mistakes = 0;
-      this.accuracy = 0;
-      this.dirty = false;
-      this.startTime = 0;
+  inputText(event: string | Event) {
+    if (this.finished() || !this.enabled()) {
       return;
     }
 
@@ -110,7 +115,9 @@ export class ArenaComponent {
 
     this.dirty = true;
 
-    const userText = event.target.value;
+    const userText = (typeof event === "string")
+      ? event
+      : (event.target as HTMLInputElement).value;
 
     this.finished.set(false);
     this.chars.forEach(char => {
