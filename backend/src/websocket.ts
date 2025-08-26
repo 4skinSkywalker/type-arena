@@ -30,9 +30,9 @@ class Client {
     ws: WebSocket;
     id = getUid();
     name = "Anonymous";
-    car = 0;
-    wpm = 20;
-    accuracy = 1;
+    car = 1;
+    wpm = 0;
+    accuracy = 0;
     room?: Room = undefined;
     handlers: Record<string, (msg: any) => void> = {
         "voice": this.handleVoice.bind(this),
@@ -78,8 +78,11 @@ class Client {
     }
 
     handleClientInfo(msg: IClientInfoMessage) {
-        console.log(`Client with id ${this.id} has name ${msg.name}`);
+        console.log(`Client with id ${this.id} has name ${msg.name} and car ${msg.car}`);
         this.name = msg.name;
+        this.car = msg.car;
+        this.wpm = msg.wpm;
+        this.accuracy = msg.accuracy;
         this.handleWhoAmI();
         sendEverybodyClients();
     }
@@ -359,7 +362,7 @@ class Room {
         if (this.clients.has(client.id)) {
             return console.error("Client already in room");
         }
-        
+
         this.clients.set(client.id, client);
         for (const _client of this.clients.values()) {
             _client.send("clientJoined", {

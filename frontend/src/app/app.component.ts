@@ -70,7 +70,12 @@ export class AppComponent {
       return console.error("Username is empty");
     }
 
-    const clientInfo = { name: username, car: this.carSelected };
+    const clientInfo = {
+      name: username,
+      car: this.carSelected,
+      wpm: 0,
+      accuracy: 0
+    };
     uncheck("#username-modal-trigger");
     saveIntoLS("clientInfo", clientInfo);
     this.api.send("clientInfo", clientInfo);

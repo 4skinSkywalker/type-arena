@@ -44,6 +44,10 @@ export interface IClientJSON {
     room?: IRoomJSON;
 }
 
+export interface IClientWithPercentage extends IClientJSON {
+  percentage: number;
+}
+
 export interface IRoomJSON {
     id: string;
     name: string;
@@ -55,6 +59,9 @@ export interface IRoomJSON {
 
 export interface IClientInfoMessage {
     name: string;
+    car: number;
+    wpm: number;
+    accuracy: number;
 }
 
 export interface IChatMessage {

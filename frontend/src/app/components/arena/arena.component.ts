@@ -1,13 +1,17 @@
 import { Component, computed, effect, input, Input } from '@angular/core';
 import { LaneComponent } from './lane/lane.component';
+import { IClientWithPercentage } from '../../../../../backend/src/models';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-arena',
-  imports: [LaneComponent],
+  imports: [CommonModule, LaneComponent],
   templateUrl: './arena.component.html',
   styleUrl: './arena.component.scss'
 })
 export class ArenaComponent {
+  me = input<IClientWithPercentage | null>(null, { alias: "me" });
+  others = input<IClientWithPercentage[]>([], { alias: "others" });
   started = input(true, {alias: "started"});
   quote = input("", {alias: "quote"});
   chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];

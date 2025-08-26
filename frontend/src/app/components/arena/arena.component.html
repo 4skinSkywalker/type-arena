@@ -1,8 +1,19 @@
 <div style="display: block; max-width: 800px; margin: 5rem auto;">
     <div class="lanes">
-        <app-lane [percentage]="percentage" [car]="1" [username]="'Fredo (' + wpm + 'wpm-' + accuracy + '%)'"></app-lane>
-        <app-lane [car]="2"></app-lane>
-        <app-lane [car]="3"></app-lane>
+        @if(me()) {
+        <app-lane
+            [percentage]="me()!.percentage"
+            [car]="me()!.car"
+            [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + '%)'"
+        ></app-lane>
+        }
+        @for(player of others(); track player.id) {
+        <app-lane
+            [percentage]="player.percentage"
+            [car]="player.car"
+            [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + '%)'"
+        ></app-lane>
+        }
     </div>
 
     <div class="text" [class.finished]="finished">

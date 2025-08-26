@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-lane',
@@ -7,9 +7,9 @@ import { Component, Input } from '@angular/core';
   styleUrl: './lane.component.scss'
 })
 export class LaneComponent {
-  @Input("finished") finished = false;
-  @Input("position") position = 0;
-  @Input("percentage") percentage = 0;
-  @Input("car") car = 1;
-  @Input("username") username = "Anonymous";
+  finished = input(false, { alias: "finished"});
+  position = input(0, { alias: "position"});
+  percentage = input(0, { alias: "percentage"});
+  car = input(1, { alias: "car"});
+  username = input("Anonymous", { alias: "username"});
 }

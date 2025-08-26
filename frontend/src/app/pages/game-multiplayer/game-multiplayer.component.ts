@@ -3,17 +3,13 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService, Handlers } from '../../services/api.service';
 import { check, deepCopy, delay, uncheck, copyToClipboard } from '../../shared/utils';
-import { IChatReceivedMessage, IClientJSON, IClientWithRoomMessage, IProgressDetails, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
+import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRoomMessage, IProgressDetails, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
 import { getFakeClient, getFakeRoom } from './game-multiplayer.util';
 import { VoipService } from '../../services/voip.service';
 import { ArenaComponent } from '../../components/arena/arena.component';
-
-interface IClientWithPercentage extends IClientJSON {
-  percentage: number;
-}
 
 @Component({
   selector: 'app-game-multiplayer',
@@ -52,6 +48,15 @@ export class GameMultiplayerComponent {
         percentage: this.clientProgressDataMap()?.[client.id]?.percentage || 0
       }))
       .sort((a, b) => b.percentage - a.percentage)
+  );
+  me = computed<IClientWithPercentage | null>(() => 
+    this.clientsSortByPercentage()
+      .find(client => client.id === this.client()?.id) || null
+  );
+  others = computed<IClientWithPercentage[]>(() =>
+    this.clientsSortByPercentage()
+      .filter(client => client.id !== this.client()?.id)
+      .sort((a, b) => a.id > b.id ? 1 : -1)
   );
 
   handlers: Handlers = {
