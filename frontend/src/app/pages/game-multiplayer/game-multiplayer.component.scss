@@ -4,11 +4,21 @@
     height: 100svh;
 }
 
+.top-bar {
+    display: flex;
+    align-items: center;
+    padding: var(--quaternary-space) var(--tertiary-space);
+    font-size: 0.9rem;
+    background-color: rgba(var(--c2), 1);
+    border-block: 2px solid rgba(var(--c4), 1);
+}
+
 .side {
     display: grid;
     grid-template-rows: auto minmax(350px, 1fr);
     border-left: 2px solid rgba(var(--primary-color), 0.5);
     box-shadow: 0 -5px 10px 0 rgba(var(--primary-color), 0.5);
+    z-index: 1;
 }
 
 .prestart-overlay {

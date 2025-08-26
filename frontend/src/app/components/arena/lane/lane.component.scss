@@ -15,10 +15,10 @@
         aspect-ratio: 400/128;
 
         .username {
-            position: absolute;
-            bottom: 0;
-            left: 110%;
             white-space: nowrap;
+            position: absolute;
+            top: calc(100% + 10px);
+            left: 0;
         }
     }
 

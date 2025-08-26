@@ -32,10 +32,7 @@ export class ArenaComponent {
     return this._textControl;
   }
 
-  constructor() {}
-
-  ngOnInit() {
-    this.setChars(this.quote());
+  constructor() {
     effect(() => {
       this.setChars(this.quote());
     });

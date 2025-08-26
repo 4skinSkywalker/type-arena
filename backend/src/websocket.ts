@@ -359,6 +359,7 @@ class Room {
         if (this.clients.has(client.id)) {
             return console.error("Client already in room");
         }
+        
         this.clients.set(client.id, client);
         for (const _client of this.clients.values()) {
             _client.send("clientJoined", {
@@ -366,6 +367,12 @@ class Room {
                 client: client.toJSON({ includeRoom: false })
             });
         }
+
+        // If the host is not in the room, set it to the new client
+        if (!this.clients.has(this.host.id)) {
+            this.host = client;
+        }
+
         this.sendRoomDetails();
     }
 
