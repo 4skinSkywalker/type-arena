@@ -30,6 +30,7 @@ export class GameMultiplayerComponent {
   initializedRoom = signal(false);
   room = signal<IRoomJSON | null | undefined>(null);
   quote = computed(() => this.room()?.race.quote.quote || "");
+  author = computed(() => this.room()?.race.quote.author || "");
   winners = computed(() => this.room()?.race.winners || getDefaultWinners());
   client: Signal<IClientJSON | null | undefined>;
   isHost: Signal<boolean>;
@@ -74,9 +75,7 @@ export class GameMultiplayerComponent {
 
     if (event.ctrlKey && event.key === "Enter") {
       event.preventDefault();
-      if (this.raceStarted()) {
-        this.newGame();
-      }
+      this.newGame();
     }
   }
 

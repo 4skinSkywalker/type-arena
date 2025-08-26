@@ -14,6 +14,7 @@
         <app-arena
             [enabled]="raceStarted()"
             [quote]="quote()"
+            [author]="author()"
             [me]="me()"
             [others]="others()"
             [winners]="winners()"
@@ -39,7 +40,6 @@
                     class="btn compact"
                     [class.btn-primary]="raceStarted()"
                     [class.btn-secondary]="!raceStarted()"
-                    [disabled]="!raceStarted()"
                     (click)="newGame()"
                 >New (⌘ + ↵)</button>
             </div>

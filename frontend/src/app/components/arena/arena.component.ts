@@ -26,7 +26,8 @@ export class ArenaComponent {
   others = input<IClientWithPercentage[]>([], { alias: "others" });
   enabled = input(true, {alias: "enabled"});
   finished = signal(false);
-  quote = input("", {alias: "quote"});
+  quote = input("", { alias: "quote" });
+  author = input("", { alias: "author" });
   chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];
   activeIndex = 0;
   percentage = 0;
