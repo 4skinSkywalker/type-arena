@@ -1,5 +1,8 @@
 import { IClientJSON, IRace, IRoomJSON, IWinners } from "../../../../../backend/src/models";
 
+export const DEATH_MODE_COLOR = "220, 50, 30";
+export const NORMAL_MODE_COLOR = "250, 139, 6";
+
 export function getFakeClient(): IClientJSON {
     return {
         id: "-1",
@@ -33,6 +36,7 @@ export function getFakeRoom(): IRoomJSON {
     return {
         id: "-1",
         name: "",
+        deathMode: false,
         race: getFakeRace(),
         host: getFakeClient(),
         clients: []

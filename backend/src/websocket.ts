@@ -49,6 +49,7 @@ class Client {
         "roomDetails": this.handleRoomDetails.bind(this),
         "startGame": this.handleStartGame.bind(this),
         "newGame": this.handleNewGame.bind(this),
+        "toggleDeathMode": this.handleToggleDeathMode.bind(this),
     };
 
     constructor(ws: WebSocket) {
@@ -119,6 +120,7 @@ class Client {
         this.room = new Room({
             id: msg.roomId,
             name: msg.name,
+            deathMode: msg.deathMode,
             host: this
         });
         this.send("roomCreated", { room: this.room.toJSON() });
@@ -135,7 +137,8 @@ class Client {
             console.warn("Room not found, creating it");
             this.handleCreateRoom({
                 roomId: msg.roomId,
-                name: "Untitled room"
+                name: "Untitled room",
+                deathMode: false
             });
         }
     }
@@ -190,6 +193,18 @@ class Client {
         }
     }
 
+    handleToggleDeathMode() {
+        const room = this.getRoom();
+        if (!room.clients.has(this.id)) {
+            throw new Error("Client not in room");
+        }
+        if (room.host !== this) {
+            throw new Error("Only the host can toggle death mode");
+        }
+        room.deathMode = !room.deathMode;
+        room.sendRoomDetails(this);
+    }
+
     handleOpen() {
         this.handleWhoAmI();
     }
@@ -233,16 +248,19 @@ class Room {
     id: string;
     name: string;
     race = this.createRace();
+    deathMode = false;
     host: Client;
     clients = new Map<string, Client>();
 
     constructor(opts: {
         id?: string,
         name: string,
+        deathMode: boolean,
         host: Client
     }) {
         this.id = opts.id || getUid();
         this.name = opts.name;
+        this.deathMode = opts.deathMode;
         this.host = opts.host;
         this.addClient(opts.host);
         globalRooms.set(this.id, this);
@@ -290,6 +308,7 @@ class Room {
         // Reset players percentage
         for (const player of Object.values(this.race.players)) {
             player.percentage = 0;
+            player.dead = false;
         }
         this.race = this.createRace(this.race.players);
 
@@ -324,7 +343,8 @@ class Room {
             ...client.toJSON({ includeRoom: false }),
             wpm: msg.wpm,
             accuracy: msg.accuracy,
-            percentage: msg.percentage
+            percentage: msg.percentage,
+            dead: msg.dead
         };
 
         if (msg.percentage >= 1) {
@@ -404,7 +424,8 @@ class Room {
 
         this.race.players[client.id] = {
             ...client.toJSON({ includeRoom: false }),
-            percentage: 0
+            percentage: 0,
+            dead: false
         };
         console.log("Added client", client.id, "to race");
 
@@ -451,6 +472,7 @@ class Room {
         return {
             id: this.id,
             name: this.name,
+            deathMode: this.deathMode,
             race: this.race,
             host: this.host.toJSON({ includeRoom: false }),
             clients: Array.from(this.clients.values())

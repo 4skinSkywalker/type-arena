@@ -9,6 +9,7 @@ export interface IArenaProgress {
   wpm: number;
   accuracy: number;
   percentage: number;
+  dead: boolean;
 }
 
 @Component({
@@ -21,13 +22,15 @@ export class ArenaComponent {
   @Output("onProgress") onProgress = new EventEmitter<any>();
 
   document = document;
-  winners = input<IWinners>(getDefaultWinners(), { alias: "winners"});
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
   enabled = input(true, {alias: "enabled"});
   finished = signal(false);
   quote = input("", { alias: "quote" });
   author = input("", { alias: "author" });
+  winners = input<IWinners>(getDefaultWinners(), { alias: "winners"});
+  deathMode = input(false, { alias: "deathMode"});
+  dead = signal(false);
   chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];
   activeIndex = 0;
   percentage = 0;
@@ -68,6 +71,7 @@ export class ArenaComponent {
     this.dirty = false;
     this.startTime = 0;
     this.finished.set(false);
+    this.dead.set(false);
   }
 
   setChars(quote: string) {
@@ -100,7 +104,8 @@ export class ArenaComponent {
     this.onProgress.emit({
       wpm: this.wpm,
       accuracy: this.accuracy,
-      percentage: this.percentage
+      percentage: this.percentage,
+      dead: this.dead()
     });
   }
 
@@ -109,7 +114,7 @@ export class ArenaComponent {
   }
 
   inputText(event: string | Event) {
-    if (this.finished() || !this.enabled()) {
+    if (this.finished() || !this.enabled() || (this.deathMode() && this.dead())) {
       return;
     }
 
@@ -139,6 +144,11 @@ export class ArenaComponent {
       if (char !== qchar.char) {
         hasError = true;
         this.mistakes++;
+        if (this.deathMode()) {
+          this.dead.set(true);
+          this.emitProgress();
+          return;
+        }
       }
       qchar.error = hasError;
     }

@@ -49,11 +49,13 @@ export interface IClientJSON {
 
 export interface IClientWithPercentage extends IClientJSON {
   percentage: number;
+  dead: boolean;
 }
 
 export interface IRoomJSON {
     id: string;
     name: string;
+    deathMode: boolean;
     race: IRace;
     host: IClientJSON;
     clients: IClientJSON[];
@@ -76,6 +78,7 @@ export interface IProgressDetails {
     wpm: number;
     accuracy: number;
     percentage: number;
+    dead: boolean;
 }
 
 export interface IProgressMessage extends IProgressDetails {
@@ -85,6 +88,7 @@ export interface IProgressMessage extends IProgressDetails {
 export interface ICreateRoomMessage {
     roomId?: string;
     name: string;
+    deathMode: boolean;
 }
 
 export interface IJoinRoomMessage {

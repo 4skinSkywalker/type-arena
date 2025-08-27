@@ -1,5 +1,10 @@
 <div class="car" [style.right.%]="100 - percentage() * 100">
-    <img style="width: 100%; height: 100%;" [src]="'assets/cars/car-' + car() + '.png'">
+    <div style="position: relative; width: 100%; height: 100%;">
+        <img style="width: 100%; height: 100%;" [src]="'assets/cars/car-' + car() + '.png'">
+        @if (deathMode() && dead()) {
+        <img style="width: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" src="assets/rewards/game-over.png">
+        }
+    </div>
     <div class="username">{{ username() }}</div>
 </div>
 @if (id() === winners().bronze) { <img class="reward" src="assets/rewards/bronze.png"> }

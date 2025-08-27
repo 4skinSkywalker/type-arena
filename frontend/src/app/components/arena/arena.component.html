@@ -6,7 +6,9 @@
             [car]="me()!.car"
             [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + ')'"
             [percentage]="me()!.percentage"
+            [dead]="me()!.dead"
             [winners]="winners()"
+            [deathMode]="deathMode()"
         ></app-lane>
         }
         @for(player of others(); track player.id) {
@@ -15,7 +17,9 @@
             [car]="player.car"
             [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + ')'"
             [percentage]="player.percentage"
+            [dead]="player.dead"
             [winners]="winners()"
+            [deathMode]="deathMode()"
         ></app-lane>
         }
     </div>

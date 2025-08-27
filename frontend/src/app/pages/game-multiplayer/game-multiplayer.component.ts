@@ -7,7 +7,7 @@ import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRo
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
-import { getDefaultWinners, getFakeClient, getFakeRoom } from './game-multiplayer.util';
+import { DEATH_MODE_COLOR, getDefaultWinners, getFakeClient, getFakeRoom, NORMAL_MODE_COLOR } from './game-multiplayer.util';
 import { VoipService } from '../../services/voip.service';
 import { ArenaComponent, IArenaProgress } from '../../components/arena/arena.component';
 
@@ -29,6 +29,11 @@ export class GameMultiplayerComponent {
   chatMessage = new FormControl("", { nonNullable: true });
   initializedRoom = signal(false);
   room = signal<IRoomJSON | null | undefined>(null);
+  deathMode = computed(() => {
+    const isDeathMode = this.room()?.deathMode || false;
+    this.setDeathModeColor(isDeathMode);
+    return isDeathMode;
+  });
   quote = computed(() => this.room()?.race.quote.quote || "");
   author = computed(() => this.room()?.race.quote.author || "");
   winners = computed(() => this.room()?.race.winners || getDefaultWinners());
@@ -123,6 +128,16 @@ export class GameMultiplayerComponent {
     this.api.unsubscribe(this.handlers);
     this.loaderService.isLoading.set(false);
     this.api.send("leaveRoom", { roomId: this.roomId });
+    this.setDeathModeColor(false);
+  }
+
+  setDeathModeColor(isDeathMode: boolean) {
+    const color = isDeathMode ? DEATH_MODE_COLOR : NORMAL_MODE_COLOR;
+    document.body.style.setProperty("--primary-color", color);
+  }
+
+  toggleDeathMode() {
+    this.api.send("toggleDeathMode", { roomId: this.roomId });
   }
 
   onProgress(p: IArenaProgress) {
@@ -130,7 +145,8 @@ export class GameMultiplayerComponent {
       roomId: this.roomId,
       wpm: p.wpm || 0,
       accuracy: p.accuracy || 0,
-      percentage: p.percentage || 0
+      percentage: p.percentage || 0,
+      dead: p.dead || false
     });
   }
 
