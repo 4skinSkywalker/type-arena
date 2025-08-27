@@ -93,18 +93,18 @@ export class GameMultiplayerComponent {
       return !!room && !!room.host && !!client && room.host.id === client.id;
     });
 
-    // // Initialize voip
-    // this.voip.initialize(this.roomId);
-    // let voipCalling = this.voip.calling();
-    // effect(() => {
-    //   const username = this.client()?.name || "Anonymous";
-    //   if (voipCalling && !this.voip.calling()) {
-    //     this.sendChatMessage(`${username} disconnected from voice chat`, true);
-    //   } else if (this.voip.calling()) {
-    //     this.sendChatMessage(`${username} connected to voice chat`, true);
-    //   }
-    //   voipCalling = this.voip.calling();
-    // });
+    // Initialize voip
+    this.voip.initialize(this.roomId);
+    let voipCalling = this.voip.calling();
+    effect(() => {
+      const username = this.client()?.name || "Anonymous";
+      if (voipCalling && !this.voip.calling()) {
+        this.sendChatMessage(`${username} disconnected from voice chat`, true);
+      } else if (this.voip.calling()) {
+        this.sendChatMessage(`${username} connected to voice chat`, true);
+      }
+      voipCalling = this.voip.calling();
+    });
   }
 
   ngOnInit() {

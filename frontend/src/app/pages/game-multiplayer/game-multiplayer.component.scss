@@ -16,7 +16,7 @@
 .side {
     display: grid;
     grid-template-rows: auto minmax(350px, 1fr);
-    border-left: 2px solid rgba(var(--primary-color), 0.5);
+    border-left: 2px solid rgba(var(--c4), 1);
     overflow: hidden;
     z-index: 1;
 }
@@ -74,7 +74,6 @@
     gap: 15px;
     align-content: start;
     overflow-y: auto;
-    border-bottom: 2px solid rgba(var(--primary-color), 0.5);
 
     tbody td:nth-child(2) {
         max-width: 90px;

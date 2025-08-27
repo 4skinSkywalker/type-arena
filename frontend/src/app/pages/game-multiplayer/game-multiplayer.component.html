@@ -69,7 +69,7 @@
     </div>
 
     <div class="chat-container">
-        <!-- <div class="chat-title">
+        <div class="chat-title">
             <span>Chat</span>
             @if (voip.calling()) {
             <button class="btn btn-secondary compact" (click)="voip.stopCall()">
@@ -81,7 +81,7 @@
                 Start call <i class="bi bi-mic"></i>
             </button>
             }
-        </div> -->
+        </div>
         <div class="chat">
             @for (msg of chatMessages(); track $index) {
             <div 
