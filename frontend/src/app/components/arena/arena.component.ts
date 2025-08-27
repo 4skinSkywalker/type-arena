@@ -114,7 +114,7 @@ export class ArenaComponent {
   }
 
   inputText(event: string | Event) {
-    if (this.finished() || !this.enabled() || (this.deathMode() && this.dead())) {
+    if (this.finished() || !this.enabled() || this.dead()) {
       return;
     }
 
