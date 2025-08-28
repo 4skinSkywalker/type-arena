@@ -4,4 +4,3 @@
 3. Swap “ and ” for "
 4. Swap ‘ and ’ for '
 5. Swap … for ...
-6. Swap \n for " "
