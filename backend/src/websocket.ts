@@ -276,7 +276,7 @@ class Room {
 
     createRace(players?: Record<string, IClientWithPercentage>, oldQuote?: IQuote): IRace {
         let randomQuote = getRandomQuote();
-        while (randomQuote === oldQuote) {
+        while (randomQuote.quote === oldQuote?.quote) {
             randomQuote = getRandomQuote();
         }
         return {
