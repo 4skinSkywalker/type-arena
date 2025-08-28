@@ -1,6 +1,6 @@
 import { IClientJSON, IRace, IRoomJSON, IWinners } from "../../../../../backend/src/models";
 
-export const DEATH_MODE_COLOR = "220, 50, 30";
+export const DEATH_MODE_COLOR = "230, 90, 30";
 export const NORMAL_MODE_COLOR = "250, 139, 6";
 
 export function getFakeClient(): IClientJSON {

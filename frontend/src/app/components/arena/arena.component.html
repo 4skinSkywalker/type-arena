@@ -1,53 +1,51 @@
-<div style="display: block; max-width: 800px; margin: 20px auto;">
-    <div class="lanes">
-        @if(me()) {
-        <app-lane
-            [id]="me()!.id"
-            [car]="me()!.car"
-            [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + ')'"
-            [percentage]="me()!.percentage"
-            [dead]="me()!.dead"
-            [winners]="winners()"
-            [deathMode]="deathMode()"
-        ></app-lane>
-        }
-        @for(player of others(); track player.id) {
-        <app-lane
-            [id]="player.id"
-            [car]="player.car"
-            [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + ')'"
-            [percentage]="player.percentage"
-            [dead]="player.dead"
-            [winners]="winners()"
-            [deathMode]="deathMode()"
-        ></app-lane>
-        }
-    </div>
-
-    <div
-        class="text"
-        [class.finished]="finished()"
-        [class.unfocused]="document.activeElement !== textControl"
-        (click)="focusTextControl()"
-    >
-        @for (char of chars; track $index) {
-        <span
-            class="char"
-            [class.active]="char.active"
-            [class.digited]="char.digited"
-            [class.error]="char.error"
-        >{{ char.char }}</span>
-        }
-    </div>
-
-    <div class="ms-2 mt-2"><i>- {{ author() }}</i></div>
-
-    <input
-        #textControl
-        id="text-control"
-        class="form-control"
-        type="text"
-        autocomplete="off"
-        (input)="inputText($event)"
-    >
+<div class="lanes">
+    @if(me()) {
+    <app-lane
+        [id]="me()!.id"
+        [car]="me()!.car"
+        [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + ')'"
+        [percentage]="me()!.percentage"
+        [dead]="me()!.dead"
+        [winners]="winners()"
+        [deathMode]="deathMode()"
+    ></app-lane>
+    }
+    @for(player of others(); track player.id) {
+    <app-lane
+        [id]="player.id"
+        [car]="player.car"
+        [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + ')'"
+        [percentage]="player.percentage"
+        [dead]="player.dead"
+        [winners]="winners()"
+        [deathMode]="deathMode()"
+    ></app-lane>
+    }
 </div>
+
+<div
+    class="text"
+    [class.finished]="finished()"
+    [class.unfocused]="document.activeElement !== textControl"
+    (click)="focusTextControl()"
+>
+    @for (char of chars; track $index) {
+    <span
+        class="char"
+        [class.active]="char.active"
+        [class.digited]="char.digited"
+        [class.error]="char.error"
+    >{{ char.char }}</span>
+    }
+</div>
+
+<div class="ms-2 mt-2"><i>- {{ author() }}</i></div>
+
+<input
+    #textControl
+    id="text-control"
+    class="form-control"
+    type="text"
+    autocomplete="off"
+    (input)="inputText($event)"
+>
