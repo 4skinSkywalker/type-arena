@@ -146,11 +146,13 @@ export class ArenaComponent {
         this.mistakes++;
         if (this.deathMode()) {
           this.dead.set(true);
-          this.emitProgress();
-          return;
         }
       }
       qchar.error = hasError;
+      if (this.dead()) {
+        this.emitProgress();
+        return;
+      }
     }
 
     const correctChars = this.chars.filter(char => char.digited && !char.error).length;
