@@ -1,6 +1,6 @@
 import { getUid, parseEvent } from "./utils";
 import WebSocket from 'ws';
-import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace, IClientWithPercentage } from "./models";
+import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace, IClientWithPercentage, IQuote } from "./models";
 import { getRandomQuote } from "./quotes";
 
 const globalRooms = new Map<string, Room>();
@@ -274,9 +274,13 @@ class Room {
         }
     }
 
-    createRace(players?: Record<string, IClientWithPercentage>): IRace {
+    createRace(players?: Record<string, IClientWithPercentage>, oldQuote?: IQuote): IRace {
+        let randomQuote = getRandomQuote();
+        while (randomQuote === oldQuote) {
+            randomQuote = getRandomQuote();
+        }
         return {
-            quote: getRandomQuote(),
+            quote: randomQuote,
             isRunning: false,
             players: { ...players },
             winners: {
@@ -310,7 +314,7 @@ class Room {
             player.percentage = 0;
             player.dead = false;
         }
-        this.race = this.createRace(this.race.players);
+        this.race = this.createRace(this.race.players, this.race.quote);
 
         for (const client of this.clients.values()) {
             client.send("gameResetted");
