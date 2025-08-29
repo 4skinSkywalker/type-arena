@@ -12,6 +12,7 @@
 .top-bar {
     position: sticky;
     top: 0;
+    z-index: 1;
     display: flex;
     align-items: center;
     padding: var(--quaternary-space) var(--tertiary-space);

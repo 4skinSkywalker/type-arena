@@ -37,14 +37,19 @@ export function loadFromLS(key: string) {
 export async function scrollToBottom(selector: string) {
     await delay(0.15);
     const el = document.querySelector(selector) as HTMLDivElement;
-    el.scrollTop = el.scrollHeight;
+    if (el) {
+        el.scrollTop = el.scrollHeight;
+    }
 }
 
 export async function scrollElementIntoView(selector: string) {
-    (document.querySelector(selector) as HTMLElement).scrollIntoView({
-        behavior: "smooth",
-        block: "end"
-    });
+    const el = document.querySelector(selector) as HTMLElement;
+    if (el) {
+        el.scrollIntoView({
+            behavior: "smooth",
+            block: "end"
+        });
+    }
 }
 
 export function copyToClipboard(text: string) {
