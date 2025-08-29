@@ -12,6 +12,7 @@ const languageSanitizer = {
                   .replace(/‘|’/g, "'")
                   .replace(/…/g, '...')
                   .replace(/\n/g, ' ')
+                  .replace(/–/g, '-')
         );
         return res;
     },
@@ -21,7 +22,8 @@ const languageSanitizer = {
               .replace(/“|”/g, '"')
               .replace(/‘|’/g, "'")
               .replace(/…/g, '...')
-              .replace(/\n/g, ' ');
+              .replace(/\n/g, ' ')
+              .replace(/–/g, '-');
         return res;
     }
 };
