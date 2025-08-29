@@ -37,6 +37,7 @@ export function getFakeRoom(): IRoomJSON {
         id: "-1",
         name: "",
         deathMode: false,
+        language: "en",
         race: getFakeRace(),
         host: getFakeClient(),
         clients: []

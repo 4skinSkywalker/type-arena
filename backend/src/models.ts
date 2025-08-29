@@ -4,6 +4,9 @@
 // ╚════╝██╔╝    ██╔══██╗██╔══██║██║     ██╔═██╗ ██╔══╝  ██║╚██╗██║██║  ██║
 //      ██╔╝     ██████╔╝██║  ██║╚██████╗██║  ██╗███████╗██║ ╚████║██████╔╝
 //      ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═════╝                                                                                                                           
+
+export type Language = "en" | "it";
+
 export interface IClientToJSONOptions {
     includeRoom?: boolean;
 }
@@ -56,6 +59,7 @@ export interface IRoomJSON {
     id: string;
     name: string;
     deathMode: boolean;
+    language: Language;
     race: IRace;
     host: IClientJSON;
     clients: IClientJSON[];
@@ -89,6 +93,7 @@ export interface ICreateRoomMessage {
     roomId?: string;
     name: string;
     deathMode: boolean;
+    language: Language;
 }
 
 export interface IJoinRoomMessage {
@@ -109,6 +114,7 @@ export interface IStartGameMessage {
 // ╚════╝██╔╝    ██╔══╝  ██╔══██╗██║   ██║██║╚██╗██║   ██║   ██╔══╝  ██║╚██╗██║██║  ██║
 //      ██╔╝     ██║     ██║  ██║╚██████╔╝██║ ╚████║   ██║   ███████╗██║ ╚████║██████╔╝
 //      ╚═╝      ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝╚═╝  ╚═══╝╚═════╝ 
+
 export interface IWhoAmIReceivedMessage {
     client: IClientJSON;
 }

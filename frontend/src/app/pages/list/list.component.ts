@@ -16,11 +16,11 @@ import { Router } from '@angular/router';
 export class ListComponent {
   check = check;
   uncheck = uncheck;
-  openedRooms$;
-  closedRooms$;
+  rooms$;
   filterByName = new FormControl("", { nonNullable: true });
   roomName = new FormControl("", { nonNullable: true });
   deathMode = new FormControl(false, { nonNullable: true });
+  language = new FormControl("en", { nonNullable: true });
 
   handlers: Handlers = {};
 
@@ -29,25 +29,18 @@ export class ListComponent {
     private loaderService: LoaderService,
     private router: Router
   ) {
-    this.openedRooms$ = this.filterByName.valueChanges
+    this.rooms$ = this.filterByName.valueChanges
       .pipe(
         startWith(""),
         switchMap((value: string) => {
           return this.api.rooms$.pipe(
             map(rooms =>
-              rooms.filter(room => !room.race.isRunning && room.name.toUpperCase().includes(value.toUpperCase()))
+              rooms.filter(room => room.name.toUpperCase().includes(value.toUpperCase()))
             )
           );
         })
       );
-
-    this.closedRooms$ = this.api.rooms$
-      .pipe(
-        map(rooms =>
-          rooms.filter(room => room.race.isRunning)
-        )
-      );
-
+    
     this.api.send("listRooms");
   }
 
@@ -76,7 +69,8 @@ export class ListComponent {
 
     const createRoom = {
       name: roomName,
-      deathMode: this.deathMode.value
+      deathMode: this.deathMode.value,
+      language: this.language.value
     };
     uncheck("#create-room-modal-trigger");
 

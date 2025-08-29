@@ -1,6 +1,6 @@
 import { getUid, parseEvent } from "./utils";
 import WebSocket from 'ws';
-import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace, IClientWithPercentage, IQuote } from "./models";
+import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace, IClientWithPercentage, IQuote, Language } from "./models";
 import { getRandomQuote } from "./quotes";
 
 const globalRooms = new Map<string, Room>();
@@ -121,6 +121,7 @@ class Client {
             id: msg.roomId,
             name: msg.name,
             deathMode: msg.deathMode,
+            language: msg.language,
             host: this
         });
         this.send("roomCreated", { room: this.room.toJSON() });
@@ -137,8 +138,9 @@ class Client {
             console.warn("Room not found, creating it");
             this.handleCreateRoom({
                 roomId: msg.roomId,
-                name: "Untitled room",
-                deathMode: false
+                name: "Untitled",
+                deathMode: false,
+                language: "en"
             });
         }
     }
@@ -247,8 +249,9 @@ class Client {
 class Room {
     id: string;
     name: string;
-    race = this.createRace();
+    race: IRace;
     deathMode = false;
+    language: Language = "en";
     host: Client;
     clients = new Map<string, Client>();
 
@@ -256,11 +259,14 @@ class Room {
         id?: string,
         name: string,
         deathMode: boolean,
+        language: Language,
         host: Client
     }) {
         this.id = opts.id || getUid();
         this.name = opts.name;
         this.deathMode = opts.deathMode;
+        this.language = opts.language;
+        this.race = this.createRace();
         this.host = opts.host;
         this.addClient(opts.host);
         globalRooms.set(this.id, this);
@@ -275,9 +281,9 @@ class Room {
     }
 
     createRace(players?: Record<string, IClientWithPercentage>, oldQuote?: IQuote): IRace {
-        let randomQuote = getRandomQuote();
+        let randomQuote = getRandomQuote(this.language);
         while (randomQuote.quote === oldQuote?.quote) {
-            randomQuote = getRandomQuote();
+            randomQuote = getRandomQuote(this.language);
         }
         return {
             quote: randomQuote,
@@ -477,6 +483,7 @@ class Room {
             id: this.id,
             name: this.name,
             deathMode: this.deathMode,
+            language: this.language,
             race: this.race,
             host: this.host.toJSON({ includeRoom: false }),
             clients: Array.from(this.clients.values())

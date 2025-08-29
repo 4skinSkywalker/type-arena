@@ -1,19 +1,19 @@
 import fs from "fs";
 import path from "path";
-import { IQuote } from "./models";
+import { IQuote, Language } from "./models";
 
-export const authors = getAuthors();
+export const authors = getAuthorFiles();
 
-export function getRandomQuote() {
-    const author = getRandomAuthor();
-    const bio = JSON.parse(fs.readFileSync(author.bioPath, "utf-8"));
-    const quotes = JSON.parse(fs.readFileSync(author.quotesPath, "utf-8"));
-    const quote = quotes[Math.floor(Math.random() * quotes.length)];
+export function getRandomQuote(language: Language = "en") {
+    const authorFile = getRandomAuthorFile(language);
+    const authorName = fromHyphenToCapitalized(authorFile.name);
+    const author = JSON.parse(fs.readFileSync(path.join(__dirname, "quotes", language, authorFile.base), "utf-8"));
+    const randomQuote = author.quotes[Math.floor(Math.random() * author.quotes.length)];
     return {
-        author: author.name,
-        bio: bio.bio,
-        quote: quote[0],
-        source: quote[1]
+        author: authorName,
+        bio: author.bio || "",
+        quote: randomQuote[0],
+        source: randomQuote[1] || ""
     } as IQuote;
 }
 
@@ -22,15 +22,12 @@ function fromHyphenToCapitalized(str: string) {
     return dehyphened.slice(0, 1).toUpperCase() + dehyphened.slice(1);
 }
 
-function getAuthors() {
-    return fs.readdirSync(path.join(__dirname, "quotes")).map(authorPath => ({
-        name: fromHyphenToCapitalized(authorPath),
-        bioPath: path.join(__dirname, "quotes", authorPath, "bio.json"),
-        quotesPath: path.join(__dirname, "quotes", authorPath, "quotes.json"),
-    }));
+export function getAuthorFiles(language: Language = "en") {
+    return fs.readdirSync(path.join(__dirname, "quotes", language))
+        .map(file => path.parse(file));
 }
 
-function getRandomAuthor() {
-    const authors = getAuthors();
+export function getRandomAuthorFile(language: Language = "en") {
+    const authors = getAuthorFiles(language);
     return authors[Math.floor(Math.random() * authors.length)];
 }

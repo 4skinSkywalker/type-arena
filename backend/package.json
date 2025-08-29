@@ -18,7 +18,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node ./src/server.ts",
     "watch": "nodemon --exec npx ts-node ./src/server.ts",
-    "get-random-quote": "ts-node -e \"import { getRandomQuote } from './src/quotes'; console.log(getRandomQuote())\"",
+    "get-random-quote-en": "ts-node -e \"import { getRandomQuote } from './src/quotes'; console.log(getRandomQuote('en'))\"",
+    "get-random-quote-it": "ts-node -e \"import { getRandomQuote } from './src/quotes'; console.log(getRandomQuote('it'))\"",
+    "get-author-files": "ts-node -e \"import { getAuthorFiles } from './src/quotes'; console.log(getAuthorFiles());\"",
+    "get-random-author-file": "ts-node -e \"import { getRandomAuthorFile } from './src/quotes'; console.log(getRandomAuthorFile());\"",
     "clean-quotes": "node clean-quotes.js"
   },
   "keywords": [],
