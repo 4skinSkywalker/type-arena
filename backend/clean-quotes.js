@@ -5,26 +5,24 @@ const dir = path.join(__dirname, 'src', 'quotes');
 
 const languageSanitizer = {
     en: entry => {
-        let quote = entry[0];
-
-        quote = quote.replace(/—/g, '-')
-                     .replace(/“|”/g, '"')
-                     .replace(/‘|’/g, "'")
-                     .replace(/…/g, '...')
-                     .replace(/\n/g, ' ');
-
-        return [latinize(quote), entry[1]];
+        const res = [...entry];
+        res[0] = latinize(
+            res[0].replace(/—/g, '-')
+                  .replace(/“|”/g, '"')
+                  .replace(/‘|’/g, "'")
+                  .replace(/…/g, '...')
+                  .replace(/\n/g, ' ')
+        );
+        return res;
     },
     it: entry => {
-        let quote = entry[0];
-
-        quote = quote.replace(/—/g, '-')
-                     .replace(/“|”/g, '"')
-                     .replace(/‘|’/g, "'")
-                     .replace(/…/g, '...')
-                     .replace(/\n/g, ' ');
-
-        return [quote, entry[1]];
+        const res = [...entry];
+        res[0].replace(/—/g, '-')
+              .replace(/“|”/g, '"')
+              .replace(/‘|’/g, "'")
+              .replace(/…/g, '...')
+              .replace(/\n/g, ' ');
+        return res;
     }
 };
 
