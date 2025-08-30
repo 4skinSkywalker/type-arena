@@ -315,10 +315,11 @@ class Room {
 
         this.race.isRunning = false;
 
-        // Reset players percentage
+        // Reset players state
         for (const player of Object.values(this.race.players)) {
             player.percentage = 0;
             player.dead = false;
+            player.deadPercentage = undefined;
         }
         this.race = this.createRace(this.race.players, this.race.quote);
 
@@ -353,11 +354,19 @@ class Room {
             ...client.toJSON({ includeRoom: false }),
             wpm: msg.wpm,
             accuracy: msg.accuracy,
-            percentage: msg.percentage,
-            dead: msg.dead
+            percentage: msg.dead
+                ? this.race.players[client.id].percentage
+                : msg.percentage,
+            dead: this.race.players[client.id].dead
+                ? true
+                : msg.dead,
+            deadPercentage: msg.dead
+                ? msg.percentage
+                : undefined
         };
 
-        if (msg.percentage >= 1) {
+        const percentage = this.race.players[client.id].percentage;
+        if (percentage >= 1) {
             let shouldSend = false;
             if (this.race.winners.gold === null) {
                 this.race.winners.gold = client.id;
@@ -435,7 +444,8 @@ class Room {
         this.race.players[client.id] = {
             ...client.toJSON({ includeRoom: false }),
             percentage: 0,
-            dead: false
+            dead: false,
+            deadPercentage: undefined
         };
         console.log("Added client", client.id, "to race");
 

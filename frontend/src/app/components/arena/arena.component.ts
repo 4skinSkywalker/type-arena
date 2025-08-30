@@ -32,13 +32,12 @@ export class ArenaComponent {
   deathMode = input(false, { alias: "deathMode"});
   dead = signal(false);
   chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];
-  activeIndex = 0;
-  percentage = 0;
-  wpm = 0;
-  mistakes = 0;
-  accuracy = 0;
-  dirty = false;
-  startTime = 0;
+  percentage = signal(0);
+  wpm = signal(0);
+  mistakes = signal(0);
+  accuracy = signal(0);
+  dirty = signal(false);
+  startTime = signal(0);
   avgWordLength = computed<number>(() => {
     const words = this.quote().split(" ");
     return words.reduce((acc, word) => acc + word.length, 0) / words.length;
@@ -65,11 +64,11 @@ export class ArenaComponent {
   reset() {
     this.textControl.value = "";
     this.textControl.blur();
-    this.wpm = 0;
-    this.mistakes = 0;
-    this.accuracy = 0;
-    this.dirty = false;
-    this.startTime = 0;
+    this.wpm.set(0);
+    this.mistakes.set(0);
+    this.accuracy.set(0);
+    this.dirty.set(false);
+    this.startTime.set(0);
     this.finished.set(false);
     this.dead.set(false);
   }
@@ -102,9 +101,9 @@ export class ArenaComponent {
 
   emitProgress() {
     this.onProgress.emit({
-      wpm: this.wpm,
-      accuracy: this.accuracy,
-      percentage: this.percentage,
+      wpm: this.wpm(),
+      accuracy: this.accuracy(),
+      percentage: this.percentage(),
       dead: this.dead()
     });
   }
@@ -114,15 +113,15 @@ export class ArenaComponent {
   }
 
   inputText(event: string | Event) {
-    if (this.finished() || !this.enabled() || this.dead()) {
+    if (this.finished() || !this.enabled()) {
       return;
     }
 
     if (!this.dirty) {
-      this.startTime = Date.now();
+      this.startTime.set(Date.now());
     }
 
-    this.dirty = true;
+    this.dirty.set(true);
 
     const userText = (typeof event === "string")
       ? event
@@ -143,24 +142,20 @@ export class ArenaComponent {
       qchar.digited = true;
       if (char !== qchar.char) {
         hasError = true;
-        this.mistakes++;
+        this.mistakes.update(mistakes => mistakes + 1);
         if (this.deathMode()) {
           this.dead.set(true);
         }
       }
       qchar.error = hasError;
-      if (this.dead()) {
-        this.emitProgress();
-        return;
-      }
     }
 
     const correctChars = this.chars.filter(char => char.digited && !char.error).length;
-    this.percentage = correctChars / this.chars.length;
+    this.percentage.set(correctChars / this.chars.length);
 
-    const deltaTime = Date.now() - this.startTime;
-    this.wpm = Math.round((correctChars * 60) / (5 * (deltaTime / 1000))); // can use this.avgWordLength() instead of 5
-    this.accuracy = Math.round(100 * correctChars / (userText.length + this.mistakes)) / 100;
+    const deltaTime = Date.now() - this.startTime();
+    this.wpm.set(Math.round((correctChars * 60) / (5 * (deltaTime / 1000))));
+    this.accuracy.set(Math.round(100 * correctChars / (userText.length + this.mistakes())) / 100);
 
     scrollElementIntoView(".char.active + .char + .char + .char");
     
@@ -178,7 +173,6 @@ export class ArenaComponent {
 
     if (this.chars[i]) {
       this.chars[i].active = true;
-      this.activeIndex = i;
     }
   }
 }

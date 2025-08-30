@@ -53,6 +53,7 @@ export interface IClientJSON {
 export interface IClientWithPercentage extends IClientJSON {
   percentage: number;
   dead: boolean;
+  deadPercentage?: number;
 }
 
 export interface IRoomJSON {
@@ -83,6 +84,7 @@ export interface IProgressDetails {
     accuracy: number;
     percentage: number;
     dead: boolean;
+    deadPercentage?: number;
 }
 
 export interface IProgressMessage extends IProgressDetails {

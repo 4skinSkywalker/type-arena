@@ -3,9 +3,10 @@
     <app-lane
         [id]="me()!.id"
         [car]="me()!.car"
-        [username]="me()!.name + ' (' + me()!.wpm + 'wpm-' + (me()!.accuracy | percent) + ')'"
+        [username]="me()!.name + ' (' + (me()!.wpm || 0) + 'wpm-' + ((me()!.accuracy || 0) | percent) + ')'"
         [percentage]="me()!.percentage"
         [dead]="me()!.dead"
+        [deadPercentage]="me()!.deadPercentage"
         [winners]="winners()"
         [deathMode]="deathMode()"
     ></app-lane>
@@ -14,9 +15,10 @@
     <app-lane
         [id]="player.id"
         [car]="player.car"
-        [username]="player.name + ' (' + player.wpm + 'wpm-' + (player.accuracy | percent) + ')'"
+        [username]="player.name + ' (' + (player.wpm || 0) + 'wpm-' + ((player.accuracy || 0) | percent) + ')'"
         [percentage]="player.percentage"
         [dead]="player.dead"
+        [deadPercentage]="player.deadPercentage"
         [winners]="winners()"
         [deathMode]="deathMode()"
     ></app-lane>
@@ -32,6 +34,7 @@
     @for (char of chars; track $index) {
     <span
         class="char"
+        [class.dead]="me() && me()!.dead"
         [class.active]="char.active"
         [class.digited]="char.digited"
         [class.error]="char.error"

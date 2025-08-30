@@ -254,7 +254,7 @@ export class GameMultiplayerComponent {
   }
 
   handleGameResetted() {
-    this.generateSystemMessage("A new game has been created.\nWaiting for host to start the game...");
+    this.generateSystemMessage("A new game has been created.");
     this.raceStarted.set(false);
     this.countdownExpired.set(false);
     this.gold.set("");

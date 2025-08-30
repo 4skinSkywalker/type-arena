@@ -18,4 +18,5 @@ export class LaneComponent {
   username = input("Anonymous", { alias: "username" });
   deathMode = input(false, { alias: "deathMode" });
   dead = input(false, { alias: "dead" });
+  deadPercentage = input<number | undefined>(undefined, { alias: "deadPercentage" });
 }

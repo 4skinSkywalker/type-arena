@@ -14,6 +14,25 @@
         height: 24px;
         aspect-ratio: 400/128;
 
+        .car-img-wrap {
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+
+            .car-game-over {
+                width: 50%;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
         .username {
             white-space: nowrap;
             position: absolute;
