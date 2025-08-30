@@ -117,7 +117,7 @@ export class ArenaComponent {
       return;
     }
 
-    if (!this.dirty) {
+    if (!this.dirty()) {
       this.startTime.set(Date.now());
     }
 
@@ -161,8 +161,8 @@ export class ArenaComponent {
     
     if (userText.length >= this.chars.length) {
       const clientInfo = loadFromLS("clientInfo");
-      clientInfo.wpm = this.wpm;
-      clientInfo.accuracy = this.accuracy;
+      clientInfo.wpm = this.wpm();
+      clientInfo.accuracy = this.accuracy();
       saveIntoLS("clientInfo", clientInfo);
       this.emitProgress();
       this.finished.set(this.chars.every(char => char.digited && !char.error));
