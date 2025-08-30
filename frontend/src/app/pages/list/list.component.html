@@ -13,9 +13,8 @@
                     <tr>
                         <th>Room</th>
                         <th>Host</th>
-                        <th>Lang</th>
+                        <th>Language</th>
                         <th>Players</th>
-                        <th>Author</th>
                         <th>Death mode</th>
                         <th></th>
                     </tr>
@@ -25,9 +24,14 @@
                     <tr>
                         <td>{{ room.name }}</td>
                         <td>{{ room.host.name }}</td>
-                        <td>{{ room.language }}</td>
+                        <td>{{(
+                            room.language === 'en'
+                                ? 'English'
+                                : room.language === 'it'
+                                    ? 'Italian'
+                                    : '-'
+                        )}}</td>
                         <td>{{ room.clients.length }}</td>
-                        <td>{{ room.race.quote.author }}</td>
                         <td>{{ room.deathMode ? 'Yes' : 'No' }}</td>
                         <td>
                             <button
