@@ -2,8 +2,580 @@
   "bio": "Charles Robert Darwin (12 February 1809 – 19 April 1882) was an English naturalist, geologist and biologist, best known for his contributions to the science of evolution. He proposed that evolution could be explained in part through natural and sexual selection. Prompted by awareness that Alfred Russel Wallace was developing similar theories he published his own sooner than he had originally intended. This theory is now an integral component of biological science.",
   "quotes": [
     [
-      "It is easy to specify the individual objects of admiration in these grand scenes; but it is not possible to give an adequate idea of the higher feelings of wonder, astonishment, and devotion, which fill and elevate the mind.",
-      "chapter II, \"Rio de Janeiro\", 18 April 1832, page 29"
+        "It is easy to specify the individual objects of admiration in these grand scenes; but it is not possible to give an adequate idea of the higher feelings of wonder, astonishment, and devotion, which fill and elevate the mind.",
+        "chapter II, \"Rio de Janeiro\", 18 April 1832, page 29"
+    ],
+    [
+        "The main difficulty in using either lazo or bolas, is to ride so well, as to be able at full speed, and while suddenly turning about, to whirl them so steadily round the head, as to take aim: on foot any person would soon learn the art. One day, as I was amusing myself by galloping and whirling the balls round my head, by accident the free one struck a bush; and its revolving motion being thus destroyed, it immediately fell to the ground, and like magic caught one hind leg of my horse; the other ball was then jerked out of my hand, and the horse fairly secured. Luckily he was an old practised animal, and knew what it meant; otherwise he would probably have kicked till he had thrown himself down. The Gauchos roared with laughter; they cried they had seen every sort of animal caught, but had never before seen a man caught by himself.",
+        "chapter III: \"Montevideo — Maldonado, etc.\", page 51"
+    ],
+    [
+        "A republic cannot succeed, till it contains a certain body of men imbued with the principles of justice and honour.",
+        "chapter VII: \"Excursion to St. Fe, etc.\", entry for 18-19 October 1833, page 165"
+    ],
+    [
+        "They expressed, as was usual, unbounded astonishment at the globe being round, and could scarcely credit that a hole would, if deep enough, come out on the other side. They had, however, heard of a country where there were six months light and six of darkness, and where the inhabitants were very tall and thin! They were curious about the price and condition of horses and cattle in England. Upon finding out we did not catch our animals with the lazo, they cried out, \"Ah, then, you use nothing but the bolas:\" the idea of an enclosed country was quite new to them. The captain at last said, he had one question to ask me, which he should be very much obliged if I would answer with all truth. I trembled to think how deeply scientific it would be: it was, \"Whether the ladies of Buenos Ayres were not the handsomest in the world.\" I replied, like a renegade, \"Charmingly so.\" He added, \"I have one other question: Do ladies in any other part of the world wear such large combs?\" I solemnly assured him that they did not. They were absolutely delighted. The captain exclaimed, \"Look there! a man who has seen half the world says it is the case; we always thought so, but now we know it.\" My excellent judgment in combs and beauty procured me a most hospitable reception; the captain forced me to take his bed, and he would sleep on his recado.",
+        "chapter VIII: \"Excursion to Colonia del Sacramiento, etc.\" (second edition, 1845), entry for 19 November 1833, pages 147-148"
+    ],
+    [
+        "If the misery of our poor be caused not by the laws of nature, but by our institutions, great is our sin.",
+        "Chapter XXI: \"Mauritius to England\" [1]"
+    ],
+    [
+        "The natural history of these islands is eminently curious, and well deserves attention. Most of the organic productions are aboriginal creations, found nowhere else; there is even a difference between the inhabitants of the different islands; yet all show a marked relationship with those of America, though separated from that continent by an open space of ocean, between 500 and 600 miles in width. The archipelago is a little world within itself, or rather a satellite attached to America, whence it has derived a few stray colonists, and has received the general character of its indigenous productions. Considering the small size of these islands, we feel the more astonished at the number of their aboriginal beings, and at their confined range. Seeing every height crowned with its crater, and the boundaries of most of the lava-streams still distinct, we are led to believe that within a period, geologically recent, the unbroken ocean was here spread out. Hence, both in space and time, we seem to be brought somewhat near to that great fact — that mystery of mysteries — the first appearance of new beings on this earth.",
+        "chapter XVII: \"Galapagos Archipelago\" (second edition, 1845), entry for 8 October 1835, pages 377-378"
+    ],
+    [
+        "I have not as yet noticed by far the most remarkable feature in the natural history of this archipelago; it is, that the different islands to a considerable extent are inhabited by a different set of beings. My attention was first called to this fact by the Vice-Governor, Mr. Lawson, declaring that the tortoises differed from the different islands, and that he could with certainty tell from which island any one was brought. I did not for some time pay sufficient attention to this statement, and I had already partially mingled together the collections from two of the islands. I never dreamed that islands, about fifty or sixty miles apart, and most of them in sight of each other, formed of precisely the same rocks, placed under a quite similar climate, rising to a nearly equal height, would have been differently tenanted; but we shall soon see that this is the case. It is the fate of most voyagers, no sooner to discover what is most interesting in any locality, than they are hurried from it; but I ought, perhaps, to be thankful that I obtained sufficient materials to establish this most remarkable fact in the distribution of organic beings.",
+        "chapter XVII: \"Galapagos Archipelago\" (second edition, 1845), pages 393-394"
+    ],
+    [
+        "I thank God, I shall never again visit a slave-country. To this day, if I hear a distant scream, it recalls with painful vividness my feelings, when passing a house near Pernambuco, I heard the most pitiable moans, and could not but suspect that some poor slave was being tortured, yet knew that I was as powerless as a child even to remonstrate. I suspected that these moans were from a tortured slave, for I was told that this was the case in another instance. Near Rio de Janeiro I lived opposite to an old lady, who kept screws to crush the fingers of her female slaves. I have staid in a house where a young household mulatto, daily and hourly, was reviled, beaten, and persecuted enough to break the spirit of the lowest animal. I have seen a little boy, six or seven years old, struck thrice with a horse-whip (before I could interfere) on his naked head, for having handed me a glass of water not quite clean; I saw his father tremble at a mere glance from his master's eye. … And these deeds are done and palliated by men, who profess to love their neighbours as themselves, who believe in God, and pray that his will be done on earth! It makes one's blood boil, yet heart tremble, to think that we Englishmen and our American descendants, with their boastful cry of liberty, have been and are so guilty: but it is a consolation to reflect, that we at least have made a greater sacrifice, than ever made by any nation, to expiate our sin.",
+        "chapter XXI: \"Mauritius To England\" (second edition, 1845), pages 499-500"
+    ],
+    [
+        "In conclusion, it appears to me that nothing can be more improving to a young naturalist, than a journey in distant countries. It both sharpens, and partly likewise allays that want and craving, which, as Sir J. Herschel remarks, a man experiences although every corporeal sense is fully satisfied. The excitement from the novelty of objects, and the chance of success, stimulate him to increased activity. Moreover as a number of isolated facts soon become uninteresting, the habit of comparison leads to generalization. On the other hand, as the traveller stays but a short space of time in each place, his descriptions must generally consist of mere sketches, instead of detailed observation. Hence arises, as I have found to my cost, a constant tendency to fill up the wide gaps of knowledge, by inaccurate and superficial hypotheses.",
+        "chapter XXIII: \"Mauritius To England\", pages 607-608"
+    ],
+    [
+        "It is a curious little world within itself",
+        "About the island of Saint Helena"
+    ],
+    [
+        "descent with modification",
+        "the expression used to describe what is now called \"evolution\", frequently throughout \"on the Origin\" Darwin-Online"
+    ],
+    [
+        "Although much remains obscure, and will long remain obscure, … I am convinced that Natural Selection has been the main but not exclusive means of modification.",
+        "\"Introduction\", page 6"
+    ],
+    [
+        "It will be seen that I look at the term species, as one arbitrarily given for the sake of convenience to a set of individuals closely resembling each other, and that it does not essentially differ from the term variety, which is given to less distinct and more fluctuating forms. The term variety, again, in comparison with mere individual differences, is also applied arbitrarily, and for mere convenience sake.",
+        "chapter II: \"Variation Under Nature\", page 52"
+    ],
+    [
+        "And thus, the forms of life throughout the universe become divided into groups subordinate to groups.",
+        "chapter II: \"Variation Under Nature\", page 59"
+    ],
+    [
+        "Owing to this struggle for life, any variation, however slight and from whatever cause proceeding, if it be in any degree profitable to an individual of any species, in its infinitely complex relations to other organic beings and to external nature, will tend to the preservation of that individual, and will generally be inherited by its offspring. The offspring, also, will thus have a better chance of surviving, for, of the many individuals of any species which are periodically born, but a small number can survive. I have called this principle, by which each slight variation, if useful, is preserved, by the term of Natural Selection, in order to mark its relation to man's power of selection.",
+        "chapter III: \"Struggle For Existence\", page 61"
+    ],
+    [
+        "We will now discuss in a little more detail the struggle for existence.",
+        "chapter III: \"Struggle For Existence\", page 62\nCompare: \"this perpetual struggle for room and food\", The Reverend Thomas Malthus, An Essay on the Principle of Population (1798) section III.7."
+    ],
+    [
+        "I should premise that I use the term Struggle for Existence in a large and metaphorical sense, including dependence of one being on another, and including (which is more important) not only the life of the individual, but success in leaving progeny.",
+        "chapter III: \"Struggle For Existence\", page 62"
+    ],
+    [
+        "The expression often used by Mr. Herbert Spencer of the Survival of the Fittest is more accurate, and is sometimes equally convenient.",
+        "chapter III: \"Struggle For Existence\", page 72, in the fifth (1869) and sixth (1872) editions\nCompare: \"This survival of the fittest, which I have here sought to express in mechanical terms, is that which Mr Darwin has called 'natural selection, or the preservation of favoured races in the struggle for life.' \", Herbert Spencer, The Principles of Biology (1864) volume 1, part III: \"The Evolution of Life\", chapter XII, \"Indirect Equilibration\", pages 444-445."
+    ],
+    [
+        "This preservation of favourable variations and the rejection of injurious variations, I call Natural Selection.",
+        "chapter IV: \"Natural Selection\", page 81"
+    ],
+    [
+        "Lastly, isolation, by checking immigration and consequently competition, will give time for any new variety to be slowly improved; and this may sometimes be of importance in the production of new species. If, however, an isolated area be very small, either from being surrounded by barriers, or from having very peculiar physical conditions, the total number of the individuals supported on it will necessarily be very small; and fewness of individuals will greatly retard the production of new species through natural selection, by decreasing the chance of the appearance of favourable variations.",
+        "chapter IV: \"Natural Selection\", page 105\nThis passage has been cited as an anticipation of the idea of punctuated equilibrium."
+    ],
+    [
+        "Mere chance … alone would never account for so habitual and large an amount of difference as that between varieties of the same species.",
+        "chapter IV: \"Natural Selection\", page 111"
+    ],
+    [
+        "Looking not to any one time, but to all time, if my theory be true, numberless intermediate varieties, linking most closely all the species of the same group together, must assuredly have existed; but the very process of natural selection constantly tends, as has been so often remarked, to exterminate the parent forms and the intermediate links. Consequently evidence of their former existence could be found only amongst fossil remains[.]",
+        "chapter VI: \"Difficulties on Theory\", page 179"
+    ],
+    [
+        "To suppose that the eye with all its inimitable contrivances for adjusting the focus to different distances, for admitting different amounts of light, and for the correction of spherical and chromatic aberration, could have been formed by natural selection, seems, I freely confess, absurd in the highest degree. When it was first said that the sun stood still and the world turned round, the common sense of mankind declared the doctrine false; but the old saying of Vox populi, vox Dei, as every philosopher knows, cannot be trusted in science. Reason tells me, that if numerous gradations from a simple and imperfect eye to one complex and perfect can be shown to exist, each grade being useful to its possessor, as is certainly the case; if further, the eye ever varies and the variations be inherited, as is likewise certainly the case; and if such variations should be useful to any animal under changing conditions of life, then the difficulty of believing that a perfect and complex eye could be formed by natural selection, though insuperable by our imagination, should not be considered as subversive of the theory. How a nerve comes to be sensitive to light, hardly concerns us more than how life itself originated; but I may remark that, as some of the lowest organisms, in which nerves cannot be detected, are capable of perceiving light, it does not seem impossible that certain sensitive elements in their sarcode should become aggregated and developed into nerves, endowed with this special sensibilites.\"",
+        ""
+    ],
+    [
+        "If it could be demonstrated that any complex organ existed, which could not possibly have been formed by numerous, successive, slight modifications, my theory would absolutely break down. But I can find out no such case.",
+        "Chapter VI: \"Difficulties on Theory\", page 189"
+    ],
+    [
+        "I must premise, that I have nothing to do with the origin of the primary mental powers, any more than I have with that of life itself. We are concerned only with the diversities of instinct and of the other mental qualities of animals within the same class.",
+        "chapter VII: \"Instinct\", page 207"
+    ],
+    [
+        "One general law, leading to the advancement of all organic beings, namely, multiply, vary, let the strongest live and the weakest die.",
+        "chapter VII: \"Instinct\", page 244"
+    ],
+    [
+        "But just in proportion as this process of extermination has acted on an enormous scale, so must the number of intermediate varieties, which have formerly existed on the earth, be truly enormous. Why then is not every geological formation and every stratum full of such intermediate links? Geology assuredly does not reveal any such finely graduated organic chain; and this, perhaps, is the most obvious and gravest objection which can be urged against my theory. The explanation lies, as I believe, in the extreme imperfection of the geological record.",
+        "chapter IX: \"On the Imperfection of the Geological Record\", page 280"
+    ],
+    [
+        "I have attempted to show that the geological record is extremely imperfect; that only a small portion of the globe has been geologically explored with care; that only certain classes of organic beings have been largely preserved in a fossil state; that the number both of specimens and of species, preserved in our museums, is absolutely as nothing compared with the incalculable number of generations which must have passed away even during a single formation; that, owing to subsidence being necessary for the accumulation of fossiliferous deposits thick enough to resist future degradation, enormous intervals of time have elapsed between the successive formations; that there has probably been more extinction during the periods of subsidence, and more variation during the periods of elevation, and during the latter the record will have been least perfectly kept; that each single formation has not been continuously deposited; that the duration of each formation is, perhaps, short compared with the average duration of specific forms; that migration has played an important part in the first appearance of new forms in any one area and formation; that widely ranging species are those which have varied most, and have oftenest given rise to new species; and that varieties have at first often been local (emphasis not Darwin's). All these causes taken conjointly, must have tended to make the geological record extremely imperfect, and will to a large extent explain why we do not find interminable varieties, connecting together all the extinct and existing forms of life by the finest graduated steps. He who rejects these views on the nature of the geological record, will rightly reject my whole theory. For he may ask in vain where are the numberless transitional links which must formerly have connected the closely allied or representative species, found in the several stages of the same great formation. He may disbelieve in the enormous intervals of time which have elapsed between our consecutive formations; he may overlook how important a part migration must have played, when the formations of any one great region alone, as that of Europe, are considered; he may urge the apparent, but often falsely apparent, sudden coming in of whole groups of species. He may ask where are the remains of those infinitely numerous organisms which must have existed long before the first bed of the Silurian system was deposited: I can answer this latter question only hypothetically, by saying that as far as we can see, where our oceans now extend they have for an enormous period extended, and where our oscillating continents now stand they have stood ever since the Silurian epoch; but that long before that period, the world may have presented a wholly different aspect; and that the older continents, formed of formations older than any known to us, may now all be in a metamorphosed condition, or may lie buried under the ocean.",
+        "chapter X: \"On the Geological Succession of Organic Beings\", pages 341-343"
+    ],
+    [
+        "What can be more curious than that the hand of a man, formed for grasping, that of a mole for digging, the leg of the horse, the paddle of the porpoise, and the wing of the bat, should all be constructed on the same pattern, and should include the same bones, in the same relative positions? … Hence the same names can be given to the homologous bones in widely different animals. We see the same great law in the construction of the mouths of insects: what can be more different than the immensely long spiral proboscis of a sphinx-moth, the curious folded one of a bee or bug, and the great jaws of a beetle?—yet all these organs, serving for such different purposes, are formed by infinitely numerous modifications of an upper lip, mandibles, and two pairs of maxillæ. Analogous laws govern the construction of the mouths and limbs of crustaceans. So it is with the flowers of plants. Nothing can be more hopeless than to attempt to explain this similarity of pattern in members of the same class, by utility or by the doctrine of final causes.",
+        "chapter XIII: \"Mutual Affinities of Organic Beings: Morphology: Embryology: Rudimentary Organs\", pages 434-435"
+    ],
+    [
+        "Great is the power of steady misrepresentation; but the history of science shows that fortunately this power does not long endure.",
+        "chapter XV: \"Recapitulation and Conclusion\", page 421, in the sixth (1872) edition"
+    ],
+    [
+        "I see no good reason why the views given in this volume should shock the religious feelings of any one.",
+        "chapter XV: \"Recapitulation and Conclusion\", page 421, in the sixth (1872) edition"
+    ],
+    [
+        "Authors of the highest eminence seem to be fully satisfied with the view that each species has been independently created. To my mind it accords better with what we know of the laws impressed on matter by the Creator, that the production and extinction of the past and present inhabitants of the world should have been due to secondary causes, like those determining the birth and death of the individual. When I view all beings not as special creations, but as the lineal descendants of some few beings which lived long before the first bed of the Cambrian system was deposited, they seem to me to become ennobled (emphasis, again, not Darwin's).",
+        "chapter XV: \"Recapitulation and Conclusion\", page 428, in the sixth (1872) edition"
+    ],
+    [
+        "I believe that animals have descended from at most only four or five progenitors, and plants from an equal or lesser number.Analogy would lead me one step further, namely, to the belief that all animals and plants have descended from some one prototype. But analogy may be a deceitful guide. Nevertheless all living things have much in common, in their chemical composition, their germinal vesicles, their cellular structure, and their laws of growth and reproduction. We see this even in so trifling a circumstance as that the same poison often similarly affects plants and animals; or that the poison secreted by the gall-fly produces monstrous growths on the wild rose or oak-tree. Therefore I should infer from analogy that probably all the organic beings which have ever lived on this earth have descended from some one primordial form, into which life was first breathed by the Creator.",
+        "chapter XIV: \"Recapitulation and Conclusion\", page 484, in the second (1860) edition"
+    ],
+    [
+        "It is interesting to contemplate an entangled bank, clothed with many plants of many kinds, with birds singing on the bushes, with various insects flitting about, and with worms crawling through the damp earth, and to reflect that these elaborately constructed forms, so different from each other, and dependent on each other in so complex a manner, have all been produced by laws acting around us. These laws, taken in the largest sense, being Growth with Reproduction; Inheritance which is almost implied by reproduction; Variability from the indirect and direct action of the external conditions of life, and from use and disuse; a Ratio of Increase so high as to lead to a Struggle for Life, and as a consequence to Natural Selection, entailing Divergence of Character and the Extinction of less-improved forms. Thus, from the war of nature, from famine and death, the most exalted object which we are capable of conceiving, namely, the production of the higher animals, directly follows. There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
+        "chapter XIV: \"Recapitulation and Conclusion\", page 489-90\nLast paragraph of the first edition (1859). Only use of the term \"evolve\" or \"evolution\" in the first edition.\nIn the second (1860) through sixth (1872) editions, Darwin added the phrase \"by the Creator\" to read:"
+    ],
+    [
+        "I assume that cells, before their conversion into completely passive or \"formed material,\" throw off minute granules or atoms, which circulate freely throughout the system, and when supplied with proper nutriment multiply by self-division, subsequently becoming developed into cells like those from which they were derived. These granules for the sake of distinctness may be called … gemmules. They are supposed to be transmitted from the parents to the offspring, and are generally developed in the generation which immediately succeeds, but are often transmitted in a dormant state during many generations and are then developed. Their development is supposed to depend on their union with other partially developed cells or gemmules which precede them in the regular course of growth. … Lastly, I assume that the gemmules in their dormant state have a mutual affinity for each other, leading to their aggregation either into buds or into the sexual elements. … These assumptions constitute the provisional hypothesis which I have called Pangenesis.",
+        "volume II, chapter XXVII: \"Provisional Hypothesis of Pangenesis\", page 374\n(It is sometimes claimed that modern biologist are dogmatic \"Darwinists\" who uncritically accept all of Darwin's ideas.  This is false:  No one today accepts Darwin's hypothesis of gemmules and pangenesis.)"
+    ],
+    [
+        "It has often and confidently been asserted, that man's origin can never be known: but ignorance more frequently begets confidence than does knowledge: it is those who know little, and not those who know much, who so positively assert that this or that problem will never be solved by science.",
+        "volume I, \"Introduction\", page 3"
+    ],
+    [
+        "Man differs from woman in size, bodily strength, hairyness, &c., as well as in mind, in the same manner as do the two sexes of many mammals.",
+        "volume I, chapter I: \"The Evidence of the Descent of Man from some Lower Form\", pages 13-14"
+    ],
+    [
+        "Man bears in his bodily structure clear traces of his descent from some lower form; but it may be urged that, as man differs so greatly in his mental power from all other animals, there must be some error in this conclusion. No doubt the difference in this respect is enormous, even if we compare the mind of one of the lowest savages, who has no words to express any number higher than four, and who uses no abstract terms for the commonest objects or affections, with that of the most highly organised ape.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", page 34"
+    ],
+    [
+        "My object in this chapter is solely to shew that there is no fundamental difference between man and the higher mammals in their mental faculties.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", page 35"
+    ],
+    [
+        "The lower animals, like man, manifestly feel pleasure and pain, happiness and misery. Happiness is never better exhibited than by young animals, such as puppies, kittens, lambs, &c., when playing together, like our own children. Even insects play together, as has been described by that excellent observer, P. Huber, who saw ants chasing and pretending to bite each other, like so many puppies.The fact that the lower animals are excited by the same emotions as ourselves is so well established, that it will not be necessary to weary the reader by many details. Terror acts in the same manner on them as on us, causing the muscles to tremble, the heart to palpitate, the sphincters to be relaxed, and the hair to stand on end. Suspicion, the offspring of fear, is eminently characteristic of most wild animals. Courage and timidity are extremely variable qualities in the individuals of the same species, as is plainly seen in our dogs. Some dogs and horses are ill-tempered and easily turn sulky; others are good-tempered; and these qualities are certainly inherited.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", pages 39-40"
+    ],
+    [
+        "The love of a dog for his master is notorious; in the agony of death he has been known to caress his master, and every one has heard of the dog suffering under vivisection, who licked the hand of the operator; this man, unless he had a heart of stone, must have felt remorse to the last hour of his life.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", page 40"
+    ],
+    [
+        "Most of the more complex emotions are common to the higher animals and ourselves. Every one has seen how jealous a dog is of his master's affection, if lavished on any other creature; and I have observed the same fact with monkeys. This shews that animals not only love, but have the desire to be loved.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", pages 41-42"
+    ],
+    [
+        "All animals feel Wonder, and many exhibit Curiosity. They sometimes suffer from this latter quality, as when the hunter plays antics and thus attracts them.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", page 42"
+    ],
+    [
+        "As dogs, cats, horses, and probably all the higher animals, even birds, as is stated on good authority, have vivid dreams, and this is shewn by their movements and voice, we must admit that they possess some power of imagination. … Few persons any longer dispute that animals possess some power of reasoning. Animals may constantly be seen to pause, deliberate, and resolve. It is a significant fact, that the more the habits of any particular animal are studied by a naturalist, the more he attributes to reason and the less to unlearnt instincts.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", page 46"
+    ],
+    [
+        "As Horne Tooke, one of the founders of the noble science of philology, observes, language is an art, like brewing or baking; but writing would have been a much more appropriate simile. It certainly is not a true instinct, as every language has to be learnt. It differs, however, widely from all ordinary arts, for man has an instinctive tendency to speak, as we see in the babble of our young children; whilst no child has an instinctive tendency to brew, bake, or write.",
+        "volume I, chapter II: \"Comparison of the Mental Powers of Man and the Lower Animals\", page 55"
+    ],
+    [
+        "As man advances in civilisation, and small tribes are united into larger communities, the simplest reason would tell each individual that he ought to extend his social instincts and sympathies to all the members of the same nation, though personally unknown to him. This point being once reached, there is only an artificial barrier to prevent his sympathies extending to the men of all nations and races. If, indeed, such men are separated from him by great differences in appearance or habits, experience unfortunately shews us how long it is before we look at them as our fellow-creatures. Sympathy beyond the confines of man, that is humanity to the lower animals, seems to be one of the latest moral acquisitions. It is apparently unfelt by savages, except towards their pets. How little the old Romans knew of it is shewn by their abhorrent gladiatorial exhibitions. The very idea of humanity, as far as I could observe, was new to most of the Gauchos of the Pampas. This virtue, one of the noblest with which man is endowed, seems to arise incidentally from our sympathies becoming more tender and more widely diffused, until they are extended to all sentient beings. As soon as this virtue is honoured and practised by some few men, it spreads through instruction and example to the young, and eventually through public opinion.",
+        "volume I, chapter III: \"Comparison of the Mental Powers of Man and the Lower Animals — continued\", pages 100-101"
+    ],
+    [
+        "The highest stage in moral culture at which we can arrive, is when we recognise that we ought to control our thoughts.",
+        "volume I, chapter III: \"Comparison of the Mental Powers of Man and the Lower Animals — continued\", page 101"
+    ],
+    [
+        "Disinterested love for all living creatures, the most noble attribute of man.",
+        "volume I, chapter III: \"Comparison of the Mental Powers of Man and the Lower Animals — continued\", page 105"
+    ],
+    [
+        "With savages, the weak in body or mind are soon eliminated; and those that survive commonly exhibit a vigorous state of health. We civilised men, on the other hand, do our utmost to check the process of elimination; we build asylums for the imbecile, the maimed, and the sick; we institute poor-laws; and our medical men exert their utmost skill to save the life of every one to the last moment. There is reason to believe that vaccination has preserved thousands, who from a weak constitution would formerly have succumbed to small-pox. Thus the weak members of civilised societies propagate their kind. No one who has attended to the breeding of domestic animals will doubt that this must be highly injurious to the race of man. It is surprising how soon a want of care, or care wrongly directed, leads to the degeneration of a domestic race; but excepting in the case of man himself, hardly any one is so ignorant as to allow his worst animals to breed.The aid which we feel impelled to give to the helpless is mainly an incidental result of the instinct of sympathy, which was originally acquired as part of the social instincts, but subsequently rendered, in the manner previously indicated, more tender and more widely diffused. Nor could we check our sympathy, even at the urging of hard reason, without deterioration in the noblest part of our nature. The surgeon may harden himself whilst performing an operation, for he knows that he is acting for the good of his patient; but if we were intentionally to neglect the weak and helpless, it could only be for a contingent benefit, with an overwhelming present evil. We must therefore bear the undoubtedly bad effects of the weak surviving and propagating their kind; but there appears to be at least one check in steady action, namely that the weaker and inferior members of society do not marry so freely as the sound; and this check might be indefinitely increased by the weak in body or mind refraining from marriage, though this is more to be hoped for than expected.",
+        "volume I, chapter V: \"On the Development of the Intellectual and Moral Faculties during Primeval and Civilised Times\" (second edition, 1874) pages 133-134\n(The last sentence of the first paragraph is often quoted in isolation to make Darwin seem heartless.)"
+    ],
+    [
+        "The western nations of Europe, who now so immeasurably surpass their former savage progenitors, and stand at the summit of civilisation, owe little or none of their superiority to direct inheritance from the old Greeks, though they owe much to the written works of that wonderful people.",
+        "volume I, chapter V: \"On the Development of the Intellectual and Moral Faculties during Primeval and Civilised Times\" (second edition, 1874) page 141"
+    ],
+    [
+        "With highly civilised nations continued progress depends in a subordinate degree on natural selection; for such nations do not supplant and exterminate one another as do savage tribes. Nevertheless the more intelligent members within the same community will succeed better in the long run than the inferior, and leave a more numerous progeny, and this is a form of natural selection. The more efficient causes of progress seem to consist of a good education during youth whilst the brain is impressible, and of a high standard of excellence, inculcated by the ablest and best men, embodied in the laws, customs and traditions of the nation, and enforced by public opinion. It should, however, be borne in mind, that the enforcement of public opinion depends on our appreciation of the approbation and disapprobation of others; and this appreciation is founded on our sympathy, which it can hardly be doubted was originally developed through natural selection as one of the most important elements of the social instincts.",
+        "volume I, chapter V: \"On the Development of the Intellectual and Moral Faculties during Primeval and Civilised Times\" (second edition, 1874) page 143"
+    ],
+    [
+        "The great break in the organic chain between man and his nearest allies, which cannot be bridged over by any extinct or living species, has often been advanced as a grave objection to the belief that man is descended from some lower form; but this objection will not appear of much weight to those who, convinced by general reasons, believe in the general principle of evolution. Breaks incessantly occur in all parts of the series, some being wide, sharp and defined, others less so in various degrees; as between the orang and its nearest allies—between the Tarsius and the other Lemuridæ—between the elephant and in a more striking manner between the Ornithorhynchus or Echidna, and other mammals. But all these breaks depend merely on the number of related forms which have become extinct. At some future period, not very distant as measured by centuries, the civilised races of man will almost certainly exterminate and replace throughout the world the savage races. At the same time the anthropomorphous apes, as Professor Schaaffhausen has remarked, will no doubt be exterminated. The break will then be rendered wider, for it will intervene between man in a more civilised state, as we may hope, than the Caucasian, and some ape as low as a baboon, instead of as at present between the negro or Australian and the gorilla.",
+        "volume I, chapter VI: \"On the Affinities and Genealogy of Man\", pages 200-201\n(The sentence \"At some future period … the savage races\" is often quoted out of context to suggest that Darwin desired this outcome, whereas in fact Darwin simply held that it would occur.)"
+    ],
+    [
+        "There is, however, no doubt that the various races, when carefully compared and measured, differ much from each other,—as in the texture of the hair, the relative proportions of all parts of the body,2 the capacity of the lungs, the form and capacity of the skull, and even in the convolutions of the brain.3 But it would be an endless task to specify the numerous points of structural difference. The races differ also in constitution, in acclimatisation, and in liability to certain diseases. Their mental characteristics are likewise very distinct; chiefly as it would appear in their emotional, but partly in their intellectual, faculties. Every one who has had the opportunity of comparison, must have been struck with the contrast between the taciturn, even morose, aborigines of S. America and the light-hearted, talkative negroes. There is a nearly similar contrast between the Malays and the Papuans,4 who live under the same physical conditions, and are separated from each other only by a narrow space of sea.",
+        "volume I, chapter VII: \"On the Races of Man\", page 216"
+    ],
+    [
+        "It may be doubted whether any character can be named which is distinctive of a race and is constant.",
+        "volume I, chapter VII: \"On the Races of Man\", page 225"
+    ],
+    [
+        "There is good evidence that the art of shooting with bows and arrows has not been handed down from any common progenitor of mankind, yet the stone arrow-heads, brought from the most distant parts of the world and manufactured at the most remote periods, are, as Nilsson has shewn, almost identical; and this fact can only be accounted for by the various races having similar inventive or mental powers.",
+        "volume I, chapter VII: \"On the Races of Man\", pages 232-233"
+    ],
+    [
+        "Now when naturalists observe a close agreement in numerous small details of habits, tastes and dispositions between two or more domestic races, or between nearly-allied natural forms, they use this fact as an argument that all are descended from a common progenitor who was thus endowed; and consequently that all should be classed under the same species. The same argument may be applied with much force to the races of man.As it is improbable that the numerous and unimportant points of resemblance between the several races of man in bodily structure and mental faculties (I do not here refer to similar customs) should all have been independently acquired, they must have been inherited from progenitors who were thus characterised.",
+        "volume I, chapter VII: \"On the Races of Man\", page 233"
+    ],
+    [
+        "With mankind the differences between the sexes are greater than in most species of Quadrumana, but not so great as in some, for instance, the mandrill. Man on an average is considerably taller, heavier, and stronger than woman, with squarer shoulders and more plainly-pronounced muscles. … Man is more courageous, pugnacious, and energetic than woman, and has a more inventive genius. His brain is absolutely larger, but whether relatively to the larger size of his body, in comparison with that of woman, has not, I believe been fully ascertained. In woman the face is rounder; the jaws and the base of the skull smaller; the outlines of her body rounder, in parts more prominent; and her pelvis is broader than in man; but this latter character may perhaps be considered rather as a primary than a secondary sexual character. She comes to maturity at an earlier age than man.",
+        "volume II, chapter XIX: \"Secondary Sexual Characters of Man\", pages 316-317"
+    ],
+    [
+        "Law of Battle. — With savages, for instance the Australians, the women are the constant cause of war both between members of the same tribe and between distinct tribes. So no doubt it was in ancient times; \"nam fuit ante Helenam mulier teterrima belli causa.\" With some of the North American Indians, the contest is reduced to a system. … With the Guanas of South America, Azara states that the men rarely marry till twenty years old or more, as before that age they cannot conquer their rivals.",
+        "second edition (1874), chapter XIX: \"Secondary Sexual Characters of Man\", pages 561-562\nDarwin quoted Horace in Latin: \"For even before Helen (of Troy) a woman was a most hideous cause of war\""
+    ],
+    [
+        "There can be little doubt that the greater size and strength of man, in comparison with woman, together with his broader shoulders, more developed muscles, rugged outline of body, his greater courage and pugnacity, are all due in chief part to inheritance from his half-human male ancestors. These characters would, however, have been preserved or even augmented during the long ages of man's savagery, by the success of the strongest and boldest men, both in the general struggle for life and in their contests for wives; a success which would have ensured their leaving a more numerous progeny than their less favoured brethren.",
+        "second edition (1874), chapter XIX: \"Secondary Sexual Characters of Man\", page 563"
+    ],
+    [
+        "The chief distinction in the intellectual powers of the two sexes is shewn by man attaining to a higher eminence, in whatever he takes up, than woman can attain — whether requiring deep thought, reason, or imagination, or merely the use of the senses and hands. If two lists were made of the most eminent men and women in poetry, painting, sculpture, music, — comprising composition and performance, history, science, and philosophy, with half-a-dozen names under each subject, the two lists would not bear comparison. We may also infer, from the law of the deviation of averages, so well illustrated by Mr. Galton, in his work on 'Hereditary Genius,' that if men are capable of decided eminence over women in many subjects, the average standard of mental power in man must be above that of woman. … Thus man has ultimately become superior to woman.",
+        "volume II, chapter XIX: \"Secondary Sexual Characters of Man\", pages 327-328"
+    ],
+    [
+        "Amongst the half-human progenitors of man, and amongst savages, there have been struggles between the males during many generations for the possession of the females. But mere bodily strength and size would do little for victory, unless associated with courage, perseverance, and determined energy. With social animals, the young males have to pass through many a contest before they win a female, and the older males have to retain their females by renewed battles. They have, also, in the case of mankind, to defend their females, as well as their young, from enemies of all kinds, and to hunt for their joint subsistence. But to avoid enemies or to attack them with success, to capture wild animals, and to fashion weapons, requires the aid of the higher mental faculties, namely, observation, reason, invention, or imagination. These various faculties will thus have been continually put to the test and selected during manhood; they will, moreover, have been strengthened by use during this same period of life. Consequently, in accordance with the principle often alluded to, we might expect that they would at least tend to be transmitted chiefly to the male offspring at the corresponding period of manhood.",
+        "second edition (1874), chapter XIX: \"Secondary Sexual Characters of Man\", page 564"
+    ],
+    [
+        "In order that woman should reach the same standard as man, she ought, when nearly adult, to be trained to energy and perseverance, and to have her reason and imagination exercised to the highest point; and then she would probably transmit these qualities chiefly to her adult daughters. The whole body of women, however, could not be thus raised, unless during many generations the women who excelled in the above robust virtues were married, and produced offspring in larger numbers than other women. As before remarked with respect to bodily strength, although men do not now fight for the sake of obtaining wives, and this form of selection has passed away, yet they generally have to undergo, during manhood, a severe struggle in order to maintain themselves and their families; and this will tend to keep up or even increase their mental powers, and, as a consequence, the present inequality between the sexes.",
+        "volume II, chapter XIX: \"Secondary Sexual Characters of Man\", page 329"
+    ],
+    [
+        "False facts are highly injurious to the progress of science, for they often long endure; but false views, if supported by some evidence, do little harm, as every one takes a salutary pleasure in proving their falseness; and when this is done, one path towards error is closed and the road to truth is often at the same time opened.",
+        "volume II, chapter XXI: \"General Summary and Conclusion\", page 385"
+    ],
+    [
+        "Through the means just specified, aided perhaps by others as yet undiscovered, man has been raised to his present state. But since he attained to the rank of manhood, he has diverged into distinct races, or as they may be more appropriately called sub-species. Some of these, for instance the Negro and European, are so distinct that, if specimens had been brought to a naturalist without any further information, they would undoubtedly have been considered by him as good and true species. Nevertheless all the races agree in so many unimportant details of structure and in so many mental peculiarities, that these can be accounted for only through inheritance from a common progenitor; and a progenitor thus characterised would probably have deserved to rank as man.",
+        "volume II, chapter XXI: \"General Summary and Conclusion\", page 388"
+    ],
+    [
+        "The moral faculties are generally esteemed, and with justice, as of higher value than the intellectual powers. But we should always bear in mind that the activity of the mind in vividly recalling past impressions is one of the fundamental though secondary bases of conscience. This fact affords the strongest argument for educating and stimulating in all possible ways the intellectual faculties of every human being.",
+        "volume II, chapter XXI: \"General Summary and Conclusion\", page 393"
+    ],
+    [
+        "When the principles of breeding and of inheritance are better understood, we shall not hear ignorant members of our legislature rejecting with scorn a plan for ascertaining by an easy method whether or not consanguineous marriages are injurious to man.",
+        "volume II, chapter XXI: \"General Summary and Conclusion\", page 403"
+    ],
+    [
+        "There should be open competition for all men; and the most able should not be prevented by laws or customs from succeeding best and rearing the largest number of offspring. Important as the struggle for existence has been and even still is, yet as far as the highest part of man's nature is concerned there are other agencies more important. For the moral qualities are advanced, either directly or indirectly, much more through the effects of habit, the reasoning powers, instruction, religion, &c., than through natural selection; though to this latter agency the social instincts, which afforded the basis for the development of the moral sense, may be safely attributed.",
+        "volume II, chapter XXI: \"General Summary and Conclusion\", pages 403-404"
+    ],
+    [
+        "Man may be excused for feeling some pride at having risen, though not through his own exertions, to the very summit of the organic scale; and the fact of his having thus risen, instead of having been aboriginally placed there, may give him hopes for a still higher destiny in the distant future. But we are not here concerned with hopes or fears, only with the truth as far as our reason allows us to discover it. I have given the evidence to the best of my ability; and we must acknowledge, as it seems to me, that man with all his noble qualities, with sympathy which feels for the most debased, with benevolence which extends not only to other men but to the humblest living creature, with his god-like intellect which has penetrated into the movements and constitution of the solar system — with all these exalted powers — Man still bears in his bodily frame the indelible stamp of his lowly origin.",
+        "volume II, chapter XXI: \"General Summary and Conclusion\", page 405\n(Closing paragraph of the book.)"
+    ],
+    [
+        "Through the principle of associated habit, the same movements of the face and eyes are practised, and can, indeed, hardly be avoided, whenever we know or believe that others are blaming, or too strongly praising, our moral conduct.",
+        "chapter XIII: \"Self-attention — Shame — Shyness — Modesty: Blushing\", page 347"
+    ],
+    [
+        "Even insects express anger, terror, jealousy, and love by their stridulation.",
+        "chapter XIV: \"Concluding Remarks and Summary\", page 350"
+    ],
+    [
+        "[T]he young and the old of widely different races, both with man and animals, express the same state of mind by the same movements.",
+        "chapter XIV: \"Concluding Remarks and Summary\", page 352"
+    ],
+    [
+        "… cell of a tentacle, showing the various forms successively assumed by the aggregated masses of protoplasm.",
+        "chapter III: \"Aggregation of the Protoplasm within the Cells of the Tentacles\", page 40\n(Detractors sometimes claim Darwin thought that the cell was an undifferentiated mass of protoplasm.  Anyone reading the passage above will realize that Darwin thought no such thing.)"
+    ],
+    [
+        "The subject may appear an insignificant one, but we shall see that it possesses some interest; and the maxim \"de minimis lex non curat,\" does not apply to science.",
+        "Introduction, p. 2.\nde minimis non curat lex - The law does not concern itself with trifles."
+    ],
+    [
+        "In the year 1837, a short paper was read by me before the Geological Society of London, \"On the Formation of Mould,\" in which it was shown that small fragments of burnt marl, cinders, &c., which had been thickly strewed over the surface of several meadows, were found after a few years lying at the depth of some inches beneath the turf, but still forming a layer.",
+        "Introduction, p. 3.\nThe \"short paper\" referring to: \"On the Formation of Mould,\" 'Transactions Geolog. Soc.' vol. v. p. 505. Read November 1, 1837."
+    ],
+    [
+        "He remarks that \"considering their weakness and their size, the work they are represented to have accomplished is stupendous.\" Here we have an instance of that inability to sum up the effects of a continually recurrent cause, which has often retarded the progress of science, as formerly in the case of geology, and more recently in that of the principle of evolution.",
+        "Introduction, p. 6."
+    ],
+    [
+        "Earth-worms abound in England in many different stations. Their castings may be seen in extraordinary numbers on commons and chalk-downs, so as almost to cover the whole surface, where the soil is poor and the grass short and thin.",
+        "Chapter 1: Habits of Worms, p. 9."
+    ],
+    [
+        "Every morning during certain seasons of the year, the thrushes and blackbirds on all the lawns throughout the country draw out of their holes an astonishing number of worms; and this they could not do, unless they lay close to the surface.",
+        "Chapter 1: Habits of Worms, p. 16."
+    ],
+    [
+        "When a worm is suddenly illuminated and dashes like a rabbit into its burrow—to use the expression employed by a friend—we are at first led to look at the action as a reflex one.",
+        "Chapter 1: Habits of Worms, p. 23."
+    ],
+    [
+        "The comparison here implied between the actions of one of the higher animals and of one so low in the scale as an earth-worm, may appear far-fetched; for we thus attribute to the worm attention and some mental power, nevertheless I can see no reason to doubt the justice of the comparison.",
+        "Chapter 1: Habits of Worms, pp. 24-25."
+    ],
+    [
+        "When the pots containing two worms which had remained quite indifferent to the sound of the piano, were placed on this instrument, and the note C in the bass clef was struck, both instantly retreated into their burrows.",
+        "Chapter 1: Habits of Worms, p. 28."
+    ],
+    [
+        "But some degree of intelligence appears, as we shall see in the next chapter, to be exhibited in this work,—a result which has surprised me more than anything else in regard to worms.",
+        "Chapter 1: Habits of Worms, p. 35."
+    ],
+    [
+        "These [calciferous] glands (see Fig. 1), judging from their size and from their rich supply of blood-vessels, must be of much importance to the animal. But almost as many theories have been advanced on their use as there have been observers.",
+        "Chapter 1: Habits of Worms, p. 43."
+    ],
+    [
+        "With respect to the function of the calciferous glands, it is probable that they primarily serve as organs of excretion, and secondarily as an aid to digestion.",
+        "Chapter 1: Habits of Worms, p. 49."
+    ],
+    [
+        "Worms seize leaves and other objects, not only to serve as food, but for plugging up the mouths of their burrows; and this is one of their strongest instincts.",
+        "Chapter 2: Habits of Worms, p. 58."
+    ],
+    [
+        "I have attempted to write the following account of myself, as if I were a dead man in another world looking back at my own life. Nor have I found this difficult, for life is nearly over with me. I have taken no pains about my style of writing.",
+        "volume I, chapter II: \"Autobiography\", page 27"
+    ],
+    [
+        "Dr. Grant took me occasionally to the meetings of the Wernerian Society, where various papers on natural history were read, discussed, and afterwards published in the 'Transactions.' I heard Audubon deliver there some interesting discourses on the habits of N. American birds, sneering somewhat unjustly at Waterton. By the way, a negro lived in Edinburgh, who had travelled with Waterton, and gained his livelihood by stuffing birds, which he did excellently: he gave me lessons for payment, and I used often to sit with him, for he was a very pleasant and intelligent man.",
+        "volume I, chapter II: \"Autobiography\", page 40"
+    ],
+    [
+        "I have deeply regretted that I did not proceed far enough at least to understand something of the great leading principles of mathematics, for men thus endowed seem to have an extra sense.",
+        "volume I, chapter II: \"Autobiography\", page 46"
+    ],
+    [
+        "Fitz-Roy's temper was a most unfortunate one. It was usually worst in the early morning, and with his eagle eye he could generally detect something amiss about the ship, and was then unsparing in his blame. He was very kind to me, but was a man very difficult to live with on the intimate terms which necessarily followed from our messing by ourselves in the same cabin. We had several quarrels; for instance, early in the voyage at Bahia, in Brazil, he defended and praised slavery, which I abominated, and told me that he had just visited a great slave-owner, who had called up many of his slaves and asked them whether they were happy, and whether they wished to be free, and all answered \"No.\" I then asked him, perhaps with a sneer, whether he thought that the answer of slaves in the presence of their master was worth anything? This made him excessively angry, and he said that as I doubted his word we could not live any longer together. I thought that I should have been compelled to leave the ship; but as soon as the news spread, which it did quickly, as the captain sent for the first lieutenant to assuage his anger by abusing me, I was deeply gratified by receiving an invitation from all the gun-room officers to mess with them. But after a few hours Fitz-Roy showed his usual magnanimity by sending an officer to me with an apology and a request that I would continue to live with him.",
+        "volume I, chapter II: \"Autobiography\", pages 60-61"
+    ],
+    [
+        "After my return to England it appeared to me that by following the example of Lyell in Geology, and by collecting all facts which bore in any way on the variation of animals and plants under domestication and nature, some light might perhaps be thrown on the whole subject. My first note-book was opened in July 1837. I worked on true Baconian principles, and without any theory collected facts on a wholesale scale, more especially with respect to domesticated productions, by printed enquiries, by conversation with skilful breeders and gardeners, and by extensive reading. When I see the list of books of all kinds which I read and abstracted, including whole series of Journals and Transactions, I am surprised at my industry. I soon perceived that selection was the keystone of man's success in making useful races of animals and plants. But how selection could be applied to organisms living in a state of nature remained for some time a mystery to me.",
+        "volume I, chapter II: \"Autobiography\", pp. 67-68."
+    ],
+    [
+        "In October 1838, that is, fifteen months after I had begun my systematic enquiry, I happened to read for amusement 'Malthus on Population,' and being well prepared to appreciate the struggle for existence which everywhere goes on from long-continued observation of the habits of animals and plants, it at once struck me that under these circumstances favourable variations would tend to be preserved, and unfavourable ones to be destroyed. The result of this would be the formation of new species. Here then I had at last got a theory by which to work; but I was so anxious to avoid prejudice, that I determined not for some time to write even the briefest sketch of it. In June 1842 I first allowed myself the satisfaction of writing a very brief abstract of my theory in pencil in 35 pages; and this was enlarged during the summer of 1844 into one of 230 pages...",
+        "volume I, chapter II: \"Autobiography\", p. 68."
+    ],
+    [
+        "I have watched how steadily the general feeling, as shown at elections, has been rising against Slavery. What a proud thing for England if she is the first European nation which utterly abolishes it! I was told before leaving England that after living in slave countries all my opinions would be altered; the only alteration I am aware of is forming a much higher estimate of the negro character. It is impossible to see a negro and not feel kindly towards him; such cheerful, open, honest expressions and such fine muscular bodies. I never saw any of the diminutive Portuguese, with their murderous countenances, without almost wishing for Brazil to follow the example of Hayti; and, considering the enormous healthy-looking black population, it will be wonderful if, at some future day, it does not take place.",
+        "volume I, chapter VI: \"The Voyage\", page 246; letter to sister Caroline Sarah Darwin (22 May 1833)"
+    ],
+    [
+        "A man who dares to waste one hour of time has not discovered the value of life.",
+        "volume I, chapter VI: \"The Voyage\", page 266; letter to sister Susan Elizabeth Darwin (4 August 1836)"
+    ],
+    [
+        "It is impossible to answer your question briefly; and I am not sure that I could do so, even if I wrote at some length. But I may say that the impossibility of conceiving that this grand and wondrous universe, with our conscious selves, arose through chance, seems to me the chief argument for the existence of God; but whether this is an argument of real value, I have never been able to decide. I am aware that if we admit a first cause, the mind still craves to know whence it came, and how it arose. Nor can I overlook the difficulty from the immense amount of suffering through the world. I am, also, induced to defer to a certain extent to the judgment of the many able men who have fully believed in God; but here again I see how poor an argument this is. The safest conclusion seems to me that the whole subject is beyond the scope of man's intellect; but man can do his duty.",
+        "volume I, chapter VIII: \"Religion\", pages 306-307; letter to Dutch student N.D. Doedes (2 April 1873)"
+    ],
+    [
+        "Mr. Darwin begs me to say that he receives so many letters that he cannot answer them all. He considers that the theory of evolution is quite compatible with the belief in a God; but that you must remember that different persons have different definitions of what they mean by God.",
+        "volume I, chapter VIII: \"Religion\", page 307; letter from Emma Darwin (wife) to N.A. Mengden (8 April 1879)"
+    ],
+    [
+        "As for a future life, every man must judge for himself between conflicting vague probabilities.",
+        "volume I, chapter VIII: \"Religion\", page 307; letter to an unidentified German student (1879)"
+    ],
+    [
+        "But I was very unwilling to give up my belief; I feel sure of this, for I can well remember often and often inventing day-dreams of old letters between distinguished Romans, and manuscripts being discovered at Pompeii or elsewhere, which confirmed in the most striking manner all that was written in the Gospels. But I found it more and more difficult, with free scope given to my imagination, to invent evidence which would suffice to convince me. Thus disbelief crept over me at a very slow rate, but was at last complete. The rate was so slow that I felt no distress.Although I did not think much about the existence of a personal God until a considerably later period of my life, I will here give the vague conclusions to which I have been driven. The old argument from design in Nature, as given by Paley, which formerly seemed to me so conclusive, fails, now that the law of natural selection has been discovered. We can no longer argue that, for instance, the beautiful hinge of a bivalve shell must have been made by an intelligent being, like the hinge of a door by man. There seems to be no more design in the variability of organic beings, and in the action of natural selection, than in the course which the wind blows. But I have discussed this subject at the end of my book on the Variation of Domesticated Animals and Plants, and the argument there given has never, as far as I can see, been answered.",
+        "volume I, chapter VIII: \"Religion\", pages 308-309\n(Francis Darwin calls these \"extracts, somewhat abbreviated, from a part of the Autobiography, written in 1876\". The original version is presented below.)"
+    ],
+    [
+        "Believing as I do that man in the distant future will be a far more perfect creature than he now is, it is an intolerable thought that he and all other sentient beings are doomed to complete annihilation after such long-continued slow progress. To those who fully admit the immortality of the human soul, the destruction of our world will not appear so dreadful.",
+        "volume I, chapter VIII: \"Religion\", page 312"
+    ],
+    [
+        "I cannot pretend to throw the least light on such abstruse problems. The mystery of the beginning of all things is insoluble by us; and I for one must be content to remain an Agnostic.",
+        "volume I, chapter VIII: \"Religion\", page 313"
+    ],
+    [
+        "[Y]ou have expressed my inward conviction, though far more vividly and clearly than I could have done, that the Universe is not the result of chance. … Lastly, I could show fight on natural selection having done and doing more for the progress of civilization than you seem inclined to admit. Remember what risk the nations of Europe ran, not so many centuries ago of being overwhelmed by the Turks, and how ridiculous such an idea now is! The more civilized so-called Caucasian races have beaten the Turkish hollow in the struggle for existence. Looking to the world at no very distant date, what an endless number of the lower races will have been eliminated by the higher civilized races throughout the world.",
+        "volume I, chapter VIII: \"Religion\", page 316; letter to William Graham (3 July 1881)"
+    ],
+    [
+        "I hate a Barnacle as no man ever did before, not even a Sailor in a slow-sailing ship.",
+        "volume I, chapter IX: \"Life at Down\", page 385; letter to William Darwin Fox (24 October 1852)\nquoted in At Home: A Short History of Private Life (2011) by Bill Bryson"
+    ],
+    [
+        "I am almost convinced (quite contrary to opinion I started with) that species are not (it is like confessing a murder) immutable.",
+        "volume II, chapter II: \"The Growth of the 'Origin of Species' — 1843-1856\", page 23; letter to J.D. Hooker (11 January 1844)"
+    ],
+    [
+        "With respect to the theological view of the question. This is always painful to me. I am bewildered. I had no intention to write atheistically. But I own that I cannot see as plainly as others do, and as I should wish to do, evidence of design and beneficence on all sides of us. There seems to me too much misery in the world. I cannot persuade myself that a beneficent and omnipotent God would have designedly created the Ichneumonidæ with the express intention of their feeding within the living bodies of Caterpillars, or that a cat should play with mice. Not believing this, I see no necessity in the belief that the eye was expressly designed. On the other hand, I cannot anyhow be contented to view this wonderful universe, and especially the nature of man, and to conclude that everything is the result of brute force. I am inclined to look at everything as resulting from designed laws, with the details, whether good or bad, left to the working out of what we may call chance. Not that this notion at all satisfies me. I feel most deeply that the whole subject is too profound for the human intellect. A dog might as well speculate on the mind of Newton. Let each man hope and believe what he can. Certainly I agree with you that my views are not at all necessarily atheistical.",
+        "volume II, chapter VII: \"The 'Origin of Species'\", pages 311-312; letter to Asa Gray (22 May 1860)\n\"Ichneumonidæ\" sometimes altered to \"parasitic wasps\" in paraphrases of this passage.\nParaphrased as \"I feel most deeply that this whole question of Creation is too profound for human intellect. A dog might as well speculate on the mind of Newton! Let each man hope and believe what he can.\" Elbert Hubbard, Little Journeys to the Homes of Great Scientists (1916) page 197."
+    ],
+    [
+        "We are a wretched family, and ought to be exterminated. We slept here to rest our poor boy on his journey to Bournemouth, and my poor dear wife sickened with scarlet fever, and has had it pretty sharply, but is recovering well. There is no end of trouble in this weary world. (Owing to the illness from scarlet fever of one of his boys, he [Darwin] took a house at Bournemouth in the autumn. He wrote to Dr. Gray from Southampton).",
+        "Volume II, Chapter III, \"Spread of Evolution - 1861-1862,\") p. 175. Letter to Asa Gray (1810-1888), (21 August 1862)"
+    ],
+    [
+        "It is often said that all the conditions for the first production of a living organism are now present, which could ever have been present. But if (and oh! what a big if!) we could conceive in some warm little pond, with all sorts of ammonia and phosphoric salts, light, heat, electricity, &c., present, that a proteine compound was chemically formed ready to undergo stillmore complex changes, at the present day such matter would be instantly devoured or absorbed, which would not have been the case before living creatures were formed.",
+        "volume III, chapter I: \"The Spread of Evolution\", page 18; letter to Joseph Hooker (1871)"
+    ],
+    [
+        "My wife has just finished reading aloud your 'Life with a Black Regiment,' and you must allow me to thank you heartily for the very great pleasure which it has in many ways given us. I always thought well of the negroes, from the little which I have seen of them; and I have been delighted to have my vague impressions confirmed, and their character and mental powers so ably discussed. When you were here I did not know of the noble position which you had filled. I had formerly read about the black regiments, but failed to connect your name with your admirable undertaking. Although we enjoyed greatly your visit to Down, my wife and myself have over and over again regretted that we did not know about the black regiment, as we should have greatly liked to have heard a little about the South from your own lips.",
+        "volume III, chapter IV: \"The Publication of the 'Descent of Man', page 176; letter to Thomas Higginson (27 February 1873)"
+    ],
+    [
+        "I have rarely read anything which has interested me more, though I have not read as yet more than a quarter of the book proper. From quotations which I had seen, I had a high notion of Aristotle's merits, but I had not the most remote notion what a wonderful man he was. Linnaeus and Cuvier have been my two gods, though in very different ways, but they were mere schoolboys to old Aristotle.",
+        "volume III, chapter VI: \"Miscellanea\", page 252; letter to William Ogle (22 February 1882)\nOgle had translated Aristotle's Parts of Animals and sent Darwin a copy."
+    ],
+    [
+        "Thus reflecting, I feel compelled to look to a First Cause having an intelligent mind in some degree analogous to that of man, and I deserve to be called a theist.",
+        ""
+    ],
+    [
+        "The time is always ripe for the re-interpretation of theories in the light of new vision and of new facts. This is the very province of science.",
+        "page 13"
+    ],
+    [
+        "Self-portraits have the merit of disclosing the influences as well as the man. There may be some to whom the Autobiography will prove what Charles Darwin was not—a metaphysician or profound thinker beyond the scope of his world-wide subject. But no one can read his own words and fail to recognise a character of rare simplicity and complete integrity. The Autobiography shows how it was that he altered the whole course of Victorian thought, not by blazoning his discoveries nor by sudden iconoclasm, but rather through searching insight and pondered judgments opening up vast fields for further research.",
+        "page 15"
+    ],
+    [
+        "To my mind there are no advantages and many disadvantages in lectures compared with reading.",
+        "page 47"
+    ],
+    [
+        "I also attended on two occasions the operating theatre in the hospital at Edinburgh, and saw two very bad operations, one on a child, but I rushed away before they were completed. Nor did I ever attend again, for hardly any inducement would have been strong enough to make me do so; this being long before the blessed days of chloroform. The two cases fairly haunted me for many a long year.",
+        "page 48"
+    ],
+    [
+        "Accordingly I read with care Pearson on the Creed and a few other books on divinity; and as I did not then in the least doubt the strict and literal truth of every word in the Bible, I soon persuaded myself that our Creed must be fully accepted. It never struck me how illogical it was to say that I believed in what I could not understand and what is in fact unintelligible. I might have said with entire truth that I had no wish to dispute any dogma; but I never was such a fool as to feel and say 'credo quia incredibile’.",
+        "page 57"
+    ],
+    [
+        "I attempted mathematics, and even went during the summer of 1828 with a private tutor (a very dull man) to Barmouth, but I got on very slowly. The work was repugnant to me, chiefly from my not being able to see any meaning in the early steps in algebra. This impatience was very foolish, and in after years I have deeply regretted that I did not proceed far enough at least to understand something of the great leading principles of mathematics; for men thus endowed seem to have an extra sense.",
+        "page 58"
+    ],
+    [
+        "Science consists in grouping facts so that general laws or conclusions may be drawn from them.",
+        "page 70"
+    ],
+    [
+        "I discovered, though unconsciously and insensibly, that the pleasure of observing and reasoning was a much higher one than that of skill and sport. The primeval instincts of the barbarian slowly yielded to the acquired tastes of the civilized man.",
+        "page 79"
+    ],
+    [
+        "All this shows how ambitious I was; but I think that I can say with truth that in after years, though I cared in the highest degree for the approbation of such men as Lyell and Hooker, who were my friends, I did not care much about the general public. I do not mean to say that a favourable review or a large sale of my books did not please me greatly; but the pleasure was a fleeting one, and I am sure that I have never turned one inch out of my course to gain fame.",
+        "page 82"
+    ],
+    [
+        "But I had gradually come, by this time, to see that the Old Testament from its manifestly false history of the world, with the Tower of Babel, the rainbow as a sign, etc., etc., and from its attributing to God the feelings of a revengeful tyrant, was no more to be trusted than the sacred books of the Hindoos, or the beliefs of any barbarian.",
+        "page 85"
+    ],
+    [
+        "By further reflecting that the clearest evidence would be requisite to make any sane man believe in the miracles by which Christianity is supported,—that the more we know of the fixed laws of nature the more incredible do miracles become,—that the men at that time were ignorant and credulous to a degree almost incomprehensible by us,—that the Gospels cannot be proved to have been written simultaneously with the events,—that they differ in many important details, far too important as it seemed to me to be admitted as the usual inaccuracies of eye-witnesses;—by such reflections as these, which I give not as having the least novelty or value, but as they influenced me, I gradually came to disbelieve in Christianity as a divine revelation.",
+        "page 86"
+    ],
+    [
+        "But I was very unwilling to give up my belief;—I feel sure of this for I can well remember often and often inventing day-dreams of old letters between distinguished Romans and manuscripts being discovered at Pompeii or elsewhere which confirmed in the most striking manner all that was written in the Gospels. But I found it more and more difficult, with free scope given to my imagination, to invent evidence which would suffice to convince me. Thus disbelief crept over me at a very slow rate, but was at last complete. The rate was so slow that I felt no distress, and have never since doubted even for a single second that my conclusion was correct. I can indeed hardly see how anyone ought to wish Christianity to be true; for if so the plain language of the text seems to show that the men who do not believe, and this would include my Father, Brother and almost all my best friends, will be everlastingly punished.And this is a damnable doctrine.Although I did not think much about the existence of a personal God until a considerably later period of my life, I will here give the vague conclusions to which I have been driven. The old argument of design in nature, as given by Paley, which formerly seemed to me so conclusive, fails, now that the law of natural selection has been discovered. We can no longer argue that, for instance, the beautiful hinge of a bivalve shell must have been made by an intelligent being, like the hinge of a door by man. There seems to be no more design in the variability of organic beings and in the action of natural selection, than in the course which the wind blows. Everything in nature is the result of fixed laws. But I have discussed this subject at the end of my book on the Variation of Domesticated Animals and Plants, and the argument there given has never, as far as I can see, been answered.",
+        "pages 86-88"
+    ],
+    [
+        "That there is much suffering in the world no one disputes. Some have attempted to explain this in reference to man by imagining that it serves for his moral improvement. But the number of men in the world is as nothing compared with that of all other sentient beings, and these often suffer greatly without any moral improvement. A being so powerful and so full of knowledge as a God who could create the universe, is to our finite minds omnipotent and omniscient, and it revolts our understanding to suppose that his benevolence is not unbounded, for what advantage can there be in the sufferings of millions of the lower animals throughout almost endless time? This very old argument from the existence of suffering against the existence of an intelligent first cause seems to me a strong one; whereas, as just remarked, the presence of much suffering agrees well with the view that all organic beings have been developed through variation and natural selection.",
+        "page 90"
+    ],
+    [
+        "At the present day the most usual argument for the existence of an intelligent God is drawn from the deep inward conviction and feelings which are experienced by most persons. But it cannot be doubted that Hindoos, Mahomadans and others might argue in the same manner and with equal force in favour of the existence of one God, or of many Gods, or as with the Buddists of no God. There are also many barbarian tribes who cannot be said with any truth to believe in what we call God: they believe indeed in spirits or ghosts, and it can be explained, as Tyler and Herbert Spencer have shown, how such a belief would be likely to arise….This argument would be a valid one if all men of all races had the same inward conviction of the existence of one God; but we know that this is very far from being the case. Therefore I cannot see that such inward convictions and feelings are of any weight as evidence of what really exists.",
+        "page 90-91 (ellipsis represents a brief elision)"
+    ],
+    [
+        "I had, also, during many years followed a golden rule, namely, that whenever a published fact, a new observation or thought came across me, which was opposed to my general results, to make a memorandum of it without fail and at once; for I had found by experience that such facts and thoughts were far more apt to escape from the memory than favourable ones. Owing to this habit, very few objections were raised against my views which I had not at least noticed and attempted to answer.",
+        "page 123"
+    ],
+    [
+        "This leads me to remark that I have almost always been treated honestly by my reviewers, passing over those without scientific knowledge as not worthy of notice.",
+        "page 125"
+    ],
+    [
+        "I hope that I may die before my mind fails to a sensible extent.",
+        "page 136"
+    ],
+    [
+        "Music generally sets me thinking too energetically on what I have been at work on, instead of giving me pleasure. I retain some taste for fine scenery, but it does not cause me the exquisite delight which it formerly did. On the other hand, novels which are works of the imagination, though not of a very high order, have been for years a wonderful relief and pleasure to me, and I often bless all novelists. A surprising number have been read aloud to me, and I like all if moderately good, and if they do not end unhappily—against which a law ought to be passed. A novel, according to my taste, does not come into the first class unless it contains some person whom one can thoroughly love, and if it be a pretty woman all the better.",
+        "page 138-139"
+    ],
+    [
+        "Some of my critics have said, \"Oh, he is a good observer, but has no power of reasoning.\" I do not think that this can be true, for the Origin of Species is one long argument from the beginning to the end, and it has convinced not a few able men. No one could have written it without having some power of reasoning.",
+        "page 140"
+    ],
+    [
+        "As far as I can judge, I am not apt to follow blindly the lead of other men. I have steadily endeavoured to keep my mind free, so as to give up any hypothesis, however much beloved (and I cannot resist forming one on every subject), as soon as facts are shown to be opposed to it. Indeed I have had no choice but to act in this manner, for with the exception of the Coral Reefs, I cannot remember a single first-formed hypothesis which had not after a time to be given up or greatly modified. This has naturally led me to distrust greatly deductive reasoning in the mixed sciences.",
+        "page 141"
+    ],
+    [
+        "Though the theory is worthless without the well-observed facts, the facts are useless without the frame of the theory to receive them.",
+        "page 158"
+    ],
+    [
+        "Old scientific sign-posts were done away with, and Erasmus was one of the pioneers who installed a new one pointing to Evolution. Two generations later it was his grandson Charles's turn to express new ideas, built on new knowledge. It became his turn to correct old sign-posts, and his grandfather's was one of those he repainted. On the newer sign-post was again the word Evolution, but he added Natural Selection as a pointer how to get there. More significant than a direction to any final goal, was the clear guidance on how to read the map.",
+        "page 166"
+    ],
+    [
+        "Animals whom we have made our slaves we do not like to consider our equals. — Do not slave holders wish to make the black man other kind? — animals with affections, imitation, fear of death, pain, sorrow for the dead. — respect.",
+        "\"Notebook B\" (1837-1838) page 231\nquoted in Adrian Desmond & James Moore (2009). Darwin's Sacred Cause: How a Hatred of Slavery Shaped Darwin's Views on Human Evolution. New York: Houghton Mifflin Harcourt. p. 115. ISBN 9780547055268."
+    ],
+    [
+        "Man in his arrogance thinks himself a great work worthy the interposition of a deity. More humble, and I believe truer, to consider him created from animals.",
+        "\"Notebook C\" (1838), pp. 196–197; also quoted in Charles Darwin: a scientific biography (1958) by Sir Gavin De Beer, p. 208"
+    ],
+    [
+        "There is one living spirit prevalent over this world, (subject to certain contingencies of organic matter & chiefly heat), which assumes a multitude of forms each having acting principle according to subordinate laws. — There is one thinking sensible principle, intimately allied to one kind of organic matter—have & which thinking principle seems to be given a assumed according to a more extended relations of the individuals, whereby choice with memory or reason? is necessary—which is modified into endless forms bearing a close relation in degree & kind to the endless forms of the living beings.",
+        "\"Notebook C\" (1838) page 210e\nquoted in Gruber, Howard E.; Bödeker, Katja (2005). Creativity, Psychology and the History of Science. Springer. p. 142. ISBN 9781402034916. \nalso quoted in Richards, Robert J. (2003). \"Darwin on mind, morals, and emotions\". in Hodge, Johnathan; Radick, Gregory. The Cambridge Companion to Darwin. Cambridge University Press. pp. 95-96. ISBN 9780521777308."
+    ],
+    [
+        "What a book a Devil’s chaplain might write on the clumsy, wasteful, blundering, low, and horridly cruel works of nature!",
+        "Letter to  J.D. Hooker, 13 July 1856"
+    ],
+    [
+        "Alas! A scientific man ought to have no wishes, no affections — a mere heart of stone.",
+        "Letter to T.H. Huxley, 9 July 1857, More Letters of Charles Darwin, Francis Darwin and A.C. Seward, editors (1903) volume I, chapter  II: \"Evolution, 1844-1858\", page 98"
+    ],
+    [
+        "I cannot persuade myself that a beneficent & omnipotent God would have designedly created the Ichneumonidæ with the express intention of their feeding within the living bodies of caterpillars, or that a cat should play with mice.",
+        "Letter to Asa Gray, 22 May 1860"
+    ],
+    [
+        "Physiological experiment on animals is justifiable for real investigation; but not for mere damnable and detestable curiosity.",
+        "letter to E. Ray Lankester, quoted in his essay \"Charles Robert Darwin\" in C.D. Warner, editor, Library of the World's Best Literature: Ancient and Modern (R.S. Peale & J.A. Hill, New York, 1896) volume 2, pages 4835-4393, at page 4391"
+    ],
+    [
+        "I would suggest to you the advantage, at present, of being very sparing in introducing theory in your papers (I formerly erred much in Geology in that way): let theory guide your observations, but till your reputation is well established be sparing in publishing theory. It makes persons doubt your observations. How rarely R. Brown ever indulged in theory: too seldom perhaps! Do not work too hard, and do not be discouraged because your work is not appreciated by the majority.",
+        "Letter to John Scott, quoted in More Letters of Charles Darwin: A Record of His Work in a Series of Hitherto Unpublished Letters, volume 2, page 323 (1903)"
+    ],
+    [
+        "Owen says my book will be forgotten in 10 years; perhaps so, but, with such a list [of prestigious scientific supporters], I feel convinced that the subject will not.",
+        "Letter to J.D. Hooker, 3 March 1860"
+    ],
+    [
+        "The sight of a feather in a peacock’s tail, whenever I gaze at it, makes me sick!",
+        "Letter to Asa Gray, 3 April 1860"
+    ],
+    [
+        "I think it can be shown that there is such an unerring power at work in Natural Selection (the title of my book), which selects exclusively for the good of each organic being.",
+        "Darwin's first published expression of the concept of natural selection.\n\"On the Tendency of Species to form Varieties; and on the Perpetuation of Varieties and Species by Natural Means of Selection\" Journal of the Proceedings of the Linnean Society of London: Zoology (read 1 July 1853; published 20 August 1858) volume 3, pages 45-62, at page 51"
+    ],
+    [
+        "About thirty years ago there was much talk that geologists ought only to observe and not theorise; and I well remember some one saying that at this rate a man might as well go into a gravel-pit and count the pebbles and describe the colours. How odd it is that anyone should not see that all observation must be for or against some view if it is to be of any service!",
+        "Letter to Henry Fawcett (Sept. 18, 1861) in Life of Henry Fawcett (1885) pp. 100-101, and in More Letters of Charles Darwin: a Record of his Work in a Series of hitherto Unpublished Letters (1903) Vol. 1, p. 195, ed., Sir Francis Darwin, Albert Charles Seward."
+    ],
+    [
+        "It seems to me absurd to doubt that a man may be an ardent Theist & an evolutionist. … I have never been an atheist in the sense of denying the existence of a God.",
+        "Letter to John Fordyce, 7 May 1879"
+    ],
+    [
+        "A cell is a complex structure, with its investing membrane, nucleus, and nucleolus.",
+        "\"Pangenesis -- Mr. Darwin's Reply to Professor Delpino\" Scientific Opinion (20 October 1869) page 426\n(Detractors sometimes claim Darwin thought that the cell was an undifferentiated mass of protoplasm.  This quote proves otherwise.)"
+    ],
+    [
+        "After a time the minute colourless particles which are imbedded in the flowing protoplasm are drawn towards and unite with the aggregated masses; so that the protoplasm on the walls being now rendered quite transparent is no longer visible, though some is still present, and still flows, as may be inferred from the occasional transport of particles in the cell-sap.",
+        "\"The action of carbonate of ammonia on chlorophyll-bodies\" Journal of the Linnean Society of London (Botany) (read 6 March 1882) volume 19, pages 262-284, at page 262\n(Detractors sometimes claim Darwin thought that the cell was an undifferentiated mass of protoplasm.  Anyone reading this paper will realize that Darwin thought no such thing.)"
     ]
-  ]
+]
 }

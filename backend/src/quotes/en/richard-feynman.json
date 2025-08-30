@@ -1,0 +1,741 @@
+{
+    "bio": "Richard Phillips Feynman (May 11, 1918 – February 15, 1988) was an American theoretical physicist. He is known for the work he did in the path integral formulation of quantum mechanics, the theory of quantum electrodynamics, the physics of the superfluidity of supercooled liquid helium, and in particle physics, for which he proposed the parton model. For his contributions to the development of quantum electrodynamics, Feynman received the Nobel Prize in Physics in 1965 jointly with Julian Schwinger and Shin'ichirō Tomonaga. Feynman developed a widely used pictorial representation scheme for the mathematical expressions describing the behavior of subatomic particles, which later became known as Feynman diagrams. During his lifetime, Feynman became one of the best-known scientists in the world.",
+    "quotes": [
+    [
+        "We scientists are clever — too clever — are you not satisfied? Is four square miles in one bomb not enough? Men are still thinking. Just tell us how big you want it!",
+        "note (c. 1945), quoted in Genius: The Life and Science of Richard Feynman (1992) by James Gleick, p. 204"
+    ],
+    [
+        "I had too much stuff. My machines came from too far away.",
+        "Reflecting on the failure of his presentation at the \"Pocono Conference\" of 30 March - 1 April 1948.\ninterview with Sylvan S. Schweber, 13 November 1984, published in QED and the Men Who Made It: Dyson, Feynman, Schwinger, and Tomonaga (1994) by Silvan S. Schweber, p. 436"
+    ],
+    [
+        "The theoretical broadening which comes from having many humanities subjects on the campus is offset by the general dopiness of the people who study these things.",
+        "letter to Robert Bacher (6 April 1950), quoted in Genius: The Life and Science of Richard Feynman (1992) by James Gleick, p. 278"
+    ],
+    [
+        "In this age of specialization men who thoroughly know one field are often incompetent to discuss another. The great problems of the relations between one and another aspect of human activity have for this reason been discussed less and less in public. When we look at the past great debates on these subjects we feel jealous of those times, for we should have liked the excitement of such argument. The old problems, such as the relation of science and religion, are still with us, and I believe present as difficult dilemmas as ever, but they are not often publicly discussed because of the limitations of specialization.",
+        "remarks (2 May 1956) at a Caltech YMCA lunch forum"
+    ],
+    [
+        "Western civilization, it seems to me, stands by two great heritages. One is the scientific spirit of adventure — the adventure into the unknown, an unknown which must be recognized as being unknown in order to be explored; the demand that the unanswerable mysteries of the universe remain unanswered; the attitude that all is uncertain; to summarize it — the humility of the intellect. The other great heritage is Christian ethics — the basis of action on love, the brotherhood of all men, the value of the individual — the humility of the spirit. These two heritages are logically, thoroughly consistent. But logic is not all; one needs one's heart to follow an idea. If people are going back to religion, what are they going back to? Is the modern church a place to give comfort to a man who doubts God — more, one who disbelieves in God? Is the modern church a place to give comfort and encouragement to the value of such doubts? So far, have we not drawn strength and comfort to maintain the one or the other of these consistent heritages in a way which attacks the values of the other? Is this unavoidable? How can we draw inspiration to support these two pillars of western civilization so that they may stand together in full vigor, mutually unafraid? Is this not the central problem of our time?",
+        "remarks (2 May 1956) at a Caltech YMCA lunch forum"
+    ],
+    [
+        "It doesn't seem to me that this fantastically marvelous universe, this tremendous range of time and space and different kinds of animals, and all the different planets, and all these atoms with all their motions, and so on, all this complicated thing can merely be a stage so that God can watch human beings struggle for good and evil — which is the view that religion has. The stage is too big for the drama.",
+        "statement (1959), quoted in Genius: The Life and Science of Richard Feynman (1992) by James Gleick, p. 372"
+    ],
+    [
+        "The real problem in speech is not precise language. The problem is clear language. The desire is to have the idea clearly communicated to the other person. It is only necessary to be precise when there is some doubt as to the meaning of a phrase, and then the precision should be put in the place where the doubt exists. It is really quite impossible to say anything with absolute precision, unless that thing is so abstracted from the real world as to not represent any real thing.Pure mathematics is just such an abstraction from the real world, and pure mathematics does have a special precise language for dealing with its own special and technical subjects. But this precise language is not precise in any sense if you deal with real objects of the world, and it is only pedantic and quite confusing to use it unless there are some special subtleties which have to be carefully distinguished.",
+        "\"New Textbooks for the \"New\" Mathematics\", Engineering and Science volume 28, number 6 (March 1965) p. 9-15 at p. 14\nParaphrased as \"Precise language is not the problem. Clear language is the problem.\""
+    ],
+    [
+        "This is all very confusing, especially when we consider that even though we may consistently consider ourselves to be the outside observer when we look at the rest of the world, the rest of the world is at the same time observing us, and that often we agree on what we see in each other. Does this then mean that my observations become real only when I observe an observer observing something as it happens? This is a horrible viewpoint. Do you seriously entertain the idea that without the observer there is no reality? Which observer? Any observer? Is a fly an observer? Is a star an observer? Was there no reality in the universe before 109 B.C. when life began? Or are you the observer? Then there is no reality to the world after you are dead? I know a number of otherwise respectable physicists who have bought life insurance.",
+        "\"On the Philosophical Problems in Quantizing Macroscopic Objects\"(ca. 1962-1963) as quoted by Morinigo, Wagner, & Hatfield, Feynman Lectures on Gravitation (2002)"
+    ],
+    [
+        "Hell, if I could explain it to the average person, it wouldn't have been worth the Nobel prize.",
+        "statement (c. 1965), quoted in \"An irreverent best-seller by Nobel laureate Richard Feynman gives nerds a good name\", People Magazine (22 July 1985)"
+    ],
+    [
+        "We have a habit in writing articles published in scientific journals to make the work as finished as possible, to cover all the tracks, to not worry about the blind alleys or to describe how you had the wrong idea first, and so on. So there isn't any place to publish, in a dignified manner, what you actually did in order to get to do the work.",
+        "\"The Development of the Space-Time View of Quantum Electrodynamics,\" Nobel Lecture (11 December 1965)"
+    ],
+    [
+        "A very great deal more truth can become known than can be proven.",
+        "\"The Development of the Space-Time View of Quantum Electrodynamics,\" Nobel Lecture (11 December 1965)"
+    ],
+    [
+        "The chance is high that the truth lies in the fashionable direction. But, on the off-chance that it is in another direction — a direction obvious from an unfashionable view of field theory — who will find it? Only someone who has sacrificed himself by teaching himself quantum electrodynamics from a peculiar and unfashionable point of view; one that he may have to invent for himself.",
+        "\"The Development of the Space-Time View of Quantum Electrodynamics,\" Nobel Lecture (11 December 1965)"
+    ],
+    [
+        "Science is the belief in the ignorance of experts.",
+        "address \"What is Science?\", presented at the fifteenth annual meeting of the National Science Teachers Association, in New York City (1966), published in The Physics Teacher, volume 7, issue 6 (1969), p. 313-320"
+    ],
+    [
+        "I, therefore, did learn a lesson: The female mind is capable of understanding analytic geometry. Those people who have for years been insisting (in the face of all obvious evidence to the contrary) that the male and female are equally capable of rational thought may have something. The difficulty may just be that we have never yet discovered a way to communicate with the female mind. If it is done in the right way, you may be able to get something out of it.",
+        "address \"What is Science?\", presented at the fifteenth annual meeting of the National Science Teachers Association, in New York City (1966), published in The Physics Teacher, volume 7, issue 6 (1969), p. 313-320"
+    ],
+    [
+        "Energy is a very subtle concept. It is very, very difficult to get right.",
+        "address \"What is Science?\", presented at the fifteenth annual meeting of the National Science Teachers Association, in New York City (1966), published in The Physics Teacher, volume 7, issue 6 (1969), p. 313-320"
+    ],
+    [
+        "Science alone of all the subjects contains within itself the lesson of the danger of belief in the infallibility of the greatest teachers of the preceding generation.",
+        "address \"What is Science?\", presented at the fifteenth annual meeting of the National Science Teachers Association, in New York City (1966), published in The Physics Teacher, volume 7, issue 6 (1969), p. 313-320"
+    ],
+    [
+        "There is one feature I notice that is generally missing in cargo cult science. … It's a kind of scientific integrity, a principle of scientific thought that corresponds to a kind of utter honesty — a kind of leaning over backwards. For example, if you're doing an experiment, you should report everything that you think might make it invalid — not only what you think is right about it; other causes that could possibly explain your results; and things you thought of that you've eliminated by some other experiment, and how they worked—to make sure the other fellow can tell they have been eliminated. Details that could throw doubt on your interpretation must be given, if you know them. You must do the best you can — if you know anything at all wrong, or possibly wrong — to explain it. If you make a theory, for example, and advertise it, or put it out, then you must also put down all the facts that disagree with it, as well as those that agree with it. There is also a more subtle problem. When you have put a lot of ideas together to make an elaborate theory, you want to make sure, when explaining what it fits, that those things it fits are not just the things that gave you the idea for the theory; but that the finished theory makes something else come out right, in addition. In summary, the idea is to try to give all of the information to help others to judge the value of your contribution; not just the information that leads to judgement in one particular direction or another.",
+        "\"Cargo Cult Science\", adapted from a 1974 Caltech commencement address; also published in Surely You're Joking, Mr. Feynman!, p. 341"
+    ],
+    [
+        "We've learned from experience that the truth will out. Other experimenters will repeat your experiment and find out whether you were wrong or right. Nature's phenomena will agree or they'll disagree with your theory. And, although you may gain some temporary fame and excitement, you will not gain a good reputation as a scientist if you haven't tried to be very careful in this kind of work. And it's this type of integrity, this kind of care not to fool yourself, that is missing to a large extent in much of the research in cargo cult science.",
+        "\"Cargo Cult Science\", adapted from a 1974 Caltech commencement address; also published in Surely You're Joking, Mr. Feynman!, p. 342"
+    ],
+    [
+        "The first principle is that you must not fool yourself — and you are the easiest person to fool.",
+        "\"Cargo Cult Science\", adapted from a 1974 Caltech commencement address; also published in Surely You're Joking, Mr. Feynman!, p. 343"
+    ],
+    [
+        "All experiments in psychology are not of this [cargo cult] type, however. For example there have been many experiments running rats through all kinds of mazes, and so on — with little clear result. But in 1937 a man named Young did a very interesting one. He had a long corridor with doors all along one side where the rats came in, and doors along the other side where the food was. He wanted to see if he could train rats to go to the third door down from wherever he started them off. No. The rats went immediately to the door where the food had been the time before.The question was, how did the rats know, because the corridor was so beautifully built and so uniform, that this was the same door as before? Obviously there was something about the door that was different from the other doors. So he painted the doors very carefully, arranging the textures on the faces of the doors exactly the same. Still the rats could tell. Then he thought maybe they were smelling the food, so he used chemicals to change the smell after each run. Still the rats could tell. Then he realized the rats might be able to tell by seeing the lights and the arrangement in the laboratory like any commonsense person. So he covered the corridor, and still the rats could tell.He finally found that they could tell by the way the floor sounded when they ran over it. And he could only fix that by putting his corridor in sand. So he covered one after another of all possible clues and finally was able to fool the rats so that they had to learn to go to the third door. If he relaxed any of his conditions, the rats could tell.Now, from a scientific standpoint, that is an A-number-one experiment. That is the experiment that makes rat-running experiments sensible, because it uncovers the clues that the rat is really using — not what you think it's using. And that is the experiment that tells exactly what conditions you have to use in order to be careful and control everything in an experiment with rat-running.I looked into the subsequent history of this research. The next experiment, and the one after that, never referred to Mr. Young. They never used any of his criteria of putting the corridor on sand, or of being very careful. They just went right on running rats in the same old way, and paid no attention to the great discoveries of Mr. Young, and his papers are not referred to, because he didn't discover anything about rats. In fact, he discovered all the things you have to do to discover something about rats. But not paying attention to experiments like that is a characteristic of cargo cult science.",
+        "\"Cargo Cult Science\", adapted from a 1974 Caltech commencement address; also published in Surely You're Joking, Mr. Feynman!, p. 345"
+    ],
+    [
+        "And then there's a kind of saying that you don't understand it, meaning \"I don't believe it. It's too crazy. It's the kind of thing, I'm just... I'm not going to accept it.\"... This kind, I hope you'll come along with me, and you'll have to accept it, because it's the way nature works. If you want to know the way nature works... We looked at it, carefully... That's the way it looks! You don't like it? Go somewhere else... to another universe where the rules are simpler, philosophically more pleasing, more psychologically easy. I can't help it! OK? If I'm going to tell you honestly what the world looks like to... human beings who have struggled as hard as they can to understand it, I can only tell you what it looks like, and I cannot make it innocent. ...I'm not going to simplify it, eh? I'm not going to fake it. I'm not going to... tell you it's something like a ball bearing on a spring. It isn't.",
+        "Lecture 1. \"Photons: Corpuscles of Light\" (1979) Sir Douglas Robb Memorial Lectures, University of Auckland."
+    ],
+    [
+        "All right. I already see you turning off. I can see you say you don't understand me. You can't understand that it could be chance. \"I don't like it!\" Tough! I don't like it either, but that's the way it is! OK? I don't understand it either. ...\"It must be that Nature knows that it's going to go up or down.\" No, it must not be that nature knows! We are not to tell Nature what she's gotta be! That's what we found out. Every time we take a guess as how she's got to be, and go and measure... She's clever. She's always got better imagination than we have, and she finds a cleverer way to do it than we have thought of. And in this particular case, the clever way to do it is by probability, by odds. ...Light works by probability.",
+        "Lecture 1. \"Photons: Corpuscles of Light\" (1979) Sir Douglas Robb Memorial Lectures, University of Auckland."
+    ],
+    [
+        "The question of whether or not, when you see something, you see only the light or you see the thing you're looking at, is one of those dopey philosophical things that an ordinary person has no difficulty with. Even the most profound philosopher, when sitting, eating his dinner, hasn't any difficulty in making out that what he looks at perhaps might be only the light from the steak, but it still implies the existence of the steak, which he is able to lift by the fork to his mouth. The philosophers that were unable to make that analysis and that idea, have fallen by the wayside through hunger!",
+        "Lecture 1. \"Photons: Corpuscles of Light\" (1979) Sir Douglas Robb Memorial Lectures, University of Auckland."
+    ],
+    [
+        "Tell your son to stop trying to fill your head with science — for to fill your heart with love is enough!",
+        "Note to the mother of Marcus Chown, who had admired the profile of Feynman presented in the BBC TV Horizon program \"The Pleasure of Finding Things Out\" (1981). Written after Chown asked Feynman to write her a birthday note, hoping it would increase her interest in science.\nPhoto of note published in No Ordinary Genius: The Illustrated Richard Feynman (1996), by Christopher Sykes, p. 161.\nIn a \"Quantum theory via 40-tonne trucks\", The Independent (17 January 2010), and in a audio interview on BBC 4 (September 2010), Chown recalled the note as: \"Ignore your son's attempts to teach you physics. Physics is not the most important thing, love is.\""
+    ],
+    [
+        "We always have had ... a great deal of difficulty in understanding the world view that quantum mechanics represents. At least I do, because I'm an old enough man that I haven't got to the point that this stuff is obvious to me. Okay, I still get nervous with it. And therefore, some of the younger students ... you know how it always is, every new idea, it takes a generation or two until it becomes obvious that there's no real problem. It has not yet become obvious to me that there's no real problem. I cannot define the real problem, therefore I suspect there's no real problem, but I'm not sure there's no real problem.",
+        "\"Simulating Physics with Computers\", International Journal of Theoretical Physics, volume 21, 1982, p. 467-488, at p. 471"
+    ],
+    [
+        "Nature isn't classical, dammit, and if you want to make a simulation of nature, you'd better make it quantum mechanical, and by golly it's a wonderful problem, because it doesn't look so easy.",
+        "\"Simulating Physics with Computers\", International Journal of Theoretical Physics, volume 21, 1982, p. 467-488, at p. 486 (final words)"
+    ],
+    [
+        "One of the miseries of life is that everybody names things a little bit wrong, and so it makes a little bit harder to understand things than it would have been if they had been named differently.",
+        "\"Richard Feynman's Computer Heuristics Lecture\" (1985)"
+    ],
+    [
+        "I took this stuff I got out of your [O-ring] seal and I put it in ice water, and I discovered that when you put some pressure on it for a while and then undo it it doesn't stretch back. It stays the same dimension. In other words, for a few seconds at least, and more seconds than that, there is no resilience in this particular material when it is at a temperature of 32 degrees. I believe that has some significance for our problem.",
+        "statement at hearing by Rogers Commission, 11 February 1986, Report of the PRESIDENTIAL COMMISSION on the Space Shuttle Challenger Accident, volume 4, p. 680; also quoted in Genius: The Life and Science of Richard Feynman (1992) by James Gleick, p. 423"
+    ],
+    [
+        "The Quantum Universe has a quotation from me in every chapter — but it's a damn good book anyway.",
+        "Review blurb for the first edition of The Quantum Universe (1987)"
+    ],
+    [
+        "There are 1011 stars in the galaxy. That used to be a huge number. But it's only a hundred billion. It's less than the national deficit! We used to call them astronomical numbers. Now we should call them economical numbers.",
+        "from a 1987 class, as quoted in David L. Goodstein, \"Richard P. Feynman, Teacher,\" Physics Today, volume 42, number 2 (February 1989) p. 70-75, at p. 73\nRepublished in the \"Special Preface\" to Six Easy Pieces (1995), p. xx."
+    ],
+    [
+        "I do feel strongly that this is nonsense! ... So perhaps I could entertain future historians by saying I think all this superstring stuff is crazy and is in the wrong direction. I think all this superstring stuff is crazy and is in the wrong direction. ... I don't like it that they're not calculating anything. ... why are the masses of the various particles such as quarks what they are? All these numbers ... have no explanations in these string theories – absolutely none! ... I don't like that they don't check their ideas. I don't like that for anything that disagrees with an experiment, they cook up an explanation—a fix-up to say, “Well, it might be true.” For example, the theory requires ten dimensions. Well, maybe there's a way of wrapping up six of the dimensions. Yes, that's all possible mathematically, but why not seven? When they write their equation, the equation should decide how many of these things get wrapped up, not the desire to agree with experiment. In other words, there's no reason whatsoever in superstring theory that it isn't eight out of the ten dimensions that get wrapped up and that the result is only two dimensions, which would be completely in disagreement with experience. So the fact that it might disagree with experience is very tenuous, it doesn't produce anything.",
+        "interview published in Superstrings: A Theory of Everything? (1988) edited by Paul C. W. Davies and Julian R. Brown, p. 193-194  ISBN 0521354625"
+    ],
+    [
+        "God was always invented to explain mystery. God is always invented to explain those things that you do not understand. Now, when you finally discover how something works, you get some laws which you're taking away from God; you don't need him anymore. But you need him for the other mysteries. So therefore you leave him to create the universe because we haven't figured that out yet; you need him for understanding those things which you don't believe the laws will explain, such as consciousness, or why you only live to a certain length of time — life and death — stuff like that. God is always associated with those things that you do not understand. Therefore I don't think that the laws can be considered to be like God because they have been figured out.",
+        "interview published in Superstrings: A Theory of Everything? (1988) edited by Paul C. W. Davies and Julian R. Brown, p. 208-209  ISBN 0521354625"
+    ],
+    [
+        "I'd hate to die twice. It's so boring.",
+        "last words (15 February 1988), according to James Gleick, in Genius: The Life and Science of Richard Feynman (1992), p. 438"
+    ],
+    [
+        "This dying is boring.",
+        "last words (15 February 1988), recalled by sister Joan Feynman, in Christopher Sykes, editor, No Ordinary Genius: The Illustrated Richard Feynman (1994), p. 254"
+    ],
+    [
+        "What I cannot create, I do not understand. ...Know how to solve every problem that has been solved.",
+        "on his blackboard at the time of death in February 1988. Ref: California Institute of Technology Archives and Special Collections. Accessed May 21, 2023."
+    ],
+    [
+        "You know, the most amazing thing happened to me tonight. I was coming here, on the way to the lecture, and I came in through the parking lot. And you won't believe what happened. I saw a car with the license plate ARW 357. Can you imagine? Of all the millions of license plates in the state, what was the chance that I would see that particular one tonight? Amazing!",
+        "from a public lecture; as quoted in David L. Goodstein, \"Richard P. Feynman, Teacher,\" Physics Today, volume 42, number 2 (February 1989) p. 73\nRepublished in the \"Special Preface\" to Six Easy Pieces (1995), p. xxi.\nRepublished also in the \"Special Preface\" to the \"definitive edition\" of The Feynman Lectures on Physics, volume I, p. xiv."
+    ],
+    [
+        "[I call myself] an atheist. Agnostic for me would be trying to weasel out and sound a little nicer than I am about this.",
+        "Response when asked whether he called himself an atheist or an agnostic. The Voice of Genius: Conversations with Nobel Scientists and Other Luminaries by Denis Brian (1995), Basic Books, p. 49."
+    ],
+    [
+        "Einstein was a giant. His head was in the clouds, but his feet were on the ground. But those of us who are not that tall have to choose!",
+        "recalled by Carver Mead in Collective Electrodynamics: Quantum Foundations of Electromagnetism (2002), p. xix"
+    ],
+    [
+        "One of the first interesting experiences I had in this project at Princeton was meeting great men. I had never met very many great men before. But there was an evaluation committee that had to try to help us along, and help us ultimately decide which way we were going to separate the uranium. This committee had men like Compton and Tolman and Smyth and Urey and Rabi and Oppenheimer on it. I would sit in because I understood the theory of how our process of separating isotopes worked, and so they'd ask me questions and talk about it. In these discussions one man would make a point. Then Compton, for example, would explain a different point of view. He would say it should be this way, and he was perfectly right. Another guy would say, well, maybe, but there's this other possibility we have to consider against it.So everybody is disagreeing, all around the table. I am surprised and disturbed that Compton doesn't repeat and emphasize his point. Finally at the end, Tolman, who's the chairman, would say, \"Well, having heard all these arguments, I guess it's true that Compton's argument is the best of all, and now we have to go ahead.\"It was such a shock to me to see that a committee of men could present a whole lot of ideas, each one thinking of a new facet, while remembering what the other fella said, so that, at the end, the decision is made as to which idea was the best -- summing it all up -- without having to say it three times. These were very great men indeed.",
+        "from the First Annual Santa Barbara Lectures on Science and Society, University of California at Santa Barbara (1975)"
+    ],
+    [
+        "Physics is to mathematics what sex is to masturbation.",
+        "quoted in Lawrence M. Krauss, Fear of Physics: A Guide for the Perplexed (1993), p. 27"
+    ],
+    [
+        "When you're thinking about something that you don't understand, you have a terrible, uncomfortable feeling called confusion. It's a very difficult and unhappy business. And so most of the time you're rather unhappy, actually, with this confusion. You can't penetrate this thing. Now, is the confusion's because we're all some kind of apes that are kind of stupid working against this, trying to figure out [how] to put the two sticks together to reach the banana and we can't quite make it, the idea? And I get this feeling all the time that I'm an ape trying to put two sticks together, so I always feel stupid. Once in a while, though, the sticks go together on me and I reach the banana.",
+        "Video interview dated 1963"
+    ],
+    [
+        "I believe that a scientist looking at nonscientific problems is just as dumb as the next guy — and when he talks about a nonscientific matter, he will sound as naive as anyone untrained in the matter.",
+        ""
+    ],
+    [
+        "Of course if we make good things, it is not only to the credit of science; it is also to the credit of the moral choice which led us to good work. Scientific knowledge is an enabling power to do either good or bad — but it does not carry instructions on how to use it. Such power has evident value — even though the power may be negated by what one does with it.I learned a way of expressing this common human problem on a trip to Honolulu. In a Buddhist temple there, the man in charge explained a little bit about the Buddhist religion for tourists, and then ended his talk by telling them he had something to say to them that they would never forget — and I have never forgotten it. It was a proverb of the Buddhist religion:To every man is given the key to the gates of heaven; the same key opens the gates of hell.What then, is the value of the key to heaven? It is true that if we lack clear instructions that enable us to determine which is the gate to heaven and which the gate to hell, the key may be a dangerous object to use.But the key obviously has value: how can we enter heaven without it?",
+        ""
+    ],
+    [
+        "The imagination of nature is far, far greater than the imagination of man.",
+        ""
+    ],
+    [
+        "I stand at the seashore, alone, and start to think.There are the rushing wavesmountains of moleculeseach stupidly minding its own businesstrillions apartyet forming white surf in unison.Ages on agesbefore any eyes could seeyear after yearthunderously pounding the shore as now.For whom, for what?On a dead planetwith no life to entertain.Never at resttortured by energywasted prodigiously by the sunpoured into space.A mite makes the sea roar. Deep in the seaall molecules repeatthe patterns of one anothertill complex new ones are formed.They make others like themselvesand a new dance starts.Growing in size and complexityliving thingsmasses of atomsDNA, proteindancing a pattern ever more intricate.Out of the cradleonto dry landhere it isstanding:atoms with consciousness;matter with curiosity.Stands at the sea,wonders at wondering: Ia universe of atomsan atom in the universe.",
+        ""
+    ],
+    [
+        "Is no one inspired by our present picture of the universe? This value of science remains unsung by singers, you are reduced to hearing not a song or poem, but an evening lecture about it. This is not yet a scientific age.",
+        ""
+    ],
+    [
+        "The scientist has a lot of experience with ignorance and doubt and uncertainty, and this experience is of very great importance, I think. When a scientist doesn't know the answer to a problem, he is ignorant. When he has a hunch as to what the result is, he is uncertain. And when he is pretty darn sure of what the result is going to be, he is still in some doubt. We have found it of paramount importance that in order to progress we must recognize our ignorance and leave room for doubt. Scientific knowledge is a body of statements of varying degrees of certainty — some most unsure, some nearly sure, but none absolutely certain. Now, we scientists are used to this, and we take it for granted that it is perfectly consistent to be unsure, that it is possible to live and not know. But I don't know whether everyone realizes this is true. Our freedom to doubt was born out of a struggle against authority in the early days of science. It was a very deep and strong struggle: permit us to question — to doubt — to not be sure. I think that it is important that we do not forget this struggle and thus perhaps lose what we have gained.",
+        ""
+    ],
+    [
+        "If we take everything into account — not only what the ancients knew, but all of what we know today that they didn't know — then I think that we must frankly admit that we do not know.",
+        ""
+    ],
+    [
+        "We are at the very beginning of time for the human race. It is not unreasonable that we grapple with problems. But there are tens of thousands of years in the future. Our responsibility is to do what we can, learn what we can, improve the solutions, and pass them on....It is our responsibility to leave the people of the future a free hand. In the impetuous youth of humanity, we can make grave errors that can stunt our growth for a long time. This we will do if we say we have the answers now, so young and ignorant as we are. If we suppress all discussion, all criticism, proclaiming \"This is the answer, my friends; man is saved!\" we will doom humanity for a long time to the chains of authority, confined to the limits of our present imagination. It has been done so many times before. ...It is our responsibility as scientists, knowing the great progress which comes from a satisfactory philosophy of ignorance, the great progress which is the fruit of freedom of thought, to proclaim the value of this freedom; to teach how doubt is not to be feared but welcomed and discussed; and to demand this freedom as our duty to all coming generations.",
+        ""
+    ],
+    [
+        "Each piece, or part, of the whole of nature is always merely an approximation to the complete truth, or the complete truth so far as we know it. In fact, everything we know is only some kind of approximation, because we know that we do not know all the laws as yet. Therefore, things must be learned only to be unlearned again or, more likely, to be corrected. ... The test of all knowledge is experiment. Experiment is the sole judge of scientific “truth”.",
+        "volume I; lecture 1, \"Atoms in Motion\"; section 1-1, \"Introduction\"; p. 1-1"
+    ],
+    [
+        "If, in some cataclysm, all of scientific knowledge were to be destroyed, and only one sentence passed on to the next generation of creatures, what statement would contain the most information in the fewest words? I believe it is the atomic hypothesis (or the atomic fact, or whatever you wish to call it) that all things are made of atoms — little particles that move around in perpetual motion, attracting each other when they are a little distance apart, but repelling upon being squeezed into one another. In that one sentence, you will see, there is an enormous amount of information about the world, if just a little imagination and thinking are applied.",
+        "volume I; lecture 1, \"Atoms in Motion\"; section 1-2, \"Matter is made of atoms\"; p. 1-2"
+    ],
+    [
+        "If an apple is magnified to the size of the earth, then the atoms in the apple are approximately the size of the original apple.",
+        "volume I; lecture 1, \"Atoms in Motion\"; section 1-2, \"Matter is made of atoms\"; p. 1-3"
+    ],
+    [
+        "What do we mean by “understanding” something? We can imagine that this complicated array of moving things which constitutes “the world” is something like a great chess game being played by the gods, and we are observers of the game. We do not know what the rules of the game are; all we are allowed to do is to watch the playing. Of course, if we watch long enough, we may eventually catch on to a few of the rules. The rules of the game are what we mean by fundamental physics. Even if we knew every rule, however, we might not be able to understand why a particular move is made in the game, merely because it is too complicated and our minds are limited. If you play chess you must know that it is easy to learn all the rules, and yet it is often very hard to select the best move or to understand why a player moves as he does. So it is in nature, only much more so.",
+        "volume I; lecture 2, \"Basic Physics\"; section 2-1, \"Introduction\"; p. 2-1"
+    ],
+    [
+        "Poets say science takes away from the beauty of the stars — mere globs of gas atoms. Nothing is \"mere\". I too can see the stars on a desert night, and feel them. But do I see less or more? The vastness of the heavens stretches my imagination — stuck on this carousel my little eye can catch one-million-year-old light. A vast pattern — of which I am a part... What is the pattern, or the meaning, or the why? It does not do harm to the mystery to know a little about it. For far more marvelous is the truth than any artists of the past imagined! Why do the poets of the present not speak of it? What men are poets who can speak of Jupiter if he were a man, but if he is an immense spinning sphere of methane and ammonia must be silent?",
+        "volume I; lecture 3, \"The Relation of Physics to Other Sciences\"; section 3-4, \"Astronomy\"; p. 3-6"
+    ],
+    [
+        "Incidentally, psychoanalysis is not a science: it is at best a medical process, and perhaps even more like witch-doctoring. It has a theory as to what causes disease—lots of different “spirits,” etc. The witch doctor has a theory that a disease like malaria is caused by a spirit which comes into the air; it is not cured by shaking a snake over it, but quinine does help malaria. So, if you are sick, I would advise that you go to the witch doctor because he is the man in the tribe who knows the most about the disease; on the other hand, his knowledge is not science. Psychoanalysis has not been checked carefully by experiment.",
+        "volume I; lecture 3, \"The Relation of Physics to Other Sciences\"; section 3-6, \"Psychology\"; p. 3-8"
+    ],
+    [
+        "A poet once said, \"The whole universe is in a glass of wine.\" We will probably never know in what sense he meant that, for poets do not write to be understood. But it is true that if we look at a glass of wine closely enough we see the entire universe. There are the things of physics: the twisting liquid which evaporates depending on the wind and weather, the reflections in the glass, and our imagination adds the atoms. The glass is a distillation of the Earth's rocks, and in its composition we see the secrets of the universe's age, and the evolution of stars. What strange arrays of chemicals are in the wine? How did they come to be? There are the ferments, the enzymes, the substrates, and the products. There in wine is found the great generalization: all life is fermentation. Nobody can discover the chemistry of wine without discovering, as did Louis Pasteur, the cause of much disease. How vivid is the claret, pressing its existence into the consciousness that watches it! If our small minds, for some convenience, divide this glass of wine, this universe, into parts — physics, biology, geology, astronomy, psychology, and so on — remember that nature does not know it! So let us put it all back together, not forgetting ultimately what it is for. Let it give us one more final pleasure: drink it and forget it all!",
+        "volume I; lecture 3, \"The Relation of Physics to Other Sciences\"; section 3-7, \"How did it get that way?\"; p. 3-10"
+    ],
+    [
+        "It is important to realize that in physics today, we have no knowledge what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way.",
+        "volume I; lecture 4, \"Conservation of Energy\"; section 4-1, \"What is energy?\"; p. 4-2"
+    ],
+    [
+        "We cannot define anything precisely. If we attempt to, we get into that paralysis of thought that comes to philosophers, who sit opposite each other, one saying to the other, \"You don't know what you are talking about!\". The second one says, \"What do you mean by know? What do you mean by talking? What do you mean by you?\"",
+        "volume I; lecture 8, \"Motion\"; section 8-1, \"Description of motion\"; p. 8-2"
+    ],
+    [
+        "So, ultimately, in order to understand nature it may be necessary to have a deeper understanding of mathematical relationships. But the real reason is that the subject is enjoyable, and although we humans cut nature up in different ways, and we have different courses in different departments, such compartmentalization is really artificial, and we should take our intellectual pleasures where we find them.",
+        "volume I; lecture 22, \"Algebra\"; section 22-1, \"Addition and multiplication\"; p. 22-1"
+    ],
+    [
+        "Finally, we make some remarks on why linear systems are so important. The answer is simple: because we can solve them! So most of the time we solve linear problems. Second (and most important), it turns out that the fundamental laws of physics are often linear. The Maxwell equations for the laws of electricity are linear, for example. The great laws of quantum mechanics turn out, so far as we know, to be linear equations. That is why we spend so much time on linear equations: because if we understand linear equations, we are ready, in principle, to understand a lot of things.",
+        "volume I; lecture 25, \"Linear Systems and Review\"; section 25-2, \"Superposition of solutions\"; p. 25-2"
+    ],
+    [
+        "There are many interesting phenomena ... which involve a mixture of physical phenomena and physiological processes, and the full appreciation of natural phenomena, as we see them, must go beyond physics in the usual sense. We make no apologies for making these excursions into other fields, because the separation of fields, as we have emphasized, is merely a human convenience, and an unnatural thing. Nature is not interested in our separations, and many of the interesting phenomena bridge the gaps between fields.",
+        "volume I; lecture 35, \"Color Vision\"; 35-1 \"The human eye\"; p. 35-1"
+    ],
+    [
+        "In fact, the science of thermodynamics began with an analysis, by the great engineer Sadi Carnot, of the problem of how to build the best and most efficient engine, and this constitutes one of the few famous cases in which engineering has contributed to fundamental physical theory. Another example that comes to mind is the more recent analysis of information theory by Claude Shannon. These two analyses, incidentally, turn out to be closely related.",
+        "volume I; lecture 44, \"The Laws of Thermodynamics\"; section 44-1, \"Heat engines; the first law\"; p. 44-2"
+    ],
+    [
+        "So far as we know, all the fundamental laws of physics, like Newton's equations, are reversible.",
+        "volume I; lecture 46, \"Ratchet and Pawl\"; section 46-5, \"Order and entropy\"; p. 46-8"
+    ],
+    [
+        "From a long view of the history of mankind — seen from, say, ten thousand years from now — there can be little doubt that the most significant event of the 19th century will be judged as Maxwell's discovery of the laws of electrodynamics. The American Civil War will pale into provincial insignificance in comparison with this important scientific event of the same decade.",
+        "volume II; lecture 1, \"Electromagnetism\"; section 1-6, \"Electromagnetism in science and technology\"; p. 1-11"
+    ],
+    [
+        "The physicist needs a facility in looking at problems from several points of view. The exact analysis of real physical problems is usually quite complicated, and any particular physical situation may be too complicated to analyze directly by solving the differential equation. But one can still get a very good idea of the behavior of a system if one has some feel for the character of the solution in different circumstances. Ideas such as the field lines, capacitance, resistance, and inductance are, for such purposes, very useful. ... On the other hand, none of the heuristic models, such as field lines, is really adequate and accurate for all situations. There is only one precise way of presenting the laws, and that is by means of differential equations. They have the advantage of being fundamental and, so far as we know, precise. If you have learned the differential equations you can always go back to them. There is nothing to unlearn.",
+        "volume II; lecture 2, \"Differential Calculus of Vector Fields\"; section 2-1, \"Understanding physics\"; p. 2-1"
+    ],
+    [
+        "The same equations have the same solutions",
+        "volume II; lecture 12, \"Electrostatic Analogs\"; p. 12-1"
+    ],
+    [
+        "It requires a much higher degree of imagination to understand the electromagnetic field than to understand invisible angels. ... I speak of the E and B fields and wave my arms and you may imagine that I can see them ... [but] I cannot really make a picture that is even nearly like the true waves.",
+        "volume II; lecture 20, \"Solution of Maxwell's Equations in Free Space\"; section 20-3, \"Scientific imagination\"; p. 20-9 to 20-10"
+    ],
+    [
+        "Whenever you see a sweeping statement that a tremendous amount can come from a very small number of assumptions, you always find that it is false. There are usually a large number of implied assumptions that are far from obvious if you think about them sufficiently carefully.",
+        "volume II; lecture 26, \"Lorentz Transformations of the Fields\"; section 26-1, \"The four-potential of a moving charge\"; p. 26-2"
+    ],
+    [
+        "There are those who are going to be disappointed when no life is found on other planets. Not I — I want to be reminded and delighted and surprised once again, through interplanetary exploration, with the infinite variety and novelty of phenomena that can be generated from such simple principles. The test of science is its ability to predict. Had you never visited the earth, could you predict the thunderstorms, the volcanoes, the ocean waves, the auroras, and the colorful sunset? A salutary lesson it will be when we learn of all that goes on on each of those dead planets — those eight or ten balls, each agglomerated from the same dust cloud and each obeying exactly the same laws of physics.",
+        "volume II; lecture 41, \"The Flow of Wet Water\"; section 41-6, \"Couette flow\"; p. 41-12"
+    ],
+    [
+        "The \"paradox\" is only a conflict between reality and your feeling of what reality \"ought to be.\"",
+        "volume III; lecture 18, \"Angular Momentum\"; section 18-3, \"The annihilation of positronium\"; p. 18-9"
+    ],
+    [
+        "I hope ... that you will find someday that, after all, it isn't as horrible as it looks.",
+        "volume III, \"Feynman's Epilogue\", p. 21-19"
+    ],
+    [
+        "Perhaps you will not only have some appreciation of this culture; it is even possible that you may want to join in the greatest adventure that the human mind has ever begun.",
+        "volume III, \"Feynman's Epilogue\", p. 21-19 (closing sentence)"
+    ],
+    [
+        "On the infrequent occasions when I have been called upon in a formal place to play the bongo drums, the introducer never seems to find it necessary to mention that I also do theoretical physics.",
+        "statement after an introduction mentioning that he played bongo drums; Messenger Lectures at Cornell University, p. 13"
+    ],
+    [
+        "A person talks in such generalities that everyone can understand him and it's considered to be some deep philosophy. However, I would like to be very rather more special and I would like to be understood in an honest way, rather than in a vague way.",
+        "chapter 1, “The Law of Gravitation,” p. 13: video"
+    ],
+    [
+        "This is the key of modern science and is the beginning of the true understanding of nature. This idea. That to look at the things, to record the details, and to hope that in the information thus obtained, may lie a clue to one or another of a possible theoretical interpretation.",
+        "chapter 1, “The Law of Gravitation,” p. 15: video"
+    ],
+    [
+        "The next question was — what makes planets go around the sun? At the time of Kepler some people answered this problem by saying that there were angels behind them beating their wings and pushing the planets around an orbit. As you will see, the answer is not very far from the truth. The only difference is that the angels sit in a different direction and their wings push inward.",
+        "chapter 1, “The Law of Gravitation,” p. 18: video"
+    ],
+    [
+        "If we have confidence in a law, then if something appears to be wrong it can suggest to us another phenomenon.",
+        "chapter 1, \"The Law of Gravitation,\" p. 23"
+    ],
+    [
+        "It is impossible, by the way, when picking one example of anything, to avoid picking one which is atypical in some sense.",
+        "chapter 1, “The Law of Gravitation,” p. 27: video"
+    ],
+    [
+        "Nature uses only the longest threads to weave her patterns, so each small piece of her fabric reveals the organization of the entire tapestry.",
+        "chapter 1, “The Law of Gravitation,” p. 34"
+    ],
+    [
+        "The total amount that a physicist knows is very little. He has only to remember the rules to get him from one place to another...",
+        "chapter 2, “The Relation of Mathematics to Physics” p. 45 or video 1:10:02."
+    ],
+    [
+        "...Dirac discovered the correct laws for relativity quantum mechanics simply by guessing the equation. The method of guessing the equation seems to be a pretty effective way of guessing new laws. This shows again that mathematics is a deep way of expressing nature, and any attempt to express nature in philosophical principles, or in seat-of-the-pants mechanical feelings, is not an efficient way....It always bothers me that, according to the laws as we understand them today, it takes a computing machine an infinite number of logical operations to figure out what goes on in no matter how tiny a region of space, and no matter how tiny a region of time. How can all that be going on in that tiny space? Why should it take an infinite amount of logic to figure out what one tiny piece of space/time is going to do? So I have often made the hypotheses that ultimately physics will not require a mathematical statement, that in the end the machinery will be revealed, and the laws will turn out to be simple, like the chequer board with all its apparent complexities.",
+        ""
+    ],
+    [
+        "To those who do not know mathematics it is difficult to get across a real feeling as to the beauty, the deepest beauty, of nature. ... If you want to learn about nature, to appreciate nature, it is necessary to understand the language that she speaks in.",
+        "chapter 2, “The Relation of Mathematics to Physics,” p. 58"
+    ],
+    [
+        "Mathematics is not just a language. Mathematics is a language plus reasoning. It's like a language plus logic. Mathematics is a tool for reasoning. It's, in fact, a big collection of the results of some person's careful thought and reasoning. By mathematics, it is possible to connect one statement to another.",
+        "chapter 2, “The Relation of Mathematics to Physics”"
+    ],
+    [
+        "Now we have a problem. We can deduce, often, from one part of physics like the law of gravitation, a principle which turns out to be much more valid than the derivation. This doesn't happen in mathematics, that the theorems come out in places where they're not supposed to be!",
+        "chapter 2, “The Relation of Mathematics to Physics” referring to the law of conservation of angular momentum"
+    ],
+    [
+        "So we have these wide principles which sweep across all the different laws, and if one takes too seriously its derivations, and feels that this is only valid because this [assumed more fundamental principle] is valid, you cannot understand the interconnections of the different branches of physics. Some day, when physics is complete, then maybe with this kind of argument we'll know all the laws, then we can start with some axioms (and no doubt somebody will figure out a particular way of doing it) and then all the deductions will be made. But while we don't know all the laws, we can use some to make guesses at theorems which extend beyond the proof.",
+        "chapter 2, “The Relation of Mathematics to Physics”"
+    ],
+    [
+        "So in order to understand the physics one must always have a neat balance and contain in his head all of the various propositions and their interelationships because the laws often extend beyond the range of their deductions. This will only have no importance when all the laws are known.",
+        "chapter 2, “The Relation of Mathematics to Physics”"
+    ],
+    [
+        "For those who want some proof that physicists are human, the proof is in the idiocy of all the different units which they use for measuring energy.",
+        "chapter 3, “The Great Conservation Principles,” p. 75"
+    ],
+    [
+        "Our imagination is stretched to the utmost, not, as in fiction, to imagine things which are not really there, but just to comprehend those things which are there.",
+        "chapter 6, “Probability and Uncertainty — the Quantum Mechanical View of Nature,” p. 127-128"
+    ],
+    [
+        "I think I can safely say that nobody understands quantum mechanics.",
+        "chapter 6, “Probability and Uncertainty — the Quantum Mechanical View of Nature,” p. 129"
+    ],
+    [
+        "Do not keep saying to yourself, if you can possibly avoid it, \"But how can it be like that?\" because you will get \"down the drain\", into a blind alley from which nobody has yet escaped. Nobody knows how it can be like that.",
+        "Concerning the apparent absurdities of quantum behavior.\nchapter 6, “Probability and Uncertainty — the Quantum Mechanical View of Nature,” p. 129"
+    ],
+    [
+        "In general we look for a new law by the following process. First we guess it. Then we compute the consequences of the guess to see what would be implied if this law that we guessed is right. Then we compare the result of the computation to nature, with experiment or experience, compare it directly with observation, to see if it works. If it disagrees with experiment it is wrong. In that simple statement is the key to science. It does not make any difference how beautiful your guess is. It does not make any difference how smart you are, who made the guess, or what his name is – if it disagrees with experiment it is wrong. That is all there is to it.",
+        "chapter 7, “Seeking New Laws,” p. 156 [as presented in edited book]"
+    ],
+    [
+        "In general, we look for a new law by the following process: First we guess it. Then we – now don't laugh, that's really true. Then we compute the consequences of the guess to see what, if this is right, if this law that we guessed is right, to see what it would imply. And then we compare the computation results to nature, or we say compare to experiment or experience, compare it directly with observations to see if it works. If it disagrees with experiment, it's wrong. In that simple statement is the key to science. It doesn't make any difference how beautiful your guess is, it doesn't make any difference how smart you are, who made the guess, or what his name is. If it disagrees with experiment, it's wrong. That's all there is to it.",
+        "same passage in transcript: video"
+    ],
+    [
+        "Nature's imagination far surpasses our own.",
+        "chapter 7, “Seeking New Laws,” p. 162: video"
+    ],
+    [
+        "It is not unscientific to make a guess, although many people who are not in science think it is. Some years ago I had a conversation with a layman about flying saucers — because I am scientific I know all about flying saucers! I said “I don’t think there are flying saucers”. So my antagonist said, “Is it impossible that there are flying saucers? Can you prove that it’s impossible?” “No”, I said, “I can’t prove it’s impossible. It’s just very unlikely”. At that he said, “You are very unscientific. If you can’t prove it impossible then how can you say that it’s unlikely?” But that is the way that is scientific. It is scientific only to say what is more likely and what less likely, and not to be proving all the time the possible and impossible. To define what I mean, I might have said to him, \"Listen, I mean that from my knowledge of the world that I see around me, I think that it is much more likely that the reports of flying saucers are the results of the known irrational characteristics of terrestrial intelligence than of the unknown rational efforts of extra-terrestrial intelligence.\" It is just more likely. That is all.",
+        "chapter 7, “Seeking New Laws,” p. 165-166: video"
+    ],
+    [
+        "Therefore psychologically we must keep all the theories in our heads, and every theoretical physicist who is any good knows six or seven different theoretical representations for exactly the same physics.",
+        "chapter 7, “Seeking New Laws,” p. 168"
+    ],
+    [
+        "One of the most important things in this 'guess — compute consequences — compare with experiment' business is to know when you are right. It is possible to know when you are right way ahead of checking all the consequences. You can recognize truth by its beauty and simplicity. It is always easy when you have made a guess, and done two or three little calculations to make sure that it is not obviously wrong, to know that it is right. When you get it right, it is obvious that it is right — at least if you have any experience — because usually what happens is that more comes out than goes in. Your guess is, in fact, that something is very simple. If you cannot see immediately that it is wrong, and it is simpler than it was before, then it is right. The inexperienced, the crackpots, and people like that, make guesses that are simple, but you can immediately see that they are wrong, so that does not count. Others, the inexperienced students, make guesses that are very complicated, and it sort of looks as if it is all right, but I know it is not true because the truth always turns out to be simpler than you thought.",
+        "chapter 7, \"Seeking New Laws,\" p. 171 (video 50:23)"
+    ],
+    [
+        "That was the beginning and the idea seemed so obvious to me that I fell deeply in love with it. And, like falling in love with a woman, it is only possible if you don't know too much about her, so you cannot see her faults. The faults will become apparent later, but after the love is strong enough to hold you to her. So, I was held to this theory, in spite of all the difficulties, by my youthful enthusiasm.",
+        ""
+    ],
+    [
+        "The Mayans... had a scheme for predicting... when Venus was a morning... or evening star. ...They had a rule for... making corrections and... had a very good way of predicting when Venus was coming up. ...Suppose that the professors (the priests in those days) ...were giving a lecture ...to explain ... these wonderful predictions ...He would say, \"What we're doing is counting the days, just like you're putting nuts in a pod.\" ...[The students] did not know a quick and tricky way to add 365 x 8. ...These students were learning ...the laws of arithmetic. Something... to us now, because we have public, free, general education, almost everybody has to... learn... by a tricky scheme... The waitress, just an ordinary person, in two minutes does that. How..? ...She's ...counting ...415 pennies ...then ...287 more ...and telling you how many pennies you would have got if you counted ...beginning to the end. But it's highly educated and very trained to... do that... quickly. ...In the 14th century [it was] mathematicians... who could do that.",
+        "26:28 - 29:50."
+    ],
+    [
+        "What the students are taught ...now ...about physics ...The numbers are much bigger... so enormous you can't count them directly, and so we've invented a fantastic array of tricks and gimmicks for putting together the numbers... without actually doing it. ...We don't actually ...draw 7,000 arrows and find... the end point... just like we don't actually count 415 pennies... We do it by... the tricks of mathematics, and that's all. So... we're not going to worry about that. ...You don't have to know about mathematics. All you have to know is what it is... tricky ways of doing something which would be laborious otherwise.",
+        "30:00 - 31:06."
+    ],
+    [
+        "In the years we have developed enormous abilities in mathematics and it takes a long time to train the students, and so they're very highly educated in that, but if you ask them why. Now we go back to the Mayans... Why the rule? ...They don't know. They don't understand... The more accurately they can do it... adds nothing to their understanding... The student who is able to make these calculations of Venus... Mars, the Sun, the eclipses and everything else is a super priest, doesn't know why, any better. And if you were to explain that it was nothing but counting days, you would be reduced to the truth... and to an honest statement that he doesn't understand it.",
+        "31:11 - 32:14."
+    ],
+    [
+        "I don't know about philosophy of Mayans. We have very little information due to the efficiency of the Spanish Conquistadores and... mostly their priests, who burned all the books... hundreds of thousands of books, and there's three left... One of them has this Venus calculation... Just imagine our civilization reduced to three books... left by accident.",
+        "32:26 - 32:58."
+    ],
+    [
+        "That's called monochromatic light, light of one color. ...I'm going to discuss all my phenomena for a while with light of one color, because it's simpler",
+        "36:00 - 36:10."
+    ],
+    [
+        "If we make an instrument that can detect light, that's as sensitive as it can possibly be made. ...This ...is called a photomultiplier.",
+        "36:50 - 36:10."
+    ],
+    [
+        "Amplify. ...When we have a device like this and we put it in the dark... it goes click, click... Every once in a while a light particle comes in: a photon. This is a particle in every sense. ...If you have a very weak light... and... you put two cells out, and there's just a few... [photons] coming, then it goes on one or the other... the particle is either here or there. ...It is particles, in every way, whenever you can detect it. ...If we were ten times more sensitive to light, then in the dark, we would see... little flashes, little tiny... dots of light, the nerves would go off just like the photomultiplier, in spots. But the human eye is not quite that sensitive, and it takes 5 or 6 ...photons ...to make one nerve fiber go off. ...So we cannot detect, with the eye, light quite low enough to notice the fact that it comes in the form of rain drops.",
+        "39:04 - 40:29."
+    ],
+    [
+        "For each reflection you make an arrow. This arrow... for the reflection from front surface, and this arrow... from the back surface... and... you tie the arrows together this way... You put the tail of the other one on the head of that one... and you put these two arrows together by this rule, and you look at [the vector sum,] how far off you've come from the end... You count the number of beans you put in the barrel, I mean you make these pictures. ...Then you ask, \"How big is this circle [whose radius is the vector sum of the front and back arrows] in area?\" And that area represents the probability... If the circle area is big, then you get a high probability, if... small, you get a small probability.",
+        "58:08 - 59:17."
+    ],
+    [
+        "The probability of an event is always... the square of an amplitude... the size [area] of a circle corresponding to an arrow. An arrow is called an amplitude. For every event you calculate an amplitude (which is an arrow on a plane). The probability is the area corresponding to that arrow.",
+        "1:04:30 - 1:04:51."
+    ],
+    [
+        "This rule explains several of the ordinary phenomena... such as angle of incidence equals angle of reflection, and refraction, that light bends... from air to water, and travels in straight lines... It's all hidden in that one rule.",
+        "1:06:22 - 1:06:45"
+    ],
+    [
+        "The idea of quantum mechanics that I want to describe now is a positive thing. It's a way that we actually use to make calculations and understand nature. Excuse me, to make calculations! We really don't understand it very well... Understanding real nature, we are unable to do.",
+        "2, Part 1, 1:59"
+    ],
+    [
+        "What I would like to do now... is to... try to tell you what actually what physicists do when they make calculations, so they can predict... correctly the probabilities of events for all the experiments, at least in a certain range where they know some things about electrons and photons... and light and matter and chemistry and ordinary phenomena not involving gravitation in detail or nuclear phenomena in d... Well, actually today... nuclear phenomena are now probably under control too.",
+        "2, Part 1, 2:25"
+    ],
+    [
+        "I start with the simplest phenomena... the first... is the phenomena of light. Early on, when light was being investigated by Newton, he thought that the light that came into the eye was like a rain of particles, like rain drops... More light meant more particles... and one kind of color light would one kind of rain drop and another... would be a different kind of rain drop... over the whole spectrum... and if we would some day have sufficiently delicate instruments, we would presumably discover that it was like a pattering... It would go click, click, click when the particles came raining down. ...He also discovered ...the light from the soap bubbles or light from thin films... The brightness of reflection... depends on how thick the film is. As the film gets thicker and thinner, it gets brighter and darker. That was hard for him to understand from the point of view of particles. Finally a theory of waves was invented which explained that very easily... until we measured light very precisely... and lo and behold, to our horror, it behaved like particles.",
+        "2, Part 1, 3:57"
+    ],
+    [
+        "The different colored light... correspond to particles of different energy, that is energy comes in lumps and these lumps have different sizes for the different colored light. It was hard... virtually impossible to understand... that the reflection of light... from layers of different thicknesses varies by using particles... That makes a problem which I want to describe...",
+        "2, Part 1, 7:15"
+    ],
+    [
+        "If we try to say how big a photon is, or how it's spread out, or what it looks like, we're going to get into some difficulty with some experiment. It isn't going to behave that way you'd expect. ...It's going to be impossible for me to tell you how big a photon is, where it is... Nevertheless... I'll tell you a series of crazy rules by which you can tell exactly what will happen in any experiment with photons... without ever being able to say what a photon looks like... in the sense of some sort of model of waves in space. ...And so to make a complete theory, we cannot do it with a model. We can only make an incomplete theory and what my purpose is today is to tell you the complete theory, not the incomplete approximations...",
+        "2, Part 1, 9:00"
+    ],
+    [
+        "To make it easy... we'll suppose that all the light... is exactly one color... At night... they have these yellow street lights... that's a sodium light... and that emits light all of one color... Then take the soap bubble and blow it at night.. and then you'll see the bands... [You] can take... very thin glass... you can see very thin bands, even in a reasonable size thickness... Suppose then that we do have light like from sodium-vapor so that all the light... is always photons of exactly the same energy. We call it monochromatic, one color light.",
+        "2, Part 1, 15:30"
+    ],
+    [
+        "There has never been a satisfactory model of the very simple process of reflection of light from thin surfaces or... for any other phenomenon. Satisfactory in the old fashioned classical view. A logical hocus-pocus has to be done quantum mechanically in order in order to describe these things... This is another example of the type of difficulty when you try to reason in a straight forward... in a classical way about a simple phenomenon.",
+        "2, Part 2, 6:28"
+    ],
+    [
+        "Finally, I must tell you what the arrow is for the net result. When a thing can happen in alternative ways you do what we call \"add the arrows\"... I know how to add numbers. How do you add arrows? The rule is... you simply put one arrow head on the tail of the other... I just draw the second arrow off from the first one... exactly parallel... it's drawn the same, but it's centered, it's moved... it's tied one onto the other, head to tail, and the result, it's supposed to be the sum. The adding is this net arrow that you would get, from where you started [from the beginning of the first arrow] to where you ended [at the end of the second arrow]. The way of thinking of it, that is rather nice, is to think of each arrow as indicating the direction of a step to be taken. If we take a step, on this plane, this way [the distance and direction of arrow #1] and then take a step that way [the distance and direction of arrow #2] and we say, where did we actually move? We could have done it all in one step, this one [from the beginning of arrow #1 to the end of arrow #2]. So this is the one step which is the equivalent of the succession of the other steps. Adding means putting together steps... The square of the [summation] arrow determines the probability of the reflection.",
+        "2, Part 3, 0:02"
+    ],
+    [
+        "So there are two aspects of an amplitude. An amplitude is a sort of two dimensional thing and therefor you can represent it... on a plane as an arrow. So an amplitude is a physical thing, which also is identical, we... make it very equal by using three lines [ ≡ ] instead of two [ = ], the same as these arrows that I've been talking about on a plane, and that's, by the way, for those that know mathematics, that can be equivalent to representing everything by complex numbers. You can do it algebraically, in other words, not just by drawing the arrows..mw-parser-output .__center{text-align:center;display:table;margin:0 auto}.mw-parser-output .wqt_blockcenter{text-align:left;text-align:center;display:table;margin:0 auto}AMPLITUDE ≡ ARROW ( ≡ COMPLEX NUMBERS)",
+        "3, 1:16"
+    ],
+    [
+        "I want you to think of an arrow in another way... Here is an arrow... Now if we multiply, you have to think in a different way than for adding. There's an arrow... and imagine there's a [different] standard arrow... always horizontal and has unit length, that's the standard unit arrow. Now suppose I have a second arrow and I want to multiply them... What do I mean by multiplying? ...Let me first describe this [first] arrow [number 1] ...compare it to the standard arrow and ask for the relation... You can turn... and shrink it. So an arrow describes... how much I have to shrink the standard, and how much I have to rotate it to get the arrow I want. Now multiplication of arrows means that you do these rotations and shrinkings in succession. ...Now if I take this arrow [#2] ...this red [arrow #3] is the product [of arrow #1 and arrow #2].... It bears the same geometric relationship to the purple arrow [#2] as the blue one [arrow number 1] bears to the black one [standard arrow]. In other words it's supposed to be turned the same degree and shrunk the same degree as the blue one [arrow #2] is to the black [standard] one. In other words this [arrow #1] is to that [standard arrow], as this [arrow #3] arrow is to that [arrow #2].",
+        "3, 45:35"
+    ],
+    [
+        "That's the way multiplication works you know, with numbers it's the same. ...That's why we call it multiplication. ...Suppose you wanted to say that 6 = 3 x 2, which is true. But let me look at it a different way... This is the analog [to arrow multiplication]... The 2 bears a relation, 2 is not a number from this point of view. It's a relationship. It bears a relation to 1. It's an expansion of 1. How much do you have to expand 1? ...Yeah, double. ...That's what you do to 3 to get 6. That's why... it's called multiplication, because we do to this arrow [#2], what we had to do to the original one [standard arrow] to get the blue one [arrow #1].",
+        "3, 48:39"
+    ],
+    [
+        "People are always asking for the latest developments in the unification of this theory with that theory, and they don't give us a chance to tell them anything about what we know pretty well. They always want to know the things we don't know.",
+        "p. 3"
+    ],
+    [
+        "Will you understand what I'm going to tell you? ... No, you're not going to be able to understand it. ... That is because I don't understand it. Nobody does.",
+        "p. 9"
+    ],
+    [
+        "While I am describing to you how Nature works, you won't understand why Nature works that way. But you see, nobody understands that.",
+        "p. 10"
+    ],
+    [
+        "The theory of quantum electrodynamics describes Nature as absurd from the point of view of common sense. And it agrees fully with experiment. So I hope you accept Nature as She is — absurd.",
+        "p. 10"
+    ],
+    [
+        "The scale of light can be described by numbers — called the frequency — and as the numbers get higher, the light goes from red to blue to ultraviolet. We can't see ultraviolet light, but it can affect photographic plates. It's still light — only the number is different.",
+        "p. 13"
+    ],
+    [
+        "Light is something like raindrops — each little lump of light is called a photon — and if the light is all one color, all the \"raindrops\" are the same.",
+        "p. 14"
+    ],
+    [
+        "Every instrument that has been designed to be sensitive enough to detect weak light has always ended up discovering that the same thing: light is made of particles.",
+        "p. 15"
+    ],
+    [
+        "When a photon comes down, it interacts with electrons throughout the glass, not just on the surface. The photon and electrons do some kind of dance, the net result of which is the same as if the photon hit only on the surface.",
+        "p. 17"
+    ],
+    [
+        "You will have to brace yourselves for this — not because it is difficult to understand, but because it is absolutely ridiculous: All we do is draw little arrows on a piece of paper — that's all!",
+        "p. 24"
+    ],
+    [
+        "It is to be emphasized that no matter how many [amplitude] arrows we draw, add, or multiply, our objective is to calculate a single final arrow for the event. Mistakes are often made by physics students at first because they do not keep this important point in mind. They work for so long analyzing events involving a single photon that they begin to think that the arrow is somehow associated with the photon [rather than with the event].",
+        "p. 75-76"
+    ],
+    [
+        "Immediately you would like to know where this number for a coupling comes from: is it related to pi, or perhaps to the base of natural logarithms? Nobody knows. It's one of the greatest damn mysteries of physics: a magic number that comes to us with no understanding by man. You might say the \"hand of God\" wrote that number, and \"we don't know how He pushed His pencil.\" We know what kind of a dance to do experimentally to measure this number very accurately, but we don't know what kind of dance to do on the computer to make this number come out — without putting it in secretly!",
+        "On the numerical value of α, the fine-structure constant, p. 129"
+    ],
+    [
+        "Why are the theories of physics so similar in their structure?There are a number of possibilities. The first is the limited imagination of physicists: when we see a new phenomenon, we try to fit it into the framework we already have—until we have made enough experiments, we don't know that it doesn't work. So when some fool physicist gives a lecture at UCLA in 1983 and says, “This is the way it works, and look how wonderfully similar the theories are,” it's not because Nature is really similar; it's because the physicists have only been able to think of the same damn thing, over and over again.Another possibility is that it is the same damn thing over and over again—that Nature has only one way of doing things, and She repeats her story from time to time.A third possibility is that things look similar because they are aspects of the same thing—some larger picture underneath, from which things can be broken into parts that look different, like fingers on the same hand. Many physicists are working very hard trying to put together a grand picture that unifies everything into one super-duper model. It's a delightful game, but at present time none of the speculators agree with any of the other speculators as to what the grand picture is.",
+        "p. 149-150"
+    ],
+    [
+        "There were certain things I didn't like, such as tipping. I thought we should be paid more, and not have to have any tips. But when I proposed that to the boss, I got nothing but laughter. She told everybody, \"Richard doesn't want his tips, hee, hee, hee; he doesn't want his tips, ha, ha, ha.\" The world is full of this kind of dumb smart-alec who doesn't understand anything.",
+        "Part 1: \"From Rockaway to MIT\", \"String Beans\", p. 25"
+    ],
+    [
+        "I don't know what's the matter with people: they don't learn by understanding; they learn by some other way — by rote or something. Their knowledge is so fragile!",
+        "Part 1: \"From Rockaway to MIT\", \"Who Stole the Door?\", p. 36-37"
+    ],
+    [
+        "The electron is a theory we use; it is so useful in understanding the way nature works that we can almost call it real.",
+        "Part 2: \"The Princeton Years\", \"A Map of the Cat?\", p. 70"
+    ],
+    [
+        "[John] von Neumann gave me an interesting idea: that you don't have to be responsible for the world that you're in. So I have developed a very powerful sense of social irresponsibility as a result of von Neumann's advice. It's made me a very happy man ever since. But it was von Neumann who put the seed in that grew into my active irresponsibility!",
+        "Part 3: \"Feynman, The Bomb, and the Military\", \"Los Alamos from Below\", p. 132"
+    ],
+    [
+        "I returned to civilization shortly after that and went to Cornell to teach, and my first impression was a very strange one. I can't understand it any more, but I felt very strongly then. I sat in a restaurant in New York, for example, and I looked out at the buildings and I began to think, you know, about how much the radius of the Hiroshima bomb damage was and so forth... How far from here was 34th street?... All those buildings, all smashed — and so on. And I would go along and I would see people building a bridge, or they'd be making a new road, and I thought, they're crazy, they just don't understand, they don't understand. Why are they making new things? It's so useless. But, fortunately, it's been useless for almost forty years now, hasn't it? So I've been wrong about it being useless making bridges and I'm glad those other people had the sense to go ahead.",
+        "On his emotional reaction after the first uses of the atomic bomb.\nPart 3: \"Feynman, The Bomb, and the Military\", \"Los Alamos from Below\", p. 136"
+    ],
+    [
+        "And this is medicine?",
+        "Comment to psychiatrist who examines Feynman and states he (the psychiatrist) has studied medicine.\nPart 3: \"Feynman, The Bomb, and the Military\", \"Uncle Sam Doesn't Need You\", p. 159"
+    ],
+    [
+        "And then I thought to myself, \"You know, what they think of you is so fantastic, it's impossible to live up to it. You have no responsibility to live up to it!\"It was a brilliant idea: You have no responsibility to live up to what other people think you ought to accomplish. I have no responsibility to be like they expect me to be. It's their mistake, not my failing.",
+        "Part 4: \"From Cornell to Caltech, With a Touch of Brazil\", \"The Dignified Professor\", p. 172"
+    ],
+    [
+        "One time I was in the men's room of the bar and there was a guy at the urinal. He was kind of drunk, and said to me in a mean-sounding voice, \"I don't like your face. I think I'll push it in.\"I was scared green. I replied in an equally mean voice, \"Get out of my way, or I'll pee right through ya!\"",
+        "Part 4: \"From Cornell to Caltech, With a Touch of Brazil\", \"Any Questions?\", p. 177"
+    ],
+    [
+        "Finally, I said that I couldn’t see how anyone could be educated by this self-propagating system in which people pass exams, and teach others to pass exams, but nobody knows anything.",
+        "Part 4: \"From Cornell to Caltech, With A Touch of Brazil\", \"O Americano, Outra Vez!\", p. 218"
+    ],
+    [
+        "I have to understand the world, you see.",
+        "Part 4: \"From Cornell to Caltech, With A Touch of Brazil\", \"Certainly, Mr. Big!\", p. 231"
+    ],
+    [
+        "While in Kyoto I tried to learn Japanese with a vengeance. I worked much harder at it, and got to a point where I could go around in taxis and do things. I took lessons from a Japanese man every day for an hour.One day he was teaching me the word for \"see.\" \"All right,\" he said. \"You want to say, 'May I see your garden?' What do you say?\"I made up a sentence with the word that I had just learned.\"No, no!\" he said. \"When you say to someone, 'Would you like to see my garden?' you use the first 'see.' But when you want to see someone else's garden, you must use another 'see,' which is more polite.\"\"Would you like to glance at my lousy garden?\" is essentially what you're saying in the first case, but when you want to look at the other fella's garden, you have to say something like, \"May I observe your gorgeous garden?\" So there's two different words you have to use.Then he gave me another one: \"You go to a temple, and you want to look at the gardens...\"I made up a sentence, this time with the polite \"see.\"\"No, no!\" he said. \"In the temple, the gardens are much more elegant. So you have to say something that would be equivalent to 'May I hang my eyes on your most exquisite gardens?\"Three or four different words for one idea, because when I'm doing it, it's miserable; when you're doing it, it's elegant.I was learning Japanese mainly for technical things, so I decided to check if this same problem existed among the scientists.At the institute the next day, I said to the guys in the office, \"How would I say in Japanese, 'I solve the Dirac Equation'?\"They said such-and-so.\"OK. Now I want to say, 'Would you solve the Dirac Equation?' — how do I say that?\"\"Well, you have to use a different word for 'solve,' \" they say.\"Why?\" I protested. \"When I solve it, I do the same damn thing as when you solve it!\"\"Well, yes, but it's a different word — it's more polite.\"I gave up. I decided that wasn't the language for me, and stopped learning Japanese.",
+        "Part 5: \"The World of One Physicist\", \"Would You Solve the Dirac Equation?\", p. 245-246"
+    ],
+    [
+        "Since then I never pay attention to anything by \"experts\". I calculate everything myself.",
+        "After having been led astray on neutron-proton coupling by reports of \"beta-decay experts\".\nPart 5: \"The World of One Physicist\", \"The 7 Percent Solution\", p. 255"
+    ],
+    [
+        "I'll never make that mistake again, reading the experts' opinions. Of course, you only live one life, and you make all your mistakes, and learn what not to do, and that's the end of you.",
+        "Part 5: \"The World of One Physicist\", \"The 7 Percent Solution\", p. 255"
+    ],
+    [
+        "I wanted very much to learn to draw, for a reason that I kept to myself: I wanted to convey an emotion I have about the beauty of the world. It's difficult to describe because it's an emotion. It's analogous to the feeling one has in religion that has to do with a god that controls everything in the whole universe: there's a generality aspect that you feel when you think about how things that appear so different and behave so differently are all run \"behind the scenes\" by the same organization, the same physical laws. It's an appreciation of the mathematical beauty of nature, of how she works inside; a realization that the phenomena we see result from the complexity of the inner workings between atoms; a feeling of how dramatic and wonderful it is. It's a feeling of awe — of scientific awe — which I felt could be communicated through a drawing to someone who had also had this emotion. It could remind him, for a moment, of this feeling about the glories of the universe.",
+        "Part 5: \"The World of One Physicist\", \"But Is It Art?\", p. 261"
+    ],
+    [
+        "This conference was worse than a Rorschach test: There's a meaningless inkblot, and the others ask you what you think you see, but when you tell them, they start arguing with you!",
+        "Part 5: \"The World of One Physicist\", \"Is Electricity Fire?\", p. 283"
+    ],
+    [
+        "Ordinary fools are all right; you can talk to them, and try to help them out. But pompous fools—guys who are fools and are covering it all over and impressing people as to how wonderful they are with all this hocus pocus—THAT, I CANNOT STAND! An ordinary fool isn’t a faker; an honest fool is all right. But a dishonest fool is terrible!",
+        "Part 5: \"The World of One Physicist\", \"Is Electricity Fire?\", p. 284"
+    ],
+    [
+        "On the contrary, it's because somebody knows something about it that we can't talk about physics. It's the things that nobody knows anything about that we can discuss. We can talk about the weather; we can talk about social problems; we can talk about psychology; we can talk about international finance — gold transfers we can't talk about, because those are understood — so it's the subject that nobody knows anything about that we can all talk about!",
+        "Rejoinder when told that he couldn't talk about physics, because \"nobody [at this table] knows anything about it.\"\nPart 5: \"The World of One Physicist\", \"Alfred Nobel's Other Mistake\", p. 310.\n(Quoted in Handbook of Economic Growth (2005) by Philippe Aghion and Steven N. Durlauf.)"
+    ],
+    [
+        "So I have just one wish for you—the good luck to be somewhere where you are free to maintain the kind of integrity I have described, and where you do not feel forced by a need to maintain your position in the organization, or financial support, or so on, to lose your integrity. May you have that freedom.",
+        "Part 5: \"The World of One Physicist\", \"Cargo Cult Science\", p. 346"
+    ],
+    [
+        "It appears that there are enormous differences of opinion as to the probability of a failure with loss of vehicle and of human life. The estimates range from roughly 1 in 100 to 1 in 100,000. The higher figures come from the working engineers, and the very low figures from management. What are the causes and consequences of this lack of agreement? Since 1 part in 100,000 would imply that one could put a Shuttle up each day for 300 years expecting to lose only one, we could properly ask \"What is the cause of management's fantastic faith in the machinery?\" We have also found that certification criteria used in Flight Readiness Reviews often develop a gradually decreasing strictness. The argument that the same risk was flown before without failure is often accepted as an argument for the safety of accepting it again. Because of this, obvious weaknesses are accepted again and again, sometimes without a sufficiently serious attempt to remedy them, or to delay a flight because of their continued presence.",
+        ""
+    ],
+    [
+        "If we are to replace standard numerical probability usage with engineering judgment, why do we find such an enormous disparity between the management estimate and the judgment of the engineers? It would appear that, for whatever purpose, be it for internal or external consumption, the management of NASA exaggerates the reliability of its product, to the point of fantasy.",
+        ""
+    ],
+    [
+        "The acceptance and success of these flights is taken as evidence of safety. But erosion and blow-by are not what the design expected. They are warnings that something is wrong. The equipment is not operating as expected, and therefore there is a danger that it can operate with even wider deviations in this unexpected and not thoroughly understood way. The fact that this danger did not lead to a catastrophe before is no guarantee that it will not the next time, unless it is completely understood. When playing Russian roulette the fact that the first shot got off safely is little comfort for the next. The origin and consequences of the erosion and blow-by were not understood. They did not occur equally on all flights and all joints; sometimes more, and sometimes less. Why not sometime, when whatever conditions determined it were right, still more leading to catastrophe? In spite of these variations from case to case, officials behaved as if they understood it, giving apparently logical arguments to each other often depending on the \"success\" of previous flights.",
+        ""
+    ],
+    [
+        "There was no way, without full understanding, that one could have confidence that conditions the next time might not produce erosion three times more severe than the time before. Nevertheless, officials fooled themselves into thinking they had such understanding and confidence, in spite of the peculiar variations from case to case. A mathematical model was made to calculate erosion. This was a model based not on physical understanding but on empirical curve fitting.",
+        ""
+    ],
+    [
+        "Let us make recommendations to ensure that NASA officials deal in a world of reality in understanding technological weaknesses and imperfections well enough to be actively trying to eliminate them. They must live in reality in comparing the costs and utility of the Shuttle to other methods of entering space. And they must be realistic in making contracts, in estimating costs, and the difficulty of the projects. Only realistic flight schedules should be proposed, schedules that have a reasonable chance of being met. If in this way the government would not support them, then so be it. NASA owes it to the citizens from whom it asks support to be frank, honest, and informative, so that these citizens can make the wisest decisions for the use of their limited resources. For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.",
+        ""
+    ],
+    [
+        "I have a friend who's an artist, and he sometimes takes a view which I don't agree with. He'll hold up a flower and say, \"Look how beautiful it is,\" and I'll agree. But then he'll say, \"I, as an artist, can see how beautiful a flower is. But you, as a scientist, take it all apart and it becomes dull.\" I think he's kind of nutty. ... There are all kinds of interesting questions that come from a knowledge of science, which only adds to the excitement and mystery and awe of a flower. It only adds. I don't understand how it subtracts.",
+        "\"The Making of a Scientist,\" p. 11: video"
+    ],
+    [
+        "You can know the name of that bird in all the languages of the world, but when you're finished, you'll know absolutely nothing whatever about the bird. You'll only know about humans in different places, and what they call the bird. ... I learned very early the difference between knowing the name of something and knowing something.",
+        "\"The Making of a Scientist,\" p. 14"
+    ],
+    [
+        "My mother ... had a wonderful sense of humor, and I learned from her that the highest forms of understanding we can achieve are laughter and human compassion.",
+        "\"The Making of a Scientist,\" p. 19"
+    ],
+    [
+        "Doubting the great Descartes ... was a reaction I learned from my father: Have no respect whatsoever for authority; forget who said it and instead look what he starts with, where he ends up, and ask yourself, \"Is it reasonable?\"",
+        "\"What Do You Care What Other People Think?\", p. 28-29"
+    ],
+    [
+        "The real question of government versus private enterprise is argued on too philosophical and abstract a basis. Theoretically, planning may be good. But nobody has ever figured out the cause of government stupidity — and until they do (and find the cure), all ideal plans will fall into quicksand.",
+        "(From a 1963 letter to his wife Gweneth, written while attending a gravity conference in Communist-era Warsaw.)\n\"Letters, Photos, and Drawings,\" p. 90-91"
+    ],
+    [
+        "The only way to have real success in science, the field I'm familiar with, is to describe the evidence very carefully without regard to the way you feel it should be. If you have a theory, you must try to explain what's good and what's bad about it equally. In science, you learn a kind of standard integrity and honesty.",
+        "\"Afterthoughts,\" p. 217-218"
+    ],
+    [
+        "The most important thing I found out from [my father] is that if you asked any question and pursued it deeply enough, then at the end there was a glorious discovery of a general and beautiful kind.",
+        "p. 28"
+    ],
+    [
+        "I don't like honors. ... I've already got the prize: the prize is the pleasure of finding the thing out, the kick in the discovery, the observation that other people use it. Those are the real things.",
+        "p. 82, from interview in \"The Pleasure of Finding Things Out\" (1981): video"
+    ],
+    [
+        "Well, we're getting a little philosophical and serious, ok? Let's go back to what we're doing. One day we look at a map and this capital is K-Y-Z-Y-L and we decided it would be fun to go there because it's so obscure and peculiar. It's a game. It's not serious. It doesn't involve some deep philosophical point of view about authority or anything. It's just the fun of having an adventure to try to go to a land that we'd never heard of, that we knew was an independent country once, no longer an independent country, find out what it's like. And discover as we went along that nobody went there for a long time and it's isolated made it more interesting. But, you know, many explorers liked to go to places that are unusual. And, it's only for the fun of it. I don't go for this philosophical interpretation of \"our deeper understanding of what we’re doing.\" We haven't any deep understanding of what we're doing. If we tried to understand what we're doing, we'd go nutty.",
+        "p. 236, from interview two weeks before his death in \"The Quest for Tannu Tuva\" (1989): video"
+    ],
+    [
+        "I can live with doubt, and uncertainty, and not knowing. I think it's much more interesting to live not knowing than to have answers which might be wrong. I have approximate answers, and possible beliefs, and different degrees of certainty about different things, but I'm not absolutely sure of anything. There are many things I don't know anything about, such as whether it means anything to ask \"Why are we here?\" I might think about it a little bit, and if I can't figure it out then I go on to something else. But I don't have to know an answer. I don't feel frightened by not knowing things, by being lost in the mysterious universe without having any purpose — which is the way it really is, as far as I can tell. Possibly. It doesn't frighten me.",
+        "p. 239, from interview in \"The Pleasure of Finding Things Out\" (1981): video"
+    ],
+    [
+        "People say to me, \"Are you looking for the ultimate laws of physics?\" No, I'm not. I'm just looking to find out more about the world and if it turns out there is a simple ultimate law which explains everything, so be it; that would be very nice to discover. If it turns out it's like an onion with millions of layers and we're just sick and tired of looking at the layers, then that's the way it is!... And therefore when we go to investigate we shouldn't pre-decide what it is we are trying to do except to find out more about it... My interest in science is to simply find out more about the world.",
+        "p. 251-252, from interview in \"The Pleasure of Finding Things Out\" (1981): video\n(Also in book The Pleasure of Finding Things Out (1999) p. 23.)"
+    ],
+    [
+        "Jiry, don't worry about anything. Go out and have a good time.",
+        "p. 252, last words to his artist friend Jirayr Zorthian, as recalled by Zorthian in \"No Ordinary Genius\" (1993): video"
+    ],
+    [
+        "The third aspect of my subject is that of science as a method of finding things out. This method is based on the principle that observation is the judge of whether something is so or not. All other aspects and characteristics of science can be understood directly when we understand that observation is the ultimate and final judge of the truth of an idea. But \"prove\" used in this way really means \"test,\" in the same way that a hundred-proof alcohol is a test of the alcohol, and for people today the idea really should be translated as, \"The exception tests the rule.\" Or, put another way, \"The exception proves that the rule is wrong.\" That is the principle of science. If there is an exception to any rule, and if it can be proved by observation, that rule is wrong.",
+        "lecture I: \"The Uncertainty of Science\""
+    ],
+    [
+        "Some people say, \"How can you live without knowing?\" I do not know what they mean. I always live without knowing. That is easy. How you get to know is what I want to know.",
+        "lecture I: \"The Uncertainty of Science\""
+    ],
+    [
+        "Looking back at the worst times, it always seems that they were times in which there were people who believed with absolute faith and absolute dogmatism in something. And they were so serious in this matter that they insisted that the rest of the world agree with them. And then they would do things that were directly inconsistent with their own beliefs in order to maintain that what they said was true.",
+        "lecture II: \"The Uncertainty of Values\""
+    ],
+    [
+        "It is in the admission of ignorance and the admission of uncertainty that there is a hope for the continuous motion of human beings in some direction that doesn't get confined, permanently blocked, as it has so many times before in various periods in the history of man.",
+        "lecture II: \"The Uncertainty of Values\""
+    ],
+    [
+        "It is a great adventure to contemplate the universe, beyond man, to contemplate what it would be like without man, as it was in a great part of its long history and as it is in a great majority of places. When this objective view is finally attained, and the mystery and majesty of matter are fully appreciated, to then turn the objective eye back on man viewed as matter, to view life as part of this universal mystery of greatest depth, is to sense an experience which is very rare, and very exciting. It usually ends in laughter and a delight in the futility of trying to understand what this atom in the universe is, this thing — atoms with curiosity — that looks at itself and wonders why it wonders. Well, these scientific views end in awe and mystery, lost at the edge in uncertainty, but they appear to be so deep and so impressive that the theory that it is all arranged as a stage for God to watch man's struggle for good and evil seems inadequate.",
+        "lecture II: \"The Uncertainty of Values\""
+    ],
+    [
+        "The fact that you are not sure means that it is possible that there is another way someday.",
+        "lecture II: \"The Uncertainty of Values\""
+    ],
+    [
+        "I believe in limited government. I believe that government should be limited in many ways, and what I am going to emphasize is only an intellectual thing. I don't want to talk about everything at the same time. Let's take a small piece, an intellectual thing.No government has the right to decide on the truth of scientific principles, nor to prescribe in any way the character of the questions investigated. Neither may a government determine the aesthetic value of artistic creations, nor limit the forms of literary or artistic expression. Nor should it pronounce on the validity of economic, historic, religious, or philosophical doctrines. Instead it has a duty to its citizens to maintain the freedom, to let those citizens contribute to the further adventure and the development of the human race.",
+        "lecture II: \"The Uncertainty of Values\""
+    ],
+    [
+        "The first one has to do with whether a man knows what he is talking about, whether what he says has some basis or not. And my trick that I use is very easy. If you ask him intelligent questions — that is, penetrating, interested, honest, frank, direct questions on the subject, and no trick questions — then he quickly gets stuck. It is like a child asking naive questions. If you ask naive but relevant questions, then almost immediately the person doesn't know the answer, if he is an honest man.",
+        "lecture III: \"This Unscientific Age\""
+    ],
+    [
+        "Anyway, I have to argue about flying saucers on the beach with people, you know. And I was interested in this: they keep arguing that it is possible. And that's true. It is possible. They do not appreciate that the problem is not to demonstrate whether it's possible or not but whether it's going on or not.",
+        "lecture III: \"This Unscientific Age\""
+    ],
+    [
+        "It's a great game to try to look at the past, at an unscientific era, look at something there, and say have we got the same thing now, and where is it? So I would like to amuse myself with this game. First, we take witch doctors. The witch doctor says he knows how to cure. There are spirits inside which are trying to get out. ... Put a snakeskin on and take quinine from the bark of a tree. The quinine works. He doesn't know he's got the wrong theory of what happens. If I'm in the tribe and I'm sick, I go to the witch doctor. He knows more about it than anyone else. But I keep trying to tell him he doesn't know what he's doing and that someday when people investigate the thing freely and get free of all his complicated ideas they'll learn much better ways of doing it. Who are the witch doctors? Psychoanalysts and psychiatrists, of course.",
+        "lecture III: \"This Unscientific Age\"\n(David Goodstein reports that the entire psychology department walked out in a huff at this point.)"
+    ],
+    [
+        "If the professors of English will complain to me that the students who come to the universities, after all those years of study, still cannot spell \"friend,\" I say to them that something's the matter with the way you spell friend.",
+        "lecture III: \"This Unscientific Age\""
+    ],
+    [
+        "Suppose two politicians are running for president, and one goes through the farm section and is asked, \"What are you going to do about the farm question?\" And he knows right away - bang, bang, bang. Now he goes to the next campaigner who comes through. \"What are you going to do on the farm problem?\" \"Well, I don't know. I used to be a general, and I don't know anything about farming. But it seems to me it must be a very difficult problem, because for twelve, fifteen, twenty years people have been struggling with it, and people say that they know how to solve the farm problem. And it must be a hard problem. So the way I intend to solve the farm problem is to gather around me a lot of people who know something about it, to look at all the experience that we have had with this problem before, to take a certain amount of time at it, and then to come to some conclusion in a reasonable way about it. Now, I can't tell you ahead of time what solution, but I can give you some of the principles I'll try to use - not to make things difficult for individual farmers, if there are any special problems we will have to have some way to take care of them,\" etc., etc., etc.Now such a man would never get anywhere in this country, I think. It's never been tried, anyway. This is in the attitude of mind of the populace, that they have to have an answer and that a man who gives an answer is better than a man who gives no answer, when the real fact of the matter is, in most cases, it is the other way around. And the result of this of course is that the politician must give an answer. And the result of this is that political promises can never be kept. It is a mechanical fact; it is impossible. The result of that is that nobody believes campaign promises. And the result of that is a general disparaging of politics, a general lack of respect for the people who are trying to solve problems, and so forth. It's all generated from the very beginning (maybe - this is a simple analysis). It's all generated, maybe, by the fact that the attitude of the populace is to try to find the answer instead of trying to find a man who has a way of getting at the answer.",
+        "lecture III: \"This Unscientific Age\""
+    ],
+    [
+        "I've always been rather very one-sided about the science, and when I was younger, I concentrated almost all my effort on it. I didn't have time to learn, and I didn't have much patience for what's called the humanities; even though in the university there were humanities that you had to take, I tried my best to avoid somehow to learn anything and to work on it. It's only afterwards, when I've gotten older and more relaxed that I've spread out a little bit — I've learned to draw, and I read a little bit, but I'm really still a very one-sided person and don't know a great deal. I have a limited intelligence and I've used it in a particular direction.",
+        "\"The Pleasure of Finding Things Out\", p. 2-3, transcript of BBC TV Horizon interview (1981): video"
+    ],
+    [
+        "The first principle is that you must not fool yourself, and you are the easiest person to fool.",
+        "from lecture \"What is and What Should be the Role of Scientific Culture in Modern Society\", given at the Galileo Symposium in Italy (1964)"
+    ],
+    [
+        "The remark which I read somewhere, that science is all right as long as it doesn't attack religion, was the clue I needed to understand the problem. As long as it doesn't attack religion it need not be paid attention to and nobody has to learn anything. So it can be cut off from society except for its applications, and thus be isolated. And then we have this terrible struggle to try to explain things to people who have no reason to want to know. But if they want to defend their own point of view, they will have to learn what yours is a little bit. So I suggest, maybe correctly and perhaps wrongly, that we are too polite.",
+        "from lecture \"What is and What Should be the Role of Scientific Culture in Modern Society\", given at the Galileo Symposium in Italy (1964)"
+    ],
+    [
+        "We absolutely must leave room for doubt or there is no progress and no learning. There is no learning without having to pose a question. And a question requires doubt. People search for certainty. But there is no certainty. People are terrified — how can you live and not know? It is not odd at all. You only think you know, as a matter of fact. And most of your actions are based on incomplete knowledge and you really don't know what it is all about, or what the purpose of the world is, or know a great deal of other things. It is possible to live and not know.",
+        "from lecture \"What is and What Should be the Role of Scientific Culture in Modern Society\", given at the Galileo Symposium in Italy (1964)"
+    ],
+    [
+        "...I don't believe in the idea that there are a few peculiar people capable of understanding math and the rest of the world is normal. Math is a human discovery, and it's no more complicated than humans can understand. I had a calculus book once that said, \"What one fool can do, another fool can.\" What we've been able to work out about nature may look abstract and threatening to someone who hasn't studied it, but it was fools who did it, and in the next generation, all the fools will understand it. There's a tendency to pomposity in all this, to make it all deep and profound...",
+        "From Omni interview, \"The Smartest Man in the World\" (1979) or from the book p. 194."
+    ],
+    [
+        "...In that same period there was Newton, there was Harvey studying the circulation of the blood, there were people with methods of analysis by which progress was being made! You can take every one of Spinoza's propositions and take the contrary propositions and look at the world--and you can't tell which is right. Sure, people were awed because he had the courage to take on these great questions, but it doesn't do any good to have the courage if you can't get anywhere with the question...",
+        "From Omni interview, \"The Smartest Man in the World\" (1979) or from the book p. 195."
+    ],
+    [
+        "I don't know anything, but I do know that everything is interesting if you go into it deeply enough.",
+        "From Omni interview, \"The Smartest Man in the World\" (1979) p. 203"
+    ]
+]
+}

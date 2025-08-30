@@ -5,26 +5,26 @@ const dir = path.join(__dirname, 'src', 'quotes');
 
 const languageSanitizer = {
     en: entry => {
-        const res = [...entry];
-        res[0] = latinize(
-            res[0].replace(/—/g, '-')
-                  .replace(/“|”/g, '"')
-                  .replace(/‘|’/g, "'")
-                  .replace(/…/g, '...')
-                  .replace(/\n/g, ' ')
-                  .replace(/–/g, '-')
+        entry[0] = latinize(
+            entry[0]
+                .replace(/—/g, '-')
+                .replace(/“|”/g, '"')
+                .replace(/‘|’/g, "'")
+                .replace(/…/g, '...')
+                .replace(/\n/g, ' ')
+                .replace(/–/g, '-')
         );
-        return res;
+        return [entry[0]];
     },
     it: entry => {
-        const res = [...entry];
-        res[0].replace(/—/g, '-')
-              .replace(/“|”/g, '"')
-              .replace(/‘|’/g, "'")
-              .replace(/…/g, '...')
-              .replace(/\n/g, ' ')
-              .replace(/–/g, '-');
-        return res;
+        entry[0] = entry[0]
+            .replace(/—/g, '-')
+            .replace(/“|”/g, '"')
+            .replace(/‘|’/g, "'")
+            .replace(/…/g, '...')
+            .replace(/\n/g, ' ')
+            .replace(/–/g, '-');
+        return [entry[0]];
     }
 };
 
