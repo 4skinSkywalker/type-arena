@@ -9,6 +9,7 @@ const languageSanitizer = {
             entry[0]
                 .replace(/—/g, '-')
                 .replace(/“|”/g, '"')
+                .replace(/«|»/g, '"')
                 .replace(/‘|’/g, "'")
                 .replace(/…/g, '...')
                 .replace(/\n/g, ' ')
@@ -20,6 +21,7 @@ const languageSanitizer = {
         entry[0] = entry[0]
             .replace(/—/g, '-')
             .replace(/“|”/g, '"')
+            .replace(/«|»/g, '"')
             .replace(/‘|’/g, "'")
             .replace(/…/g, '...')
             .replace(/\n/g, ' ')
