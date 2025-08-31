@@ -100,6 +100,12 @@ export class RoomComponent {
       const client = this.client();
       return !!room && !!room.host && !!client && room.host.id === client.id;
     });
+
+    effect(() => {
+      const w = window as any;
+      w.room = this.room();
+      w.raceStarted = this.raceStarted();
+    });
   }
 
   ngOnInit() {

@@ -24,12 +24,12 @@ export class ArenaComponent {
   document = document;
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
-  enabled = input(true, {alias: "enabled"});
+  enabled = input(true, { alias: "enabled" });
   finished = signal(false);
   quote = input("", { alias: "quote" });
   author = input("", { alias: "author" });
-  winners = input<IWinners>(getDefaultWinners(), { alias: "winners"});
-  deathMode = input(false, { alias: "deathMode"});
+  winners = input<IWinners>(getDefaultWinners(), { alias: "winners" });
+  deathMode = input(false, { alias: "deathMode" });
   dead = signal(false);
   chars: { index: number, char: string, active: boolean, digited: boolean, error: boolean }[] = [];
   percentage = signal(0);
