@@ -73,6 +73,10 @@ export interface IChatMessage {
     isSystem?: boolean;
 }
 
+export interface IIsTypingChat {
+    roomId: string;
+}
+
 export interface IProgressDetails {
     wpm: number;
     accuracy: number;
@@ -134,6 +138,10 @@ export interface IChatReceivedMessage {
     time: string;
     text: string;
     isSystem?: boolean;
+}
+
+export interface IIsTypingChatReceived {
+    client: IClientJSON;
 }
 
 export interface IRoomDetailsReceivedMessage {

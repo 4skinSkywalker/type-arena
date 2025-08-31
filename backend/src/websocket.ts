@@ -1,6 +1,6 @@
 import { getUid, parseEvent } from "./utils";
 import WebSocket from 'ws';
-import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IRace, IClientWithPercentage, IQuote, Language } from "./models";
+import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IRace, IClientWithPercentage, IQuote, Language, IIsTypingChat } from "./models";
 import { getRandomQuote } from "./quotes";
 
 const globalRooms = new Map<string, Room>();
@@ -39,6 +39,7 @@ class Client {
         "clientInfo": this.handleClientInfo.bind(this),
         "ping": this.handlePing.bind(this),
         "chat": this.handleChat.bind(this),
+        "isTypingChat": this.handleIsTypingChat.bind(this),
         "progress": this.handleProgress.bind(this),
         "listClients": this.handleListClients.bind(this),
         "listRooms": this.handleListRooms.bind(this),
@@ -90,6 +91,10 @@ class Client {
     
     handleChat(msg: IChatMessage) {
         this.getRoom().sendChatMessage(msg.text, this, msg.isSystem);
+    }
+
+    handleIsTypingChat(msg: IIsTypingChat) {
+        this.getRoom().sendIsTypingChat(this);
     }
     
     handleProgress(msg: IProgressMessage) {
@@ -326,7 +331,15 @@ class Room {
                 client: client.toJSON(),
                 time: new Date().toLocaleTimeString(),
                 text,
-                isSystem,
+                isSystem
+            });
+        }
+    }
+
+    sendIsTypingChat(client: Client) {
+        for (const _client of this.clients.values()) {
+            _client.send("isTypingChatReceived", {
+                client: client.toJSON()
             });
         }
     }

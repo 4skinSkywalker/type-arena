@@ -2,8 +2,8 @@ import { Component, computed, effect, HostListener, Signal, signal, ViewChild } 
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { ApiService, Handlers } from '../../services/api.service';
-import { check, delay, uncheck, copyToClipboard, focus, scrollToBottom } from '../../shared/utils';
-import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRoomMessage, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
+import { check, delay, uncheck, copyToClipboard, focus, scrollToBottom, throttle, scrollToTop, debounce } from '../../shared/utils';
+import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRoomMessage, IIsTypingChatReceived, IProgressReceivedMessage, IRoomDetailsReceivedMessage, IRoomJSON } from '../../../../../backend/src/models';
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
@@ -58,6 +58,10 @@ export class RoomComponent {
       .sort((a, b) => a.id > b.id ? 1 : -1)
   );
 
+  get isTypingInfoElement() {
+    return document.querySelector(".is-typing-info") as HTMLDivElement;
+  }
+
   handlers: Handlers = {
     "chatReceived": this.handleChatReceived.bind(this),
     "roomDetailsReceived": this.handleRoomDetailsReceived.bind(this),
@@ -66,6 +70,7 @@ export class RoomComponent {
     "gameStarted": this.handleGameStarted.bind(this),
     "gameResetted": this.handleGameResetted.bind(this),
     "progressReceived": this.handleProgressReceived.bind(this),
+    "isTypingChatReceived": this.handleIsTypingChatReceived.bind(this),
   };
 
   @HostListener("document:keydown", ["$event"])
@@ -116,6 +121,23 @@ export class RoomComponent {
     this.setDeathModeColor(false);
   }
 
+  handleIsTypingChat = throttle(() => {
+    this.api.send("isTypingChat", { roomId: this.roomId });
+  }, 500);
+
+  removeTypingInfo = debounce(() => {
+    this.isTypingInfoElement.innerHTML = "";
+  }, 750);
+
+  handleIsTypingChatReceived(msg: IIsTypingChatReceived) {
+    if (msg.client.id === this.client()?.id) {
+      return;
+    }
+
+    this.isTypingInfoElement.innerHTML = `${msg.client.name} is typing...`;
+    this.removeTypingInfo();
+  }
+
   setDeathModeColor(isDeathMode: boolean) {
     const color = isDeathMode ? DEATH_MODE_COLOR : NORMAL_MODE_COLOR;
     document.body.style.setProperty("--primary-color", color);
@@ -152,7 +174,7 @@ export class RoomComponent {
       client: getSystemClient(),
       time: "00:00:00",
       text,
-      isSystem: true,
+      isSystem: true
     };
     this.chatMessages.update(prev => [...prev, chatMsg]);
     scrollToBottom(".chat");
@@ -162,7 +184,7 @@ export class RoomComponent {
     this.api.send("chat", {
       roomId: this.roomId,
       text,
-      isSystem,
+      isSystem
     });
 
     if (!isSystem) {
@@ -245,6 +267,7 @@ export class RoomComponent {
     this.silver.set("");
     this.bronze.set("");
     this.arenaComponent.reset();
+    scrollToTop("#arena-text");
   }
 
   handleProgressReceived(msg: IProgressReceivedMessage) {

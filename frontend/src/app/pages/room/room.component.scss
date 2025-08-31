@@ -109,7 +109,25 @@
         border-block: 2px solid rgba(var(--c4), 1);
     }
 
+    .is-typing-info {
+        position: absolute;
+        bottom: 42px;
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        font-style: italic;
+        font-size: 15px;
+        color: rgba(var(--primary-color), 0.5);
+    }
+
+    .is-typing-info:not(:empty) {
+        height: auto;
+        padding: 5px 15px;
+    }
+
     .chat {
+        position: relative;
+        overflow: hidden;
         overflow-y: auto;
         height: 100%;
         flex-grow: 1;
@@ -117,12 +135,14 @@
         flex-direction: column;
         gap: var(--tertiary-space);
         padding: var(--tertiary-space);
+        padding-bottom: 30px;
     
         .chat-message-wrap {
             width: 75%;
             border: 2px solid rgba(var(--c4), 1);
             background-color: rgba(var(--c1), 1);
             padding: var(--tertiary-space);
+            word-break: break-word;
     
             &.my-message {
                 margin-left: auto;

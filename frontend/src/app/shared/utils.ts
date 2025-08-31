@@ -21,6 +21,17 @@ export function debounce(callback: () => void, wait: number) {
     };
 }
 
+export function throttle(func: Function, limit: number) {
+    let inThrottle = false;
+    return function(...args: any[]) {
+        if (!inThrottle) {
+            func(...args)
+            inThrottle = true;
+            setTimeout(() => inThrottle = false, limit);
+        }
+    };
+}
+
 export function saveIntoLS(key: string, val: any) {
     window.localStorage.setItem(key, JSON.stringify(val));
 }
@@ -32,6 +43,14 @@ export function loadFromLS(key: string) {
     }
 
     return JSON.parse(val);
+}
+
+export async function scrollToTop(selector: string) {
+    await delay(0.15);
+    const el = document.querySelector(selector) as HTMLDivElement;
+    if (el) {
+        el.scrollTop = 0;
+    }
 }
 
 export async function scrollToBottom(selector: string) {

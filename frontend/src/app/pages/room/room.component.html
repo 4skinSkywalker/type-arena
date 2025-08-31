@@ -111,13 +111,18 @@
             </div>
             }
         </div>
+        
+        <div class="is-typing-info"></div>
 
         <div class="chat-composer">
-            <input 
+            <input
+                id="chat-input"
                 type="text" 
                 class="form-control compact"
                 placeholder="Type your message here..."
+                autocomplete="off"
                 [formControl]="chatMessage"
+                (input)="handleIsTypingChat()"
                 (keydown.enter)="sendChatMessage(chatMessage.value)"
             >
             <button 
