@@ -349,6 +349,10 @@ class Room {
             return console.error("Client not in race", client.id);
         }
 
+        if (!this.race.isRunning) {
+            return console.error("Race is not running");
+        }
+
         this.race.players[client.id] = {
             ...client.toJSON({ includeRoom: false }),
             wpm: msg.wpm,
