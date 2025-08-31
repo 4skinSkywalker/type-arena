@@ -43,7 +43,8 @@ const puppeteer = require('puppeteer');
             "WildCard",
             "Frostbite",
             "Javaman",
-            "DonaldTrump"
+            "DonaldTrump",
+            "TestTheCats"
         ];
         localStorage.setItem('clientInfo', JSON.stringify({ name: nicks[Math.floor(Math.random()*nicks.length)], car: 1+Math.floor(Math.random()*7), wpm: 0, accuracy: 0 }));
     });
