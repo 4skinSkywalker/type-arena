@@ -3,7 +3,7 @@ import { LaneComponent } from './lane/lane.component';
 import { IClientWithPercentage, IWinners } from '../../../../../backend/src/models';
 import { CommonModule } from '@angular/common';
 import { loadFromLS, saveIntoLS, focus, scrollElementIntoView } from '../../shared/utils';
-import { getDefaultWinners } from '../../pages/game-multiplayer/game-multiplayer.util';
+import { getDefaultWinners } from '../../pages/room/room.util';
 
 export interface IArenaProgress {
   wpm: number;

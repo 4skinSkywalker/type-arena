@@ -64,7 +64,11 @@
         </div>
         }
 
-        <button id="share-link" class="btn btn-secondary" (click)="shareLink()">Share link <i class="bi bi-link-45deg"></i></button>
+        <button
+            id="share-link"
+            class="btn btn-secondary"
+            (click)="shareLink()"
+        >Share link <i class="bi bi-link-45deg"></i></button>
 
         <table class="table table-striped">
             <thead>
@@ -89,16 +93,6 @@
     <div class="chat-container">
         <div class="chat-title">
             <span>Chat</span>
-            @if (voip.calling()) {
-            <button class="btn compact" (click)="voip.stopCall()">
-                Stop call <i class="bi bi-mic-mute"></i>
-            </button>
-            }
-            @else {
-            <button class="btn compact" (click)="voip.startCall()">
-                Start call <i class="bi bi-mic"></i>
-            </button>
-            }
         </div>
         <div class="chat">
             @for (msg of chatMessages(); track $index) {

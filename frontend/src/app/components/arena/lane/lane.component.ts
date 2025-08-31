@@ -1,6 +1,6 @@
 import { Component, input } from '@angular/core';
 import { IWinners } from '../../../../../../backend/src/models';
-import { getDefaultWinners } from '../../../pages/game-multiplayer/game-multiplayer.util';
+import { getDefaultWinners } from '../../../pages/room/room.util';
 
 @Component({
   selector: 'app-lane',

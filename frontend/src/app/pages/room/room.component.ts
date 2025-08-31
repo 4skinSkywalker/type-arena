@@ -7,18 +7,17 @@ import { IChatReceivedMessage, IClientJSON, IClientWithPercentage, IClientWithRo
 import { BasicModule } from '../../basic.module';
 import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
-import { DEATH_MODE_COLOR, getDefaultWinners, getFakeClient, getFakeRoom, NORMAL_MODE_COLOR } from './game-multiplayer.util';
-import { VoipService } from '../../services/voip.service';
+import { DEATH_MODE_COLOR, getDefaultWinners, getSystemClient, NORMAL_MODE_COLOR } from './room.util';
 import { ArenaComponent, IArenaProgress } from '../../components/arena/arena.component';
 
 @Component({
-  selector: 'app-game-multiplayer',
+  selector: 'app-room',
   imports: [BasicModule, ArenaComponent],
-  providers: [VoipService],
-  templateUrl: './game-multiplayer.component.html',
-  styleUrl: './game-multiplayer.component.scss'
+  providers: [],
+  templateUrl: './room.component.html',
+  styleUrl: './room.component.scss'
 })
-export class GameMultiplayerComponent {
+export class RoomComponent {
   @ViewChild(ArenaComponent) arenaComponent!: ArenaComponent;
 
   JSON = JSON;
@@ -86,7 +85,6 @@ export class GameMultiplayerComponent {
 
   constructor(
     public api: ApiService,
-    public voip: VoipService,
     private route: ActivatedRoute,
     private loaderService: LoaderService,
   ) {
@@ -96,19 +94,6 @@ export class GameMultiplayerComponent {
       const room = this.room();
       const client = this.client();
       return !!room && !!room.host && !!client && room.host.id === client.id;
-    });
-
-    // Initialize voip
-    this.voip.initialize(this.roomId);
-    let voipCalling = this.voip.calling();
-    effect(() => {
-      const username = this.client()?.name || "Anonymous";
-      if (voipCalling && !this.voip.calling()) {
-        this.sendChatMessage(`${username} disconnected from voice chat`, true);
-      } else if (this.voip.calling()) {
-        this.sendChatMessage(`${username} connected to voice chat`, true);
-      }
-      voipCalling = this.voip.calling();
     });
   }
 
@@ -164,8 +149,7 @@ export class GameMultiplayerComponent {
   generateSystemMessage(text: string) {
     const chatMsg = {
       id: "-1",
-      room: getFakeRoom(),
-      client: getFakeClient(),
+      client: getSystemClient(),
       time: "00:00:00",
       text,
       isSystem: true,
@@ -264,22 +248,35 @@ export class GameMultiplayerComponent {
   }
 
   handleProgressReceived(msg: IProgressReceivedMessage) {
-    const { gold, silver, bronze } = msg.room.race.winners;
-    const racePlayers = msg.room.race.players;
+    const room = this.room();
+    if (!room) {
+      return console.error("Room not found");
+    }
 
-    if (!this.gold() && gold && racePlayers[gold]) {
+    const winners = msg.winners;
+    const { gold, silver, bronze } = winners;
+    const players = msg.players;
+
+    if (!this.gold() && gold && players[gold]) {
       this.gold.set(gold);
-      this.generateSystemMessage(`User ${racePlayers[gold]?.name} got the gold medal!`);
+      this.generateSystemMessage(`User ${players[gold]?.name} got the gold medal!`);
     }
-    if (!this.silver() && silver && racePlayers[silver]) {
+    if (!this.silver() && silver && players[silver]) {
       this.silver.set(silver);
-      this.generateSystemMessage(`User ${racePlayers[silver]?.name} got the silver medal!`);
+      this.generateSystemMessage(`User ${players[silver]?.name} got the silver medal!`);
     }
-    if (!this.bronze() && bronze && racePlayers[bronze]) {
+    if (!this.bronze() && bronze && players[bronze]) {
       this.bronze.set(bronze);
-      this.generateSystemMessage(`User ${racePlayers[bronze]?.name} got the bronze medal!`);
+      this.generateSystemMessage(`User ${players[bronze]?.name} got the bronze medal!`);
     }
 
-    this.room.set(msg.room);
+    this.room.set({
+      ...room,
+      race: {
+        ...room.race,
+        players,
+        winners
+      }
+    });
   }
 }

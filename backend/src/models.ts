@@ -15,12 +15,6 @@ export interface IRoomToJSONOptions {
     includeClients?: boolean;
 }
 
-export interface IAudioMessage {
-    roomId: string;
-    clientId: string;
-    data: number[];
-}
-
 export interface IQuote {
     author: string;
     bio: string;
@@ -136,7 +130,6 @@ export interface IClientLeftRoomMessage {
 
 export interface IChatReceivedMessage {
     id: string;
-    room: IRoomJSON;
     client: IClientJSON;
     time: string;
     text: string;
@@ -153,5 +146,6 @@ export interface IClientWithRoomMessage {
 }
 
 export interface IProgressReceivedMessage {
-    room: IRoomJSON;
+    players: Record<string, IClientWithPercentage>;
+    winners: IWinners;
 }

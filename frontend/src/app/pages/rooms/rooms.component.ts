@@ -8,12 +8,12 @@ import { LoaderService } from '../../components/loader/loader-service.service';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-list',
+  selector: 'app-rooms',
   imports: [BasicModule],
-  templateUrl: './list.component.html',
-  styleUrl: './list.component.scss'
+  templateUrl: './rooms.component.html',
+  styleUrl: './rooms.component.scss'
 })
-export class ListComponent {
+export class RoomsComponent {
   check = check;
   uncheck = uncheck;
   rooms$;

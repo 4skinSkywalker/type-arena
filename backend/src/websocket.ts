@@ -1,6 +1,6 @@
 import { getUid, parseEvent } from "./utils";
 import WebSocket from 'ws';
-import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IAudioMessage, IRace, IClientWithPercentage, IQuote, Language } from "./models";
+import { IChatMessage, IClientJSON, IRoomJSON, IProgressMessage, ICreateRoomMessage, IJoinRoomMessage, IRoomDetailsMessage, IStartGameMessage, IClientInfoMessage, IRoomToJSONOptions, IClientToJSONOptions, IRace, IClientWithPercentage, IQuote, Language } from "./models";
 import { getRandomQuote } from "./quotes";
 
 const globalRooms = new Map<string, Room>();
@@ -35,7 +35,6 @@ class Client {
     accuracy = 0;
     room?: Room = undefined;
     handlers: Record<string, (msg: any) => void> = {
-        "voice": this.handleVoice.bind(this),
         "whoAmI": this.handleWhoAmI.bind(this),
         "clientInfo": this.handleClientInfo.bind(this),
         "ping": this.handlePing.bind(this),
@@ -68,10 +67,6 @@ class Client {
 
     send(topic: string, message?: {}) {
         this.ws.send(JSON.stringify({ topic, message }));
-    }
-
-    handleVoice(msg: IAudioMessage) {
-        this.getRoom().sendVoice(msg);
     }
 
     handleWhoAmI() {
@@ -272,14 +267,6 @@ class Room {
         globalRooms.set(this.id, this);
     }
 
-    sendVoice(msg: IAudioMessage) {
-        for (const [clientId, client] of this.clients.entries()) {
-            if (clientId !== msg.clientId) {
-                client.send("voiceReceived", msg);
-            }
-        }
-    }
-
     createRace(players?: Record<string, IClientWithPercentage>, oldQuote?: IQuote): IRace {
         let randomQuote = getRandomQuote(this.language);
         while (randomQuote.quote === oldQuote?.quote) {
@@ -336,7 +323,6 @@ class Room {
         for (const _client of this.clients.values()) {
             _client.send("chatReceived", {
                 id: getUid(),
-                room: this.toJSON(),
                 client: client.toJSON(),
                 time: new Date().toLocaleTimeString(),
                 text,
@@ -367,30 +353,25 @@ class Room {
 
         const percentage = this.race.players[client.id].percentage;
         if (percentage >= 1) {
-            let shouldSend = false;
             if (this.race.winners.gold === null) {
                 this.race.winners.gold = client.id;
                 console.log(`Client ${client.name} got the gold medal`);
-                shouldSend = true;
             } else if (this.race.winners.silver === null) {
                 this.race.winners.silver = client.id;
                 console.log(`Client ${client.name} got the silver medal`);
-                shouldSend = true;
             } else if (this.race.winners.bronze === null) {
                 this.race.winners.bronze = client.id;
                 console.log(`Client ${client.name} got the bronze medal`);
-                shouldSend = true;
             } else {
                 console.log(`Client ${client.name} got no medal`);
-            }
-
-            if (shouldSend) {
-                this.sendRoomDetails();
             }
         }
 
         for (const _client of this.clients.values()) {
-            _client.send("progressReceived", { room: this.toJSON({ includeClients: false }) });
+            _client.send("progressReceived", {
+                players: this.race.players,
+                winners: this.race.winners
+            });
         }
     }
 
