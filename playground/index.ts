@@ -15,7 +15,8 @@ const puppeteer = require('puppeteer');
     const windowYPos = 0;
 
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
+        // headless: false,
         args: [
             `--window-size=${windowWidth},${windowHeight}`,
             `--window-position=${windowXPos},${windowYPos}`
