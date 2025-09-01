@@ -1,11 +1,10 @@
 import { Component, input } from '@angular/core';
 import { IWinners } from '../../../../../../backend/src/models';
 import { getDefaultWinners } from '../../../pages/room/room.util';
-import { BasicModule } from '../../../basic.module';
 
 @Component({
   selector: 'app-lane',
-  imports: [BasicModule],
+  imports: [],
   templateUrl: './lane.component.html',
   styleUrl: './lane.component.scss'
 })
