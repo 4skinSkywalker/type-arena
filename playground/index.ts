@@ -59,15 +59,15 @@ const puppeteer = require('puppeteer');
     const difficulties = {
         easy: {
             avgTypingSpeed: 200,
-            errRate: 0.1
+            errRate: 0.2
         },
         medium: {
             avgTypingSpeed: 170,
-            errRate: 0.05
+            errRate: 0.1
         },
         hard: {
             avgTypingSpeed: 140,
-            errRate: 0.01
+            errRate: 0.02
         }
     };
     const _difficulties = Object.values(difficulties);
@@ -76,6 +76,7 @@ const puppeteer = require('puppeteer');
 
     let raceStarted = false;
     let quote = "";
+    let deathMode = false;
     let textIndex = 0;
     let text = "";
     
@@ -112,7 +113,7 @@ const puppeteer = require('puppeteer');
                 prevChar = "";
                 textIndex++;
             } else {
-                if (Math.random() < errRate) {
+                if (Math.random() < (deathMode ? errRate / 2 : errRate)) {
                     char = "#";
                     hasError = true;
                     prevChar = quote[textIndex];
@@ -128,7 +129,7 @@ const puppeteer = require('puppeteer');
             if (text.length < quote.length) {
                 typingLoop();
             }
-        }, avgTypingSpeed + signRnd);
+        }, avgTypingSpeed * (deathMode ? 1.1 : 1) + signRnd);
     }
 
     function statusLoop() {
@@ -145,9 +146,14 @@ const puppeteer = require('puppeteer');
                 }
             }
 
-            if (quote !== room.race.quote.quote) {
-                console.log("quote changed", room.race.quote.quote);
-                quote = room.race.quote.quote;
+            if (quote !== window.room.race.quote.quote) {
+                console.log("quote changed", window.room.race.quote.quote);
+                quote = window.room.race.quote.quote;
+            }
+
+            if (deathMode !== window.deathMode) {
+                console.log("death mode changed", window.deathMode);
+                deathMode = window.deathMode;
             }
         }, 100)
     }

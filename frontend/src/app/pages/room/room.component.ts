@@ -105,6 +105,7 @@ export class RoomComponent {
       const w = window as any;
       w.room = this.room();
       w.raceStarted = this.raceStarted();
+      w.deathMode = this.deathMode();
     });
   }
 
