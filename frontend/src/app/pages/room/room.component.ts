@@ -104,8 +104,10 @@ export class RoomComponent {
     effect(() => {
       const w = window as any;
       w.room = this.room();
+      w.isHost = this.isHost();
       w.raceStarted = this.raceStarted();
       w.deathMode = this.deathMode();
+      w.me = this.me();
     });
   }
 
@@ -191,7 +193,7 @@ export class RoomComponent {
     if (!text) {
       return;
     }
-    
+
     this.api.send("chat", {
       roomId: this.roomId,
       text,
