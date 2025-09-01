@@ -49,8 +49,8 @@ const puppeteer = require('puppeteer');
         localStorage.setItem('clientInfo', JSON.stringify({ name: nicks[Math.floor(Math.random()*nicks.length)], car: 1+Math.floor(Math.random()*7), wpm: 0, accuracy: 0 }));
     });
 
-    // await page.goto('https://type-arena.dev/multiplayer/' + roomId, { waitUntil: 'networkidle0' });
-    await page.goto('http://localhost:4200/multiplayer/' + roomId, { waitUntil: 'networkidle0' });
+    await page.goto('https://type-arena.dev/multiplayer/' + roomId, { waitUntil: 'networkidle0' });
+    // await page.goto('http://localhost:4200/multiplayer/' + roomId, { waitUntil: 'networkidle0' });
 
     await new Promise(resolve => setTimeout(resolve, 2000));
 
