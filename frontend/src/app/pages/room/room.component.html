@@ -34,6 +34,7 @@
             <h3 class="m-0">Host commands</h3>
             <div class="d-grid gap-2" style="grid-template-columns: 150px 150px;">
                 <button
+                    id="host-cmd-start"
                     class="btn compact"
                     [class.btn-primary]="!raceStarted()"
                     [class.btn-secondary]="raceStarted()"
@@ -41,6 +42,7 @@
                     (click)="startGame()"
                 >Start  (⇧ + ↵)</button>
                 <button
+                    id="host-cmd-new"
                     class="btn compact"
                     [class.btn-primary]="raceStarted()"
                     [class.btn-secondary]="!raceStarted()"

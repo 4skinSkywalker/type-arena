@@ -4,6 +4,7 @@ import { IClientWithPercentage, IWinners } from '../../../../../backend/src/mode
 import { CommonModule } from '@angular/common';
 import { loadFromLS, saveIntoLS, focus, scrollElementIntoView } from '../../shared/utils';
 import { getDefaultWinners } from '../../pages/room/room.util';
+import { BasicModule } from '../../basic.module';
 
 export interface IArenaProgress {
   wpm: number;
@@ -14,7 +15,7 @@ export interface IArenaProgress {
 
 @Component({
   selector: 'app-arena',
-  imports: [CommonModule, LaneComponent],
+  imports: [BasicModule, CommonModule, LaneComponent],
   templateUrl: './arena.component.html',
   styleUrl: './arena.component.scss'
 })
