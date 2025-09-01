@@ -103,11 +103,11 @@
             >
                 @if (!msg.isSystem) {
                 <div class="chat-header">
-                    <div class="chat-author">{{msg.client.name}}</div>
-                    <div class="chat-time">{{msg.time}}</div>
+                    <div class="chat-author">{{ msg.client.name | ellipsis: 15 }}</div>
+                    <div class="chat-time">{{ msg.time }}</div>
                 </div>
                 }
-                <div class="chat-message">{{msg.text}}</div>
+                <div class="chat-message">{{ msg.text }}</div>
             </div>
             }
         </div>

@@ -188,6 +188,10 @@ export class RoomComponent {
   }
 
   sendChatMessage(text: string, isSystem = false) {
+    if (!text) {
+      return;
+    }
+    
     this.api.send("chat", {
       roomId: this.roomId,
       text,

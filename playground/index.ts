@@ -59,15 +59,18 @@ const puppeteer = require('puppeteer');
     const difficulties = {
         easy: {
             avgTypingSpeed: 200,
-            errRate: 0.2
+            errRate: 0.1,
+            noMistakesRate: 0.1
         },
         medium: {
             avgTypingSpeed: 170,
-            errRate: 0.1
+            errRate: 0.05,
+            noMistakesRate: 0.4
         },
         hard: {
             avgTypingSpeed: 140,
-            errRate: 0.02
+            errRate: 0.01,
+            noMistakesRate: 0.75
         }
     };
     const _difficulties = Object.values(difficulties);
@@ -97,6 +100,7 @@ const puppeteer = require('puppeteer');
     
     let hasError = false;
     let prevChar = "";
+    let noMistake = deathMode ? Math.random() < noMistakesRate: false;
     function typingLoop() {
         const rnd = Math.random() * avgTypingSpeed;
         const signRnd = Math.random() > 0.5 ? rnd : -rnd;
@@ -113,7 +117,7 @@ const puppeteer = require('puppeteer');
                 prevChar = "";
                 textIndex++;
             } else {
-                if (Math.random() < (deathMode ? errRate / 2 : errRate)) {
+                if (!noMistake && Math.random() < (deathMode ? errRate / 2 : errRate)) {
                     char = "#";
                     hasError = true;
                     prevChar = quote[textIndex];
