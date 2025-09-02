@@ -22,7 +22,7 @@
                 <tbody>
                     @for (room of rooms$ | async; track room.id) {
                     <tr>
-                        <td>{{ room.name }}</td>
+                        <td>{{ room.name | ellipsis: 15 }}</td>
                         <td>{{ room.host.name | ellipsis: 15 }}</td>
                         <td>{{(
                             room.language === 'en'

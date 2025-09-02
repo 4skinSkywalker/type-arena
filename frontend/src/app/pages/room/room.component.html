@@ -84,7 +84,7 @@
                 @for (client of racePlayersSortByPercentage(); track client.id) {
                 <tr>
                     <td class="text-center">{{ $index + 1 }}</td>
-                    <td class="text-start">{{ client.name }}</td>
+                    <td class="text-start">{{ client.name | ellipsis: 15 }}</td>
                     <td class="text-end">{{ (client.percentage || 0) | percent }}</td>
                 </tr>
                 }
