@@ -9,6 +9,7 @@ import { FormControl } from '@angular/forms';
 import { LoaderService } from '../../components/loader/loader-service.service';
 import { DEATH_MODE_COLOR, getDefaultWinners, getSystemClient, NORMAL_MODE_COLOR } from './room.util';
 import { ArenaComponent, IArenaProgress } from '../../components/arena/arena.component';
+import { ellipsis } from '../../pipes/ellipsis.pipe';
 
 @Component({
   selector: 'app-room',
@@ -143,7 +144,7 @@ export class RoomComponent {
       return;
     }
 
-    this.isTypingInfoElement.innerHTML = `${msg.client.name} is typing...`;
+    this.isTypingInfoElement.innerHTML = `${ellipsis(msg.client.name, 15)} is typing...`;
     this.removeTypingInfo();
   }
 
@@ -250,11 +251,11 @@ export class RoomComponent {
   }
 
   handleClientJoined(msg: IClientWithRoomMessage) {
-    this.generateSystemMessage(`Client ${msg.client.name} joined the room`);
+    this.generateSystemMessage(`Client ${ellipsis(msg.client.name, 15)} joined the room`);
   }
 
   handleClientLeft(msg: IClientWithRoomMessage) {
-    this.generateSystemMessage(`Client ${msg.client.name} left the room`);
+    this.generateSystemMessage(`Client ${ellipsis(msg.client.name, 15)} left the room`);
   }
 
   startGame() {
@@ -295,15 +296,15 @@ export class RoomComponent {
 
     if (!this.gold() && gold && players[gold]) {
       this.gold.set(gold);
-      this.generateSystemMessage(`User ${players[gold]?.name} got the gold medal!`);
+      this.generateSystemMessage(`User ${ellipsis(players[gold]?.name, 15)} got the gold medal!`);
     }
     if (!this.silver() && silver && players[silver]) {
       this.silver.set(silver);
-      this.generateSystemMessage(`User ${players[silver]?.name} got the silver medal!`);
+      this.generateSystemMessage(`User ${ellipsis(players[silver]?.name, 15)} got the silver medal!`);
     }
     if (!this.bronze() && bronze && players[bronze]) {
       this.bronze.set(bronze);
-      this.generateSystemMessage(`User ${players[bronze]?.name} got the bronze medal!`);
+      this.generateSystemMessage(`User ${ellipsis(players[bronze]?.name, 15)} got the bronze medal!`);
     }
 
     this.room.set({
