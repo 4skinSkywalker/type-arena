@@ -8,6 +8,7 @@ const languageSanitizer = {
         entry[0] = latinize(
             entry[0]
                 .replace(/—/g, '-')
+                .replace(/´/g, "'")
                 .replace(/“|”/g, '"')
                 .replace(/«|»/g, '"')
                 .replace(/‘|’/g, "'")
@@ -20,6 +21,7 @@ const languageSanitizer = {
     it: entry => {
         entry[0] = entry[0]
             .replace(/—/g, '-')
+            .replace(/´/g, "'")
             .replace(/“|”/g, '"')
             .replace(/«|»/g, '"')
             .replace(/‘|’/g, "'")
