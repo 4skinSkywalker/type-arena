@@ -77,7 +77,9 @@
                 <tr>
                     <th class="text-center">#</th>
                     <th class="text-start">Name</th>
-                    <th class="text-end">Percentage</th>
+                    <th class="text-end">WPM</th>
+                    <th class="text-end">Accuracy</th>
+                    <th class="text-end">Progress</th>
                 </tr>
             </thead>
             <tbody>
@@ -85,6 +87,8 @@
                 <tr>
                     <td class="text-center">{{ $index + 1 }}</td>
                     <td class="text-start">{{ client.name | ellipsis: 15 }}</td>
+                    <td class="text-end">{{ client.wpm || 0}}</td>
+                    <td class="text-end">{{ (client.accuracy || 0) | percent }}</td>
                     <td class="text-end">{{ (client.percentage || 0) | percent }}</td>
                 </tr>
                 }
