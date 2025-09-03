@@ -6,7 +6,7 @@
 
 .main {
     position: relative;
-    overflow-y: auto;
+    overflow: hidden auto;
 }
 
 .top-bar {
@@ -127,8 +127,7 @@
 
     .chat {
         position: relative;
-        overflow: hidden;
-        overflow-y: auto;
+        overflow: hidden auto;
         height: 100%;
         flex-grow: 1;
         display: flex;

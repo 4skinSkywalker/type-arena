@@ -48,7 +48,15 @@ export class RoomComponent {
   raceStarted = signal(false);
   racePlayersSortByPercentage = computed<IClientWithPercentage[]>(() => 
     Object.values(this.room()?.race.players || {})
-      .sort((a, b) => b.percentage - a.percentage)
+      .sort((a, b) => {
+        if (b.percentage !== a.percentage) {
+          return b.percentage - a.percentage;
+        }
+        if (b.wpm !== a.wpm) {
+          return b.wpm - a.wpm;
+        }
+        return b.accuracy - a.accuracy;
+      })
   );
   me = computed<IClientWithPercentage | null>(() => 
     this.room()?.race.players[this.client()?.id || ""] || null
