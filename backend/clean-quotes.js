@@ -45,6 +45,7 @@ function sanitizeQuotes(language) {
             let { bio, quotes } = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
             quotes = quotes
+                .filter(quote => quote.split(" ").length > 5)
                 .map(quote => languageSanitizer[language](quote).filter(Boolean))
                 .filter(Boolean);
 
