@@ -1,809 +1,621 @@
 {
   "bio": "Bertrand Russell was a British philosopher, mathematician, and writer. He was born in 1870 in London, England. He died in 1953 in London, England.",
   "quotes": [
-    ["Love is wise – hatred is foolish.", null],
-    ["The good life is one inspired by love and guided by knowledge.", null],
     [
-      "My whole religion is this: do every duty, and expect no reward for it, either here or hereafter.",
-      "Greek Exercises (1888), written two days after his sixteenth birthday."
+      "Love is wise - hatred is foolish."
     ],
     [
-      "Cambridge is one of the few places where one can talk unlimited nonsense and generalities without anyone pulling one up or confronting one with them when one says just the opposite the next day.",
-      "Letter to Alys Pearsall Smith (1893)"
+      "The good life is one inspired by love and guided by knowledge."
     ],
     [
-      "I am looking forward very much to getting back to Cambridge, and being able to say what I think and not to mean what I say: two things which at home are impossible. Cambridge is one of the few places where one can talk unlimited nonsense and generalities without anyone pulling one up or confronting one with them when one says just the opposite the next day.",
-      "Letter to Alys Pearsall Smith (1893)"
+      "My whole religion is this: do every duty, and expect no reward for it, either here or hereafter."
     ],
     [
-      "Thee will find out in time that I have a great love of professing vile sentiments, I don't know why, unless it springs from long efforts to avoid priggery.",
-      "Letter to Alys Pearsall Smith (1894)"
+      "Cambridge is one of the few places where one can talk unlimited nonsense and generalities without anyone pulling one up or confronting one with them when one says just the opposite the next day."
     ],
     [
-      "Thee might observe incidentally that if the state paid for child-bearing it might and ought to require a medical certificate that the parents were such as to give a reasonable result of a healthy child – this would afford a very good inducement to some sort of care for the race, and gradually as public opinion became educated by the law, it might react on the law and make that more stringent, until one got to some state of things in which there would be a little genuine care for the race, instead of the present haphazard higgledy-piggledy ways.",
-      "Letter to Alys Pearsall Smith (1894)"
+      "I am looking forward very much to getting back to Cambridge, and being able to say what I think and not to mean what I say: two things which at home are impossible. Cambridge is one of the few places where one can talk unlimited nonsense and generalities without anyone pulling one up or confronting one with them when one says just the opposite the next day."
     ],
     [
-      "Pure mathematics consists entirely of assertions to the effect that, if such and such a proposition is true of anything, then such and such another proposition is true of that thing. It is essential not to discuss whether the first proposition is really true, and not to mention what the anything is, of which it is supposed to be true. Both these points would belong to applied mathematics. We start, in pure mathematics, from certain rules of inference, by which we can infer that if one proposition is true, then so is some other proposition. These rules of inference constitute the major part of the principles of formal logic. We then take any hypothesis that seems amusing, and deduce its consequences. If our hypothesis is about anything, and not about some one or more particular things, then our deductions constitute mathematics. Thus mathematics may be defined as the subject in which we never know what we are talking about, nor whether what we are saying is true. People who have been puzzled by the beginnings of mathematics will, I hope, find comfort in this definition, and will probably agree that it is accurate.",
-      "Recent Work on the Principles of Mathematics, published in International Monthly, Vol. 4 (1901), later published as 'Mathematics and the Metaphysicians' in Mysticism and Logic and Other Essays (1917)"
+      "Thee will find out in time that I have a great love of professing vile sentiments, I don't know why, unless it springs from long efforts to avoid priggery."
     ],
     [
-      "[Unlike the] utilitarian... I judge pleasure and pain to be of small importance compared to knowledge, the appreciation and contemplation of beauty, and a certain intrinsic excellence of mind which, apart from its practical effects, appears to me to deserve the name of virtue. [For] many years it seemed to me perfectly self-evident that pleasure is the only good and pain the only evil. Now, however, the opposite seems to me self-evident. What first turned me away from utilitarianism was the persuasion that I myself ought to pursue philosophy, although I had (and have still) no doubt that by doing economics and the theory of politics I could add more to human happiness. It appeared to me that the dignity of which human existence is capable is not attainable by devotion to the mechanism of life, and that unless the contemplation of eternal things is preserved, mankind will become no better than well-fed pigs. But I do not believe that such contemplation on the whole tends to happiness. It gives moments of delight, but these are outweighed by years of effort and depression.",
-      "Letter to Gilbert Murray, April 3, 1902"
+      "Thee might observe incidentally that if the state paid for child-bearing it might and ought to require a medical certificate that the parents were such as to give a reasonable result of a healthy child - this would afford a very good inducement to some sort of care for the race, and gradually as public opinion became educated by the law, it might react on the law and make that more stringent, until one got to some state of things in which there would be a little genuine care for the race, instead of the present haphazard higgledy-piggledy ways."
     ],
     [
-      "It seems to me now that mathematics is capable of an artistic excellence as great as that of any music, perhaps greater; not because the pleasure it gives (although very pure) is comparable, either in intensity or in the number of people who feel it, to that of music, but because it gives in absolute perfection that combination, characteristic of great art, of godlike freedom, with the sense of inevitable destiny; because, in fact, it constructs an ideal world where everything is perfect and yet true.",
-      "Letter to Gilbert Murray, April 3, 1902"
+      "Pure mathematics consists entirely of assertions to the effect that, if such and such a proposition is true of anything, then such and such another proposition is true of that thing. It is essential not to discuss whether the first proposition is really true, and not to mention what the anything is, of which it is supposed to be true. Both these points would belong to applied mathematics. We start, in pure mathematics, from certain rules of inference, by which we can infer that if one proposition is true, then so is some other proposition. These rules of inference constitute the major part of the principles of formal logic. We then take any hypothesis that seems amusing, and deduce its consequences. If our hypothesis is about anything, and not about some one or more particular things, then our deductions constitute mathematics. Thus mathematics may be defined as the subject in which we never know what we are talking about, nor whether what we are saying is true. People who have been puzzled by the beginnings of mathematics will, I hope, find comfort in this definition, and will probably agree that it is accurate."
     ],
     [
-      "Again, in regard to actual human existence, I have found myself giving honour to those who feel its tragedy, who think truly about Death, who are oppressed by ignoble things even when they are inevitable; yet these qualities appear to me to militate against happiness, not only to the possessors, but to all whom they affect. And, generally, the best life seems to me one which thinks truly and feels greatly about human things, and which, in addition, contemplates the world of beauty and of abstract truths. This last is, perhaps, my most anti-utilitarian opinion: I hold all knowledge that is concerned with things that actually exist – all that is commonly called Science – to be of very slight value compared to the knowledge which, like philosophy and mathematics, is concerned with ideal and eternal objects, and is freed from this miserable world which God has made.",
-      "Letter to Gilbert Murray, April 3, 1902"
+      "[Unlike the] utilitarian... I judge pleasure and pain to be of small importance compared to knowledge, the appreciation and contemplation of beauty, and a certain intrinsic excellence of mind which, apart from its practical effects, appears to me to deserve the name of virtue. [For] many years it seemed to me perfectly self-evident that pleasure is the only good and pain the only evil. Now, however, the opposite seems to me self-evident. What first turned me away from utilitarianism was the persuasion that I myself ought to pursue philosophy, although I had (and have still) no doubt that by doing economics and the theory of politics I could add more to human happiness. It appeared to me that the dignity of which human existence is capable is not attainable by devotion to the mechanism of life, and that unless the contemplation of eternal things is preserved, mankind will become no better than well-fed pigs. But I do not believe that such contemplation on the whole tends to happiness. It gives moments of delight, but these are outweighed by years of effort and depression."
     ],
     [
-      "[Utilitarians] have been strangely anxious to prove that the life of the pig is not happier than that of the philosopher – a most dubious proposition...",
-      "Letter to Gilbert Murray, April 3, 1902"
+      "It seems to me now that mathematics is capable of an artistic excellence as great as that of any music, perhaps greater; not because the pleasure it gives (although very pure) is comparable, either in intensity or in the number of people who feel it, to that of music, but because it gives in absolute perfection that combination, characteristic of great art, of godlike freedom, with the sense of inevitable destiny; because, in fact, it constructs an ideal world where everything is perfect and yet true."
     ],
     [
-      "What a monstrous thing that a University should teach journalism! I thought that was only done at Oxford. This respect for the filthy multitude is ruining civilisation.",
-      "Letter to Lucy Martin Donnely, July 6, 1902"
+      "Again, in regard to actual human existence, I have found myself giving honour to those who feel its tragedy, who think truly about Death, who are oppressed by ignoble things even when they are inevitable; yet these qualities appear to me to militate against happiness, not only to the possessors, but to all whom they affect. And, generally, the best life seems to me one which thinks truly and feels greatly about human things, and which, in addition, contemplates the world of beauty and of abstract truths. This last is, perhaps, my most anti-utilitarian opinion: I hold all knowledge that is concerned with things that actually exist - all that is commonly called Science - to be of very slight value compared to the knowledge which, like philosophy and mathematics, is concerned with ideal and eternal objects, and is freed from this miserable world which God has made."
     ],
     [
-      "Only in thought is man a God; in action and desire we are the slaves of circumstance.",
-      "Letter to Lucy Donnely, November 25, 1902"
+      "[Utilitarians] have been strangely anxious to prove that the life of the pig is not happier than that of the philosopher - a most dubious proposition..."
     ],
     [
-      "Philosophy seems to me on the whole a rather hopeless business.",
-      "Letter to Gilbert Murray, December 28, 1902"
+      "What a monstrous thing that a University should teach journalism! I thought that was only done at Oxford. This respect for the filthy multitude is ruining civilisation."
     ],
     [
-      "Pure Mathematics is the class of all propositions of the form 'p implies q,' where p and q are propositions containing one or more variables, the same in the two propositions, and neither p nor q contains any constants except logical constants. And logical constants are all notions definable in terms of the following: Implication, the relation of a term to a class of which it is a member, the notion of such that, the notion of relation, and such further notions as may be involved in the general notion of propositions of the above form. In addition to these, mathematics uses a notion which is not a constituent of the propositions which it considers, namely the notion of truth.",
-      "Principles of Mathematics (1903), Ch. I: Definition of Pure Mathematics, p. 3"
+      "Only in thought is man a God; in action and desire we are the slaves of circumstance."
     ],
     [
-      "The fact that all Mathematics is Symbolic Logic is one of the greatest discoveries of our age; and when this fact has been established, the remainder of the principles of mathematics consists in the analysis of Symbolic Logic itself.",
-      "Principles of Mathematics (1903), Ch. I: Definition of Pure Mathematics, p. 5"
+      "Philosophy seems to me on the whole a rather hopeless business."
     ],
     [
-      "I may as well say at once that I do not distinguish between inference and deduction. What is called induction appears to me to be either disguised deduction or a mere method of making plausible guesses.",
-      "Principles of Mathematics (1903), Ch. II: Symbolic Logic, p. 11"
+      "Pure Mathematics is the class of all propositions of the form 'p implies q,' where p and q are propositions containing one or more variables, the same in the two propositions, and neither p nor q contains any constants except logical constants. And logical constants are all notions definable in terms of the following: Implication, the relation of a term to a class of which it is a member, the notion of such that, the notion of relation, and such further notions as may be involved in the general notion of propositions of the above form. In addition to these, mathematics uses a notion which is not a constituent of the propositions which it considers, namely the notion of truth."
     ],
     [
-      "What does not exist must be something, or it would be meaningless to deny its existence; and h",
-      null
+      "The fact that all Mathematics is Symbolic Logic is one of the greatest discoveries of our age; and when this fact has been established, the remainder of the principles of mathematics consists in the analysis of Symbolic Logic itself."
     ],
     [
-      "[One] must look into hell before one has any right to speak of heaven.",
-      "Letter to Colette O'Niel, October 23, 1916; published in The Selected Letters of Bertrand Russell: The Public Years, 1914-1970, p. 87"
+      "I may as well say at once that I do not distinguish between inference and deduction. What is called induction appears to me to be either disguised deduction or a mere method of making plausible guesses."
     ],
     [
-      "I hate the world and almost all the people in it. I hate the Labour Congress and the journalists who send men to be slaughtered, and the fathers who feel a smug pride when their sons are killed, and even the pacifists who keep saying human nature is essentially good, in spite of all the daily proofs to the contrary. I hate the planet and the human race – I am ashamed to belong to such a species.",
-      "Letter to Colette, December 28, 1916"
+      "What does not exist must be something, or it would be meaningless to deny its existence; and h"
     ],
     [
-      "How much good it would do if one could exterminate the human race.",
-      "A characteristic saying of Russell, reported by Aldous Huxley in a letter to Lady Ottoline Morrell dated 8 October 1917, as quoted in Bibliography of Bertrand Russell (Routledge, 2013)"
+      "[One] must look into hell before one has any right to speak of heaven."
     ],
     [
-      "The principal source of the harm done by the State is the fact that power is its chief end.",
-      "Principles of Social Reconstruction (1917), Ch. II: The State"
+      "I hate the world and almost all the people in it. I hate the Labour Congress and the journalists who send men to be slaughtered, and the fathers who feel a smug pride when their sons are killed, and even the pacifists who keep saying human nature is essentially good, in spite of all the daily proofs to the contrary. I hate the planet and the human race - I am ashamed to belong to such a species."
     ],
     [
-      "It is preoccupation with possessions, more than anything else, that prevents men from living freely and nobly. The State and Property are the great embodiments of possessiveness; it is for this reason that they are against life, and that they issue in war. Possession means taking or keeping some good thing which another is prevented from enjoying; creation means putting into the world a good thing which otherwise no one would be able to enjoy. Since the material goods of the world must be divided among the population, and since some men are by nature brigands, there must be defensive possession, which will be regulated, in a good community, by some principle of impersonal justice. But all this is only the preface to a good life or good political institutions, in which creation will altogether outweigh possession, and distributive justice will exist as an uninteresting matter of course.",
-      "Principles of Social Reconstruction [Originally titled Why Men Fight : A Method Of Abolishing The International Duel], Ch. VIII : What We Can Do, p. 257"
+      "How much good it would do if one could exterminate the human race."
     ],
     [
-      "That I, a funny little gesticulating animal on two legs, should stand beneath the stars and declaim in a passion about my rights – it seems so laughable, so out of all proportion. Much better, like Archimedes, to be killed because of absorption in eternal things...",
-      ""
+      "The principal source of the harm done by the State is the fact that power is its chief end."
     ],
     [
-      "There is a possibility in human minds of something mysterious as the night-wind, deep as the sea, calm as the stars, and strong as Death, a mystic contemplation, the 'intellectual love of God.' Those who have known it cannot believe in wars any longer, or in any kind of hot struggle. If I could give to others what has come to me in this way, I could make them too feel the futility of fighting. But I do not know how to communicate it: when I speak, they stare, applaud, or smile, but do not understand.",
-      "Letter to Miss Rinder, July 30, 1918"
+      "It is preoccupation with possessions, more than anything else, that prevents men from living freely and nobly. The State and Property are the great embodiments of possessiveness; it is for this reason that they are against life, and that they issue in war. Possession means taking or keeping some good thing which another is prevented from enjoying; creation means putting into the world a good thing which otherwise no one would be able to enjoy. Since the material goods of the world must be divided among the population, and since some men are by nature brigands, there must be defensive possession, which will be regulated, in a good community, by some principle of impersonal justice. But all this is only the preface to a good life or good political institutions, in which creation will altogether outweigh possession, and distributive justice will exist as an uninteresting matter of course."
     ],
     [
-      "What a queer work the Bible is. ...Some texts are very funny. Deut. XXIV, 5: 'When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be free at home one year, and shall cheer up his wife which he hath taken.' I should never have guessed 'cheer up' was a Biblical expression. Here is another really inspiring text: 'Cursed be he that lieth with his mother-in-law. And all the people shall say, Amen.' St Paul on marriage: 'I say therefore to the unmarried and widows, It is good for them if they abide even as I. But if they cannot contain, let them marry: for it is better to marry than to burn.' This has remained the doctrine of the Church to this day. It is clear that the Divine purpose in the text 'it is better to marry than to burn' is to make us all feel how very dreadful the torments of Hell must be.",
-      "Letter to Colette, August 10, 1918"
+      "That I, a funny little gesticulating animal on two legs, should stand beneath the stars and declaim in a passion about my rights - it seems so laughable, so out of all proportion. Much better, like Archimedes, to be killed because of absorption in eternal things..."
     ],
     [
-      "In the visible world, the Milky Way is a tiny fragment; within this fragment, the solar system is an infinitesimal speck, and of this speck our planet is a microscopic dot. On this dot, tiny lumps of impure carbon and water, of complicated structure, with somewhat unusual physical and chemical properties, crawl about for a few years, until they are dissolved again into the elements of which they are compounded. They divide their time between labour designed to postpone the moment of dissolution for themselves and frantic struggles to hasten it for others of their kind.",
-      "Dreams and Facts (1919)"
+      "There is a possibility in human minds of something mysterious as the night-wind, deep as the sea, calm as the stars, and strong as Death, a mystic contemplation, the 'intellectual love of God.' Those who have known it cannot believe in wars any longer, or in any kind of hot struggle. If I could give to others what has come to me in this way, I could make them too feel the futility of fighting. But I do not know how to communicate it: when I speak, they stare, applaud, or smile, but do not understand."
     ],
     [
-      "No man is liberated from fear who dare not see his place in the world as it is; no man can achieve the greatness of which he is capable until he has allowed himself to see his own litt",
-      ""
+      "What a queer work the Bible is. ...Some texts are very funny. Deut. XXIV, 5: 'When a man hath taken a new wife, he shall not go out to war, neither shall he be charged with any business: but he shall be free at home one year, and shall cheer up his wife which he hath taken.' I should never have guessed 'cheer up' was a Biblical expression. Here is another really inspiring text: 'Cursed be he that lieth with his mother-in-law. And all the people shall say, Amen.' St Paul on marriage: 'I say therefore to the unmarried and widows, It is good for them if they abide even as I. But if they cannot contain, let them marry: for it is better to marry than to burn.' This has remained the doctrine of the Church to this day. It is clear that the Divine purpose in the text 'it is better to marry than to burn' is to make us all feel how very dreadful the torments of Hell must be."
     ],
     [
-      "Is there any knowledge in the world which is so certain that no reasonable man could doubt it?",
-      "The Problems of Philosophy (1912)"
+      "In the visible world, the Milky Way is a tiny fragment; within this fragment, the solar system is an infinitesimal speck, and of this speck our planet is a microscopic dot. On this dot, tiny lumps of impure carbon and water, of complicated structure, with somewhat unusual physical and chemical properties, crawl about for a few years, until they are dissolved again into the elements of which they are compounded. They divide their time between labour designed to postpone the moment of dissolution for themselves and frantic struggles to hasten it for others of their kind."
     ],
     [
-      "Philosophy, if it cannot answer so many questions as we could wish, has at least the power of asking questions which increase the interest of the world, and show the strangeness and wonder lying just below the surface even in the commonest things of daily life.",
-      "The Problems of Philosophy (1912)"
+      "No man is liberated from fear who dare not see his place in the world as it is; no man can achieve the greatness of which he is capable until he has allowed himself to see his own litt"
     ],
     [
-      "Philosophy is to be studied, not for the sake of any definite answers to its questions, since no definite answers can, as a rule, be known to be true, but rather for the sake of the questions themselves; because these questions enlarge our conception of what is possible, enrich our intellectual imagination and diminish the dogmatic assurance which closes the mind against speculation; but above all because, through the greatness of the universe which philosophy contemplates, the mind is also rendered great, and becomes capable of that union with the universe which constitutes its highest good.",
-      "The Problems of Philosophy (1912)"
+      "Is there any knowledge in the world which is so certain that no reasonable man could doubt it?"
     ],
     [
-      "To realise the unimportance of time is the gate of wisdom.",
-      "Our Knowledge of the External World (1914)"
+      "Philosophy, if it cannot answer so many questions as we could wish, has at least the power of asking questions which increase the interest of the world, and show the strangeness and wonder lying just below the surface even in the commonest things of daily life."
     ],
     [
-      "Philosophy, from the earliest times, has made greater claims, and achieved fewer results, than any other branch of learning.",
-      "Our Knowledge of the External World (1914)"
+      "Philosophy is to be studied, not for the sake of any definite answers to its questions, since no definite answers can, as a rule, be known to be true, but rather for the sake of the questions themselves; because these questions enlarge our conception of what is possible, enrich our intellectual imagination and diminish the dogmatic assurance which closes the mind against speculation; but above all because, through the greatness of the universe which philosophy contemplates, the mind is also rendered great, and becomes capable of that union with the universe which constitutes its highest good."
     ],
     [
-      "The conception of the necessary unit of all that is resolves itself into the poverty of the imagination, and a freer logic emancipates us from the straitwaistcoated benevolent institution which idealism palms off as the totality of being.",
-      "Our Knowledge of the External World (1914)"
+      "To realise the unimportance of time is the gate of wisdom."
     ],
     [
-      "The true function of logic ... as applied to matters of experience ... is analytic rather than constructive; taken a priori, it shows the possibility of hitherto unsuspected alternatives more often than the impossibility of alternatives which seemed prima facie possible. Thus, while it liberates imagination as to what the world may be, it refuses to legislate as to what the world is.",
-      "Our Knowledge of the External World (1914)"
+      "Philosophy, from the earliest times, has made greater claims, and achieved fewer results, than any other branch of learning."
     ],
     [
-      "In fact the opposition of instinct and reason is mainly illusory. Instinct, intuition, or insight is what first leads to the beliefs which subsequent reason confirms or confutes; but the confirmation, where it is possible, consists, in the last analysis, of agreement with other beliefs no less instinctive. Reason is a harmonising, controlling force rather than a creative one. Even in the most purely logical realms, it is insight that first arrives at what is new.",
-      "Our Knowledge of the External World (1914)"
+      "The conception of the necessary unit of all that is resolves itself into the poverty of the imagination, and a freer logic emancipates us from the straitwaistcoated benevolent institution which idealism palms off as the totality of being."
     ],
     [
-      "Every philosophical problem, when it is subjected to the necessary analysis and justification, is found either to be not really philosophical at all, or else to be, in the sense in which we are using the word, logical.",
-      "Our Knowledge of the External World (1914)"
+      "The true function of logic ... as applied to matters of experience ... is analytic rather than constructive; taken a priori, it shows the possibility of hitherto unsuspected alternatives more often than the impossibility of alternatives which seemed prima facie possible. Thus, while it liberates imagination as to what the world may be, it refuses to legislate as to what the world is."
     ],
     [
-      "We are thus led to a somewhat vague distinction between what we may call \"hard\" data and \"soft\" data. This distinction is a matter of degree, and must not be pressed; but if not taken too seriously it may help to make the situation clear. I mean by \"hard\" data those which resist the solvent influence of critical reflection, and by \" soft \" data those which, under the operation of this process, become to our minds more or less doubtful.",
-      "Our Knowledge of the External World (1914)"
+      "In fact the opposition of instinct and reason is mainly illusory. Instinct, intuition, or insight is what first leads to the beliefs which subsequent reason confirms or confutes; but the confirmation, where it is possible, consists, in the last analysis, of agreement with other beliefs no less instinctive. Reason is a harmonising, controlling force rather than a creative one. Even in the most purely logical realms, it is insight that first arrives at what is new."
     ],
     [
-      "Both in thought and in feeling, even though time be real, to realise the unimportance of time is the gate of wisdom.",
-      "Our Knowledge of the External World (1914)"
+      "Every philosophical problem, when it is subjected to the necessary analysis and justification, is found either to be not really philosophical at all, or else to be, in the sense in which we are using the word, logical."
     ],
     [
-      "There are three forces on the side of life which require no exceptional mental endowment, which are not very rare at present, and might be very common under better social institutions. They are love, the instinct of constructiveness, and the joy of life.",
-      "Why Men Fight (1917)"
+      "We are thus led to a somewhat vague distinction between what we may call \"hard\" data and \"soft\" data. This distinction is a matter of degree, and must not be pressed; but if not taken too seriously it may help to make the situation clear. I mean by \"hard\" data those which resist the solvent influence of critical reflection, and by \" soft \" data those which, under the operation of this process, become to our minds more or less doubtful."
     ],
     [
-      "The power of the State may be brought to bear, as it often is in England, through public opinion rather than through the laws. By oratory and the influence of the Press, public opinion is largely created by the State, and a tyrannous public opinion is as great an enemy to liberty as tyrannous laws.",
-      "Why Men Fight (1917)"
+      "Both in thought and in feeling, even though time be real, to realise the unimportance of time is the gate of wisdom."
     ],
     [
-      "Men fear thought as they fear nothing else on earth – more than ruin, more even than death. Thought is subversive and revolutionary, destructive and terrible; thought is merciless to privilege, established institutions, and comfortable habits; thought is anarchic and lawless, indifferent to authority, careless of the well-tried wisdom of the ages. Thought looks into the pit of hell and is not afraid. It sees man, a feeble speck, surrounded by unfathomable depths of silence; yet it bears itself proudly, as unmoved as if it were lord of the universe. Thought is great and swift and free, the light of the world, and the chief glory of man.",
-      "Why Men Fight (1917)"
+      "There are three forces on the side of life which require no exceptional mental endowment, which are not very rare at present, and might be very common under better social institutions. They are love, the instinct of constructiveness, and the joy of life."
     ],
     [
-      "Political ideals must be based upon ideals for the individual life. The aim of politics should be to make the lives of individuals as good as possible.",
-      "Political Ideals (1917)"
+      "The power of the State may be brought to bear, as it often is in England, through public opinion rather than through the laws. By oratory and the influence of the Press, public opinion is largely created by the State, and a tyrannous public opinion is as great an enemy to liberty as tyrannous laws."
     ],
     [
-      "The best life is the one in which the creative impulses play the largest part and the possessive impulses the smallest.",
-      "Political Ideals (1917)"
+      "Men fear thought as they fear nothing else on earth - more than ruin, more even than death. Thought is subversive and revolutionary, destructive and terrible; thought is merciless to privilege, established institutions, and comfortable habits; thought is anarchic and lawless, indifferent to authority, careless of the well-tried wisdom of the ages. Thought looks into the pit of hell and is not afraid. It sees man, a feeble speck, surrounded by unfathomable depths of silence; yet it bears itself proudly, as unmoved as if it were lord of the universe. Thought is great and swift and free, the light of the world, and the chief glory of man."
     ],
     [
-      "Without effort and change, human life cannot remain good. It is not a finished Utopia that we ought to desire, but a world where imagination and hope are alive and active.",
-      "Political Ideals (1917)"
+      "Political ideals must be based upon ideals for the individual life. The aim of politics should be to make the lives of individuals as good as possible."
     ],
     [
-      "The process of philosophizing, to my mind, consists mainly in passing from those obvious, vague, ambiguous things, that we feel quite sure of, to something precise, clear, definite, which by reflection and analysis we find is involved in the vague thing that we start from, and is, so to speak, the real truth of which that vague thing is a sort of shadow.",
-      "The Philosophy of Logical Atomism (1918)"
+      "The best life is the one in which the creative impulses play the largest part and the possessive impulses the smallest."
     ],
     [
-      "I do not pretend to start with precise questions. I do not think you can start with anything precise. You have to achieve such precision as you can, as you go along.",
-      "The Philosophy of Logical Atomism (1918)"
+      "Without effort and change, human life cannot remain good. It is not a finished Utopia that we ought to desire, but a world where imagination and hope are alive and active."
     ],
     [
-      "My desire and wish is that the things I start with should be so obvious that you wonder why I spend my time stating them. This is what I aim at because the point of philosophy is to start with something so simple as not to seem worth stating, and to end with something so paradoxical that no one will believe it.",
-      "The Philosophy of Logical Atomism (1918)"
+      "The process of philosophizing, to my mind, consists mainly in passing from those obvious, vague, ambiguous things, that we feel quite sure of, to something precise, clear, definite, which by reflection and analysis we find is involved in the vague thing that we start from, and is, so to speak, the real truth of which that vague thing is a sort of shadow."
     ],
     [
-      "The reason that I call my doctrine logical atomism is because the atoms that I wish to arrive at as the sort of last residue in analysis are logical atoms and not physical atoms. Some of them will be what I call \"particulars\" – such things as little patches of color or sounds, momentary things – and some of them will be predicates or relations and so on.",
-      "The Philosophy of Logical Atomism (1918)"
+      "I do not pretend to start with precise questions. I do not think you can start with anything precise. You have to achieve such precision as you can, as you go along."
     ],
     [
-      "To understand a name you must be acquainted with the particular of which it is a name.",
-      "The Philosophy of Logical Atomism (1918)"
+      "My desire and wish is that the things I start with should be so obvious that you wonder why I spend my time stating them. This is what I aim at because the point of philosophy is to start with something so simple as not to seem worth stating, and to end with something so paradoxical that no one will believe it."
     ],
     [
-      "In a logically perfect language, there will be one word and no more for every simple object, and everything that is not simple will be expressed by a combination of words, by a combination derived, of course, from the words for the simple things that enter in, one word for each simple component.",
-      "The Philosophy of Logical Atomism (1918)"
+      "The reason that I call my doctrine logical atomism is because the atoms that I wish to arrive at as the sort of last residue in analysis are logical atoms and not physical atoms. Some of them will be what I call \"particulars\" - such things as little patches of color or sounds, momentary things - and some of them will be predicates or relations and so on."
     ],
     [
-      "Mysticism is, in essence, little more than a certain intensity and depth of feeling in regard to what is believed about the universe.",
-      "Mysticism and Logic and Other Essays (1918)"
+      "To understand a name you must be acquainted with the particular of which it is a name."
     ],
     [
-      "Of science, as they appeared to him [Heraclitus], fed the flame in his soul, and in its light, he saw into the depths of the world.",
-      "Ch. 1: Mysticism and Logic"
+      "In a logically perfect language, there will be one word and no more for every simple object, and everything that is not simple will be expressed by a combination of words, by a combination derived, of course, from the words for the simple things that enter in, one word for each simple component."
     ],
     [
-      "Reason is a harmonising, controlling force rather than a creative one.",
-      "Ch. 1: Mysticism and Logic"
+      "Mysticism is, in essence, little more than a certain intensity and depth of feeling in regard to what is believed about the universe."
     ],
     [
-      "The theoretical understanding of the world, which is the aim of philosophy, is not a matter of great practical importance to animals, or to savages, or even to most civilized men.",
-      "Ch. 1: Mysticism and Logic"
+      "Of science, as they appeared to him [Heraclitus], fed the flame in his soul, and in its light, he saw into the depths of the world."
     ],
     [
-      "When the intensity of emotional conviction subsides, a man who is in the habit of reasoning will search for logical grounds in favour of the belief which he finds in himself.",
-      "Ch. 1: Mysticism and Logic"
+      "Reason is a harmonising, controlling force rather than a creative one."
     ],
     [
-      "A truer image of the world, I think, is obtained by picturing things as entering into the stream of time from an eternal world outside, than from a view which regards time as the devouring tyrant of all that is.",
-      "Ch. 1: Mysticism and Logic"
+      "The theoretical understanding of the world, which is the aim of philosophy, is not a matter of great practical importance to animals, or to savages, or even to most civilized men."
     ],
     [
-      "A process which led from the amœba to man appeared to the philosophers to be obviously a progress – though whether the amœba would agree with this opinion is not known.",
-      "Ch. 1: Mysticism and Logic"
+      "When the intensity of emotional conviction subsides, a man who is in the habit of reasoning will search for logical grounds in favour of the belief which he finds in himself."
     ],
     [
-      "Those who forget good and evil and seek only to know the facts are more likely to achieve good than those who view the world through the distorting medium of their own desires.",
-      "Ch. 1: Mysticism and Logic"
+      "A truer image of the world, I think, is obtained by picturing things as entering into the stream of time from an eternal world outside, than from a view which regards time as the devouring tyrant of all that is."
     ],
     [
-      "In science men have discovered an activity of the very highest value in which they are no longer, as in art, dependent for progress upon the appearance of continually greater genius, for in science the successors stand upon the shoulders of their predecessors; where one man of supreme genius has invented a method, a thousand lesser men can apply it.",
-      "Ch. 2: The Place of Science in a Liberal Education"
+      "A process which led from the amoeba to man appeared to the philosophers to be obviously a progress - though whether the amoeba would agree with this opinion is not known."
     ],
     [
-      "A life devoted to science is therefore a happy life, and its happiness is derived from the very best sources that are open to dwellers on this troubled and passionate planet.",
-      "Ch. 2: The Place of Science in a Liberal Education"
+      "Those who forget good and evil and seek only to know the facts are more likely to achieve good than those who view the world through the distorting medium of their own desires."
     ],
     [
-      "The scientific attitude of mind involves a sweeping away of all other desires in the interests of the desire to know—it involves suppression of hopes and fears, loves and hates, and the whole subjective emotional life, until we become subdued to the material, able to see it frankly, without preconceptions, without bias, without any wish except to see it as it is, and without any belief that what it is must be determined by some relation, positive or negative, to what we should like it to be, or to what we can easily imagine it to be.",
-      "Ch. 3: A Free Man's Worship"
+      "In science men have discovered an activity of the very highest value in which they are no longer, as in art, dependent for progress upon the appearance of continually greater genius, for in science the successors stand upon the shoulders of their predecessors; where one man of supreme genius has invented a method, a thousand lesser men can apply it."
     ],
     [
-      "Every great study is not only an end in itself, but also a means of creating and sustaining a lofty habit of mind.",
-      "Ch. 4: The Study of Mathematics"
+      "A life devoted to science is therefore a happy life, and its happiness is derived from the very best sources that are open to dwellers on this troubled and passionate planet."
     ],
     [
-      "The Calculus required continuity, and continuity was supposed to require the infinitely little; but nobody could discover what the infinitely little might be.",
-      "Ch. 5: Mathematics and the Metaphysicians"
+      "The scientific attitude of mind involves a sweeping away of all other desires in the interests of the desire to know-it involves suppression of hopes and fears, loves and hates, and the whole subjective emotional life, until we become subdued to the material, able to see it frankly, without preconceptions, without bias, without any wish except to see it as it is, and without any belief that what it is must be determined by some relation, positive or negative, to what we should like it to be, or to what we can easily imagine it to be."
     ],
     [
-      "If any philosopher had been asked for a definition of infinity, he might have produced some unintelligible rigmarole, but he would certainly not have been able to give a definition that had any meaning at all.",
-      "Ch. 5: Mathematics and the Metaphysicians"
+      "Every great study is not only an end in itself, but also a means of creating and sustaining a lofty habit of mind."
     ],
     [
-      "Thus mathematics may be defined as the subject in which we never know what we are talking about, nor whether what we are saying is true.",
-      "Ch. 5: Mathematics and the Metaphysicians"
+      "The Calculus required continuity, and continuity was supposed to require the infinitely little; but nobody could discover what the infinitely little might be."
     ],
     [
-      "Formerly, it was held by philosophers and mathematicians alike that the proofs in Geometry depended on the figure; nowadays, this is known to be false. In the best books there are no figures at all. The reasoning proceeds by the strict rules of formal logic from a set of axioms laid down to begin with.",
-      "Ch. 5: Mathematics and the Metaphysicians"
+      "If any philosopher had been asked for a definition of infinity, he might have produced some unintelligible rigmarole, but he would certainly not have been able to give a definition that had any meaning at all."
     ],
     [
-      "An extra-terrestrial philosopher, who had watched a single youth up to the age of twenty-one and had never come across any other human being, might conclude that it is the nature of human beings to grow continually taller and wiser in an indefinite progress towards perfection; and this generalisation would be just as well founded as the generalisation which evolutionists base upon the previous history of this planet.",
-      "Ch. 6: On the Scientific Method in Philosophy."
+      "Thus mathematics may be defined as the subject in which we never know what we are talking about, nor whether what we are saying is true."
     ],
     [
-      "Ethics is in origin the art of recommending to others the sacrifices required for co-operation with oneself.",
-      "Ch. 6: On the Scientific Method in Philosophy"
+      "Formerly, it was held by philosophers and mathematicians alike that the proofs in Geometry depended on the figure; nowadays, this is known to be false. In the best books there are no figures at all. The reasoning proceeds by the strict rules of formal logic from a set of axioms laid down to begin with."
     ],
     [
-      "Ethics is in origin the art of recommending to others the sacrifices required for co-operation with oneself.",
-      "Ch. 6: On the Scientific Method in Philosophy"
+      "An extra-terrestrial philosopher, who had watched a single youth up to the age of twenty-one and had never come across any other human being, might conclude that it is the nature of human beings to grow continually taller and wiser in an indefinite progress towards perfection; and this generalisation would be just as well founded as the generalisation which evolutionists base upon the previous history of this planet."
     ],
     [
-      "The law of causality, I believe, like much that passes muster among philosophers, is a relic of a bygone age, surviving, like the monarchy, only because it is erroneously supposed to do no harm.",
-      "Ch. 9: On the Notion of Cause"
+      "Ethics is in origin the art of recommending to others the sacrifices required for co-operation with oneself."
     ],
     [
-      "The great majority of men and women, in ordinary times, pass through life without ever contemplating or criticising, as a whole, either their own conditions or those of the world at large. They find themselves born into a certain place in society, and they accept what each day brings forth, without any effort of thought beyond what the immediate present requires. Almost as instinctively as the beasts of the field, they seek the satisfaction of the needs of the moment, without much forethought, and without considering that by sufficient effort the whole conditions of their lives could be changed.",
-      "Introduction, p. 4"
+      "Ethics is in origin the art of recommending to others the sacrifices required for co-operation with oneself."
     ],
     [
-      "My own opinion—which I may as well indicate at the outset—is that pure Anarchism, though it should be the ultimate ideal, to which society should continually approximate, is for the present impossible, and would not survive more than a year or two at most if it were adopted. On the other hand, both Marxian Socialism and Syndicalism, in spite of many drawbacks, seem to me calculated to give rise to a happier and better world than that in which we live. I do not, however, regard either of them as the best practicable system. Marxian Socialism, I fear, would give far too much power to the State, while Syndicalism, which aims at abolishing the State, would, I believe, find itself forced to reconstruct a central authority in order to put an end to the rivalries of different groups of producers. The best practicable system, to my mind, is that of Guild Socialism, which concedes what is valid both in the claims of the State Socialists and in the Syndicalist fear of the State, by adopting a system of federalism among trades for reasons similar to those which are recommending federalism among nations.",
-      "Introduction, p. 6"
+      "The law of causality, I believe, like much that passes muster among philosophers, is a relic of a bygone age, surviving, like the monarchy, only because it is erroneously supposed to do no harm."
     ],
     [
-      "Whatever bitterness and hate may be found in the movements which we are to examine, it is not bitterness or hate, but love, that is their mainspring. It is difficult not to hate those who torture the objects of our love. Though difficult, it is not impossible; but it requires a breadth of outlook and a comprehensiveness of understanding which are not easy to preserve amid a desperate contest. If ultimate wisdom has not always been preserved by Socialists and Anarchists, they have not differed in this from their opponents; and in the source of their inspiration they have shown themselves superior to those who acquiesce ignorantly or supinely in the injustices and oppressions by which the existing system is preserved.",
-      "Introduction, p. 10."
+      "The great majority of men and women, in ordinary times, pass through life without ever contemplating or criticising, as a whole, either their own conditions or those of the world at large. They find themselves born into a certain place in society, and they accept what each day brings forth, without any effort of thought beyond what the immediate present requires. Almost as instinctively as the beasts of the field, they seek the satisfaction of the needs of the moment, without much forethought, and without considering that by sufficient effort the whole conditions of their lives could be changed."
     ],
     [
-      "[T]he plan we are advocating amounts essentially to this: that a certain small income, sufficient for necessaries, should be secured to all, whether they work or not, and that a larger income, as much larger as might be warranted by the total amount of commodities produced, should be given to those who are willing to engage in some work which the community recognizes as useful.",
-      "Ch. IV: Work and Pay, discussing Universal Basic Income (UBI)"
+      "My own opinion-which I may as well indicate at the outset-is that pure Anarchism, though it should be the ultimate ideal, to which society should continually approximate, is for the present impossible, and would not survive more than a year or two at most if it were adopted. On the other hand, both Marxian Socialism and Syndicalism, in spite of many drawbacks, seem to me calculated to give rise to a happier and better world than that in which we live. I do not, however, regard either of them as the best practicable system. Marxian Socialism, I fear, would give far too much power to the State, while Syndicalism, which aims at abolishing the State, would, I believe, find itself forced to reconstruct a central authority in order to put an end to the rivalries of different groups of producers. The best practicable system, to my mind, is that of Guild Socialism, which concedes what is valid both in the claims of the State Socialists and in the Syndicalist fear of the State, by adopting a system of federalism among trades for reasons similar to those which are recommending federalism among nations."
     ],
     [
-      "Freedom is the greatest of political goods.",
-      "Ch. V: Government and Law, p. 75"
+      "Whatever bitterness and hate may be found in the movements which we are to examine, it is not bitterness or hate, but love, that is their mainspring. It is difficult not to hate those who torture the objects of our love. Though difficult, it is not impossible; but it requires a breadth of outlook and a comprehensiveness of understanding which are not easy to preserve amid a desperate contest. If ultimate wisdom has not always been preserved by Socialists and Anarchists, they have not differed in this from their opponents; and in the source of their inspiration they have shown themselves superior to those who acquiesce ignorantly or supinely in the injustices and oppressions by which the existing system is preserved."
     ],
     [
-      "[Freedom] is the greatest of political goods. I do not say freedom is the greatest of all goods: the best things come from within—they are such things as creative art, and love, and thought. Such things can be helped or hindered by political conditions, but not actually produced by them; and freedom is, both in itself and in its relation to these other goods the best thing that political and economic conditions can secure.",
-      "Ch. V: Government and Law"
+      "[T]he plan we are advocating amounts essentially to this: that a certain small income, sufficient for necessaries, should be secured to all, whether they work or not, and that a larger income, as much larger as might be warranted by the total amount of commodities produced, should be given to those who are willing to engage in some work which the community recognizes as useful."
     ],
     [
-      "Many of the actions by which men have become rich are far more harmful to the community than the obscure crimes of poor men, yet they go unpunished because they do not interfere with the existing order.",
-      "Ch. V: Government and Law"
+      "Freedom is the greatest of political goods."
     ],
     [
-      "I believe that the abolition of private ownership of land and capital is a necessary step toward any world in which the nations are to live at peace with one another.",
-      "Ch. VI: International relations, p. 99"
+      "[Freedom] is the greatest of political goods. I do not say freedom is the greatest of all goods: the best things come from within-they are such things as creative art, and love, and thought. Such things can be helped or hindered by political conditions, but not actually produced by them; and freedom is, both in itself and in its relation to these other goods the best thing that political and economic conditions can secure."
     ],
     [
-      "A world full of happiness is not beyond human power to create; the obstacles imposed by inanimate nature are not insuperable. The real obstacles lie in the heart of man, and the cure for these is a firm hope, informed and fortified by thought.",
-      "Ch. VI: International relations, p. 106"
+      "Many of the actions by which men have become rich are far more harmful to the community than the obscure crimes of poor men, yet they go unpunished because they do not interfere with the existing order."
     ],
     [
-      "Those who have been inspired to action by the doctrine of the class war will have acquired the habit of hatred, and will instinctively seek new enemies when the old ones have been vanquished. But in actual fact the psychology of the working man in any of the Western democracies is totally unlike that which is assumed in the Communist Manifesto. He does not by any means feel that he has nothing to lose but his chains, nor indeed is this true. The chains which bind Asia and Africa in subjection to Europe are partly riveted by him. He is himself part of a great system of tyranny and exploitation. Universal freedom would remove, not only his own chains, which are comparatively light, but the far heavier chains which he has helped to fasten upon the subject races of the world.",
-      "Ch. VI: International relations, p. 106"
+      "I believe that the abolition of private ownership of land and capital is a necessary step toward any world in which the nations are to live at peace with one another."
     ],
     [
-      "Marriage should be a free, spontaneous meeting of mutual instinct, filled with happiness not unmixed with a feeling akin to awe: it should involve that degree of respect of each for the other that makes even the most trifling interference with liberty an utter impossibility, and a common life enforced by one against the will of the other an unthinkable thing of deep horror.",
-      "Ch VIII: The World As It Could Be Made, p. 129-130"
+      "A world full of happiness is not beyond human power to create; the obstacles imposed by inanimate nature are not insuperable. The real obstacles lie in the heart of man, and the cure for these is a firm hope, informed and fortified by thought."
     ],
     [
-      "Government by majorities can be made less oppressive by devolution, by placing the decision of questions primarily affecting only a section of the community in the hands of that section, rather than of a Central Chamber. In this way, men are no longer forced to submit to decisions made in a hurry by people mostly ignorant of the matter in hand and not personally interested.",
-      "Ch VIII: The World As It Could Be Made"
+      "Those who have been inspired to action by the doctrine of the class war will have acquired the habit of hatred, and will instinctively seek new enemies when the old ones have been vanquished. But in actual fact the psychology of the working man in any of the Western democracies is totally unlike that which is assumed in the Communist Manifesto. He does not by any means feel that he has nothing to lose but his chains, nor indeed is this true. The chains which bind Asia and Africa in subjection to Europe are partly riveted by him. He is himself part of a great system of tyranny and exploitation. Universal freedom would remove, not only his own chains, which are comparatively light, but the far heavier chains which he has helped to fasten upon the subject races of the world."
     ],
     [
-      "The method of 'postulating' what we want has many advantages; they are the same as the advantages of theft over honest toil.",
-      "Introduction to Mathematical Philosophy (1919)"
+      "Marriage should be a free, spontaneous meeting of mutual instinct, filled with happiness not unmixed with a feeling akin to awe: it should involve that degree of respect of each for the other that makes even the most trifling interference with liberty an utter impossibility, and a common life enforced by one against the will of the other an unthinkable thing of deep horror."
     ],
     [
-      "People seem good while they are oppressed, but they only wish to become oppressors in their turn: life is nothing but a competition to be the criminal rather than the victim.",
-      "Letter to Ottoline Morrell, 17 December, 1920"
+      "Government by majorities can be made less oppressive by devolution, by placing the decision of questions primarily affecting only a section of the community in the hands of that section, rather than of a Central Chamber. In this way, men are no longer forced to submit to decisions made in a hurry by people mostly ignorant of the matter in hand and not personally interested."
     ],
     [
-      "In art [the Chinese] aim at being exquisite, and in life at being reasonable.",
-      "The Problem of China (1922), Ch. XI: Chinese and Western Civilization Contrasted"
+      "The method of 'postulating' what we want has many advantages; they are the same as the advantages of theft over honest toil."
     ],
     [
-      "The typical Westerner wishes to be the cause of as many changes as possible in his environment; the typical Chinaman wishes to enjoy as much and as delicately as possible.",
-      "The Problem of China (1922), Ch. XII: The Chinese Character"
+      "People seem good while they are oppressed, but they only wish to become oppressors in their turn: life is nothing but a competition to be the criminal rather than the victim."
     ],
     [
-      "Nine-tenths of the activities of a modern Government are harmful; therefore the worse they are performed, the better.",
-      "The Problem of China (1922), Ch. XII: The Chinese Character"
+      "In art [the Chinese] aim at being exquisite, and in life at being reasonable."
     ],
     [
-      "The Chinese are a great nation, incapable of permanent suppression by foreigners. They will not consent to adopt our vices in order to acquire military strength; but they are willing to adopt our virtues in order to advance in wisdom. I think they are the only people in the world who quite genuinely believe that wisdom is more precious than rubies. That is why the West regards them as uncivilized.",
-      "The Problem of China (1922), Ch. XIII: Higher education in China"
+      "The typical Westerner wishes to be the cause of as many changes as possible in his environment; the typical Chinaman wishes to enjoy as much and as delicately as possible."
     ],
     [
-      "There is no logical impossibility in the hypothesis that the world sprang into being five minutes ago, exactly as it then was, with a population that 'remembered' a wholly unreal past. There is no logically necessary connection between events at different times; therefore nothing that is happening now or will happen in the future can disprove the hypothesis that the world began five minutes ago.",
-      "The Analysis of Mind (1921), Lecture IX: Memory, p. 159"
+      "Nine-tenths of the activities of a modern Government are harmful; therefore the worse they are performed, the better."
     ],
     [
-      "The supreme maxim in scientific philosophising is this: wherever possible, logical constructions are to be substituted for inferred entities.",
-      "Quoted in Hawes The Logic of Contemporary English Realism (1923), p. 110;"
+      "The Chinese are a great nation, incapable of permanent suppression by foreigners. They will not consent to adopt our vices in order to acquire military strength; but they are willing to adopt our virtues in order to advance in wisdom. I think they are the only people in the world who quite genuinely believe that wisdom is more precious than rubies. That is why the West regards them as uncivilized."
     ],
     [
-      "Most people would die sooner than think – in fact they do so.",
-      "cf. Ockham's maxim: entia non sunt multiplicanda praeter necessitatem."
+      "There is no logical impossibility in the hypothesis that the world sprang into being five minutes ago, exactly as it then was, with a population that 'remembered' a wholly unreal past. There is no logically necessary connection between events at different times; therefore nothing that is happening now or will happen in the future can disprove the hypothesis that the world began five minutes ago."
     ],
     [
-      "All traditional logic habitually assumes that precise symbols are being employed. It is therefore not applicable to this terrestrial life but only to an imagined celestial existence... logic takes us nearer to heaven than other studies.",
-      "'Vagueness', first published in The Australasian Journal of Psychology and Philosophy, 1 June, 1923"
+      "The supreme maxim in scientific philosophising is this: wherever possible, logical constructions are to be substituted for inferred entities."
     ],
     [
-      "We all have a tendency to think that the world must conform to our prejudices. The opposite view involves some effort of thought, and most people would die sooner than think – in fact they do so.",
-      "The ABC of Relativity (1925), p. 166"
+      "Most people would die sooner than think - in fact they do so."
     ],
     [
-      "Neither acquiescence in skepticism nor acquiescence in dogma is what education should produce. What it should produce is a belief that knowledge is attainable in a measure, though with difficulty; that much of what passes for knowledge at any given time is likely to be more or less mistaken, but that the mistakes can be rectified by care and industry. In acting upon our beliefs, we should be very cautious where a small error would mean disaster; nevertheless, it is upon our beliefs that we must act. This state of mind is rather difficult: it requires a high degree of intellectual culture without emotional atrophy. But though difficult, it is not impossible; it is in fact the scientific temper. Knowledge, like other good things, is difficult, but not impossible; the dogmatist forgets the difficulty, the skeptic denies the possibility. Both are mistaken, and their errors, when widespread, produce social disaster.",
-      "On Education, Especially in Early Childhood (1926), Ch. 2: The Aims of Education, p. 36."
+      "All traditional logic habitually assumes that precise symbols are being employed. It is therefore not applicable to this terrestrial life but only to an imagined celestial existence... logic takes us nearer to heaven than other studies."
     ],
-    ["No one gossips about other people's secret virtues.", ""],
     [
-      "An irrational fear should never be simply let alone, but should be gradually overcome by familiarity with its fainter forms.",
-      "On Education, Especially in Early Childhood (1926), Ch. 4: Fear"
+      "We all have a tendency to think that the world must conform to our prejudices. The opposite view involves some effort of thought, and most people would die sooner than think - in fact they do so."
     ],
     [
-      "Written words differ from spoken words in being material structures. A spoken word is a process in the physical world, having an essential time-order; a written word is a series of pieces of matter, having an essential space-order.",
-      "An Outline of Philosophy Ch.4 Language (1927)"
+      "Neither acquiescence in skepticism nor acquiescence in dogma is what education should produce. What it should produce is a belief that knowledge is attainable in a measure, though with difficulty; that much of what passes for knowledge at any given time is likely to be more or less mistaken, but that the mistakes can be rectified by care and industry. In acting upon our beliefs, we should be very cautious where a small error would mean disaster; nevertheless, it is upon our beliefs that we must act. This state of mind is rather difficult: it requires a high degree of intellectual culture without emotional atrophy. But though difficult, it is not impossible; it is in fact the scientific temper. Knowledge, like other good things, is difficult, but not impossible; the dogmatist forgets the difficulty, the skeptic denies the possibility. Both are mistaken, and their errors, when widespread, produce social disaster."
     ],
     [
-      "Our words tend to conceal what is private and particular in our impressions, and to make us believe that different people live in a common world to a greater extent than is in fact the case.",
-      "An Outline of Philosophy Ch.15 The Nature of our Knowledge of Physics (1927)"
+      "No one gossips about other people's secret virtues."
     ],
     [
-      "The tendency of our perceptions is to emphasize increasingly the objective elements in an impression unless we have some special reason, as artists have, for doing the opposite.",
-      "An Outline of Philosophy Ch.15 The Nature of our Knowledge of Physics (1927)"
+      "An irrational fear should never be simply let alone, but should be gradually overcome by familiarity with its fainter forms."
     ],
     [
-      "It must not be supposed that the subjective elements are any less 'real' than the objective elements; they are only less important... because they do not point to anything beyond ourselves...",
-      "An Outline of Philosophy Ch.15 The Nature of our Knowledge of Physics (1927)"
+      "Written words differ from spoken words in being material structures. A spoken word is a process in the physical world, having an essential time-order; a written word is a series of pieces of matter, having an essential space-order."
     ],
     [
-      "The camera is as subjective as we are.",
-      "An Outline of Philosophy Ch.15 The Nature of our Knowledge of Physics (1927)"
+      "Our words tend to conceal what is private and particular in our impressions, and to make us believe that different people live in a common world to a greater extent than is in fact the case."
     ],
     [
-      "There is a connected set of events (light-waves) travelling outward from a centre... there are some respects in which all events are alike, and others in which they differ... We must not think of a light-wave as a 'thing', but as a connected group of rhythmical events. The mathematical characteristics of such a group can be inferred by physics, but the intrinsic character of the component events cannot be inferred.",
-      "An Outline of Philosophy Ch.15 The Nature of our Knowledge of Physics (1927)"
+      "The tendency of our perceptions is to emphasize increasingly the objective elements in an impression unless we have some special reason, as artists have, for doing the opposite."
     ],
     [
-      "Modern physics... reduces matter to a set of events which proceed outward from a center. If there is something further in the center itself, we cannot know about it, and it is irrelevant to physics.",
-      "An Outline of Philosophy Ch.15 The Nature of our Knowledge of Physics (1927)"
+      "It must not be supposed that the subjective elements are any less 'real' than the objective elements; they are only less important... because they do not point to anything beyond ourselves..."
     ],
     [
-      "Physics is mathematical not because we know so much about the physical world, but because we know so little: it is only its mathematical properties that we can discover.",
-      "An Outline of Philosophy Ch.15 The Nature of our Knowledge of Physics (1927)"
+      "The camera is as subjective as we are."
     ],
     [
-      "I went to Salt Lake City and the Mormons tried to convert me, but when I found they forbade tea and tobacco I thought it was no religion for me.",
-      "Letter to C. P. Sanger, 23 December, 1929"
+      "There is a connected set of events (light-waves) travelling outward from a centre... there are some respects in which all events are alike, and others in which they differ... We must not think of a light-wave as a 'thing', but as a connected group of rhythmical events. The mathematical characteristics of such a group can be inferred by physics, but the intrinsic character of the component events cannot be inferred."
     ],
     [
-      "I believe that Communism is necessary to the world, and I believe that the heroism of Russia has fired men's hopes in a way which was essential to the realization of Communism in the future. Regarded as a splendid attempt, without which ultimate success would have been very improbable, Bolshevism deserves the gratitude and admiration of all the progressive part of mankind.",
-      "The Practice and Theory of Bolshevism (1920), Preface"
+      "Modern physics... reduces matter to a set of events which proceed outward from a center. If there is something further in the center itself, we cannot know about it, and it is irrelevant to physics."
     ],
     [
-      "A fundamental economic reconstruction, bringing with it very far-reaching changes in ways of thinking and feeling, in philosophy and art and private relations, seems absolutely necessary if industrialism is to become the servant of man instead of his master. In all this, I am at one with the Bolsheviks; politically, I criticize them only when their methods seem to involve a departure from their own ideals.",
-      "The Practice and Theory of Bolshevism (1920), Preface"
+      "Physics is mathematical not because we know so much about the physical world, but because we know so little: it is only its mathematical properties that we can discover."
     ],
     [
-      "The hopes which inspire communism are, in the main, as admirable as those instilled by the Sermon on the Mount, but they are held as fanatically and are as likely to do as much harm.",
-      "The Practice and Theory of Bolshevism (1920), Part I, Ch. 1: What Is Hoped From Bolshevism"
+      "I went to Salt Lake City and the Mormons tried to convert me, but when I found they forbade tea and tobacco I thought it was no religion for me."
     ],
     [
-      "Soon after my arrival in Moscow I had an hour's conversation with Lenin in English, which he speaks fairly well... I have never met a personage so destitute of self-importance. He looks at his visitors very closely, and screws up one eye, which seems to increase alarmingly the penetrating power of the other. He laughs a great deal; at first his laugh seems merely friendly and jolly, but gradually, I came to feel it rather grim. He is dictatorial, calm, incapable of fear, extraordinarily devoid of self-seeking, an embodied theory. The materialist conception of history, one feels, is his life-blood. He resembles a professor in his desire to have the theory understood and in his fury with those who misunderstand or disagree, as also in his love of expounding, I got the impression that he despises a great many people and is an intellectual aristocrat.",
-      "The Practice and Theory of Bolshevism (1920), Part I, Ch. 3: Lenin, Trotsky and Gorky"
+      "I believe that Communism is necessary to the world, and I believe that the heroism of Russia has fired men's hopes in a way which was essential to the realization of Communism in the future. Regarded as a splendid attempt, without which ultimate success would have been very improbable, Bolshevism deserves the gratitude and admiration of all the progressive part of mankind."
     ],
     [
-      "I think if I had met him [Lenin] without knowing who he was, I should not have guessed that he was a great man; he struck me as too opinionated and narrowly orthodox. His strength comes, I imagine, from his honesty, courage, and unwavering faith—religious faith in the Marxian gospel, which takes the place of the Christian martyr's hopes of Paradise, except that it is less egotistical... I went to Russia a Communist; but contact with those who have no doubts has intensified a thousandfold my own doubts, not as to Communism in itself, but as to the wisdom of holding a creed so firmly that for its sake men are willing to inflict widespread misery.",
-      "The Practice and Theory of Bolshevism (1920), Part I, Ch. 3: Lenin, Trotsky and Gorky"
+      "A fundamental economic reconstruction, bringing with it very far-reaching changes in ways of thinking and feeling, in philosophy and art and private relations, seems absolutely necessary if industrialism is to become the servant of man instead of his master. In all this, I am at one with the Bolsheviks; politically, I criticize them only when their methods seem to involve a departure from their own ideals."
     ],
     [
-      "...it [is] possible to suppose that, if Russia is allowed to have peace, an amazing industrial development may take place, making Russia a rival of the United States.",
-      "The Practice and Theory of Bolshevism (1920), Part I, Ch. 5: Communism and the Soviet Constitution"
+      "The hopes which inspire communism are, in the main, as admirable as those instilled by the Sermon on the Mount, but they are held as fanatically and are as likely to do as much harm."
     ],
     [
-      "One who believes, as I do, that the free intellect is the chief engine of human progress, cannot but be fundamentally opposed to Bolshevism, as much as to the Church of Rome.",
-      "The Practice and Theory of Bolshevism (1920), Part I, Ch. 9: International Policy"
+      "Soon after my arrival in Moscow I had an hour's conversation with Lenin in English, which he speaks fairly well... I have never met a personage so destitute of self-importance. He looks at his visitors very closely, and screws up one eye, which seems to increase alarmingly the penetrating power of the other. He laughs a great deal; at first his laugh seems merely friendly and jolly, but gradually, I came to feel it rather grim. He is dictatorial, calm, incapable of fear, extraordinarily devoid of self-seeking, an embodied theory. The materialist conception of history, one feels, is his life-blood. He resembles a professor in his desire to have the theory understood and in his fury with those who misunderstand or disagree, as also in his love of expounding, I got the impression that he despises a great many people and is an intellectual aristocrat."
     ],
     [
-      "It is we who create value and our desires which confer value. In this realm, we are kings.",
-      "The Prospects of Industrial Civilization (1923)"
+      "I think if I had met him [Lenin] without knowing who he was, I should not have guessed that he was a great man; he struck me as too opinionated and narrowly orthodox. His strength comes, I imagine, from his honesty, courage, and unwavering faith-religious faith in the Marxian gospel, which takes the place of the Christian martyr's hopes of Paradise, except that it is less egotistical... I went to Russia a Communist; but contact with those who have no doubts has intensified a thousandfold my own doubts, not as to Communism in itself, but as to the wisdom of holding a creed so firmly that for its sake men are willing to inflict widespread misery."
     ],
     [
-      "... it may be hoped that the white population of the world will soon cease to increase. The Asiatic races will be longer, and the negroes still longer, before their birth rate falls sufficiently to make their numbers stable without help of war and pestilence. But it is to be hoped that the religious prejudices which have hitherto hampered the spread of birth control will die out, and that ... the whole world will learn not to be unduly prolific. Until that happens, the benefits aimed at by socialism can only be partially realized, and the less prolific races will have to defend themselves against the more prolific by methods which are disgusting even if they are necessary.",
-      "The Prospects of Industrial Civilization (1923)"
+      "...it [is] possible to suppose that, if Russia is allowed to have peace, an amazing industrial development may take place, making Russia a rival of the United States."
     ],
     [
-      "To save the world requires faith and courage: faith in reason, and courage to proclaim what reason shows to be true.",
-      ""
+      "One who believes, as I do, that the free intellect is the chief engine of human progress, cannot but be fundamentally opposed to Bolshevism, as much as to the Church of Rome."
     ],
-    ["The governors of the world believe, and have always bel", ""],
     [
-      "I believed, that virtue can only be taught by teaching falsehood, and that any man who knew the truth would be wicked. I disbelieve this, absolutely and entirely. I believe that love of truth is the basis of all real virtue, and that virtues based upon lies can only do harm.",
-      "ICARUS, or, The Future of Science. (1924)"
+      "It is we who create value and our desires which confer value. In this realm, we are kings."
     ],
     [
-      "Boys and girls should be taught respect for each other's liberty... and that jealousy and possessiveness kill love.",
-      "What I Believe (1925)"
+      "... it may be hoped that the white population of the world will soon cease to increase. The Asiatic races will be longer, and the negroes still longer, before their birth rate falls sufficiently to make their numbers stable without help of war and pestilence. But it is to be hoped that the religious prejudices which have hitherto hampered the spread of birth control will die out, and that ... the whole world will learn not to be unduly prolific. Until that happens, the benefits aimed at by socialism can only be partially realized, and the less prolific races will have to defend themselves against the more prolific by methods which are disgusting even if they are necessary."
     ],
     [
-      "The good life is one inspired by love and guided by knowledge.",
-      "What I Believe (1925)"
+      "To save the world requires faith and courage: faith in reason, and courage to proclaim what reason shows to be true."
     ],
     [
-      "We are and irrefutable arbiters of value, and in the world of value Nature is only a part. Thus in this world we are greater than Nature. In the world of values, Nature in itself is neutral, neither good nor bad deserving of neither admiration nor censure. It is we who create value and our desires which confer value. In this realm we are kings, and we debase our kingship if we bow down to Nature. It is for us to determine our good life, not for Nature – not even for Nature personified as God.",
-      "What I Believe (1925)"
+      "The governors of the world believe, and have always bel"
     ],
     [
-      "Love is better than hate, because it brings harmony instead of conflict into the desires of the persons concerned. Two people between whom there is love succeed or fail together, but when two people hate each other the success of either is the failure of the other.",
-      "What I Believe (1925)"
+      "I believed, that virtue can only be taught by teaching falsehood, and that any man who knew the truth would be wicked. I disbelieve this, absolutely and entirely. I believe that love of truth is the basis of all real virtue, and that virtues based upon lies can only do harm."
     ],
     [
-      "At puberty, the elements of an unsuperstitious sexual morality ought to be taught. Boys and girls should be taught that nothing can justify sexual intercourse unless there is mutual inclination... Boys and girls should be taught respect for each other's liberty; they should be made to feel that nothing gives one human being rights over another, and that jealousy and possessiveness kill love. They should be taught that to bring another human being into the world is a very serious matter, only to be undertaken when the child will have a reasonable prospect of health, good surroundings, and parental care. But they should also be taught methods of birth control, so as to insure that children shall only come when they are wanted. Finally, they should be taught the dangers of venereal disease, and the methods of prevention and cure. The increase of human happiness to be expected from sex education on these lines is immeasurable.",
-      "What I Believe (1925)"
+      "Boys and girls should be taught respect for each other's liberty... and that jealousy and possessiveness kill love."
     ],
     [
-      "Moral rules ought not to be such as to make instinctive happiness impossible.",
-      "What I Believe (1925)"
+      "The good life is one inspired by love and guided by knowledge."
     ],
     [
-      "Certain forms of sex which do not lead to children are at present punished by the criminal law: this is purely superstitious, since the matter is one which affects no one except the parties directly concerned... The peculiar importance attached, at present, to adultery is quite irrational... Moral rules ought not to be such as to make instinctive happiness impossible.",
-      "What I Believe (1925)"
+      "We are and irrefutable arbiters of value, and in the world of value Nature is only a part. Thus in this world we are greater than Nature. In the world of values, Nature in itself is neutral, neither good nor bad deserving of neither admiration nor censure. It is we who create value and our desires which confer value. In this realm we are kings, and we debase our kingship if we bow down to Nature. It is for us to determine our good life, not for Nature - not even for Nature personified as God."
     ],
     [
-      "We cannot suppose that an individual's thinking survives bodily death, since that destroys the organization of the brain and dissipates the energy which utilized the brain tracks. God and immortality, the central dogma of the Christian religion, find no support in science. But we in the West have come to think of them as the irreducible minimum of theology. No doubt people will continue to entertain these beliefs, because they are pleasant, just as it is pleasant to think ourselves virtuous and our enemies wicked. But for my part I cannot see any grounds for either. I do not pretend to be able to prove that there is no God. I equally cannot prove Satan is a fiction. The Christian God may exist, so might the Gods of Olympus, Ancient Egypt or Babylon; but no one of these hypotheses is more probable than any other. They lie outside the region of provable knowledge and there is no reason to consider any of them.",
-      "What I Believe (1925)"
+      "Love is better than hate, because it brings harmony instead of conflict into the desires of the persons concerned. Two people between whom there is love succeed or fail together, but when two people hate each other the success of either is the failure of the other."
     ],
     [
-      "Religion, since it has its source in terror, has dignified certain kinds of fear and made people think them not disgraceful. In this it has done mankind a great disservice: all fear is bad. I believe that when I die I shall rot, and nothing of my ego will survive. I am not young and I love life. But I should scorn to shiver with terror at the thought of annihilation. Happiness is nonetheless true happiness because it must come to an end, nor do thought and love lose their value because they are not everlasting. Many a man has borne himself proudly on the scaffold; surely the same pride should teach us to think truly about man's place in the world. Even if the open windows of science at first make us shiver after the cosy indoor warmth of traditional humanizing myths, in the end the fresh air brings vigour, and the great spaces have a splendour of their own.",
-      "What I Believe (1925)"
+      "At puberty, the elements of an unsuperstitious sexual morality ought to be taught. Boys and girls should be taught that nothing can justify sexual intercourse unless there is mutual inclination... Boys and girls should be taught respect for each other's liberty; they should be made to feel that nothing gives one human being rights over another, and that jealousy and possessiveness kill love. They should be taught that to bring another human being into the world is a very serious matter, only to be undertaken when the child will have a reasonable prospect of health, good surroundings, and parental care. But they should also be taught methods of birth control, so as to insure that children shall only come when they are wanted. Finally, they should be taught the dangers of venereal disease, and the methods of prevention and cure. The increase of human happiness to be expected from sex education on these lines is immeasurable."
     ],
     [
-      "The philosophy of nature must not be unduly terrestrial; for it, the earth is merely one of the smaller planets of one of the smaller stars of the Milky Way. It would be ridiculous to warp the philosophy of nature in order to bring out results that are pleasing to the tiny parasites of this insignificant planet. Vitalism as a philosophy, and evolutionism, show, in this respect, a lack of sense of proportion and logical relevance. They regard the facts of life, which are personally interesting to us, as having a cosmic significance, not a significance confined to the earth's surface. Optimism and pessimism, as cosmic philosophies, show the same naive humanism; the great world, so far as we know it from the philosophy of nature, is neither good nor bad, and is not concerned to make us happy or unhappy. All such philosophies spring from self-importance and are best corrected by a little astronomy.",
-      "What I Believe (1925)"
+      "Moral rules ought not to be such as to make instinctive happiness impossible."
     ],
     [
-      "The old often envy the young; when they do, they are apt to treat them cruelly.",
-      "Review of The Meaning of Meaning (1926)"
+      "Certain forms of sex which do not lead to children are at present punished by the criminal law: this is purely superstitious, since the matter is one which affects no one except the parties directly concerned... The peculiar importance attached, at present, to adultery is quite irrational... Moral rules ought not to be such as to make instinctive happiness impossible."
     ],
     [
-      "When, in youth, I learned what was called 'philosophy' ... no one ever mentioned to me the question of 'meaning.' Later, I became acquainted with Lady Welby's work on the subject, but failed to take it seriously. I imagined that logic could be pursued by taking it for granted that symbols were always, so to speak, transparent, and in no way distorted the objects they were supposed to 'mean.' Purely logical problems have gradually led me further and further from this point of view.",
-      "Review of The Meaning of Meaning (1926)"
+      "We cannot suppose that an individual's thinking survives bodily death, since that destroys the organization of the brain and dissipates the energy which utilized the brain tracks. God and immortality, the central dogma of the Christian religion, find no support in science. But we in the West have come to think of them as the irreducible minimum of theology. No doubt people will continue to entertain these beliefs, because they are pleasant, just as it is pleasant to think ourselves virtuous and our enemies wicked. But for my part I cannot see any grounds for either. I do not pretend to be able to prove that there is no God. I equally cannot prove Satan is a fiction. The Christian God may exist, so might the Gods of Olympus, Ancient Egypt or Babylon; but no one of these hypotheses is more probable than any other. They lie outside the region of provable knowledge and there is no reason to consider any of them."
     ],
     [
-      "I do not myself feel that any person who is really profoundly humane can believe in everlasting punishment.",
-      "Why I Am Not a Christian (1927)"
+      "Religion, since it has its source in terror, has dignified certain kinds of fear and made people think them not disgraceful. In this it has done mankind a great disservice: all fear is bad. I believe that when I die I shall rot, and nothing of my ego will survive. I am not young and I love life. But I should scorn to shiver with terror at the thought of annihilation. Happiness is nonetheless true happiness because it must come to an end, nor do thought and love lose their value because they are not everlasting. Many a man has borne himself proudly on the scaffold; surely the same pride should teach us to think truly about man's place in the world. Even if the open windows of science at first make us shiver after the cosy indoor warmth of traditional humanizing myths, in the end the fresh air brings vigour, and the great spaces have a splendour of their own."
     ],
     [
-      "I am as firmly convinced that religions do harm as I am that they are untrue.",
-      "Why I Am Not a Christian (1927)"
+      "The philosophy of nature must not be unduly terrestrial; for it, the earth is merely one of the smaller planets of one of the smaller stars of the Milky Way. It would be ridiculous to warp the philosophy of nature in order to bring out results that are pleasing to the tiny parasites of this insignificant planet. Vitalism as a philosophy, and evolutionism, show, in this respect, a lack of sense of proportion and logical relevance. They regard the facts of life, which are personally interesting to us, as having a cosmic significance, not a significance confined to the earth's surface. Optimism and pessimism, as cosmic philosophies, show the same naive humanism; the great world, so far as we know it from the philosophy of nature, is neither good nor bad, and is not concerned to make us happy or unhappy. All such philosophies spring from self-importance and are best corrected by a little astronomy."
     ],
     [
-      "I think all the great religions of the world - Buddhism, Hinduism, Christianity, Islam, and Communism - both untrue and harmful. It is evident as a matter of logic that, since they disagree, not more than one of them can be true. With very few exception, the religions which a man accepts is that of the community in which he lives, which makes it obvious that the influence of environment is what has led him to accept the religion in question.",
-      "Why I Am Not a Christian (1927)"
+      "The old often envy the young; when they do, they are apt to treat them cruelly."
     ],
     [
-      "Apart from logical cogency, there is to me something a little odd about the ethical valuations of those who think that an omnipotent, omniscient, and benevolent Deity, after preparing the ground by many millions of years of lifeless nebulae, would consider Himself adequately rewarded by the final emergence of Hitler and Stalin and the H-bomb.",
-      "Preface (1957)"
+      "When, in youth, I learned what was called 'philosophy' ... no one ever mentioned to me the question of 'meaning.' Later, I became acquainted with Lady Welby's work on the subject, but failed to take it seriously. I imagined that logic could be pursued by taking it for granted that symbols were always, so to speak, transparent, and in no way distorted the objects they were supposed to 'mean.' Purely logical problems have gradually led me further and further from this point of view."
     ],
     [
-      "Belief in eternal hell fire was an essential item of Christian belief until pretty recent times. In this country, as you know, it ceased to be an essential item because of a decision of the Privy Council, and from that decision the Archbishop of Canterbury and the Archbishop of York dissented; but in this country our religion is settled by Act of Parliament, and therefore the Privy Council was able to override Their Graces and hell was no longer necessary to a Christian. Consequently I shall not insist that a Christian must believe in hell.",
-      "What is a Christian? (1927)"
+      "I do not myself feel that any person who is really profoundly humane can believe in everlasting punishment."
     ],
     [
-      "If everything must have a cause, then God must have a cause. If there can be anything without a cause, it may just as well be the world as God, so that there cannot be any validity in that argument. It is exactly of the same nature as the Hindu's view, that the world rested upon an elephant and the elephant rested upon a tortoise; and when they said, 'How about the tortoise?' the Indian said, 'Suppose we change the subject.' The argument is really no better than that.",
-      "The First-cause Argument"
+      "I am as firmly convinced that religions do harm as I am that they are untrue."
     ],
     [
-      "If you accept the ordinary laws of science, you have to suppose that human life and life in general on this planet will die out in due course: it is a stage in the decay of the solar system... You see in the moon the sort of thing to which the earth is tending – something dead, cold, and lifeless.",
-      "The Argument from Design"
+      "I think all the great religions of the world - Buddhism, Hinduism, Christianity, Islam, and Communism - both untrue and harmful. It is evident as a matter of logic that, since they disagree, not more than one of them can be true. With very few exception, the religions which a man accepts is that of the community in which he lives, which makes it obvious that the influence of environment is what has led him to accept the religion in question."
     ],
     [
-      "...You could take up the line that some of the gnostics took up – a line which I often thought was a very plausible one – that as a matter of fact this world that we know was made by the devil at a moment when God was not looking. There is a good deal to be said for that, and I am not concerned to refute it.",
-      "The Moral Arguments for Deity"
+      "Apart from logical cogency, there is to me something a little odd about the ethical valuations of those who think that an omnipotent, omniscient, and benevolent Deity, after preparing the ground by many millions of years of lifeless nebulae, would consider Himself adequately rewarded by the final emergence of Hitler and Stalin and the H-bomb."
     ],
     [
-      "In the part of this universe that we know there is great injustice, and often the good suffer, and often the wicked prosper, and one hardly knows which of those is the more annoying.",
-      "The Argument for the Remedying of Injustice"
+      "Belief in eternal hell fire was an essential item of Christian belief until pretty recent times. In this country, as you know, it ceased to be an essential item because of a decision of the Privy Council, and from that decision the Archbishop of Canterbury and the Archbishop of York dissented; but in this country our religion is settled by Act of Parliament, and therefore the Privy Council was able to override Their Graces and hell was no longer necessary to a Christian. Consequently I shall not insist that a Christian must believe in hell."
     ],
     [
-      "There is one very serious defect to my mind in Christ's moral character, and that is that He believed in hell. I do not myself feel that any person who is really profoundly humane can believe in everlasting punishment.",
-      "The Moral Problem"
+      "If everything must have a cause, then God must have a cause. If there can be anything without a cause, it may just as well be the world as God, so that there cannot be any validity in that argument. It is exactly of the same nature as the Hindu's view, that the world rested upon an elephant and the elephant rested upon a tortoise; and when they said, 'How about the tortoise?' the Indian said, 'Suppose we change the subject.' The argument is really no better than that."
     ],
     [
-      "I do not think that the real reason why people accept religion has anything to do with argumentation. They accept religion on emotional grounds. One is often told that it is a very wrong thing to attack religion, because religion makes men virtuous. So I am told; I have not noticed it.",
-      "The Emotional Factor"
+      "If you accept the ordinary laws of science, you have to suppose that human life and life in general on this planet will die out in due course: it is a stage in the decay of the solar system... You see in the moon the sort of thing to which the earth is tending - something dead, cold, and lifeless."
     ],
     [
-      "You find as you look around the world that every single bit of progress of humane feeling, every improvement in the criminal law, every step toward the diminution of war, every step toward better treatment of the colored races, or even mitigation of slavery, every moral progress that there has been in the world, has been consistently opposed by the organized churches of the world. I say quite deliberately that the Christian religion, as organized in its churches, has been and still is the principal enemy of moral progress in the world.",
-      "The Emotional Factor"
+      "...You could take up the line that some of the gnostics took up - a line which I often thought was a very plausible one - that as a matter of fact this world that we know was made by the devil at a moment when God was not looking. There is a good deal to be said for that, and I am not concerned to refute it."
     ],
     [
-      "Religion is based, I think, primarily and mainly upon fear.",
-      "The Emotional Factor"
+      "In the part of this universe that we know there is great injustice, and often the good suffer, and often the wicked prosper, and one hardly knows which of those is the more annoying."
     ],
     [
-      "Often paraphrased as \"The Christian religion has been and still is the principal enemy of moral progress in the world.\"",
-      "The Emotional Factor"
+      "There is one very serious defect to my mind in Christ's moral character, and that is that He believed in hell. I do not myself feel that any person who is really profoundly humane can believe in everlasting punishment."
     ],
     [
-      "[The church] is in its major part an opponent still of progress and improvement in all the ways that diminish suffering in the world, because it has chosen to label as morality a certain narrow set of rules of conduct which have nothing to do with human happiness; and when you say that this or that ought to be done because it would make for human happiness, they think that has nothing to do with the matter at all. 'What has human happiness to do with morals? The object of morals is not to make people happy.'",
-      "How The Churches Have Retarded Progress"
+      "I do not think that the real reason why people accept religion has anything to do with argumentation. They accept religion on emotional grounds. One is often told that it is a very wrong thing to attack religion, because religion makes men virtuous. So I am told; I have not noticed it."
     ],
     [
-      "Religion is based, I think, primarily and mainly upon fear. It is partly the terror of the unknown and partly, as I have said, the wish to feel that you have a kind of elder brother who will stand by you in all your troubles and disputes. Fear is the basis of the whole thing – fear of the mysterious, fear of defeat, fear of death.",
-      "Fear, the Foundation of Religion"
+      "You find as you look around the world that every single bit of progress of humane feeling, every improvement in the criminal law, every step toward the diminution of war, every step toward better treatment of the colored races, or even mitigation of slavery, every moral progress that there has been in the world, has been consistently opposed by the organized churches of the world. I say quite deliberately that the Christian religion, as organized in its churches, has been and still is the principal enemy of moral progress in the world."
     ],
     [
-      "The whole conception of God is a conception derived from the ancient Oriental despotisms. It is a conception quite unworthy of free men.",
-      "What We Must Do"
+      "Religion is based, I think, primarily and mainly upon fear."
     ],
     [
-      "We ought to stand up and look the world frankly in the face. We ought to make the best we can of the world, and if it is not so good as we wish, after all it will still be better than what these others have made of it in all these ages.",
-      "What We Must Do"
+      "Often paraphrased as \"The Christian religion has been and still is the principal enemy of moral progress in the world.\""
     ],
     [
-      "A good world needs knowledge, kindliness, and courage; it does not need a regretful hankering after the past, or a fettering of the free intelligence by the words uttered long ago by ignorant men.",
-      "What We Must Do"
+      "[The church] is in its major part an opponent still of progress and improvement in all the ways that diminish suffering in the world, because it has chosen to label as morality a certain narrow set of rules of conduct which have nothing to do with human happiness; and when you say that this or that ought to be done because it would make for human happiness, they think that has nothing to do with the matter at all. 'What has human happiness to do with morals? The object of morals is not to make people happy.'"
     ],
     [
-      "I wish to propose for the reader's favourable consideration a doctrine which may, I fear, appear wildly paradoxical and subversive. The doctrine in question is this: that it is undesirable to believe a proposition when there is no ground whatever for supposing it true.",
-      "Sceptical Essays (1928)"
+      "Religion is based, I think, primarily and mainly upon fear. It is partly the terror of the unknown and partly, as I have said, the wish to feel that you have a kind of elder brother who will stand by you in all your troubles and disputes. Fear is the basis of the whole thing - fear of the mysterious, fear of defeat, fear of death."
     ],
     [
-      "The infliction of cruelty with a good conscience is a delight to moralists. That is why they invented Hell.",
-      "Sceptical Essays (1928)"
+      "The whole conception of God is a conception derived from the ancient Oriental despotisms. It is a conception quite unworthy of free men."
     ],
     [
-      "A European who goes to New York and Chicago sees the future... when he goes to Asia he sees the past.",
-      "Ch. 8: Eastern and Western Ideals of Happiness"
+      "We ought to stand up and look the world frankly in the face. We ought to make the best we can of the world, and if it is not so good as we wish, after all it will still be better than what these others have made of it in all these ages."
     ],
     [
-      "We have, in fact, two kinds of morality side by side; one which we preach but do not practise, and another which we practise but seldom preach.",
-      "Ch. 8: Eastern and Western Ideals of Happiness"
+      "A good world needs knowledge, kindliness, and courage; it does not need a regretful hankering after the past, or a fettering of the free intelligence by the words uttered long ago by ignorant men."
     ],
     [
-      "The people who are regarded as moral luminaries are those who forego ordinary pleasures themselves and find compensation in interfering with the pleasures of others.",
-      "Ch. 8: Eastern and Western Ideals of Happiness"
+      "I wish to propose for the reader's favourable consideration a doctrine which may, I fear, appear wildly paradoxical and subversive. The doctrine in question is this: that it is undesirable to believe a proposition when there is no ground whatever for supposing it true."
     ],
     [
-      "It is obvious that 'obscenity' is not a term capable of exact legal definition; in the practice of the Courts, it means 'anything that shocks the magistrate.'",
-      "Ch. 10: Recrudescence of Puritanism"
+      "The infliction of cruelty with a good conscience is a delight to moralists. That is why they invented Hell."
     ],
     [
-      "Next to enjoying ourselves, the next greatest pleasure consists in preventing others from enjoying themselves, or, more generally, in the acquisition of power.",
-      "Ch. 10: Recrudescence of Puritanism"
+      "A European who goes to New York and Chicago sees the future... when he goes to Asia he sees the past."
     ],
     [
-      "William James used to preach the 'will-to-believe.' For my part, I should wish to preach the 'will-to-doubt.' None of our beliefs are quite true; all at least have a penumbra of vagueness and error. What is wanted is not the will to believe, but the will to find out, which is the exact opposite.",
-      "Ch. 12: Free Thought and Official Propaganda"
+      "We have, in fact, two kinds of morality side by side; one which we preach but do not practise, and another which we practise but seldom preach."
     ],
     [
-      "It is clear that thought is not free if the profession of certain opinions makes it impossible to earn a living.",
-      "Ch. 12: Free Thought and Official Propaganda"
+      "The people who are regarded as moral luminaries are those who forego ordinary pleasures themselves and find compensation in interfering with the pleasures of others."
     ],
     [
-      "The State is a collection of officials, different for different purposes, drawing comfortable incomes so long as the status quo is preserved. The only alteration they are likely to desire in the status quo is an increase of bureaucracy and the power of bureaucrats.",
-      "Ch. 12: Free Thought and Official Propaganda"
+      "It is obvious that 'obscenity' is not a term capable of exact legal definition; in the practice of the Courts, it means 'anything that shocks the magistrate.'"
     ],
     [
-      "We are faced with the paradoxical fact that education has become one of the chief obstacles to intelligence and freedom of thought.",
-      "Ch. 12: Free Thought and Official Propaganda"
+      "Next to enjoying ourselves, the next greatest pleasure consists in preventing others from enjoying themselves, or, more generally, in the acquisition of power."
     ],
     [
-      "Americans need rest, but do not know it. I believe this to be a large part of the explanation of the crime wave in the United States.",
-      "Ch. 13: Freedom in Society."
+      "William James used to preach the 'will-to-believe.' For my part, I should wish to preach the 'will-to-doubt.' None of our beliefs are quite true; all at least have a penumbra of vagueness and error. What is wanted is not the will to believe, but the will to find out, which is the exact opposite."
     ],
     [
-      "The fundamental defect of fathers is that they want their children to be a credit to them.",
-      "Ch. 13: Freedom in Society"
+      "It is clear that thought is not free if the profession of certain opinions makes it impossible to earn a living."
     ],
     [
-      "Advocates of capitalism are very apt to appeal to the sacred principles of liberty, which are embodied in one maxim: The fortunate must not be restrained in the exercise of tyranny over the unfortunate.",
-      "Ch. 13: Freedom in Society"
+      "The State is a collection of officials, different for different purposes, drawing comfortable incomes so long as the status quo is preserved. The only alteration they are likely to desire in the status quo is an increase of bureaucracy and the power of bureaucrats."
     ],
     [
-      "Children must be under authority, and are themselves aware that they must be, although they like to play a game of rebellion at times. The case of children is unique in the fact that those who have authority over them are sometimes fond of them. Where this is the case, the children do not resent the authority in general, even when they resist it on particular occasions. Education authorities, as opposed to teachers, have not this merit, and do in fact sacrifice the children to what they consider the good of the State by teaching them 'patriotism,' i.e., a willingness to kill and be killed for trivial reasons.",
-      "Ch. 13: Freedom in Society"
+      "We are faced with the paradoxical fact that education has become one of the chief obstacles to intelligence and freedom of thought."
     ],
     [
-      "The fundamental defect of fathers, in our competitive society, is that they want their children to be a credit to them.",
-      "Ch. 14: Freedom Versus Authority in Education"
+      "Americans need rest, but do not know it. I believe this to be a large part of the explanation of the crime wave in the United States."
     ],
     [
-      "Love is something far more than desire for sexual intercourse; it is the principal means of escape from the loneliness which afflicts most men and women throughout the greater part of their lives.",
-      "Marriage and Morals"
+      "The fundamental defect of fathers is that they want their children to be a credit to them."
     ],
     [
-      "Marriage is for women the commonest mode of livelihood, and the total amount of undesired sex endured by women is probably greater in marriage than in prostitution.",
-      "Marriage and Morals"
+      "Advocates of capitalism are very apt to appeal to the sacred principles of liberty, which are embodied in one maxim: The fortunate must not be restrained in the exercise of tyranny over the unfortunate."
     ],
     [
-      "To fear love is to fear life, and those who fear life are already three parts dead.",
-      "Marriage and Morals"
+      "Children must be under authority, and are themselves aware that they must be, although they like to play a game of rebellion at times. The case of children is unique in the fact that those who have authority over them are sometimes fond of them. Where this is the case, the children do not resent the authority in general, even when they resist it on particular occasions. Education authorities, as opposed to teachers, have not this merit, and do in fact sacrifice the children to what they consider the good of the State by teaching them 'patriotism,' i.e., a willingness to kill and be killed for trivial reasons."
     ],
     [
-      "The most essential characteristic of scientific technique is that it proceeds from experiment, not from tradition. The experimental habit of mind is a difficult one for most people to maintain; indeed, the science of one generation has already become the tradition of the next...",
-      "The Scientific Outlook (1931)"
+      "The fundamental defect of fathers, in our competitive society, is that they want their children to be a credit to them."
     ],
     [
-      "A world without delight and without affection is a world destitute of value.",
-      "The Scientific Outlook (1931)"
+      "Love is something far more than desire for sexual intercourse; it is the principal means of escape from the loneliness which afflicts most men and women throughout the greater part of their lives."
     ],
     [
-      "h despair is easy, and thus have to face a much more intense unhappiness than that which falls to the lot of those who have never had a religious upbringing. Christianity offers reasons for not fearing death or the universe, and in so doing it fails to teach adequately the virtue of courage. The craving for religious faith being largely an outcome of fear, the advocates of faith tend to think that certain kinds of fear are not to be deprecated. In this, to my mind, they are gravely mistaken. To allow oneself to entertain pleasant beliefs as a means of avoiding fear is not to live in the best way. In so far as religion makes its appeal to fear, it is lowering to human dignity.",
-      "p. 107"
+      "Marriage is for women the commonest mode of livelihood, and the total amount of undesired sex endured by women is probably greater in marriage than in prostitution."
     ],
     [
-      "Owing to the identification of religion with virtue, together with the fact that the most religious men are not the most intelligent, a religious education gives courage to the stupid to resist the authority of educated men, as has happened, for example, where the teaching of evolution has been made illegal. So far as I can remember, there is not one word in the Gospels in praise of intelligence; and in this respect ministers of religion follow gospel authority more closely than in some others.",
-      "p. 110"
+      "To fear love is to fear life, and those who fear life are already three parts dead."
     ],
     [
-      "I am sure that university life would be better, both intellectually and morally, if most university students had temporary childless marriages. This would afford a solution to the sexual urge neither restless nor surreptitious, neither mercenary nor casual, and of such a nature that it need not take up time which ought to be given to work.",
-      "\"Sex in Education\", p. 119-120"
+      "The most essential characteristic of scientific technique is that it proceeds from experiment, not from tradition. The experimental habit of mind is a difficult one for most people to maintain; indeed, the science of one generation has already become the tradition of the next..."
     ],
     [
-      "There are those who blame the Press, but in this I think they are mistaken. The Press is such as the public demands, and the public demands bad newspapers because it has been badly educated.",
-      "p. 133"
+      "A world without delight and without affection is a world destitute of value."
     ],
     [
-      "It is generally admitted that most grown-up people, however regrettably, will try to have a good time.",
-      "Mortals and Others (1931-35)"
+      "h despair is easy, and thus have to face a much more intense unhappiness than that which falls to the lot of those who have never had a religious upbringing. Christianity offers reasons for not fearing death or the universe, and in so doing it fails to teach adequately the virtue of courage. The craving for religious faith being largely an outcome of fear, the advocates of faith tend to think that certain kinds of fear are not to be deprecated. In this, to my mind, they are gravely mistaken. To allow oneself to entertain pleasant beliefs as a means of avoiding fear is not to live in the best way. In so far as religion makes its appeal to fear, it is lowering to human dignity."
     ],
     [
-      "The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt.",
-      "Mortals and Others (1931-35)"
+      "Owing to the identification of religion with virtue, together with the fact that the most religious men are not the most intelligent, a religious education gives courage to the stupid to resist the authority of educated men, as has happened, for example, where the teaching of evolution has been made illegal. So far as I can remember, there is not one word in the Gospels in praise of intelligence; and in this respect ministers of religion follow gospel authority more closely than in some others."
     ],
     [
-      "To understand the actual world as it is, not as we should wish it to be, is the beginning of wisdom.",
-      "Mortals and Others (1931-35)"
+      "I am sure that university life would be better, both intellectually and morally, if most university students had temporary childless marriages. This would afford a solution to the sexual urge neither restless nor surreptitious, neither mercenary nor casual, and of such a nature that it need not take up time which ought to be given to work."
     ],
     [
-      "First of all: what is work? Work is of two kinds: first, altering the position of matter at or near the earth's surface relatively to other such matter; second, telling other people to do so. The first kind is unpleasant and ill paid; the second is pleasant and highly paid.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "There are those who blame the Press, but in this I think they are mistaken. The Press is such as the public demands, and the public demands bad newspapers because it has been badly educated."
     ],
     [
-      "There is much pleasure to be gained from useless knowledge.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "It is generally admitted that most grown-up people, however regrettably, will try to have a good time."
     ],
     [
-      "I think modern educational theorists are inclined to attach too much importance to the negative virtue of not interfering with children, and too little to the positive merit of enjoying their company.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "The fundamental cause of the trouble is that in the modern world the stupid are cocksure while the intelligent are full of doubt."
     ],
     [
-      "The idea that the poor should have leisure has always been shocking to the rich.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "To understand the actual world as it is, not as we should wish it to be, is the beginning of wisdom."
     ],
     [
-      "Good nature is, of all moral qualities, the one that the world needs most, and good nature is the result of ease and security, not of a life of arduous struggle. Modern methods of production have given us the possibility of ease and security for all; we have chosen, instead, to have overwork for some and starvation for the others. Hitherto we have continued to be as energetic as we were before there were machines; in this we have been foolish, but there is no reason to go on being foolish for ever.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "First of all: what is work? Work is of two kinds: first, altering the position of matter at or near the earth's surface relatively to other such matter; second, telling other people to do so. The first kind is unpleasant and ill paid; the second is pleasant and highly paid."
     ],
     [
-      "In the past, there was a small leisure class and a larger working class. The leisure class enjoyed advantages for which there was no basis in social justice; this necessarily made it oppressive, limited its sympathies, and caused it to invent theories by which to justify its privileges.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "There is much pleasure to be gained from useless knowledge."
     ],
     [
-      "There is much pleasure to be gained from useless knowledge.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "I think modern educational theorists are inclined to attach too much importance to the negative virtue of not interfering with children, and too little to the positive merit of enjoying their company."
     ],
     [
-      "For my part, while I am as convinced a Socialist as the most ardent Marxian, I do not regard Socialism as a gospel of proletarian revenge, nor even, primarily, as a means of securing economic justice. I regard it primarily as an adjustment to machine production demanded by considerations of common sense, and calculated to increase the happiness, not only of proletarians, but of all except a tiny minority of the human race.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "The idea that the poor should have leisure has always been shocking to the rich."
     ],
     [
-      "I cannot escape from the conclusion that the great ages of progress have depended upon a small number of individuals of transcendent ability.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "Good nature is, of all moral qualities, the one that the world needs most, and good nature is the result of ease and security, not of a life of arduous struggle. Modern methods of production have given us the possibility of ease and security for all; we have chosen, instead, to have overwork for some and starvation for the others. Hitherto we have continued to be as energetic as we were before there were machines; in this we have been foolish, but there is no reason to go on being foolish for ever."
     ],
     [
-      "It is, of course, clear that a country with a large foreign population must endeavour, through its schools, to assimilate the children of immigrants. It is, however, unfortunate that a large part of this process should be effected by means of a somewhat blatant nationalism.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "In the past, there was a small leisure class and a larger working class. The leisure class enjoyed advantages for which there was no basis in social justice; this necessarily made it oppressive, limited its sympathies, and caused it to invent theories by which to justify its privileges."
     ],
     [
-      "No rules, however wise, are a substitute for affection and tact.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "There is much pleasure to be gained from useless knowledge."
     ],
     [
-      "I think modern educational theorists are inclined to attach too much importance to the negative virtue of not interfering with children, and too little to the positive merit of enjoying their company.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "For my part, while I am as convinced a Socialist as the most ardent Marxian, I do not regard Socialism as a gospel of proletarian revenge, nor even, primarily, as a means of securing economic justice. I regard it primarily as an adjustment to machine production demanded by considerations of common sense, and calculated to increase the happiness, not only of proletarians, but of all except a tiny minority of the human race."
     ],
     [
-      "Two men who differ as to the ends of life cannot hope to agree about education.",
-      "In Praise of Idleness and Other Essays (1935)"
+      "I cannot escape from the conclusion that the great ages of progress have depended upon a small number of individuals of transcendent ability."
     ],
     [
-      "Every man would like to be God, if it were possible; some few find it difficult to admit the impossibility.",
-      "Power: A New Social Analysis (1938)"
+      "It is, of course, clear that a country with a large foreign population must endeavour, through its schools, to assimilate the children of immigrants. It is, however, unfortunate that a large part of this process should be effected by means of a somewhat blatant nationalism."
     ],
     [
-      "The fundamental concept in social science is Power, in the same sense in which Energy is the fundamental concept in physics.",
-      "Power: A New Social Analysis (1938)"
+      "No rules, however wise, are a substitute for affection and tact."
     ],
     [
-      "Most men do not feel in themselves the competence required for leading their group to victory, and therefore seek out a captain who appears to possess the courage and sagacity necessary for the achievement of supremacy. Even in religion this impulse appears. Nietzsche accused Christianity of inculcating a slave-morality, but ultimate triumph was always the goal. \"Blessed are the meek, for they shall inherit the earth.\"",
-      "Power: A New Social Analysis (1938)"
+      "I think modern educational theorists are inclined to attach too much importance to the negative virtue of not interfering with children, and too little to the positive merit of enjoying their company."
     ],
     [
-      "I greatly doubt whether the men who become pirate chiefs are those who are filled with retrospective terror of their fathers, or whether Napoleon, at Austerlitz, really felt that he was getting even with Madame Mère. I know nothing of the mother of Attila, but I rather suspect that she spoilt the little darling, who subsequently found the world irritating because it sometimes resisted his whims.",
-      "Power: A New Social Analysis (1938)"
+      "Two men who differ as to the ends of life cannot hope to agree about education."
     ],
     [
-      "In former days, men sold themselves to the Devil to acquire magical powers. Nowadays they acquire those powers from science, and find themselves compelled to become devils. There is no hope for the world unless power can be tamed, and brought into the service, not of this or that group of fanatical tyrants, but of the whole human race, white and yellow and black, fascist and communist and democrat; for science has made it inevitable that all must live or all must die.",
-      "Power: A New Social Analysis (1938)"
+      "Every man would like to be God, if it were possible; some few find it difficult to admit the impossibility."
     ],
     [
-      "Power may be defined as the production of intended effects.",
-      "Power: A New Social Analysis (1938)"
+      "The fundamental concept in social science is Power, in the same sense in which Energy is the fundamental concept in physics."
     ],
     [
-      "Most people, at a crisis, feel more loyalty to their nation than to their class.",
-      "Power: A New Social Analysis (1938)"
+      "Most men do not feel in themselves the competence required for leading their group to victory, and therefore seek out a captain who appears to possess the courage and sagacity necessary for the achievement of supremacy. Even in religion this impulse appears. Nietzsche accused Christianity of inculcating a slave-morality, but ultimate triumph was always the goal. \"Blessed are the meek, for they shall inherit the earth.\""
     ],
     [
-      "We thus have a kind of see-saw: first, pure persuasion leading to the conversion of a minority; then force exerted to secure that the rest of the community shall be exposed to the right propaganda; and finally a genuine belief on the part of the great majority, which makes the use of force again unnecessary.",
-      "Power: A New Social Analysis (1938)"
+      "I greatly doubt whether the men who become pirate chiefs are those who are filled with retrospective terror of their fathers, or whether Napoleon, at Austerlitz, really felt that he was getting even with Madame Mere. I know nothing of the mother of Attila, but I rather suspect that she spoilt the little darling, who subsequently found the world irritating because it sometimes resisted his whims."
     ],
     [
-      "Competition for power is of two sorts: between organizations, and between individuals for leadership within an organization.",
-      "Power: A New Social Analysis (1938)"
+      "In former days, men sold themselves to the Devil to acquire magical powers. Nowadays they acquire those powers from science, and find themselves compelled to become devils. There is no hope for the world unless power can be tamed, and brought into the service, not of this or that group of fanatical tyrants, but of the whole human race, white and yellow and black, fascist and communist and democrat; for science has made it inevitable that all must live or all must die."
     ],
     [
-      "In democratic countries, the most important private organizations are economic. Unlike secret societies, they are able to exercize their terrorism without illegality, since they do not threaten to kill their enemies, but only to starve them.",
-      "Power: A New Social Analysis (1938)"
+      "Power may be defined as the production of intended effects."
     ],
     [
-      "The \"social contract,\" in the only sense in which it is not completely mythical, is a contract among conquerors, which loses its raison d'être if they are deprived of the benefits of conquest.",
-      "Power: A New Social Analysis (1938)"
+      "Most people, at a crisis, feel more loyalty to their nation than to their class."
+    ],
+    [
+      "We thus have a kind of see-saw: first, pure persuasion leading to the conversion of a minority; then force exerted to secure that the rest of the community shall be exposed to the right propaganda; and finally a genuine belief on the part of the great majority, which makes the use of force again unnecessary."
+    ],
+    [
+      "Competition for power is of two sorts: between organizations, and between individuals for leadership within an organization."
+    ],
+    [
+      "In democratic countries, the most important private organizations are economic. Unlike secret societies, they are able to exercize their terrorism without illegality, since they do not threaten to kill their enemies, but only to starve them."
+    ],
+    [
+      "The \"social contract,\" in the only sense in which it is not completely mythical, is a contract among conquerors, which loses its raison d'etre if they are deprived of the benefits of conquest."
     ],
     [
       "Among human beings, the subjection of women is much more complete at a certain level of civilization than it is among savages. And the subje"
     ],
     [
-      "of goods, or the title to goods – is a motive which, I suppose, has its origin in a combination of fear with the desire for necessaries."
+      "of goods, or the title to goods - is a motive which, I suppose, has its origin in a combination of fear with the desire for necessaries."
     ],
-    ["The pursuit of knowledge is, I think, mainly actuated by love of power."],
+    [
+      "The pursuit of knowledge is, I think, mainly actuated by love of power."
+    ],
     [
       "It is normal to hate what we fear, and it happens frequently, though not always, that we fear what we hate."
     ],
@@ -822,298 +634,236 @@
     [
       "Perhaps the best hope for the future of mankind is that ways will be found of increasing the scope and intensity of sympathy."
     ],
-    ["The main thing needed to make the world happy is intelligence."],
+    [
+      "The main thing needed to make the world happy is intelligence."
+    ],
     [
       "Consider MacArthur and his Republican supporters. So limited is his intelligence and his imagination that he is never puzzled for one moment."
     ],
-    ["The good life, as I conceive it, is a happy life."],
+    [
+      "The good life, as I conceive it, is a happy life."
+    ],
     [
       "The old humility of the shepherds who felt themselves subject to the influences of Pleiades is no longer appropriate in the scientific world."
     ],
-    ["Modern industry, in fact, is a kind of rape."],
     [
-      "I cannot be content with a brief moment of riotous living followed by destitution, and however clever the scientists may be, there are some things that they cannot be expected to achieve.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 31–32"
+      "Modern industry, in fact, is a kind of rape."
     ],
     [
-      "When they have used up all the easily available sources of energy that nature has scattered carelessly over the surface of our planet, they will have to resort to more laborious processes, and these will involve a gradual lowering of the standard of living.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 31–32"
+      "I cannot be content with a brief moment of riotous living followed by destitution, and however clever the scientists may be, there are some things that they cannot be expected to achieve."
     ],
     [
-      "Modern industrialists are like men who have come for the first time upon fertile virgin land, and can live for a little while in great comfort with only a modicum of labor.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 31–32"
+      "When they have used up all the easily available sources of energy that nature has scattered carelessly over the surface of our planet, they will have to resort to more laborious processes, and these will involve a gradual lowering of the standard of living."
     ],
     [
-      "It would be irrational to hope that the present heyday of industrialism will not develop far beyond its present level, but sooner or later, owing to the exhaustion of raw material, its capacity to supply human needs will diminish, not suddenly, but gradually.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 31–32"
+      "Modern industrialists are like men who have come for the first time upon fertile virgin land, and can live for a little while in great comfort with only a modicum of labor."
     ],
     [
-      "Perhaps before it is too late they will learn to do so. But this is a question of politics, and I do not wish, as yet, to consider the political aspect of our problem.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 31–32"
+      "It would be irrational to hope that the present heyday of industrialism will not develop far beyond its present level, but sooner or later, owing to the exhaustion of raw material, its capacity to supply human needs will diminish, not suddenly, but gradually."
     ],
     [
-      "So far I have been considering the raw materials of industry, but the matter is far more grave as regards soil, which is the raw material of food.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 32–33"
+      "Perhaps before it is too late they will learn to do so. But this is a question of politics, and I do not wish, as yet, to consider the political aspect of our problem."
     ],
     [
-      "Ever since agriculture began it has been carried on wastefully in most parts of the world.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 32–33"
+      "So far I have been considering the raw materials of industry, but the matter is far more grave as regards soil, which is the raw material of food."
     ],
     [
-      "They will learn from these authors many tragic facts about formerly fertile hillsides now turned into barren rock, about irrigated plains now desert, and flourishing civilizations now buried beneath the sands.",
-      "Part I: Man and Nature, Ch. 4: The Limits of Human Power, pp. 32–33"
+      "Ever since agriculture began it has been carried on wastefully in most parts of the world."
     ],
     [
-      "It is sometimes maintained that racial mixture is biologically undesirable. There is no evidence whatever for this view.",
-      "Part II: Man and Man, Ch. 12: Racial Antagonism, p. 108"
+      "They will learn from these authors many tragic facts about formerly fertile hillsides now turned into barren rock, about irrigated plains now desert, and flourishing civilizations now buried beneath the sands."
     ],
     [
-      "Dread of disaster makes everybody act in the very way that increases the disaster.",
-      "Part III: Man and Himself, Ch. 17: Fear, p. 175"
+      "It is sometimes maintained that racial mixture is biologically undesirable. There is no evidence whatever for this view."
     ],
     [
-      "Our great democracies still tend to think that a stupid man is more likely to be honest than a clever man, and our politicians take advantage of this prejudice by pretending to be even more stupid than nature made them.",
-      "Part III: Man and Himself, Ch. 16: Ideas Which Have Become Obsolete, p. 158"
+      "Dread of disaster makes everybody act in the very way that increases the disaster."
     ],
     [
-      "The criminal law has, from the point of view of thwarted virtue, the merit of allowing an outlet for those impulses of aggression which cowardice, disguised as morality, restrains in their more spontaneous forms.",
-      "Part III: Man and Himself, Ch. 17: Fear, p. 175"
+      "Our great democracies still tend to think that a stupid man is more likely to be honest than a clever man, and our politicians take advantage of this prejudice by pretending to be even more stupid than nature made them."
     ],
     [
-      "Shakespeare did not write with a view to boring school-children; he wrote with a view to delighting his audiences. If he does not give you delight, you had better ignore him.",
-      "Part III: Man and Himself, Ch. 20: The Happy Man, p. 201"
+      "The criminal law has, from the point of view of thwarted virtue, the merit of allowing an outlet for those impulses of aggression which cowardice, disguised as morality, restrains in their more spontaneous forms."
     ],
     [
-      "It is not by prayer and humility that you cause things to go as you wish, but by acquiring a knowledge of natural laws.",
-      "The Impact of Science on Society (1952)"
+      "Shakespeare did not write with a view to boring school-children; he wrote with a view to delighting his audiences. If he does not give you delight, you had better ignore him."
     ],
     [
-      "Some part of life – perhaps the most important part – must be left to the spontaneous action of individual impulse, for where all is system there will be mental and spiritual death.",
-      "The Impact of Science on Society (1952)"
+      "It is not by prayer and humility that you cause things to go as you wish, but by acquiring a knowledge of natural laws."
     ],
     [
-      "Diet, injections, and injunctions will combine, from a very early age, to produce the sort of character and the sort of beliefs that the authorities consider desirable, and any serious criticism of the powers that be will become psychologically impossible. Even if all are miserable, all will believe themselves happy, because the government will tell them that they are so.",
-      "The Impact of Science on Society (1952)"
+      "Some part of life - perhaps the most important part - must be left to the spontaneous action of individual impulse, for where all is system there will be mental and spiritual death."
     ],
     [
-      "The only thing that will redeem mankind is co-operation.",
-      "Human Society in Ethics and Politics (1954)"
+      "Diet, injections, and injunctions will combine, from a very early age, to produce the sort of character and the sort of beliefs that the authorities consider desirable, and any serious criticism of the powers that be will become psychologically impossible. Even if all are miserable, all will believe themselves happy, because the government will tell them that they are so."
     ],
     [
-      "If throughout your life you abstain from murder, theft, fornication, perjury, blasphemy, and disrespect toward your parents, your church, and your king, you are conventionally held to deserve moral admiration even if you have never done a single kind or generous or useful action. This very inadequate notion of virtue is an outcome of taboo morality, and has done untold harm.",
-      "Human Society in Ethics and Politics (1954)"
+      "The only thing that will redeem mankind is co-operation."
     ],
     [
-      "Suppose atomic bombs had reduced the population of the world to one brother and one sister, should they let the human race die out? I do not know the answer, but I do not think it can be in the affirmative merely on the ground that incest is wicked.",
-      "Human Society in Ethics and Politics (1954)"
+      "If throughout your life you abstain from murder, theft, fornication, perjury, blasphemy, and disrespect toward your parents, your church, and your king, you are conventionally held to deserve moral admiration even if you have never done a single kind or generous or useful action. This very inadequate notion of virtue is an outcome of taboo morality, and has done untold harm."
     ],
     [
-      "The only thing that will redeem mankind is co-operation, and the first step towards co-operation lies in the hearts of individuals.",
-      "Human Society in Ethics and Politics (1954)"
+      "Suppose atomic bombs had reduced the population of the world to one brother and one sister, should they let the human race die out? I do not know the answer, but I do not think it can be in the affirmative merely on the ground that incest is wicked."
     ],
     [
-      "We may define 'faith' as a firm belief in something for which there is no evidence. Where there is evidence, no one speaks of 'faith'. We do not speak of faith that two and two are four or that the earth is round. We only speak of faith when we wish to substitute emotion for evidence. The substitution of emotion for evidence is apt to lead to strife, since different groups substitute different emotions.",
-      "Human Society in Ethics and Politics (1954)"
+      "The only thing that will redeem mankind is co-operation, and the first step towards co-operation lies in the hearts of individuals."
     ],
     [
-      "There is something feeble and a little contemptible about a man who cannot face the perils of life without the help of comfortable myths. Almost inevitably some part of him is aware that they are myths and that he believes them only because they are comforting. But he dare not face this thought! Moreover, since he is aware, however dimly, that his opinions are not rational, he becomes furious when they are disputed.",
-      "Human Society in Ethics and Politics (1954)"
+      "We may define 'faith' as a firm belief in something for which there is no evidence. Where there is evidence, no one speaks of 'faith'. We do not speak of faith that two and two are four or that the earth is round. We only speak of faith when we wish to substitute emotion for evidence. The substitution of emotion for evidence is apt to lead to strife, since different groups substitute different emotions."
     ],
     [
-      "If you think that your belief is based upon reason, you will support it by argument, rather than by persecution, and will abandon it if the argument goes against you. But if your belief is based on faith, you will realize that argument is useless, and will therefore resort to force either in the form of persecution, and will therefore resort to force either in the form of persecution or by stunting and distorting the minds of the young in what is called 'education'. This last is particularly dastardly, since it takes advantage of the defencelessness of immature minds.",
-      "Human Society in Ethics and Politics (1954)"
+      "There is something feeble and a little contemptible about a man who cannot face the perils of life without the help of comfortable myths. Almost inevitably some part of him is aware that they are myths and that he believes them only because they are comforting. But he dare not face this thought! Moreover, since he is aware, however dimly, that his opinions are not rational, he becomes furious when they are disputed."
     ],
     [
-      "We are speaking on this occasion, not as members of this or that nation, continent, or creed, but as human beings, members of the species Man, whose continued existence is in doubt.",
-      "The Russell-Einstein Manifesto (1955)"
+      "If you think that your belief is based upon reason, you will support it by argument, rather than by persecution, and will abandon it if the argument goes against you. But if your belief is based on faith, you will realize that argument is useless, and will therefore resort to force either in the form of persecution, and will therefore resort to force either in the form of persecution or by stunting and distorting the minds of the young in what is called 'education'. This last is particularly dastardly, since it takes advantage of the defencelessness of immature minds."
     ],
     [
-      "The world is full of conflicts; and, overshadowing all minor conflicts, the titanic struggle between Communism and anti-Communism.",
-      "The Russell-Einstein Manifesto (1955)"
+      "We are speaking on this occasion, not as members of this or that nation, continent, or creed, but as human beings, members of the species Man, whose continued existence is in doubt."
     ],
     [
-      "The best authorities are unanimous in saying that a war with H-bombs might possibly put an end to the human race. It is feared that if many H-bombs are used there will be universal death, sudden only for a minority, but for the majority a slow torture of disease and disintegration.",
-      "The Russell-Einstein Manifesto (1955)"
+      "The world is full of conflicts; and, overshadowing all minor conflicts, the titanic struggle between Communism and anti-Communism."
     ],
     [
-      "Many warnings have been uttered by eminent men of science and by authorities in military strategy. None of them will say that the worst results are certain. What they do say is that these results are possible, and no one can be sure that they will not be realized. We have not yet found that the views of experts on this question depend in any degree upon their politics or prejudices. They depend only, so far as our researches have revealed, upon the extent of the particular expert's knowledge. We have found that the men who know most are the most gloomy.",
-      "The Russell-Einstein Manifesto (1955)"
+      "The best authorities are unanimous in saying that a war with H-bombs might possibly put an end to the human race. It is feared that if many H-bombs are used there will be universal death, sudden only for a minority, but for the majority a slow torture of disease and disintegration."
     ],
     [
-      "Here, then, is the problem which we present to you, stark and dreadful and inescapable: Shall we put an end to the human race; or shall mankind renounce war? People will not face this alternative because it is so difficult to abolish war.",
-      "The Russell-Einstein Manifesto (1955)"
+      "Many warnings have been uttered by eminent men of science and by authorities in military strategy. None of them will say that the worst results are certain. What they do say is that these results are possible, and no one can be sure that they will not be realized. We have not yet found that the views of experts on this question depend in any degree upon their politics or prejudices. They depend only, so far as our researches have revealed, upon the extent of the particular expert's knowledge. We have found that the men who know most are the most gloomy."
     ],
     [
-      "We appeal as human beings to human beings: Remember your humanity, and forget the rest. If you can do so, the way lies open to a new Paradise; if you cannot, there lies before you the risk of universal death.",
-      "The Russell-Einstein Manifesto (1955)"
+      "Here, then, is the problem which we present to you, stark and dreadful and inescapable: Shall we put an end to the human race; or shall mankind renounce war? People will not face this alternative because it is so difficult to abolish war."
     ],
     [
-      "Most of us are not neutral in feeling, but, as human beings, we have to remember that, if the issues between East and West are to be decided in any manner that can give any possible satisfaction to anybody, whether Communist or anti-Communist, whether Asian or European or American, whether White or Black, then these issues must not be decided by war. We should wish this to be understood, both in the East and in the West.",
-      "The Russell-Einstein Manifesto (1955)"
+      "We appeal as human beings to human beings: Remember your humanity, and forget the rest. If you can do so, the way lies open to a new Paradise; if you cannot, there lies before you the risk of universal death."
     ],
     [
-      "There lies before us, if we choose, continual progress in happiness, knowledge, and wisdom. Shall we, instead, choose death, because we cannot forget our quarrels? We appeal as human beings to human beings: Remember your humanity, and forget the rest. If you can do so, the way lies open to a new Paradise; if you cannot, there lies before you the risk of universal death.",
-      "The Russell-Einstein Manifesto (1955)"
+      "Most of us are not neutral in feeling, but, as human beings, we have to remember that, if the issues between East and West are to be decided in any manner that can give any possible satisfaction to anybody, whether Communist or anti-Communist, whether Asian or European or American, whether White or Black, then these issues must not be decided by war. We should wish this to be understood, both in the East and in the West."
     ],
     [
-      "When I was a child the atmosphere in the house was one of puritan piety and austerity. There were family prayers at eight o'clock every morning. Although there were eight servants, food was always of Spartan simplicity, and even what there was, if it was at all nice, was considered too good for children.",
-      "Portraits from Memory and Other Essays (1956)"
+      "There lies before us, if we choose, continual progress in happiness, knowledge, and wisdom. Shall we, instead, choose death, because we cannot forget our quarrels? We appeal as human beings to human beings: Remember your humanity, and forget the rest. If you can do so, the way lies open to a new Paradise; if you cannot, there lies before you the risk of universal death."
     ],
     [
-      "Alcohol and tobacco were viewed with disfavor although stern convention compelled them to serve a little wine to guests. Only virtue was prized, virtue at the expense of intellect, health, happiness, and every mundane good.",
-      "Portraits from Memory and Other Essays (1956)"
+      "When I was a child the atmosphere in the house was one of puritan piety and austerity. There were family prayers at eight o'clock every morning. Although there were eight servants, food was always of Spartan simplicity, and even what there was, if it was at all nice, was considered too good for children."
     ],
-    ["What is mind? No matter. What is matter? Never mind.", "p. 9"],
     [
-      "My first advice (on how not to grow old) would be to choose your ancestors carefully. Although both my parents died young, I have done well in this respect as regards my other ancestors.",
-      "p. 50"
+      "Alcohol and tobacco were viewed with disfavor although stern convention compelled them to serve a little wine to guests. Only virtue was prized, virtue at the expense of intellect, health, happiness, and every mundane good."
     ],
     [
-      "I wanted certainty in the kind of way in which people want religious faith. I thought that certainty is more likely to be found in mathematics than elsewhere.",
-      "p. 53"
+      "What is mind? No matter. What is matter? Never mind."
     ],
     [
-      "The second matter in which Mill's principles condemn existing legislation is homosexuality. If two adults voluntarily enter into such a relation, this is a matter which concerns them only, and in which, therefore, the community ought not to intervene.",
-      "p. 139"
+      "My first advice (on how not to grow old) would be to choose your ancestors carefully. Although both my parents died young, I have done well in this respect as regards my other ancestors."
     ],
     [
-      "Those who advocate common usage in philosophy sometimes speak in a manner that suggests the mystique of the 'common man.'",
-      "p. 159"
+      "I wanted certainty in the kind of way in which people want religious faith. I thought that certainty is more likely to be found in mathematics than elsewhere."
     ],
     [
-      "In fact, contempt for happiness is usually contempt for other people's happiness, and is an elegant disguise for hatred of the human race.",
-      "p. 198"
+      "The second matter in which Mill's principles condemn existing legislation is homosexuality. If two adults voluntarily enter into such a relation, this is a matter which concerns them only, and in which, therefore, the community ought not to intervene."
     ],
     [
-      "My objections to Marx are of two sorts: one, that he was muddle-headed; and the other, that his thinking was almost entirely inspired by hatred.",
-      "p. 211"
+      "Those who advocate common usage in philosophy sometimes speak in a manner that suggests the mystique of the 'common man.'"
     ],
     [
-      "The harm that is done by a religion is of two sorts, ... As regards the kind of belief: it is thought virtuous to have faith—that is to say, to have a conviction which cannot be shaken by contrary evidence.",
-      "preface xxiii"
+      "In fact, contempt for happiness is usually contempt for other people's happiness, and is an elegant disguise for hatred of the human race."
     ],
     [
-      "A habit of basing convictions upon evidence, and of giving to them only that degree of certainty which the evidence warrants, would, if it became general, cure most of the ills from which the world is suffering.",
-      "preface xxiii"
+      "My objections to Marx are of two sorts: one, that he was muddle-headed; and the other, that his thinking was almost entirely inspired by hatred."
     ],
     [
-      "As soon as it is held that any belief, no matter what, is important for some other reason than that it is true, a whole host of evils is ready to spring up.",
-      "preface xxiii-xxiv"
+      "The harm that is done by a religion is of two sorts, ... As regards the kind of belief: it is thought virtuous to have faith-that is to say, to have a conviction which cannot be shaken by contrary evidence."
     ],
     [
-      "There was once a millionaire who bought an infinite number of pairs of shoes and, whenever he bought a pair of shoes, he also bought a pair of socks. We can make a selection choosing one out of each pair of shoes, because we can choose always the right shoe or always the left shoe. Thus, so far as the shoes are concerned, selections exist. But, as regards the socks, where there is no distinction of right and left, we cannot use this rule of selection.",
-      "pp. 93-93"
+      "A habit of basing convictions upon evidence, and of giving to them only that degree of certainty which the evidence warrants, would, if it became general, cure most of the ills from which the world is suffering."
     ],
     [
-      "Some modern philosophers have gone so far as to say that words should never be confronted with facts but should live in a pure, autonomous world where they are compared only with other words. When you say, 'the cat is a carnivorous animal,' you do not mean that actual cats eat actual meat, but only that in zoology books the cat is classified among carnivora. These authors tell us that the attempt to confront language with fact is 'metaphysics' and is on this ground to be condemned. This is one of those views which are so absurd that only very learned men could possibly adopt them.",
-      "p. 110"
+      "As soon as it is held that any belief, no matter what, is important for some other reason than that it is true, a whole host of evils is ready to spring up."
     ],
     [
-      "I do not think it possible to get anywhere if we start from scepticism. We must start from a broad acceptance of whatever seems to be knowledge and is not rejected for some specific reason.",
-      "p. 200"
+      "There was once a millionaire who bought an infinite number of pairs of shoes and, whenever he bought a pair of shoes, he also bought a pair of socks. We can make a selection choosing one out of each pair of shoes, because we can choose always the right shoe or always the left shoe. Thus, so far as the shoes are concerned, selections exist. But, as regards the socks, where there is no distinction of right and left, we cannot use this rule of selection."
     ],
     [
-      "My abandonment of former beliefs was, however, never complete. Some things remained with me, and still remain: I still think that truth depends upon a relation to fact, and that facts in general are nonhuman; I still think that man is cosmically unimportant, and that a Being, if there were one, who could view the universe impartially, without the bias of here and now, would hardly mention man, except perhaps in a footnote near the end of the volume; but I no longer have the wish to thrust out human elements from regions where they belong; I have no longer the feeling that intellect is superior to sense, and that only Plato's world of ideas gives access to the 'real' world. I used to think of sense, and of thought which is built on sense, as a prison from which we can be freed by thought which is emancipated from sense. I now have no such feelings. I think of sense, and of thoughts built on sense, as windows, not as prison bars. I think that we can, however imperfectly, mirror the world, like Leibniz's monads; and I think it is the duty of the philosopher to make himself as undistorting a mirror as he can. But it is also his duty to recognize such distortions as are inevitable from our very nature. Of these, the most fundamental is that we view the world from the point of view of the here and now, not with that large impartiality which theists attribute to the Deity. To achieve such impartiality is impossible for us, but we can travel a certain distance towards it. To show the road to this end is the supreme duty of the philosopher.",
-      "p. 213"
+      "Some modern philosophers have gone so far as to say that words should never be confronted with facts but should live in a pure, autonomous world where they are compared only with other words. When you say, 'the cat is a carnivorous animal,' you do not mean that actual cats eat actual meat, but only that in zoology books the cat is classified among carnivora. These authors tell us that the attempt to confront language with fact is 'metaphysics' and is on this ground to be condemned. This is one of those views which are so absurd that only very learned men could possibly adopt them."
     ],
     [
-      "I must before I die, find some way to say the essential thing that is in me, that I have never said yet – a thing that is not love or hate or pity or scorn, but the very breath of life, fierce and coming from far away, bringing into human life the vastness and fearful passionless force of non-human things...",
-      "p. 261"
+      "I do not think it possible to get anywhere if we start from scepticism. We must start from a broad acceptance of whatever seems to be knowledge and is not rejected for some specific reason."
     ],
     [
-      "The moral things I wish to say to future generations is very simple.",
-      "Interview, Face to Face (1959)"
+      "My abandonment of former beliefs was, however, never complete. Some things remained with me, and still remain: I still think that truth depends upon a relation to fact, and that facts in general are nonhuman; I still think that man is cosmically unimportant, and that a Being, if there were one, who could view the universe impartially, without the bias of here and now, would hardly mention man, except perhaps in a footnote near the end of the volume; but I no longer have the wish to thrust out human elements from regions where they belong; I have no longer the feeling that intellect is superior to sense, and that only Plato's world of ideas gives access to the 'real' world. I used to think of sense, and of thought which is built on sense, as a prison from which we can be freed by thought which is emancipated from sense. I now have no such feelings. I think of sense, and of thoughts built on sense, as windows, not as prison bars. I think that we can, however imperfectly, mirror the world, like Leibniz's monads; and I think it is the duty of the philosopher to make himself as undistorting a mirror as he can. But it is also his duty to recognize such distortions as are inevitable from our very nature. Of these, the most fundamental is that we view the world from the point of view of the here and now, not with that large impartiality which theists attribute to the Deity. To achieve such impartiality is impossible for us, but we can travel a certain distance towards it. To show the road to this end is the supreme duty of the philosopher."
     ],
     [
-      "Of course not. After all, I may be wrong...",
-      "As cited by Leonard Lyons on June 23, 1964. (New York Post, Section: Post Daily Magazine, The Lyons Den by Leonard Lyons, Quote Page 27 (Magazine Page 3), Column 3, New York.); Also quoted in The Times Book of Quotations (2000), p. 84; Paraphrased as 'I would never die for my beliefs because I might be wrong' in The Fifth and Far Finer than the First Four 637 Best Things Anybody Ever Said, by Robert Byrne (Fawcett Columbine, 1993), 258."
+      "I must before I die, find some way to say the essential thing that is in me, that I have never said yet - a thing that is not love or hate or pity or scorn, but the very breath of life, fierce and coming from far away, bringing into human life the vastness and fearful passionless force of non-human things..."
     ],
     [
-      "I do like clarity and exact thinking and I believe that very important to mankind because when you allow yourself to think inexactly your prejudices, your bias, your self interest comes in in ways you don't notice and you do bad things without knowing that you are doing them: self deception is very easy. So that I do think clear thinking immensely important.",
-      "Television interview ('On clarity and exact thinking' - available on youtube)"
+      "The moral things I wish to say to future generations is very simple."
     ],
     [
-      "If you're certain, you're certainly wrong, because nothing deserves certainty.",
-      "Bertrand Russell Speaks His Mind (1960), p. 14 (video)"
+      "Of course not. After all, I may be wrong..."
     ],
     [
-      "I find that the whiter my hair becomes the more ready people are to believe what I say.",
-      "Bertrand Russell Speaks His Mind (1960), p. 80"
+      "I do like clarity and exact thinking and I believe that very important to mankind because when you allow yourself to think inexactly your prejudices, your bias, your self interest comes in in ways you don't notice and you do bad things without knowing that you are doing them: self deception is very easy. So that I do think clear thinking immensely important."
     ],
     [
-      "The state is primarily an organization for killing foreigners.",
-      "Bertrand Russell Speaks His Mind (1960), p. 83"
+      "If you're certain, you're certainly wrong, because nothing deserves certainty."
     ],
     [
-      "You, your families, your friends and your countries are to be exterminated by the common decision of a few brutal but powerful men. To please these men, all the private affections, all the public hopes, all that has been achieved in art, and knowledge and thought and all that might be achieved hereafter is to be wiped out forever.\nOur ruined lifeless planet will continue for countless ages to circle aimlessly round the sun unredeemed by the joys and loves, the occasional wisdom and the power to create beauty which have given value to human life.",
-      "Leaflet issued while Russell was in Brixton Prison, 1961"
+      "I find that the whiter my hair becomes the more ready people are to believe what I say."
     ],
     [
-      "We used to think that Hitler was wicked when he wanted to kill all the Jews, but what Kennedy and Macmillan and others both in the East and in the West pursue policies which will probably lead to killing not only all the Jews but all the rest of us too. They are much more wicked than Hitler and this idea of weapons of mass extermination is utterly and absolutely horrible and it is a thing which no man with one spark of humanity can tolerate and I will not pretend to obey a government which is organising the massacre of the whole of mankind. I will do anything I can to oppose such Governments in any non-violent way that seems likely to be fruitful, and I should exhort all of you to feel the same way. We cannot obey these murderers. They are wicked and abominable. They are the wickedest people that ever lived in the history of man and it is our duty to do what we can.",
-      "'On Civil Disobedience', April 15th, 1961"
+      "The state is primarily an organization for killing foreigners."
     ],
     [
-      "The opinions that are held with passion are always those for which no good ground exists; indeed the passion is the measure of the holder's lack of rational conviction. Opinions in politics and religion are almost always held passionately.",
-      "Introduction to 1961 edition of Sceptical Essays (1961)"
+      "You, your families, your friends and your countries are to be exterminated by the common decision of a few brutal but powerful men. To please these men, all the private affections, all the public hopes, all that has been achieved in art, and knowledge and thought and all that might be achieved hereafter is to be wiped out forever. Our ruined lifeless planet will continue for countless ages to circle aimlessly round the sun unredeemed by the joys and loves, the occasional wisdom and the power to create beauty which have given value to human life."
     ],
     [
-      "This idea of weapons of mass extermination is utterly horrible and is something which no one with one spark of humanity can tolerate. I will not pretend to obey a government which is organising a mass massacre of mankind.",
-      "Speech in Birmingham, England encouraging civil disobedience in support of nuclear disarmament (15 April 1961)"
+      "We used to think that Hitler was wicked when he wanted to kill all the Jews, but what Kennedy and Macmillan and others both in the East and in the West pursue policies which will probably lead to killing not only all the Jews but all the rest of us too. They are much more wicked than Hitler and this idea of weapons of mass extermination is utterly and absolutely horrible and it is a thing which no man with one spark of humanity can tolerate and I will not pretend to obey a government which is organising the massacre of the whole of mankind. I will do anything I can to oppose such Governments in any non-violent way that seems likely to be fruitful, and I should exhort all of you to feel the same way. We cannot obey these murderers. They are wicked and abominable. They are the wickedest people that ever lived in the history of man and it is our duty to do what we can."
     ],
     [
-      "I resolved from the beginning of my quest that I would not be misled by sentiment and desire into beliefs for which there was no good evidence.",
-      "Fact and Fiction (1961), Part I, Ch. 6: 'The Pursuit of Truth', p. 37"
+      "The opinions that are held with passion are always those for which no good ground exists; indeed the passion is the measure of the holder's lack of rational conviction. Opinions in politics and religion are almost always held passionately."
     ],
     [
-      "Truth is a shining goddess, always veiled, always distant, never wholly approachable, but worthy of all the devotion of which the human spirit is capable.",
-      "Fact and Fiction (1961), Part II, Ch. 10: 'University Education', p. 153"
+      "This idea of weapons of mass extermination is utterly horrible and is something which no one with one spark of humanity can tolerate. I will not pretend to obey a government which is organising a mass massacre of mankind."
     ],
     [
-      "Either Man will abolish war, or war will abolish Man.",
-      "Fact and Fiction (1961), Part IV, Ch. 10: 'Can War Be Abolished?', p. 276"
+      "I resolved from the beginning of my quest that I would not be misled by sentiment and desire into beliefs for which there was no good evidence."
     ],
     [
-      "Friends,\n\nI have a very simple creed: that life and joy and beauty are better than dusty death.\nThis is an occasion that I hardly know how to find words for. I am more touched than I can say, and more deeply than I can ever hope to express. I have to give my very warmest possible thanks to those who have worked to produce this occasion: to the performers, whose exquisite music, exquisitely performed, was so full of delight; to those who worked in less conspicuous ways, like my friend Mr Schoenman; and to all those who have given me gifts – gifts which are valuable in themselves, and also as expressions of an undying hope for this dangerous world.\nI have a very simple creed: that life and joy and beauty are better than dusty death, and I think when we listen to such music as we heard today we must all of us feel that the capacity to produce such music, and the capacity to hear such music, is a thing worth preserving and should not be thrown away in foolish squabbles. You may say it's a simple creed, but I think everything important is very simple indeed. I've found that creed sufficient, and I should think that a great many of you would also find it sufficient, or else you would hardly be here.\nBut now I just want to say how it's difficult, when one has embarked upon a course which invites a greater or less degree of persecution and obloquy and abuse, to find instead that one is welcomed as I have been today. It makes one feel rather humble, and I feel I must try to live up to the feelings that have produced this occasion. I hope I shall; and I thank you from the bottom of my heart.",
-      "Ninetieth birthday celebration speech, 18 May 1962"
+      "Truth is a shining goddess, always veiled, always distant, never wholly approachable, but worthy of all the devotion of which the human spirit is capable."
     ],
     [
-      "I must confess that I am deeply troubled. I fear that human beings are intent upon acting out a vast deathwish and that it lies with us now to make every effort to promote resistance to the insanity and brutality of policies which encompass the extermination of hundreds of millions of human beings.",
-      "Letter to Rudolf Carnap, June 21, 1962"
+      "Either Man will abolish war, or war will abolish Man."
     ],
     [
-      "Patriots always talk of dying for their country, and never of killing for their country.",
-      "Has Man a Future? (1962), p. 78"
+      "Friends,  I have a very simple creed: that life and joy and beauty are better than dusty death. This is an occasion that I hardly know how to find words for. I am more touched than I can say, and more deeply than I can ever hope to express. I have to give my very warmest possible thanks to those who have worked to produce this occasion: to the performers, whose exquisite music, exquisitely performed, was so full of delight; to those who worked in less conspicuous ways, like my friend Mr Schoenman; and to all those who have given me gifts - gifts which are valuable in themselves, and also as expressions of an undying hope for this dangerous world. I have a very simple creed: that life and joy and beauty are better than dusty death, and I think when we listen to such music as we heard today we must all of us feel that the capacity to produce such music, and the capacity to hear such music, is a thing worth preserving and should not be thrown away in foolish squabbles. You may say it's a simple creed, but I think everything important is very simple indeed. I've found that creed sufficient, and I should think that a great many of you would also find it sufficient, or else you would hardly be here. But now I just want to say how it's difficult, when one has embarked upon a course which invites a greater or less degree of persecution and obloquy and abuse, to find instead that one is welcomed as I have been today. It makes one feel rather humble, and I feel I must try to live up to the feelings that have produced this occasion. I hope I shall; and I thank you from the bottom of my heart."
     ],
     [
-      "I am writing to you to tell you of my decision to return to your Government the Carl von Ossietzky medal for peace. I do so reluctantly and after two years of private approaches on behalf of Heinz Brandt, whose continued imprisonment is a barrier to coexistence, relaxation of tension and understanding between East and West... I regret not to have heard from you on this subject. I hope that you will yet find it possible to release Brandt through an amnesty which would be a boon to the cause of peace and to your country.",
-      "Letter to Walter Ulbricht, January 7, 1964. Russell would later write, in his autobiography: 'The abduction and imprisonment by the East Germans of Brandt, who had survived Hitler's concentration camps, seemed to me so inhuman that I was obliged to return to the East German Government the Carl von Ossietzky medal which it had awarded me. I was impressed by the speed with which Brandt was soon released'"
+      "I must confess that I am deeply troubled. I fear that human beings are intent upon acting out a vast deathwish and that it lies with us now to make every effort to promote resistance to the insanity and brutality of policies which encompass the extermination of hundreds of millions of human beings."
     ],
     [
-      "In the name of national security, the Commission's hearings were held in secret, thereby continuing the policy which has marked the entire course of the case. This prompts my second question: If, as we are told, Oswald was the lone assassin, where is the issue of national security? Indeed, precisely the same question must be put here as was posed in France during the Dreyfus case: If the Government is so certain of its case, why has it conducted all its inquiries in the strictest secrecy?",
-      "\"16 Questions on the Assassination\" in The Minority of One, ed. M.S. Arnoni (1964-09-06), pp. 6-8"
+      "Patriots always talk of dying for their country, and never of killing for their country."
     ],
     [
-      "Your comments on the Cuban crisis are, to me, utterly amazing. You say that the way the solution was arrived at was that 'the Russians discontinued their suicidal policy; and President Kennedy by his resolution and farsightedness saved the world'. This seems to me a complete reversal of the truth. Russia and America had policies leading directly to nuclear war. Khrushchev, when he saw the danger, abandoned his policy. Kennedy did not. It was Khrushchev who allowed the human race to continue, not Kennedy.",
-      "Letter to Lord Gladwyn, November 14, 1964."
+      "I am writing to you to tell you of my decision to return to your Government the Carl von Ossietzky medal for peace. I do so reluctantly and after two years of private approaches on behalf of Heinz Brandt, whose continued imprisonment is a barrier to coexistence, relaxation of tension and understanding between East and West... I regret not to have heard from you on this subject. I hope that you will yet find it possible to release Brandt through an amnesty which would be a boon to the cause of peace and to your country."
+    ],
+    [
+      "In the name of national security, the Commission's hearings were held in secret, thereby continuing the policy which has marked the entire course of the case. This prompts my second question: If, as we are told, Oswald was the lone assassin, where is the issue of national security? Indeed, precisely the same question must be put here as was posed in France during the Dreyfus case: If the Government is so certain of its case, why has it conducted all its inquiries in the strictest secrecy?"
+    ],
+    [
+      "Your comments on the Cuban crisis are, to me, utterly amazing. You say that the way the solution was arrived at was that 'the Russians discontinued their suicidal policy; and President Kennedy by his resolution and farsightedness saved the world'. This seems to me a complete reversal of the truth. Russia and America had policies leading directly to nuclear war. Khrushchev, when he saw the danger, abandoned his policy. Kennedy did not. It was Khrushchev who allowed the human race to continue, not Kennedy."
     ],
     [
       "There is an artist imprisoned in each one of us. Let him loose to spread joy everywhere."
     ],
     [
-      "The degree of one's emotion varies inversely with one's knowledge of the facts – the less you know the hotter you get.",
-      "Attributed to Russell in Distilled Wisdom (1964) by Alfred Armand Montapert, p. 145"
+      "The degree of one's emotion varies inversely with one's knowledge of the facts - the less you know the hotter you get."
     ],
     [
-      "Whatever happens, I cannot be a silent witness to murder or torture. Anyone who is a partner in this is a despicable individual. I am sorry I cannot be moderate about it...",
-      "Quoted in The New York Times Biographical Service, Vol. I (1970), p. 294 (said by Russell 'in the spring of 1967')"
+      "Whatever happens, I cannot be a silent witness to murder or torture. Anyone who is a partner in this is a despicable individual. I am sorry I cannot be moderate about it..."
     ],
     [
-      "The tragedy of the people of Palestine is that their country was 'given' by a foreign power to another people for the creation of a new state. The result was that many hundreds of thousands of innocent people were made permanently homeless. With every new conflict their numbers increased. How much longer is the world willing to endure this spectacle of wanton cruelty? It is abundantly clear that the refugees have every right to the homeland from which they were driven, and the denial of this right is at the heart of the continuing conflict. No people anywhere in the world would accept being expelled en masse from their country; how can anyone require the people of Palestine to accept a punishment which nobody else would tolerate? A permanent just settlement of the refugees in their homeland is an essential ingredient of any genuine settlement in the Middle East.",
-      "\"Message from Bertrand Russell to the International Conference of Parlimentarians in Cairo, February 1970,\" reprinted in The New York Times (23 February 1970)"
+      "The tragedy of the people of Palestine is that their country was 'given' by a foreign power to another people for the creation of a new state. The result was that many hundreds of thousands of innocent people were made permanently homeless. With every new conflict their numbers increased. How much longer is the world willing to endure this spectacle of wanton cruelty? It is abundantly clear that the refugees have every right to the homeland from which they were driven, and the denial of this right is at the heart of the continuing conflict. No people anywhere in the world would accept being expelled en masse from their country; how can anyone require the people of Palestine to accept a punishment which nobody else would tolerate? A permanent just settlement of the refugees in their homeland is an essential ingredient of any genuine settlement in the Middle East."
     ],
     [
-      "The Autobiography of Bertrand Russell (1967-1969)[edit]",
-      "Main article: The Autobiography of Bertrand Russell"
+      "The Autobiography of Bertrand Russell (1967-1969)[edit]"
     ],
     [
       "Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind. These passions, like great winds, have blown me hither and thither, in a wayward course, over a deep ocean of anguish, reaching to the very verge of despair."
@@ -1127,102 +877,80 @@
     [
       "I have lived in the pursuit of a vision, both personal and social. Personal: to care for what is noble, for what is beautiful, for what is gentle; to allow moments of insight to give wisdom at more mundane times. Social: to see in imagination the society that is to be created, where individuals grow freely, and where hate and greed and envy die because there is nothing to nourish them. These things I believe, and the world, for all its horrors, has left me unshaken."
     ],
-    ["Anything you're good at contributes to happiness."],
     [
-      "I've got a one-dimensional mind.",
-      "Said to Rupert Crawshay-Williams; Russell Remembered (1970), p. 31"
+      "Anything you're good at contributes to happiness."
     ],
     [
-      "There's a Bible on that shelf there. But I keep it next to Voltaire – poison and antidote.",
-      "In Kenneth Harris Talking To: Bertrand Russell (1971)"
+      "There's a Bible on that shelf there. But I keep it next to Voltaire - poison and antidote."
     ],
     [
-      "Why? Surely they can find other men.",
-      "Russell's reply when asked 'if it wasn't unkind of him to love and leave so many women'; as quoted in My Father – Bertrand Russell (1975) by Katharine Tait, p. 106"
+      "Why? Surely they can find other men."
     ],
     [
-      "'I don't want to! Why should I?'\n\"'Because more people will be happier if you do than if you don't.'\n\"'So what? I don't care about other people.'\n\"'You should.'\n\"'But why?'\n\"'Because more people will be happier if you do than if you don't.'\nDialogue between Russell and his daughter Katharine, as quoted in My Father – Bertrand Russell (1975)"
+      "'I don't want to! Why should I?' \"'Because more people will be happier if you do than if you don't.' \"'So what? I don't care about other people.' \"'You should.' \"'But why?' \"'Because more people will be happier if you do than if you don't.' Dialogue between Russell and his daughter Katharine, as quoted in My Father - Bertrand Russell (1975)"
     ],
     [
-      "It's not the experience that happens to you: it's what you do with the experience that happens to you.",
-      "Attributed to Russell in Slaby's Sixty Ways to Make Stress Work for You (1987)"
+      "It's not the experience that happens to you: it's what you do with the experience that happens to you."
     ],
     [
-      "Yes, if you happen to be interested in philosophy and good at it, but not otherwise – but so does bricklaying. Anything you're good at contributes to happiness.",
-      "When asked 'Does philosophy contribute to happiness?' (SHM 76), as quoted in The quotable Bertrand Russell (1993), p. 149"
+      "Yes, if you happen to be interested in philosophy and good at it, but not otherwise - but so does bricklaying. Anything you're good at contributes to happiness."
     ],
     [
-      "Wherever one finds oneself inclined to bitterness, it is a sign of emotional failure: a larger heart, and a greater self-restraint, would put a calm autumnal sadness in the place of the instinctive outcry of pain.",
-      "The Collected Papers of Bertrand Russell: Contemplation and Action, 1902-1914, ed. Richard A. Rempel, Andrew Brink and Margaret Moran (Routledge, 1993, ISBN 0-415-10462-9: Textual Notes, p. 555; also in Laurence J. Peter Quotations for our time (1978), p. 188"
+      "Wherever one finds oneself inclined to bitterness, it is a sign of emotional failure: a larger heart, and a greater self-restraint, would put a calm autumnal sadness in the place of the instinctive outcry of pain."
     ],
     [
-      "I cannot believe – and I say this with all the emphasis of which I am capable – that there can ever be any good excuse for refusing to face the evidence in favour of something unwelcome. It is not by delusion, however exalted, that mankind can prosper, but only by unswerving courage in the pursuit of truth.",
-      "\"The Pursuit of Truth\" in The Collected Papers of Bertrand Russell (1993)"
+      "I cannot believe - and I say this with all the emphasis of which I am capable - that there can ever be any good excuse for refusing to face the evidence in favour of something unwelcome. It is not by delusion, however exalted, that mankind can prosper, but only by unswerving courage in the pursuit of truth."
     ],
     [
-      "There is darkness without and when I die there will be darkness within. There is no splendor, nor vastness anywhere; only triviality for a moment and then nothing.",
-      "Attributed to Russell in Ken Davis' Fire Up Your Life! (1995), p. 33"
+      "There is darkness without and when I die there will be darkness within. There is no splendor, nor vastness anywhere; only triviality for a moment and then nothing."
     ],
     [
-      "No man who believes that all is for the best in this suffering world can keep his ethical values unimpaired, since he is always having to find excuses for pain and misery.",
-      "The Collected Papers of Bertrand Russell: A fresh look at empiricism, 1927-42 (G. Allen & Unwin, 1996), p. 217"
+      "No man who believes that all is for the best in this suffering world can keep his ethical values unimpaired, since he is always having to find excuses for pain and misery."
     ],
     [
-      "Even when the experts all agree, they may well be mistaken.",
-      "A Fresh Look at Empiricism: 1927-42 (1996), p. 281"
+      "Even when the experts all agree, they may well be mistaken."
     ],
     [
-      "It seems that sin is geographical. From this conclusion, it is only a small step to the further conclusion that the notion of 'sin' is illusory, and that the cruelty habitually practised in punishing it is unnecessary.",
-      "A Fresh Look at Empiricism: 1927-42 (1996), p. 283"
+      "It seems that sin is geographical. From this conclusion, it is only a small step to the further conclusion that the notion of 'sin' is illusory, and that the cruelty habitually practised in punishing it is unnecessary."
     ],
     [
-      "Freedom of opinion can only exist when the government thinks itself secure...",
-      "A Fresh Look at Empiricism: 1927-42 (1996), p. 443"
+      "Freedom of opinion can only exist when the government thinks itself secure..."
     ],
     [
-      "It is a waste of energy to be angry with a man who behaves badly, just as it is to be angry with a car that won't go. The difference is that you can compel your car to go to a garage, but you cannot compel Hitler to go to a psychiatrist.",
-      "A Fresh Look at Empiricism: 1927-42 (1996), p. 544"
+      "It is a waste of energy to be angry with a man who behaves badly, just as it is to be angry with a car that won't go. The difference is that you can compel your car to go to a garage, but you cannot compel Hitler to go to a psychiatrist."
     ],
     [
-      "The greatest challenge to any thinker is stating the problem in a way that will allow a solution.",
-      "Attributed to Russell in Crainer's The Ultimate Book of Business Quotations (1997), p. 258"
+      "The greatest challenge to any thinker is stating the problem in a way that will allow a solution."
     ],
     [
-      "To choose one sock from each of infinitely many pairs of socks requires the Axiom of Choice, but for shoes the Axiom is not needed.",
-      "As quoted in Williams' Weighing the Odds: A Course in Probability and Statistics (2001), p. 498"
+      "To choose one sock from each of infinitely many pairs of socks requires the Axiom of Choice, but for shoes the Axiom is not needed."
     ],
     [
-      "Democracy is the process by which people choose the man who'll get the blame.",
-      "Attributed to Russell in Geary's Guide to the World's Great Aphorists (2007), p. 346"
+      "Democracy is the process by which people choose the man who'll get the blame."
     ],
     [
-      "Not enough evidence, God! Not enough evidence.",
-      "Article by Leo Rosten published in Saturday Review/World (February 23, 1974)"
-    ],
-    ["War does not determine who is right – only who is left.", "Anonymous"],
-    [
-      "In all affairs – love, religion, politics, or business – it's a healthy idea, now and then, to hang a question mark on the things you have long taken for granted.",
-      "The Reader's Digest, Vol. 37 (1940)"
+      "Not enough evidence, God! Not enough evidence."
     ],
     [
-      "If there were in the world today any large number of people who desired their own happiness more than they desired the unhappiness of others, we could have a paradise in a few years.",
-      "Think, Vol. 27 (1961)"
+      "War does not determine who is right - only who is left."
     ],
     [
-      "Few people can be happy unless they hate some other person, nation, or creed.",
-      "Prochnow's Speakers Handbook of Epigrams and Witticisms (1955)"
+      "In all affairs - love, religion, politics, or business - it's a healthy idea, now and then, to hang a question mark on the things you have long taken for granted."
     ],
     [
-      "I believe in using words, not fists... I believe in my outrage knowing people are living in boxes on the street. I believe in honesty. I believe in a good time. I believe in good food. I believe in sex.",
-      "Source not available"
+      "If there were in the world today any large number of people who desired their own happiness more than they desired the unhappiness of others, we could have a paradise in a few years."
     ],
     [
-      "One must care about a world one will not see.",
-      "The Wordsworth Dictionary of Quotations (1997)"
+      "Few people can be happy unless they hate some other person, nation, or creed."
     ],
     [
-      "A new moral outlook is called for in which submission to the powers of nature is replaced by respect for what is best in man. It is where this respect is lacking that scientific technique is dangerous.",
-      "Attributed to Russell in Isaac Asimov's short story Franchise"
+      "I believe in using words, not fists... I believe in my outrage knowing people are living in boxes on the street. I believe in honesty. I believe in a good time. I believe in good food. I believe in sex."
+    ],
+    [
+      "One must care about a world one will not see."
+    ],
+    [
+      "A new moral outlook is called for in which submission to the powers of nature is replaced by respect for what is best in man. It is where this respect is lacking that scientific technique is dangerous."
     ]
   ]
 }

@@ -1,738 +1,503 @@
 {
-    "bio": "George Bernard Shaw was an English playwright, novelist, and poet. He was born in 1870 in London, England. He died in 1951 in London, England.",
-    "quotes": [
-        [
-            "I hear you say 'Why?' Always 'Why?' You see things; and you say 'Why?' But I dream things that never were; and I say 'Why not?'",
-            null
-        ],
-        [
-            "My method is to take the utmost trouble to find the right thing to say, and then to say it with the utmost levity.",
-            null
-        ],
-        [
-            "My specialty is being right when other people are wrong.",
-            null
-        ],
-        [
-            "The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man.",
-            null
-        ],
-        [
-            "The worst sin towards our fellow creatures is not to hate them, but to be indifferent to them: that's the essence of inhumanity.",
-            null
-        ],
-        [
-            "All great truths begin as blasphemies.",
-            null
-        ],
-        [
-            "Must then a Christ perish in torment in every age to save those that have no imagination?",
-            null
-        ],
-        [
-            "One man that has a mind and knows it can always beat ten men who haven't and don't.",
-            null
-        ],
-        [
-            "Patriotism is, fundamentally, a conviction that a particular country is the best in the world because you were born in it...",
-            "The World (15 November 1893)"
-        ],
-        [
-            "Pasteboard pies and paper flowers are being banished from the stage by the growth of that power of accurate observation which is commonly called cynicism by those who have not got it...",
-            "The World (18 July 1894)"
-        ],
-        [
-            "But no public man in these islands ever believes that the Bible means what it says: he is always convinced that it says what he means; and I have no reason to hope that Mr. Coote may be an exception to the rule.",
-            "The Living Pictures, The Saturday Review (April 6, 1895)"
-        ],
-        [
-            "Die Walküre is endured by the average man because it contains four scenes for which he would sit out a Scotch sermon, or even a House of Commons debate...",
-            "comments after attending the 1896 Bayreuth Festival"
-        ],
-        [
-            "We have no more right to consume happiness without producing it than to consume wealth without producing it.",
-            "Candida, Act I (1898)"
-        ],
-        [
-            "I'm only a beer teetotaler, not a champagne teetotaler. I don't like beer.",
-            "Candida, Act III"
-        ],
-        [
-            "We don't bother much about dress and manners in England, because as a nation we don't dress well and we've no manners.",
-            "You Never Can Tell, Act I (1898)"
-        ],
-        [
-            "The great advantage of a hotel is that it's a refuge from home life.",
-            "You Never Can Tell, Act II"
-        ],
-        [
-            "My specialty is being right when other people are wrong.",
-            "You Never Can Tell, Act IV"
-        ],
-        [
-            "I had not achieved a success; but I provoked an uproar; and the sensation was so agreeable that I resolved to try again.",
-            "Plays: Pleasant and Unpleasant, Vol. I, preface (1898)"
-        ],
-        [
-            "There is only one religion, though there are a hundred versions of it.",
-            "Plays Pleasant and Unpleasant, Vol. II, preface (1898)"
-        ],
-        [
-            "You're not a man, you're a machine.",
-            "Arms and the Man, Act III (1898)"
-        ],
-        [
-            "Why should you call me to account for eating decently? If I battened on the scorched corpses of animals, you might well ask me why I did that. Why should I be filthy and inhuman? Why should I be an accomplice in the wholesale horror and degradation of the slaughter-house?",
-            "Interview 'What Vegetarianism Really Means: a Talk with Mr Bernard Shaw', in Vegetarian (15 January 1898)"
-        ],
-        [
-            "The liar's punishment is, not in the least that he is not believed, but that he cannot believe any one else.",
-            "Quintessence Of Ibsenism (1891; 1913)"
-        ],
-        [
-            "I have never admitted the right of an elderly author to alter the work of a young author, even when the young author happens to be his former self...",
-            "Preface to the 1913 edition"
-        ],
-        [
-            "Just as the liar's punishment is, not in the least that he is not believed, but that he cannot believe any one else; so a guilty society can more easily be persuaded that any apparently innocent act is guilty than that any apparently guilty act is innocent.",
-            "The Two Pioneers"
-        ],
-        [
-            "The salvation of the world depends on the men who will not take evil good-humouredly, and whose laughter destroys the fool instead of encouraging him.",
-            "What is the New Element in the Norwegian School?"
-        ],
-        [
-            "The test of a man or woman's breeding is how they behave in a quarrel.",
-            "The Philanderer, Act IV"
-        ],
-        [
-            "The worst sin towards our fellow creatures is not to hate them, but to be indifferent to them: that's the essence of inhumanity.",
-            "The Devil's Disciple, Act II (1901)"
-        ],
-        [
-            "Martyrdom, sir, is what these people like: it is the only way in which a man can become famous without ability.",
-            "The Devil's Disciple, Act II"
-        ],
-        [
-            "I was a cannibal for twenty-five years. For the rest, I have been a vegetarian. It was Shelley who first opened my eyes to the savagery of my diet.",
-            "Interview in Frank Harris's The Candid Friend (May 1901)"
-        ],
-        [
-            "You must not suppose, because I am a man of letters, that I never tried to earn an honest living.",
-            "The Irrational Knot, Preface (1905)"
-        ],
-        [
-            "[Chess] is a foolish expedient for making idle people believe they are doing something very clever when they are only wasting their time.",
-            "The Irrational Knot (1905)"
-        ],
-        [
-            "To understand a saint, you must hear the devil's advocate; and the same is true of the artist.",
-            "The Sanity of Art: An Exposure of the Current Nonsense about Artists being Degenerate (1908)"
-        ],
-        [
-            "Assassination is the extreme form of censorship; and it seems hard to justify an incitement to it on anti-censorial principles.",
-            "The Shewing Up of Blanco Posnet (1909): The Rejected Statement, Pt. I : The Limits to Toleration"
-        ],
-        [
-            "The confusion of marriage with morality has done more to destroy the conscience of the human race than any other single error.",
-            "Man and Superman (1903)"
-        ],
-        [
-            "There is no love sincerer than the love of food.",
-            "Man and Superman (1903)"
-        ],
-        [
-            "Enough to master her.",
-            "#125"
-        ],
-        [
-            "Decency is Indecency's Conspiracy of Silence.",
-            "#126"
-        ],
-        [
-            "Men are wise in proportion, not to their experience, but to their capacity for experience. If we could learn from mere experience, the stones of London would be wiser than its wisest men.",
-            "#127-128"
-        ],
-        [
-            "No age or condition is without its heroes. The least incapable general in a nation is its Cæsar, the least imbecile statesman its Solon, the least confused thinker its Socrates, the least commonplace poet its Shakespeare.",
-            "#127-128"
-        ],
-        [
-            "The roulette table pays nobody except him that keeps it. Nevertheless a passion for gaming is common, though a passion for keeping roulette tables is unknown.",
-            "#136"
-        ],
-        [
-            "The reformer for whom the world is not good enough finds himself shoulder to shoulder with him that is not good enough for the world.",
-            "#149"
-        ],
-        [
-            "Youth, which is forgiven everything, forgives itself nothing: age, which forgives itself everything, is forgiven nothing.",
-            "#158"
-        ],
-        [
-            "Do not mistake your objection to defeat for an objection to fighting, your objection to being a slave for an objection to slavery, your objection to not being as rich as your neighbor for an objection to poverty. The cowardly, the insubordinate, and the envious share your objections.",
-            "#160"
-        ],
-        [
-            "Those who understand evil pardon it.",
-            "#162"
-        ],
-        [
-            "When a heretic wishes to avoid martyrdom he speaks of 'Orthodoxy, True and False' and demonstrates that the True is his heresy.",
-            "#167"
-        ],
-        [
-            "If you begin by sacrificing yourself to those you love, you will end by hating those to whom you have sacrificed yourself.",
-            "#172"
-        ],
-        [
-            "The greatest of evils and the worst of crimes is poverty.",
-            "Preface"
-        ],
-        [
-            "Love is an appetite which, like all other appetites, is destroyed for the moment by its gratification.",
-            "Preface"
-        ],
-        [
-            "Never forget that if you leave your law to judges and your religion to bishops, you will presently find yourself without either law or religion.",
-            "Preface"
-        ],
-        [
-            "Religion is a great force — the only real motive force in the world; but what you fellows don't understand is that you must get at a man through his own religion and not through yours.",
-            "Getting Married (1908)"
-        ],
-        [
-            "There is no subject on which more dangerous nonsense is talked and thought than marriage.",
-            "Getting Married (1908)"
-        ],
-        [
-            "Religion is a great force — the only real motive force in the world; but what you fe",
-            "John Bull's Other Island (1907)"
-        ],
-        [
-            "My way of joking is to tell the truth. It's the funniest joke in the world.",
-            "John Bull's Other Island (1907)"
-        ],
-        [
-            "All great truths begin as blasphemies.",
-            "Annajanska (1919)"
-        ],
-        [
-            "Misalliance (1910)",
-            "It is more dangerous to be a great prophet or poet than to promote twenty companies for swindling simple folk out of their savings."
-        ],
-        [
-            "Misalliance (1910)",
-            "Optimistic lies have such immense therapeutic value that a doctor who cannot tell them convincingly has mistaken his profession."
-        ],
-        [
-            "Misalliance (1910)",
-            "A perpetual holiday is a good working definition of Hell."
-        ],
-        [
-            "Misalliance (1910)",
-            "I like a bit of a mongrel myself, whether it's a man or a dog; they're the best for every day."
-        ],
-        [
-            "Misalliance (1910)",
-            "If parents would only realize how they bore their children!"
-        ],
-        [
-            "A Treatise on Parents and Children (1910)",
-            "When will we realize that the fact that we can become accustomed to anything, however disgusting at first, makes it necessary to examine carefully everything we have become accustomed to."
-        ],
-        [
-            "A Treatise on Parents and Children (1910)",
-            "Death is for many of us the gate of hell; but we are inside on the way out, not outside on the way in."
-        ],
-        [
-            "A Treatise on Parents and Children (1910)",
-            "A nation should always be healthily rebellious; but the king or prime minister has yet to be found who will make trouble by cultivating that side of the national spirit."
-        ],
-        [
-            "The Doctor's Dilemma (1911)",
-            "No man who is occupied in doing a very difficult thing, and doing it well, ever loses his self-respect."
-        ],
-        [
-            "The Doctor's Dilemma (1911)",
-            "Attention and activity lead to mistakes as well as to successes; but a life spent in making mistakes is not only more honorable but more useful than a life spent doing nothing."
-        ],
-        [
-            "The Doctor's Dilemma (1911)",
-            "All professions are conspiracies against the laity."
-        ],
-        [
-            "The Doctor's Dilemma (1911)",
-            "Do not try to live for ever. You will not succeed."
-        ],
-        [
-            "Pygmalion (1912)",
-            "Women upset everything. When you let them into your life, you find that the woman is driving at one thing and you're driving at another."
-        ],
-        [
-            "Pygmalion (1912)",
-            "What is life but a series of inspired follies? The difficulty is to find them to do. Never lose a chance: it doesn't come every day."
-        ],
-        [
-            "Pygmalion (1912)",
-            "The English have no respect for their language, and will not teach their children to speak it."
-        ],
-        [
-            "Pygmalion (1912)",
-            "He ain't a copper just look at 'is boots!"
-        ],
-        [
-            "Pygmalion (1912)",
-            "Ah-ah-ah-ah-ow-ow-oo-oo!!! I ain't dirty: I washed me face and hands afore I come, I did!"
-        ],
-        [
-            "Pygmalion (1912)",
-            "Chloroform has done a lot of mischief. It's enabled every fool to be a surgeon."
-        ],
-        [
-            "Pygmalion (1912)",
-            "Use your health, even to the point of wearing it out. That is what it is for. Spend all you have before you die; and do not outlive yourself."
-        ],
-        [
-            "Androcles and the Lion (1913)",
-            "The fact that a believer is happier than a skeptic is no more to the point than the fact that a drunken man is happier than a sober one. The happiness of credulity is a cheap and dangerous quality of happiness, and by no means a necessity of life."
-        ],
-        [
-            "are not good enough for established institutions as well as those who are too good for them.",
-            ""
-        ],
-        [
-            "Howbeit, Paul succeeded in stealing the image of Christ crucified for the figure-head of his Salvationist vessel, with its Adam posing as the natural man, its doctrine of original sin, and its damnation avoidable only by faith in the sacrifice of the cross. In fact, no sooner had Jesus knocked over the dragon of superstition than Paul boldly set it on its legs again in the name of Jesus.",
-            "Preface, Paul The Technique of War (1917)"
-        ],
-        [
-            "He [the British taxpayer] must be taught that war is not precise or economical. It is almost inconceivably wasteful and extravagant. It burns the house to roast the pig, and even then seldom roasts him effectively..... waste is the law of modern war; and nothing is cheap on the battlefield except the lives of men...... Therefore, my taxpayer, resign yourself to this: that we may fight bravely, fight hard, fight long, fight cunningly, fight recklessly, fight in a hundred and fifty ways, but we cannot fight cheaply.",
-            "The Daily Chronicle on the 7 March 1917. Reproduced in What I Really Wrote About The War (London: Constable & Co Ltd, 1930)"
-        ],
-        [
-            "He must be greatly changed. Has he attained the seventh degree of concentration?",
-            "Captain Shotover, Act I, Heartbreak House (1919)"
-        ],
-        [
-            "We know now that the soul is the body, and the body the soul. They tell us they are different because they want to persuade us that we can keep our souls if we let them make slaves of our bodies.",
-            "Ellie Dunn, Act II, Heartbreak House (1919)"
-        ],
-        [
-            "When your heart is broken, your boats are burned: nothing matters any more. It is the end of happiness and the beginning of peace.",
-            "Ellie Dunn, Act II, Heartbreak House (1919)"
-        ],
-        [
-            "The moment we face it frankly we are driven to the conclusion that the community has a right to put a price on the right to live in it ... If people are fit to live, let them live under decent human conditions. If they are not fit to live, kill them in a decent human way. Is it any wonder that some of us are driven to prescribe the lethal chamber as the solution for the hard cases which are at present made the excuse for dragging all the other cases down to their level, and the only solution that will create a sense of full social responsibility in modern populations?",
-            "As quoted in George Bernard Shaw's Prefaces in English Prisons Under Local Government, Sidney and Beatrice Webb, London: Longmans, Green & Co (1922)"
-        ],
-        [
-            "It is difficult, if not impossible, for most people to think otherwise than in the fashion of their own period.",
-            "Preface to Saint Joan : A Chronicle Play In Six Scenes And An Epilogue (1923)"
-        ],
-        [
-            "Political necessities sometimes turn out to be political mistakes.",
-            "Saint Joan : A Chronicle Play In Six Scenes And An Epilogue (1923)"
-        ],
-        [
-            "Scratch an Englishman and find a Protestant.",
-            "Saint Joan : A Chronicle Play In Six Scenes And An Epilogue (1923)"
-        ],
-        [
-            "God is on the side of the big battalions.",
-            "Saint Joan : A Chronicle Play In Six Scenes And An Epilogue (1923)"
-        ],
-        [
-            "Must then a Christ perish in torment in every age to save those that have no imagination?",
-            "Saint Joan : A Chronicle Play In Six Scenes And An Epilogue (1923)"
-        ],
-        [
-            "The Italians must allow us to slaughter the Momands, because, if we do not kill the warlike hillmen, they will kill us. And we must allow the Italians to slaughter the Danakils for the same reason.",
-            "Quote about Italy's 1935 invasion of Ethiopia in Socialism and Superior Brains: The Political Thought of Bernard Shaw by Gareth Griffith (1993) p. 267."
-        ],
-        [
-            "The Nazi movement is in many respects one which has my warmest sympathy.",
-            "As Quoted in London Morning Post, (Dec. 3, 1925)"
-        ],
-        [
-            "Some of the things Mussolini has done, and some that he is threatening to do go further in the direction of Socialism than the English Labour Party could yet venture if they were in power.",
-            "Letter from G. Bernard Shaw to a friend, Bernard Shaw's Defence of Mussolini, (Feb. 7, 1927)"
-        ],
-        [
-            "[Mussolini was] farther to the Left in his political opinions than any of his socialist rivals.",
-            "As quoted in, Socialism and Superior Brains: The Political Thought of Bernard Shaw, Gareth Griffith, Routledge, (2002) p. 253, Manchester Guardian (1927)"
-        ],
-        [
-            "Socialists must be in favor of an aristocratic form of government. We must have the best men for the job . . . In the dictator you must have a man who has not only the power to govern but the force of character to impose himself as dictator whether you like him or not.",
-            "Socialism urged to find dictator, Berkeley Daily Gazette (Nov. 30, 1927)"
-        ],
-        [
-            "Our natural dispositions may be good; but we have been badly brought up, and are full of anti-social personal ambitions and prejudices and snobberies. Had we not better teach our children to be better citizens than ourselves? We are not doing that at present. The Russians are. That is my last word. Think over it.",
-            "The Apple Cart (1928) Preface"
-        ],
-        [
-            "One man that has a mind and knows it can always beat ten men who haven't and don't.",
-            "The Apple Cart (1928), Act I"
-        ],
-        [
-            "God help England if she had no Scots to think for her!",
-            "The Apple Cart (1928), Act II"
-        ],
-        [
-            "We should refuse to tolerate poverty as a social institution not because the poor are the salt of the earth, but because 'the poor in a lump are bad'.",
-            "The Intelligent Woman's Guide: To Socialism and Capitalism. p. 219."
-        ],
-        [
-            "We have to confess it: Capitalist mankind in the lump is detestable. ...Both rich and poor are really hateful in themselves. For my part I hate the poor and look forward eagerly to their extermination. I pity the rich a little, but am equally bent on their extermination. The working classes, the ruling classes, the professional classes, the propertied classes, the ruling classes, are each more odious than the other: they have no right to live: I should despair if I did not know that they will all die presently, and that there is no need on earth why they should be replaced by people like themselves... And yet I am not in the least a misanthrope. I am a person of normal affections",
-            "The Intelligent Woman's Guide: To Socialism and Capitalism. p. 456."
-        ],
-        [
-            "Under Socialism, you would not be allowed to be poor. You would be forcibly fed, clothed, lodged, taught, and employed whether you liked it or not. If it were discovered that you had not character and industry enough to be worth all this trouble, you might possibly be executed in a kindly manner; but whilst you were permitted to live, you would have to live well.",
-            "The Intelligent Woman's Guide: To Socialism and Capitalism, New York: NY, Brentano (1928) p. 670."
-        ],
-        [
-            "It is far more likely that by the time nationalization has become the rule, and private enterprise the exception, Socialism (which is really rather a bad name for the business) will be spoken of, if at all, as a crazy religion held by a fanatical sect in that darkest of dark ages, the nineteenth century. Already, indeed, I am told that Socialism has had its day, and that the sooner we stop talking nonsense about it and set to work, like the practical people we are, to nationalize the coal mines and complete a national electrification scheme, the better. And I, who said forty years ago that we should have had Socialism already but for the Socialists, am quite willing to drop the name if dropping it will help me to get the thing. What I meant by my jibe at the Socialists of the eighteen-eighties was that nothing is ever done, and much is prevented, by people who do not realize that they cannot do everything at once.",
-            "The Intelligent Woman's Guide To Socialism, Capitalism, Sovietism, and Fascism (1928)"
-        ],
-        [
-            "Perhaps the greatest social service that can be rendered by anybody to the country and to mankind is to bring up a family. But here again, because there is nothing to sell, there is a very general disposition to regard a married woman's work as no work at all, and to take it as a matter of course that she should not be paid for it.",
-            "The Intelligent Woman's Guide to Socialism and Capitalism, Chapter 8 (1928)"
-        ],
-        [
-            "Women are not angels. They are as foolish as men in many ways; but they have had to devote themselves to life whilst men have had to devote themselves to death; and that makes a vital difference in male and female religion. Women have been forced to fear whilst men have been forced to dare: the heroism of a woman is to nurse and protect life, and of a man to destroy it and court death.",
-            "The Intelligent Woman's Guide to Socialism and Capitalism, Chapter 82 (1928)"
-        ],
-        [
-            "Well, of course, they notice you. You always hide just in the middle of the limelight.",
-            "Reply to T. E. Lawrence who complained of press attention. Quoted by Harry Kessler in his diary, 14 November 1929"
-        ],
-        [
-            "I remember Lilith, who came before Adam and Eve. I was her darling as I am yours.",
-            "Back to Methuselah (1921)"
-        ],
-        [
-            "There are no secrets except the secrets that keep themselves.",
-            "Back to Methuselah (1921)"
-        ],
-        [
-            "Everything happens to everybody sooner or later if there is time enough.",
-            "Back to Methuselah (1921)"
-        ],
-        [
-            "You use a glass mirror to see your face: you use works of art to see your soul.",
-            "Back to Methuselah (1921)"
-        ],
-        [
-            "They have redeemed themselves from their vileness, and turned away from their sins. Best of all, they are still not satisfied...",
-            "Back to Methuselah (1921)"
-        ],
-        [
-            "I can wait: waiting and patience mean nothing to the eternal. I gave the woman the greatest of gifts: curiosity. By that her seed has been saved from my wrath; for I also am curious; and I have waited always to see what they will do tomorrow.",
-            "Back to Methuselah (1921)"
-        ],
-        [
-            "Of Life only is there no end; and though of its million starry mansions many are empty and many still unbuilt, and though its vast domain is as yet unbearably desert, my seed shall one day fill it and master its matter to its uttermost confines. And for what may be beyond, the eyesight of Lilith is too short. It is enough that there is a beyond.",
-            "Back to Methuselah (1921)"
-        ],
-        [
-            "In truth, mankind cannot be saved from without, by schoolmasters or any other sort of masters: it can only be lamed and enslaved by them. It is said that if you wash a cat it will never again wash itself. This may or may not be true: what is certain is that if you teach a man anything he will never learn it; and if you cure him of a disease",
-            ""
-        ],
-        [
-            "he will be unable to cure himself the next time it attacks him.",
-            null
-        ],
-        [
-            "Is there any hope in education?",
-            null
-        ],
-        [
-            "People will have their miracles, their stories, their heroes and heroines and saints and martyrs and divinities to exercise their gifts of affection, admiration, wonder, and worship, and their Judases and devils to enable them to be angry and yet feel that they do well to be angry. Every one of these legends is the common heritage of the human race; and there is only one inexorable condition attached to their healthy enjoyment, which is that no one shall believe them literally. The reading of stories and delighting in them made Don Quixote a gentleman: the believing them literally made him a madman who slew lambs instead of feeding them.",
-            "A Touchstone For Dogma"
-        ],
-        [
-            "I hear you say \"Why?\" Always \"Why?\" You see things; and you say \"Why?\" But I dream things that never were; and I say \"Why not?\"",
-            "The Serpent, in Pt. I : In the Beginning, Act I"
-        ],
-        [
-            "This quote is sometimes misattributed to Robert F. Kennedy. It is often paraphrased slightly in a few different ways, including: You see things as they are and ask, \"Why?\" I dream things as they never were and ask, \"Why not?\".",
-            null
-        ],
-        [
-            "I worship you, Eve. I must have something to worship. Something quite different to myself, like you. There must be something greater than the snake.",
-            "The Serpent, in Pt. I : In the Beginning"
-        ],
-        [
-            "Everything is possible: everything. Listen. I am old. I am the old serpent, older than Adam, older than Eve. I remember Lilith, who came before Adam and Eve. I was her darling as I am yours. She was alone: there was no man with her. She saw death as you saw it when the fawn fell; and she knew then that she must find out how to renew herself and cast the skin like me. She had a mighty will: she strove and strove and willed and willed for more moons than there are leaves on all the trees of the garden. Her pangs were terrible: her groans drove sleep from Eden. She said it must never be again: that the burden of renewing life was past bearing: that it was too much for one. And when she cast the skin, lo! there was not one new Lilith but two: one like herself, the other like Adam. You were the one: Adam was the other.",
-            "The Serpent, in Pt. I, Act I"
-        ],
-        [
-            "Imagination is the beginning of creation. You imagine what you desire; you will what you imagine; and at last you create what you will.",
-            "The Serpent, in Pt. I, Act I"
-        ],
-        [
-            "Conceive. That is the word that means both the beginning in imagination and the end in creation.",
-            "The Serpent, in Pt. I, Act I"
-        ],
-        [
-            "Life must not cease. That comes before everything. It is silly to say you do not care. You do care. It is that care that will prompt your imagination; inflame your desires; make your will irresistible; and create out of nothing.",
-            "The Serpent, in Pt. I, Act I"
-        ],
-        [
-            "I am very subtle; but Man is deeper in his thought than I am. The woman knows that there is no such thing as nothing: the man knows that there is no such day as tomorrow. I do well to worship them.",
-            "The Serpent, in Pt. I, Act I"
-        ],
-        [
-            "THE SERPENT: The voice in the garden is your own voice.\nADAM: It is; and it is not. It is something greater than me: I am only a part of it.\nEVE: The Voice does not tell me not to kill you. Yet I do not want you to die before me. No voice is needed to make me feel that.\nADAM [throwing his arm round her shoulder with an expression of anguish]: Oh no: that is plain without any voice. There is something that holds us together, something that has no word —\nTHE SERPENT: Love. Love. Love.\nADAM: That is too short a word for so long a thing.",
-            "The Serpent, Adam, and Eve, in Pt. I, Act I"
-        ],
-        [
-            "I make no vows. I take my chance. ... It means that I fear certainty as you fear uncertainty. It means that nothing is certain but uncertainty. If I bind the future I bind my will. If I bind my will I strangle creation.",
-            "The Serpent, in Pt. I, Act I"
-        ],
-        [
-            "You can feel nothing but a torment, and believe nothing but a lie. You will not raise your head to look at all the miracles of life that surround you; but you will run ten miles to see a fight or a death.",
-            "Eve to Cain, in Pt. I, Act II"
-        ],
-        [
-            "Your father is a fool skin deep; but you are a fool to your very marrow.",
-            "Eve to Cain, in Pt. I, Act II"
-        ],
-        [
-            "Any sort of plain speaking is better than the nauseous sham good fellowship our democratic public men get up for shop use.",
-            "Franklyn, in Pt. II : The Gospel of the Brothers Barnabas"
-        ],
-        [
-            "There are no secrets except the secrets that keep themselves.",
-            "Confucius, in Pt. III : The Thing Happens"
-        ],
-        [
-            "Everything happens to everybody sooner or later if there is time enough.",
-            "Pt. V : As Far as Thought Can Reach"
-        ],
-        [
-            "Silence is the perfect expression of scorn.",
-            "Pt. V"
-        ],
-        [
-            "The worst cliques are those which consist of one man.",
-            "Pt. V"
-        ],
-        [
-            "Life is not meant to be easy, my child but take courage: it can be delightful.",
-            "Pt. V; see also the later phrasing of Malcolm Fraser, \"life wasn't meant to be easy\""
-        ],
-        [
-            "THE HE-ANCIENT: When a thing is funny, search it for a hidden truth\nSTREPHON: Yes; and take all the fun out of it.",
-            "Pt. V"
-        ],
-        [
-            "Art is the magic mirror you make to reflect your invisible dreams in visible pictures. You use a glass mirror to see your face: you use works of art to see your soul. But we who are older use neither glass mirrors nor works of art. We have a direct sense of life. When you gain that you will put aside your mirrors and statues, your toys and your dolls.",
-            "The She-Ancient, in Pt. V"
-        ],
-        [
-            "When the master has come to do everything through the slave, the slave becomes his master, since he cannot live without him.",
-            "The He-Ancient, in Pt. V"
-        ],
-        [
-            "Love is a simple thing and a deep thing: it is an act of life and not an illusion. Art is an illusion.",
-            "Acis, in Pt. V"
-        ],
-        [
-            "Even a vortex is a vortex in something. You can't have a whirlpool without water; and you can't have a vortex without gas, or molecules or atoms or ions or electrons or something, not nothing.",
-            "Acis, in Pt. V"
-        ],
-        [
-            "The body was the slave of the vortex; but the slave has become the master; and we must free ourselves from that tyranny. It is this stuff [indicating her body], this flesh and blood and bone and all the rest of it, that is intolerable. Even prehistoric man dreamed of what he called an astral body, and asked who would deliver him from the body of this death.",
-            "The She-Ancient, in Pt. V"
-        ],
-        [
-            "I am justified. For I chose wisdom and the knowledge of good and evil; and now there is no evil; and wisdom and good are one. It is enough.",
-            "The Serpent, in Pt. V"
-        ],
-        [
-            "They have accepted the burden of eternal life. They have taken the agony from birth; and their life does not fail them even in the hour of their destruction.",
-            "Lilith, in Pt. V"
-        ],
-        [
-            "I had patience with them for many ages: they tried me very sorely. They did terrible things: they embraced death, and said that eternal life was a fable. I stood amazed at the malice and destructiveness of the things I had made...",
-            "Lilith, in Pt. V"
-        ],
-        [
-            "They have redeemed themselves from their vileness, and turned away from their sins. Best of all, they are still not satisfied: the impulse I gave them in that day when I sundered myself in twain and launched Man and Woman on the earth still urges them: after passing a million goals they press on to the goal of redemption from the flesh, to the vortex freed from matter, to the whirlpool in pure intelligence that, when the world began, was a whirlpool in pure force.",
-            "Lilith, in Pt. V"
-        ],
-        [
-            "I can wait: waiting and patience mean nothing to the eternal. I gave the woman the greatest of gifts: curiosity. By that her seed has been saved from my wrath; for I also am curious; and I have waited always to see what they will do tomorrow.\nI say, let them dread, of all things, stagnation; for from the moment I, Lilith, lose hope and faith in them, they are doomed. In that hope and faith I have let them live for a moment; and in that moment I have spared them many times. But mightier creatures than they have killed hope and faith, and perished from the earth; and I may not spare them for ever. I am Lilith: I brought life into the whirlpool of force, and compelled my enemy, Matter, to obey a living soul. But in enslaving Life's enemy I made him Life's master; for that is the end of all slavery; and now I shall see the slave set free and the enemy reconciled, the whirlpool become all life and no matter. And because these infants that call themselves ancients are reaching out towards that, I will have"
-        ],
-        [
-            "Patience with them still; though I know well that when they attain it they shall become one with me and supersede me, and Lilith will be only a legend and a lay that has lost its meaning. Of Life only is there no end; and though of its million starry mansions many are empty and many still unbuilt, and though its vast domain is as yet unbearably desert, my seed shall one day fill it and master its matter to its uttermost confines. And for what may be beyond, the eyesight of Lilith is too short. It is enough that there is a beyond.",
-            "Lilith, in Pt. V"
-        ],
-        [
-            "No public man in these islands ever believes that the Bible means what it says: he is always convinced that it says what he means.",
-            "Our Theatres In The Nineties (1930)"
-        ],
-        [
-            "I have defined the 100 per cent American as 99 per cent an idiot.",
-            "New York Times (19 December 1930) remarks on Sinclair Lewis receiving the Nobel Prize"
-        ],
-        [
-            "Impression of Gandhi! You might as well ask one to give his impression of the Himalayas.",
-            "When asked about his impression on Gandhi (1931), as quoted in D. G. Tendulkar, Mahatma: Life of Mohandas Karamchand Gandhi (1952), vol. 3, p. 166."
-        ],
-        [
-            "I object to all punishment whatsoever. I don't want to punish anybody, but there are an extraordinary number of people who I want to kill. Not in any unkind or personal spirit. But it must be evident to all of you, you must all know have a dozen (1/12) people at least, who are no use in this world; who are more trouble than they are worth. And I think it would be a good thing to make everybody come before a properly appointed board just as he might come before the income tax commissioners and say every 5 years or every 7 years, just put them there, and say, sir or madam, now will you be kind enough to justify yo",
-            null
-        ],
-        [
-            "ur existence? If you can’t justify your existence; if you’re not pulling your weight in the social boat; if you are not producing as much as you consume or perhaps a little more, then clearly we cannot use the big organization of our society for the purpose of keeping you alive, because your life does not benefit us, and it can’t be of very much use to yourself.",
-            "George Bernard Shaw reopens capital punishment controversy, Paramount British Pictures (March 5, 1931)"
-        ],
-        [
-            "I am afraid we must make the world honest before we can honestly tell our children that honesty is the best policy.",
-            "Rungs of the Ladder, BBC Radio broadcast (11 July 1932)"
-        ],
-        [
-            "An American has no sense of privacy. He doesn't know what it means. There is no such thing in the country.",
-            "Speech in New York (11 April 1933)"
-        ],
-        [
-            "You in America should trust to that volcanic political instinct which I have divined in you.",
-            "Speech at New York (11 April 1933)"
-        ],
-        [
-            "Hitler is a very remarkable man, a very able man... What Hitler should have done was not to drive the Jews out, what he ought to have said was, 'I will tolerate the Jews to any extent on condition that no Jew marries a Jewess, on condition that he marries a German.'",
-            "From a lecture before the Fabian Society in London called 'The Politics of Unpolitical Animals' (23 November 1933), as cited in 'Shaw Heaps Praise upon the Dictators: While Parliaments Get Nowhere, He Says, Mussolini and Stalin Do Things,' New York Times (10 December 1933)"
-        ],
-        [
-            "Until you have socialism you will never have State solidity, because, as we know, if you have private property you will immediately split your stake. You get the class conflict, the class struggle, the confrontation of interests between the proprietors and between the proletariat; and, therefore, you have something that is crumbling, that is divided against itself.",
-            "From a lecture before the Fabian Society in London called 'The Politics of Unpolitical Animals' (23 November 1933), as cited in 'Shaw Heaps Praise upon the Dictators: While Parliaments Get Nowhere, He Says, Mussolini and Stalin Do Things,' New York Times (10 December 1933)"
-        ],
-        [
-            "As a red hot Communist I am in favour of fascism. The only drawback to Sir Oswald's movement is that it is not quite British enough.",
-            "From 'The Blackshirt Challenge', News Chronicle (17 January 1934), as cited in Gareth Griffith Socialism and Superior Brains: The Political Thought of Bernard Shaw, Routledge (1993) p. 264."
-        ],
-        [
-            "Mussolini, Kemal, Pilsudski, Hitler and the rest can all depend on me to judge them by their ability to deliver the goods and not by... comfortable notions of freedom. Stalin has delivered the goods to an extent that seemed impossible ten years ago; and I take off my hat to him accordingly.",
-            "As quoted in 'Stalin-Wells Talk: The Verbatim Report and A Discussion', G.B. Shaw, J.M. Keynes et al., London, The New Statesman and Nation, (1934) p. 47. Also reported in Political Pilgrams: Western Intellectuals in Search of the Good Society, Paul Hollander, New Brunswick, N.J: Transaction Publishers (1998) p. 169"
-        ],
-        [
-            "I appeal to the chemists to discover a humane gas that will kill instantly and painlessly. In short, a gentlemanly gas – deadly by all means, but humane not cruel.",
-            "The Listener (BBC magazine) (February 1934)"
-        ],
-        [
-            "Now take Stalin himself. He is 'neither duke nor peer', not a king, not a chancellor, not a dictator, not a Prime Minister, not an archbishop, not entitled to salutes enforced by youths..."
-        ],
-        [
-            "Stalin has exiled Trotsky and become the Pontifex Maximus of the new Russo-Catholic Church of Communism on two grounds. First, he is a practical Nationalist statesman recognizing that Russia is a big enough handful for mortal rulers to tackle without taking on the rest of the world as well.... Second, Stalin, inflexible as to his final aim, is a compete opportunist as to the means.",
-            "As quoted in 'Stalin-Wells Talk: The Verbatim Report and A Discussion', G.B. Shaw, J.M. Keynes et al., London, The New Statesman and Nation, (1934) p. 26"
-        ],
-        [
-            "The news from Germany is the very best news that we have had since the war. Ever since 1918 we, like all the other powers, have been behaving just as badly as we possibly could. Well now, when Germany fell, they want and they sat on Germany’s head and they kept sitting on Germany’s head, although it was quite preposterous, quite evident to any sensible persona, that they couldn’t go on like that forever. Then there came a very intelligent gentleman named Adolf Hitler and he, knowing perfectly well that the powers would not fight, he snapped his fingers at the Treaty of Versailles. Just exactly as if we in England had been in the same position. As if the powers had beaten us and sat on our head.",
-            "From an interview (1935), as cited in James Curran, Anthony Smith & Pauline Wingate, ed (1987) Impacts and Influences: Media Power in..."
-        ],
-        [
-            "Then the first man who had the gumption to see that we might get up on our legs and defy all those old treaties, he would be the most popular man in England. There can be no peace in the world until there is peace between England, France, Germany, Russia, the United States and all the big powers...",
-            "About the Treaty of Versailles (1935)."
-        ],
-        [
-            "Dear Katharine Cornell: I don't think I was ever so astonished by a picture as I was by your photograph. Your success as Candida and something blonde and expansive about your name had created an ideal British Candida in my imagination. Fancy my feelings on seeing the photograph of a gorgeous dark lady from the cradle of the human ra..."
-        ],
-        [
-            "We ought to tackle the Jewish question by admitting the right of States to make eugenic experiments by weeding out any strains that they think undesirable..."
-        ],
-        [
-            "Take the case of the extermination of Jesus Christ. No doubt there was a strong case for it. ... By every argument, legal, political, religious, customary, and polite, he was the most complete enemy of the society of his time ever brought to the bar."
-        ],
-        [
-            "I am the embodiment of a thought of God: I am the Word made flesh ... Beware how you kill a thought that is new to you. For that thought may be the foundation of the kingdom of God on earth."
-        ],
-        [
-            "In this play a reference is made by a Chief of Police to the political necessity for killing people: a necessity so distressing to the statesmen...",
-            "Whilst assenting to these proceedings, and even acclaiming and celebrating them, we dare not tell ourselves what we are doing or why we are doing it... We must strip off the whitewash and find out what is really beneath it. Extermination must be put on a scientific basis if it is ever to be carried out humanely and apologetically as well as thoroughly."
-        ],
-        [
-            "Ignoring the satirical elements of Shaw's rhetoric, and that he is presenting many arguments of sometimes questionable sincerity for the 'humane' execution of criminals..."
-        ],
-        [
-            "The extermination of what the exterminators call inferior races is as old as history. 'Stone dead hath no fellow' said Cromwell when he tried to exterminate the Irish.",
-            "Preface; The Sacredness of Human Life"
-        ],
-        [
-            "The only good nigger is a dead nigger' say the Americans of the Ku-Klux temperament.",
-            "Preface; The Sacredness of Human Life"
-        ],
-        [
-            "What we are confronted with now is a growing perception that if we desire a certain type of civilization and culture we must exterminate the sort of people who do not fit into it.",
-            "Preface; The Sacredness of Human Life"
-        ],
-        [
-            "All government is cruel; for nothing is so cruel as impunity.",
-            "Pilate, as portrayed in Preface, Difference Between Reader And Spectator"
-        ],
-        [
-            "Law is blind without counsel.",
-            "Jesus, as portrayed in Preface, Difference Between Reader And Spectator"
-        ],
-        [
-            "The last word remains with Christ and Handel; and this must stand as the best defence of Tolerance until a better man than I makes a better job of it.",
-            "Preface, The Sacredness Of Criticism"
-        ],
-        [
-            "The quality of a play is the quality of its ideas.",
-            "The Play of Ideas, New Statesman (6 May 1950)"
-        ],
-        [
-            "The apparent multiplicity of Gods is bewildering at the first glance; but you presently discover that they are all the same one God in different aspects and functions and even sexes.",
-            "Unknown"
-        ],
-        [
-            "Hinduism is so elastic and so subtle that the profoundest Methodist and the crudest idolater are equally at home in it.",
-            "Unknown"
-        ],
-        [
-            "Islam is very different, being ferociously intolerant.",
-            "Unknown"
-        ],
-        [
-            "A government which robs Peter to pay Paul can always depend on the support of Paul.",
-            "Everybody's Political What's What (1944), Ch. 30, p. 256"
-        ],
-        [
-            "We have no reason to suppose that we are the Creator's last word.",
-            "Everybody's Political What's What (1944)"
-        ],
-        [
-            "I am a communist, but not a member of the Communist Party. Stalin is a first rate Fabian. I am one of the founders of Fabianism and as such very friendly to Russia.",
-            "As quoted in the Evening Herald in Dublin, Ireland (February 3, 1948), reprinted in Economic Council Letter, Issue 278, Part 397 (1952), p. 1807"
-        ],
-        [
-            "The road to ignorance is paved with good editions. Only the illiterate can afford to buy good books now.",
-            "As quoted in Days with Bernard Shaw (1949) by Stephen Winsten"
-        ],
-        [
-            "The secret of success is to offend the greatest number of people.",
-            "As quoted in Days with Bernard Shaw (1949) by Stephen Winsten"
-        ],
-        [
-            "Consistency is the enemy of enterprise, just as symmetry is the enemy of art.",
-            "As quoted in Bernard Shaw : The Lure of Fantasy (1991) by Michael Holroyd"
-        ],
-        [
-            "The first prison I ever saw had inscribed on it CEASE TO DO EVIL: LEARN TO DO WELL; but as the inscription was on the outside, the prisoners could not read it.",
-            "Preface to English Prisons Under Local Government by Sydney and Beatrice Webb (1922)"
-        ],
-        [
-            "Vulgarity is a necessary part of a complete author's equipment; and the clown is sometimes the best part of the circus.",
-            "Preface to London music in 1888-89 as heard by Corno di Bassetto (1937)"
-        ],
-        [
-            "The epithet beautiful is used by surgeons to describe operations which their patients describe as ghastly, by physicists to describe methods of measurement which leave sentimentalists cold, by lawyers to describe cases which ruin all the parties to them, and by lovers to describe the objects of their infatuation, however unattractive they may appear to the unaffected spectators.",
-            "Preface to Ellen Terry and Bernard Shaw: A Correspondence (1931)"
-        ],
-        [
-            "I know I began as a passion and have ended as a habit, like all husbands.",
-            "The Simpleton of the Unexpected Isles, Act 2 (1934)"
-        ]
+  "bio": "George Bernard Shaw was an English playwright, novelist, and poet. He was born in 1870 in London, England. He died in 1951 in London, England.",
+  "quotes": [
+    [
+      "I hear you say 'Why?' Always 'Why?' You see things; and you say 'Why?' But I dream things that never were; and I say 'Why not?'"
+    ],
+    [
+      "My method is to take the utmost trouble to find the right thing to say, and then to say it with the utmost levity."
+    ],
+    [
+      "My specialty is being right when other people are wrong."
+    ],
+    [
+      "The reasonable man adapts himself to the world; the unreasonable one persists in trying to adapt the world to himself. Therefore all progress depends on the unreasonable man."
+    ],
+    [
+      "The worst sin towards our fellow creatures is not to hate them, but to be indifferent to them: that's the essence of inhumanity."
+    ],
+    [
+      "All great truths begin as blasphemies."
+    ],
+    [
+      "Must then a Christ perish in torment in every age to save those that have no imagination?"
+    ],
+    [
+      "One man that has a mind and knows it can always beat ten men who haven't and don't."
+    ],
+    [
+      "Patriotism is, fundamentally, a conviction that a particular country is the best in the world because you were born in it..."
+    ],
+    [
+      "Pasteboard pies and paper flowers are being banished from the stage by the growth of that power of accurate observation which is commonly called cynicism by those who have not got it..."
+    ],
+    [
+      "But no public man in these islands ever believes that the Bible means what it says: he is always convinced that it says what he means; and I have no reason to hope that Mr. Coote may be an exception to the rule."
+    ],
+    [
+      "Die Walkure is endured by the average man because it contains four scenes for which he would sit out a Scotch sermon, or even a House of Commons debate..."
+    ],
+    [
+      "We have no more right to consume happiness without producing it than to consume wealth without producing it."
+    ],
+    [
+      "I'm only a beer teetotaler, not a champagne teetotaler. I don't like beer."
+    ],
+    [
+      "We don't bother much about dress and manners in England, because as a nation we don't dress well and we've no manners."
+    ],
+    [
+      "The great advantage of a hotel is that it's a refuge from home life."
+    ],
+    [
+      "My specialty is being right when other people are wrong."
+    ],
+    [
+      "I had not achieved a success; but I provoked an uproar; and the sensation was so agreeable that I resolved to try again."
+    ],
+    [
+      "There is only one religion, though there are a hundred versions of it."
+    ],
+    [
+      "You're not a man, you're a machine."
+    ],
+    [
+      "Why should you call me to account for eating decently? If I battened on the scorched corpses of animals, you might well ask me why I did that. Why should I be filthy and inhuman? Why should I be an accomplice in the wholesale horror and degradation of the slaughter-house?"
+    ],
+    [
+      "The liar's punishment is, not in the least that he is not believed, but that he cannot believe any one else."
+    ],
+    [
+      "I have never admitted the right of an elderly author to alter the work of a young author, even when the young author happens to be his former self..."
+    ],
+    [
+      "Just as the liar's punishment is, not in the least that he is not believed, but that he cannot believe any one else; so a guilty society can more easily be persuaded that any apparently innocent act is guilty than that any apparently guilty act is innocent."
+    ],
+    [
+      "The salvation of the world depends on the men who will not take evil good-humouredly, and whose laughter destroys the fool instead of encouraging him."
+    ],
+    [
+      "The test of a man or woman's breeding is how they behave in a quarrel."
+    ],
+    [
+      "The worst sin towards our fellow creatures is not to hate them, but to be indifferent to them: that's the essence of inhumanity."
+    ],
+    [
+      "Martyrdom, sir, is what these people like: it is the only way in which a man can become famous without ability."
+    ],
+    [
+      "I was a cannibal for twenty-five years. For the rest, I have been a vegetarian. It was Shelley who first opened my eyes to the savagery of my diet."
+    ],
+    [
+      "You must not suppose, because I am a man of letters, that I never tried to earn an honest living."
+    ],
+    [
+      "[Chess] is a foolish expedient for making idle people believe they are doing something very clever when they are only wasting their time."
+    ],
+    [
+      "To understand a saint, you must hear the devil's advocate; and the same is true of the artist."
+    ],
+    [
+      "Assassination is the extreme form of censorship; and it seems hard to justify an incitement to it on anti-censorial principles."
+    ],
+    [
+      "The confusion of marriage with morality has done more to destroy the conscience of the human race than any other single error."
+    ],
+    [
+      "There is no love sincerer than the love of food."
+    ],
+    [
+      "Decency is Indecency's Conspiracy of Silence."
+    ],
+    [
+      "Men are wise in proportion, not to their experience, but to their capacity for experience. If we could learn from mere experience, the stones of London would be wiser than its wisest men."
+    ],
+    [
+      "No age or condition is without its heroes. The least incapable general in a nation is its Caesar, the least imbecile statesman its Solon, the least confused thinker its Socrates, the least commonplace poet its Shakespeare."
+    ],
+    [
+      "The roulette table pays nobody except him that keeps it. Nevertheless a passion for gaming is common, though a passion for keeping roulette tables is unknown."
+    ],
+    [
+      "The reformer for whom the world is not good enough finds himself shoulder to shoulder with him that is not good enough for the world."
+    ],
+    [
+      "Youth, which is forgiven everything, forgives itself nothing: age, which forgives itself everything, is forgiven nothing."
+    ],
+    [
+      "Do not mistake your objection to defeat for an objection to fighting, your objection to being a slave for an objection to slavery, your objection to not being as rich as your neighbor for an objection to poverty. The cowardly, the insubordinate, and the envious share your objections."
+    ],
+    [
+      "Those who understand evil pardon it."
+    ],
+    [
+      "When a heretic wishes to avoid martyrdom he speaks of 'Orthodoxy, True and False' and demonstrates that the True is his heresy."
+    ],
+    [
+      "If you begin by sacrificing yourself to those you love, you will end by hating those to whom you have sacrificed yourself."
+    ],
+    [
+      "The greatest of evils and the worst of crimes is poverty."
+    ],
+    [
+      "Love is an appetite which, like all other appetites, is destroyed for the moment by its gratification."
+    ],
+    [
+      "Never forget that if you leave your law to judges and your religion to bishops, you will presently find yourself without either law or religion."
+    ],
+    [
+      "Religion is a great force - the only real motive force in the world; but what you fellows don't understand is that you must get at a man through his own religion and not through yours."
+    ],
+    [
+      "There is no subject on which more dangerous nonsense is talked and thought than marriage."
+    ],
+    [
+      "Religion is a great force - the only real motive force in the world; but what you fe"
+    ],
+    [
+      "My way of joking is to tell the truth. It's the funniest joke in the world."
+    ],
+    [
+      "All great truths begin as blasphemies."
+    ],
+    [
+      "A Treatise on Parents and Children (1910)"
+    ],
+    [
+      "A Treatise on Parents and Children (1910)"
+    ],
+    [
+      "A Treatise on Parents and Children (1910)"
+    ],
+    [
+      "are not good enough for established institutions as well as those who are too good for them."
+    ],
+    [
+      "Howbeit, Paul succeeded in stealing the image of Christ crucified for the figure-head of his Salvationist vessel, with its Adam posing as the natural man, its doctrine of original sin, and its damnation avoidable only by faith in the sacrifice of the cross. In fact, no sooner had Jesus knocked over the dragon of superstition than Paul boldly set it on its legs again in the name of Jesus."
+    ],
+    [
+      "He [the British taxpayer] must be taught that war is not precise or economical. It is almost inconceivably wasteful and extravagant. It burns the house to roast the pig, and even then seldom roasts him effectively..... waste is the law of modern war; and nothing is cheap on the battlefield except the lives of men...... Therefore, my taxpayer, resign yourself to this: that we may fight bravely, fight hard, fight long, fight cunningly, fight recklessly, fight in a hundred and fifty ways, but we cannot fight cheaply."
+    ],
+    [
+      "He must be greatly changed. Has he attained the seventh degree of concentration?"
+    ],
+    [
+      "We know now that the soul is the body, and the body the soul. They tell us they are different because they want to persuade us that we can keep our souls if we let them make slaves of our bodies."
+    ],
+    [
+      "When your heart is broken, your boats are burned: nothing matters any more. It is the end of happiness and the beginning of peace."
+    ],
+    [
+      "The moment we face it frankly we are driven to the conclusion that the community has a right to put a price on the right to live in it ... If people are fit to live, let them live under decent human conditions. If they are not fit to live, kill them in a decent human way. Is it any wonder that some of us are driven to prescribe the lethal chamber as the solution for the hard cases which are at present made the excuse for dragging all the other cases down to their level, and the only solution that will create a sense of full social responsibility in modern populations?"
+    ],
+    [
+      "It is difficult, if not impossible, for most people to think otherwise than in the fashion of their own period."
+    ],
+    [
+      "Political necessities sometimes turn out to be political mistakes."
+    ],
+    [
+      "Scratch an Englishman and find a Protestant."
+    ],
+    [
+      "God is on the side of the big battalions."
+    ],
+    [
+      "Must then a Christ perish in torment in every age to save those that have no imagination?"
+    ],
+    [
+      "The Italians must allow us to slaughter the Momands, because, if we do not kill the warlike hillmen, they will kill us. And we must allow the Italians to slaughter the Danakils for the same reason."
+    ],
+    [
+      "The Nazi movement is in many respects one which has my warmest sympathy."
+    ],
+    [
+      "Some of the things Mussolini has done, and some that he is threatening to do go further in the direction of Socialism than the English Labour Party could yet venture if they were in power."
+    ],
+    [
+      "[Mussolini was] farther to the Left in his political opinions than any of his socialist rivals."
+    ],
+    [
+      "Socialists must be in favor of an aristocratic form of government. We must have the best men for the job . . . In the dictator you must have a man who has not only the power to govern but the force of character to impose himself as dictator whether you like him or not."
+    ],
+    [
+      "Our natural dispositions may be good; but we have been badly brought up, and are full of anti-social personal ambitions and prejudices and snobberies. Had we not better teach our children to be better citizens than ourselves? We are not doing that at present. The Russians are. That is my last word. Think over it."
+    ],
+    [
+      "One man that has a mind and knows it can always beat ten men who haven't and don't."
+    ],
+    [
+      "God help England if she had no Scots to think for her!"
+    ],
+    [
+      "We should refuse to tolerate poverty as a social institution not because the poor are the salt of the earth, but because 'the poor in a lump are bad'."
+    ],
+    [
+      "We have to confess it: Capitalist mankind in the lump is detestable. ...Both rich and poor are really hateful in themselves. For my part I hate the poor and look forward eagerly to their extermination. I pity the rich a little, but am equally bent on their extermination. The working classes, the ruling classes, the professional classes, the propertied classes, the ruling classes, are each more odious than the other: they have no right to live: I should despair if I did not know that they will all die presently, and that there is no need on earth why they should be replaced by people like themselves... And yet I am not in the least a misanthrope. I am a person of normal affections"
+    ],
+    [
+      "Under Socialism, you would not be allowed to be poor. You would be forcibly fed, clothed, lodged, taught, and employed whether you liked it or not. If it were discovered that you had not character and industry enough to be worth all this trouble, you might possibly be executed in a kindly manner; but whilst you were permitted to live, you would have to live well."
+    ],
+    [
+      "It is far more likely that by the time nationalization has become the rule, and private enterprise the exception, Socialism (which is really rather a bad name for the business) will be spoken of, if at all, as a crazy religion held by a fanatical sect in that darkest of dark ages, the nineteenth century. Already, indeed, I am told that Socialism has had its day, and that the sooner we stop talking nonsense about it and set to work, like the practical people we are, to nationalize the coal mines and complete a national electrification scheme, the better. And I, who said forty years ago that we should have had Socialism already but for the Socialists, am quite willing to drop the name if dropping it will help me to get the thing. What I meant by my jibe at the Socialists of the eighteen-eighties was that nothing is ever done, and much is prevented, by people who do not realize that they cannot do everything at once."
+    ],
+    [
+      "Perhaps the greatest social service that can be rendered by anybody to the country and to mankind is to bring up a family. But here again, because there is nothing to sell, there is a very general disposition to regard a married woman's work as no work at all, and to take it as a matter of course that she should not be paid for it."
+    ],
+    [
+      "Women are not angels. They are as foolish as men in many ways; but they have had to devote themselves to life whilst men have had to devote themselves to death; and that makes a vital difference in male and female religion. Women have been forced to fear whilst men have been forced to dare: the heroism of a woman is to nurse and protect life, and of a man to destroy it and court death."
+    ],
+    [
+      "Well, of course, they notice you. You always hide just in the middle of the limelight."
+    ],
+    [
+      "I remember Lilith, who came before Adam and Eve. I was her darling as I am yours."
+    ],
+    [
+      "There are no secrets except the secrets that keep themselves."
+    ],
+    [
+      "Everything happens to everybody sooner or later if there is time enough."
+    ],
+    [
+      "You use a glass mirror to see your face: you use works of art to see your soul."
+    ],
+    [
+      "They have redeemed themselves from their vileness, and turned away from their sins. Best of all, they are still not satisfied..."
+    ],
+    [
+      "I can wait: waiting and patience mean nothing to the eternal. I gave the woman the greatest of gifts: curiosity. By that her seed has been saved from my wrath; for I also am curious; and I have waited always to see what they will do tomorrow."
+    ],
+    [
+      "Of Life only is there no end; and though of its million starry mansions many are empty and many still unbuilt, and though its vast domain is as yet unbearably desert, my seed shall one day fill it and master its matter to its uttermost confines. And for what may be beyond, the eyesight of Lilith is too short. It is enough that there is a beyond."
+    ],
+    [
+      "In truth, mankind cannot be saved from without, by schoolmasters or any other sort of masters: it can only be lamed and enslaved by them. It is said that if you wash a cat it will never again wash itself. This may or may not be true: what is certain is that if you teach a man anything he will never learn it; and if you cure him of a disease"
+    ],
+    [
+      "he will be unable to cure himself the next time it attacks him."
+    ],
+    [
+      "Is there any hope in education?"
+    ],
+    [
+      "People will have their miracles, their stories, their heroes and heroines and saints and martyrs and divinities to exercise their gifts of affection, admiration, wonder, and worship, and their Judases and devils to enable them to be angry and yet feel that they do well to be angry. Every one of these legends is the common heritage of the human race; and there is only one inexorable condition attached to their healthy enjoyment, which is that no one shall believe them literally. The reading of stories and delighting in them made Don Quixote a gentleman: the believing them literally made him a madman who slew lambs instead of feeding them."
+    ],
+    [
+      "I hear you say \"Why?\" Always \"Why?\" You see things; and you say \"Why?\" But I dream things that never were; and I say \"Why not?\""
+    ],
+    [
+      "This quote is sometimes misattributed to Robert F. Kennedy. It is often paraphrased slightly in a few different ways, including: You see things as they are and ask, \"Why?\" I dream things as they never were and ask, \"Why not?\"."
+    ],
+    [
+      "I worship you, Eve. I must have something to worship. Something quite different to myself, like you. There must be something greater than the snake."
+    ],
+    [
+      "Everything is possible: everything. Listen. I am old. I am the old serpent, older than Adam, older than Eve. I remember Lilith, who came before Adam and Eve. I was her darling as I am yours. She was alone: there was no man with her. She saw death as you saw it when the fawn fell; and she knew then that she must find out how to renew herself and cast the skin like me. She had a mighty will: she strove and strove and willed and willed for more moons than there are leaves on all the trees of the garden. Her pangs were terrible: her groans drove sleep from Eden. She said it must never be again: that the burden of renewing life was past bearing: that it was too much for one. And when she cast the skin, lo! there was not one new Lilith but two: one like herself, the other like Adam. You were the one: Adam was the other."
+    ],
+    [
+      "Imagination is the beginning of creation. You imagine what you desire; you will what you imagine; and at last you create what you will."
+    ],
+    [
+      "Conceive. That is the word that means both the beginning in imagination and the end in creation."
+    ],
+    [
+      "Life must not cease. That comes before everything. It is silly to say you do not care. You do care. It is that care that will prompt your imagination; inflame your desires; make your will irresistible; and create out of nothing."
+    ],
+    [
+      "I am very subtle; but Man is deeper in his thought than I am. The woman knows that there is no such thing as nothing: the man knows that there is no such day as tomorrow. I do well to worship them."
+    ],
+    [
+      "THE SERPENT: The voice in the garden is your own voice. ADAM: It is; and it is not. It is something greater than me: I am only a part of it. EVE: The Voice does not tell me not to kill you. Yet I do not want you to die before me. No voice is needed to make me feel that. ADAM [throwing his arm round her shoulder with an expression of anguish]: Oh no: that is plain without any voice. There is something that holds us together, something that has no word - THE SERPENT: Love. Love. Love. ADAM: That is too short a word for so long a thing."
+    ],
+    [
+      "I make no vows. I take my chance. ... It means that I fear certainty as you fear uncertainty. It means that nothing is certain but uncertainty. If I bind the future I bind my will. If I bind my will I strangle creation."
+    ],
+    [
+      "You can feel nothing but a torment, and believe nothing but a lie. You will not raise your head to look at all the miracles of life that surround you; but you will run ten miles to see a fight or a death."
+    ],
+    [
+      "Your father is a fool skin deep; but you are a fool to your very marrow."
+    ],
+    [
+      "Any sort of plain speaking is better than the nauseous sham good fellowship our democratic public men get up for shop use."
+    ],
+    [
+      "There are no secrets except the secrets that keep themselves."
+    ],
+    [
+      "Everything happens to everybody sooner or later if there is time enough."
+    ],
+    [
+      "Silence is the perfect expression of scorn."
+    ],
+    [
+      "The worst cliques are those which consist of one man."
+    ],
+    [
+      "Life is not meant to be easy, my child but take courage: it can be delightful."
+    ],
+    [
+      "THE HE-ANCIENT: When a thing is funny, search it for a hidden truth STREPHON: Yes; and take all the fun out of it."
+    ],
+    [
+      "Art is the magic mirror you make to reflect your invisible dreams in visible pictures. You use a glass mirror to see your face: you use works of art to see your soul. But we who are older use neither glass mirrors nor works of art. We have a direct sense of life. When you gain that you will put aside your mirrors and statues, your toys and your dolls."
+    ],
+    [
+      "When the master has come to do everything through the slave, the slave becomes his master, since he cannot live without him."
+    ],
+    [
+      "Love is a simple thing and a deep thing: it is an act of life and not an illusion. Art is an illusion."
+    ],
+    [
+      "Even a vortex is a vortex in something. You can't have a whirlpool without water; and you can't have a vortex without gas, or molecules or atoms or ions or electrons or something, not nothing."
+    ],
+    [
+      "The body was the slave of the vortex; but the slave has become the master; and we must free ourselves from that tyranny. It is this stuff [indicating her body], this flesh and blood and bone and all the rest of it, that is intolerable. Even prehistoric man dreamed of what he called an astral body, and asked who would deliver him from the body of this death."
+    ],
+    [
+      "I am justified. For I chose wisdom and the knowledge of good and evil; and now there is no evil; and wisdom and good are one. It is enough."
+    ],
+    [
+      "They have accepted the burden of eternal life. They have taken the agony from birth; and their life does not fail them even in the hour of their destruction."
+    ],
+    [
+      "I had patience with them for many ages: they tried me very sorely. They did terrible things: they embraced death, and said that eternal life was a fable. I stood amazed at the malice and destructiveness of the things I had made..."
+    ],
+    [
+      "They have redeemed themselves from their vileness, and turned away from their sins. Best of all, they are still not satisfied: the impulse I gave them in that day when I sundered myself in twain and launched Man and Woman on the earth still urges them: after passing a million goals they press on to the goal of redemption from the flesh, to the vortex freed from matter, to the whirlpool in pure intelligence that, when the world began, was a whirlpool in pure force."
+    ],
+    [
+      "I can wait: waiting and patience mean nothing to the eternal. I gave the woman the greatest of gifts: curiosity. By that her seed has been saved from my wrath; for I also am curious; and I have waited always to see what they will do tomorrow. I say, let them dread, of all things, stagnation; for from the moment I, Lilith, lose hope and faith in them, they are doomed. In that hope and faith I have let them live for a moment; and in that moment I have spared them many times. But mightier creatures than they have killed hope and faith, and perished from the earth; and I may not spare them for ever. I am Lilith: I brought life into the whirlpool of force, and compelled my enemy, Matter, to obey a living soul. But in enslaving Life's enemy I made him Life's master; for that is the end of all slavery; and now I shall see the slave set free and the enemy reconciled, the whirlpool become all life and no matter. And because these infants that call themselves ancients are reaching out towards that, I will have"
+    ],
+    [
+      "Patience with them still; though I know well that when they attain it they shall become one with me and supersede me, and Lilith will be only a legend and a lay that has lost its meaning. Of Life only is there no end; and though of its million starry mansions many are empty and many still unbuilt, and though its vast domain is as yet unbearably desert, my seed shall one day fill it and master its matter to its uttermost confines. And for what may be beyond, the eyesight of Lilith is too short. It is enough that there is a beyond."
+    ],
+    [
+      "No public man in these islands ever believes that the Bible means what it says: he is always convinced that it says what he means."
+    ],
+    [
+      "I have defined the 100 per cent American as 99 per cent an idiot."
+    ],
+    [
+      "Impression of Gandhi! You might as well ask one to give his impression of the Himalayas."
+    ],
+    [
+      "I object to all punishment whatsoever. I don't want to punish anybody, but there are an extraordinary number of people who I want to kill. Not in any unkind or personal spirit. But it must be evident to all of you, you must all know have a dozen (1/12) people at least, who are no use in this world; who are more trouble than they are worth. And I think it would be a good thing to make everybody come before a properly appointed board just as he might come before the income tax commissioners and say every 5 years or every 7 years, just put them there, and say, sir or madam, now will you be kind enough to justify yo"
+    ],
+    [
+      "ur existence? If you can't justify your existence; if you're not pulling your weight in the social boat; if you are not producing as much as you consume or perhaps a little more, then clearly we cannot use the big organization of our society for the purpose of keeping you alive, because your life does not benefit us, and it can't be of very much use to yourself."
+    ],
+    [
+      "I am afraid we must make the world honest before we can honestly tell our children that honesty is the best policy."
+    ],
+    [
+      "An American has no sense of privacy. He doesn't know what it means. There is no such thing in the country."
+    ],
+    [
+      "You in America should trust to that volcanic political instinct which I have divined in you."
+    ],
+    [
+      "Hitler is a very remarkable man, a very able man... What Hitler should have done was not to drive the Jews out, what he ought to have said was, 'I will tolerate the Jews to any extent on condition that no Jew marries a Jewess, on condition that he marries a German.'"
+    ],
+    [
+      "Until you have socialism you will never have State solidity, because, as we know, if you have private property you will immediately split your stake. You get the class conflict, the class struggle, the confrontation of interests between the proprietors and between the proletariat; and, therefore, you have something that is crumbling, that is divided against itself."
+    ],
+    [
+      "As a red hot Communist I am in favour of fascism. The only drawback to Sir Oswald's movement is that it is not quite British enough."
+    ],
+    [
+      "Mussolini, Kemal, Pilsudski, Hitler and the rest can all depend on me to judge them by their ability to deliver the goods and not by... comfortable notions of freedom. Stalin has delivered the goods to an extent that seemed impossible ten years ago; and I take off my hat to him accordingly."
+    ],
+    [
+      "I appeal to the chemists to discover a humane gas that will kill instantly and painlessly. In short, a gentlemanly gas - deadly by all means, but humane not cruel."
+    ],
+    [
+      "Now take Stalin himself. He is 'neither duke nor peer', not a king, not a chancellor, not a dictator, not a Prime Minister, not an archbishop, not entitled to salutes enforced by youths..."
+    ],
+    [
+      "Stalin has exiled Trotsky and become the Pontifex Maximus of the new Russo-Catholic Church of Communism on two grounds. First, he is a practical Nationalist statesman recognizing that Russia is a big enough handful for mortal rulers to tackle without taking on the rest of the world as well.... Second, Stalin, inflexible as to his final aim, is a compete opportunist as to the means."
+    ],
+    [
+      "The news from Germany is the very best news that we have had since the war. Ever since 1918 we, like all the other powers, have been behaving just as badly as we possibly could. Well now, when Germany fell, they want and they sat on Germany's head and they kept sitting on Germany's head, although it was quite preposterous, quite evident to any sensible persona, that they couldn't go on like that forever. Then there came a very intelligent gentleman named Adolf Hitler and he, knowing perfectly well that the powers would not fight, he snapped his fingers at the Treaty of Versailles. Just exactly as if we in England had been in the same position. As if the powers had beaten us and sat on our head."
+    ],
+    [
+      "Then the first man who had the gumption to see that we might get up on our legs and defy all those old treaties, he would be the most popular man in England. There can be no peace in the world until there is peace between England, France, Germany, Russia, the United States and all the big powers..."
+    ],
+    [
+      "Dear Katharine Cornell: I don't think I was ever so astonished by a picture as I was by your photograph. Your success as Candida and something blonde and expansive about your name had created an ideal British Candida in my imagination. Fancy my feelings on seeing the photograph of a gorgeous dark lady from the cradle of the human ra..."
+    ],
+    [
+      "We ought to tackle the Jewish question by admitting the right of States to make eugenic experiments by weeding out any strains that they think undesirable..."
+    ],
+    [
+      "Take the case of the extermination of Jesus Christ. No doubt there was a strong case for it. ... By every argument, legal, political, religious, customary, and polite, he was the most complete enemy of the society of his time ever brought to the bar."
+    ],
+    [
+      "I am the embodiment of a thought of God: I am the Word made flesh ... Beware how you kill a thought that is new to you. For that thought may be the foundation of the kingdom of God on earth."
+    ],
+    [
+      "In this play a reference is made by a Chief of Police to the political necessity for killing people: a necessity so distressing to the statesmen..."
+    ],
+    [
+      "Ignoring the satirical elements of Shaw's rhetoric, and that he is presenting many arguments of sometimes questionable sincerity for the 'humane' execution of criminals..."
+    ],
+    [
+      "The extermination of what the exterminators call inferior races is as old as history. 'Stone dead hath no fellow' said Cromwell when he tried to exterminate the Irish."
+    ],
+    [
+      "The only good nigger is a dead nigger' say the Americans of the Ku-Klux temperament."
+    ],
+    [
+      "What we are confronted with now is a growing perception that if we desire a certain type of civilization and culture we must exterminate the sort of people who do not fit into it."
+    ],
+    [
+      "All government is cruel; for nothing is so cruel as impunity."
+    ],
+    [
+      "The last word remains with Christ and Handel; and this must stand as the best defence of Tolerance until a better man than I makes a better job of it."
+    ],
+    [
+      "The quality of a play is the quality of its ideas."
+    ],
+    [
+      "The apparent multiplicity of Gods is bewildering at the first glance; but you presently discover that they are all the same one God in different aspects and functions and even sexes."
+    ],
+    [
+      "Hinduism is so elastic and so subtle that the profoundest Methodist and the crudest idolater are equally at home in it."
+    ],
+    [
+      "Islam is very different, being ferociously intolerant."
+    ],
+    [
+      "A government which robs Peter to pay Paul can always depend on the support of Paul."
+    ],
+    [
+      "We have no reason to suppose that we are the Creator's last word."
+    ],
+    [
+      "I am a communist, but not a member of the Communist Party. Stalin is a first rate Fabian. I am one of the founders of Fabianism and as such very friendly to Russia."
+    ],
+    [
+      "The road to ignorance is paved with good editions. Only the illiterate can afford to buy good books now."
+    ],
+    [
+      "The secret of success is to offend the greatest number of people."
+    ],
+    [
+      "Consistency is the enemy of enterprise, just as symmetry is the enemy of art."
+    ],
+    [
+      "The first prison I ever saw had inscribed on it CEASE TO DO EVIL: LEARN TO DO WELL; but as the inscription was on the outside, the prisoners could not read it."
+    ],
+    [
+      "Vulgarity is a necessary part of a complete author's equipment; and the clown is sometimes the best part of the circus."
+    ],
+    [
+      "The epithet beautiful is used by surgeons to describe operations which their patients describe as ghastly, by physicists to describe methods of measurement which leave sentimentalists cold, by lawyers to describe cases which ruin all the parties to them, and by lovers to describe the objects of their infatuation, however unattractive they may appear to the unaffected spectators."
+    ],
+    [
+      "I know I began as a passion and have ended as a habit, like all husbands."
     ]
+  ]
 }
