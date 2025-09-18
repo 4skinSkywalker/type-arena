@@ -1,5 +1,7 @@
 #TODO
-1. Search for [a-z][A-Z] (sensitive)
-2. Search for \[([a-z])\] (insensitive)
-3. Search for ([.:;-?!])([A-Z]) (sensitive)
-4. Search for (?<=[^.])\.\." (insensitive)
+1. [a-z][A-Z] (sensitive)
+2. \[([a-z])\] (insensitive)
+3. ([.:;-?!])([A-Z]) (sensitive)
+4. (?<=[^.])\.\." (insensitive)
+5. (?<!\.)"$ (insensitive)
+6. \[(\w)\] (insensitive)
