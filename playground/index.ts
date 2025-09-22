@@ -2,7 +2,7 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 
 (async () => {
-    const bot = fs.readFileSync('../bot.js', 'utf8');
+    const bot = fs.readFileSync('./bot.js', 'utf8');
 
     const args = process.argv.slice(2);
     const [ roomId, playerName, playerSpeed, headless ] = args;

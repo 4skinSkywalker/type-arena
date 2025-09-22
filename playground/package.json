@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node ./index.ts"
+    "start": "ts-node ./index.ts",
+    "katsu-matsu": "npm run start m6mpuv4i5xd katsu-matsu 90 true",
+    "MoshHamed": "npm run start m6mpuv4i5xd MoshHamed 80 true"
   },
   "author": "",
   "license": "ISC",
