@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node ./index.ts",
     "katsu-matsu": "npm run start m6mpuv4i5xd katsu-matsu 90 true",
-    "MoshHamed": "npm run start m6mpuv4i5xd MoshHamed 80 true"
+    "MoshHamed": "npm run start m6mpuv4i5xd MoshHamed 80 true",
+    "ChevroIsABeast": "npm run start m6mpuv4i5xd ChevroIsABeast 120 true",
+    "nothuman": "npm run start m6mpuv4i5xd nothuman 1000 true"
   },
   "author": "",
   "license": "ISC",
