@@ -22,6 +22,8 @@ export interface IArenaProgress {
 export class ArenaComponent {
   @Output("onProgress") onProgress = new EventEmitter<any>();
 
+  LOOKAHEAD_VALUE = 54;
+  SCROLLBY_VALUE = 32;
   document = document;
   me = input<IClientWithPercentage | null>(null, { alias: "me" });
   others = input<IClientWithPercentage[]>([], { alias: "others" });
@@ -113,6 +115,20 @@ export class ArenaComponent {
     focus("#text-control");
   }
 
+  getCursor() {
+    return document.querySelector(".char.active")!;
+  }
+
+  scrollIfNeeded() {
+    const cursor = this.getCursor();
+    const parent = cursor.parentElement!;
+    const cursorRect = cursor.getBoundingClientRect();
+    const parentRect = parent.getBoundingClientRect();
+    if (cursorRect.y - parentRect.y > parentRect.height - this.LOOKAHEAD_VALUE) {
+      parent.scrollTop += this.SCROLLBY_VALUE;
+    }
+  }
+
   inputText(event: string | Event) {
     if (this.finished() || !this.enabled()) {
       return;
@@ -158,7 +174,7 @@ export class ArenaComponent {
     this.wpm.set(Math.round((correctChars * 60) / (5 * (deltaTime / 1000))));
     this.accuracy.set(Math.round(100 * correctChars / (userText.length + this.mistakes())) / 100);
 
-    scrollElementIntoView(".char.active + .char + .char + .char");
+    this.scrollIfNeeded();
     
     if (userText.length >= this.chars.length) {
       const clientInfo = loadFromLS("clientInfo");
