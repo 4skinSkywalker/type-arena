@@ -2,20 +2,28 @@ import fs from "fs";
 import path from "path";
 import { IQuote, Language } from "./models";
 
-export const authors = getAuthorFiles();
-
-export function getRandomQuote(language: Language = "en") {
-    const authorFile = getRandomAuthorFile(language);
-    const authorName = fromHyphenToCapitalized(authorFile.name);
-    const author = JSON.parse(fs.readFileSync(path.join(__dirname, "quotes", language, authorFile.base), "utf-8"));
-    const randomQuote = author.quotes[Math.floor(Math.random() * author.quotes.length)];
-    return {
-        author: authorName,
-        bio: author.bio || "",
-        quote: randomQuote[0],
-        source: randomQuote[1] || ""
-    } as IQuote;
-}
+export const languageQuotes = ["en", "it"]
+    .map(language => ({
+        language,
+        authors: getAuthorFiles(language as Language)
+    }))
+    .reduce((result, { language, authors }) => {
+        result[language] = result[language] || [];
+        const quotes = authors
+            .map(({ base, name }) => {
+                const content = JSON.parse(fs.readFileSync(path.join(__dirname, "quotes", language, base), "utf-8"));
+                return content.quotes
+                    .map((quote: [string, string]) => ({
+                        author: fromHyphenToCapitalized(name),
+                        bio: "", // content.bio || "",
+                        quote: quote[0],
+                        source: "", // quote[1] || ""
+                    })) as IQuote[];
+            })
+            .reduce((result, quotes) => result.concat(quotes), []);
+        result[language] = [ ...result[language], ...quotes ];
+        return result;
+    }, {} as { [key: string]: IQuote[] });
 
 function fromHyphenToCapitalized(str: string) {
     const dehyphened = str.replace(/-([a-z])/g, (_, letter) => " " + letter.toUpperCase());
@@ -27,7 +35,10 @@ export function getAuthorFiles(language: Language = "en") {
         .map(file => path.parse(file));
 }
 
-export function getRandomAuthorFile(language: Language = "en") {
-    const authors = getAuthorFiles(language);
-    return authors[Math.floor(Math.random() * authors.length)];
+export function getRandomQuote(language: Language = "en") {
+    const quotes = languageQuotes[language];
+    if (!quotes) {
+        throw new Error(`Language ${language} not found`);
+    }
+    return quotes[Math.floor(Math.random() * quotes.length)];
 }
