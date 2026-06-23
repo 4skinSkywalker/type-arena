@@ -86,9 +86,7 @@ export class RoomComponent {
   handleKeyboardEvent(event: KeyboardEvent) {
     if (event.shiftKey && event.key === "Enter") {
       event.preventDefault();
-      if (!this.raceStarted()) {
-        this.startGame();
-      }
+      this.startGame();
     }
 
     if (event.ctrlKey && event.key === "Enter") {
@@ -267,11 +265,15 @@ export class RoomComponent {
   }
 
   startGame() {
-    this.api.send("startGame", { roomId: this.roomId });
+    if (!this.raceStarted() && !this.countdownRunning()) {
+      this.api.send("startGame", { roomId: this.roomId });
+    }
   }
 
   newGame() {
-    this.api.send("newGame", { roomId: this.roomId });
+    if (!this.countdownRunning()) {
+      this.api.send("newGame", { roomId: this.roomId });
+    }
   }
 
   handleGameStarted() {
