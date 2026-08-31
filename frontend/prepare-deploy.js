@@ -16,7 +16,7 @@ function _exec(cmd) {
 (async function() {
     const currentDir = process.cwd();
     console.log("Current directory:", currentDir);
-    await _exec("ng build --output-path docs --base-href /");
+    await _exec("ng build --output-path docs --base-href /type-arena/");
     console.log("Built, ready to deploy");
     fs.copyFileSync("docs/browser/index.html", "docs/browser/404.html");
     fs.copyFileSync("CNAME", "docs/browser/CNAME");
