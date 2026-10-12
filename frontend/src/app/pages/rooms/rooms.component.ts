@@ -21,6 +21,7 @@ export class RoomsComponent {
   roomName = new FormControl("", { nonNullable: true });
   deathMode = new FormControl(false, { nonNullable: true });
   language = new FormControl("en", { nonNullable: true });
+  quoteLength = new FormControl("medium", { nonNullable: true });
 
   handlers: Handlers = {};
 
@@ -70,7 +71,8 @@ export class RoomsComponent {
     const createRoom = {
       name: roomName,
       deathMode: this.deathMode.value,
-      language: this.language.value
+      language: this.language.value,
+      quoteLength: this.quoteLength.value
     };
     uncheck("#create-room-modal-trigger");
 

@@ -6,6 +6,7 @@
 //      ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═════╝                                                                                                                           
 
 export type Language = "en" | "it";
+export type QuoteLength = "short" | "medium" | "long" | "mixed";
 
 export interface IClientToJSONOptions {
     includeRoom?: boolean;
@@ -55,6 +56,7 @@ export interface IRoomJSON {
     name: string;
     deathMode: boolean;
     language: Language;
+    quoteLength: QuoteLength;
     race: IRace;
     host: IClientJSON;
     clients: IClientJSON[];
@@ -94,6 +96,7 @@ export interface ICreateRoomMessage {
     name: string;
     deathMode: boolean;
     language: Language;
+    quoteLength: QuoteLength;
 }
 
 export interface IJoinRoomMessage {
