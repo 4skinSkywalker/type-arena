@@ -19,7 +19,6 @@ function _exec(cmd) {
     await _exec("ng build --output-path docs --base-href /type-arena/");
     console.log("Built, ready to deploy");
     fs.copyFileSync("docs/browser/index.html", "docs/browser/404.html");
-    fs.copyFileSync("CNAME", "docs/browser/CNAME");
     console.log("Files copied");
     fs.rmSync(path.join(currentDir, "..", "docs"), { recursive: true });
     console.log("Removed old deployment");
