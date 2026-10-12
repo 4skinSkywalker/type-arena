@@ -35,20 +35,20 @@ export const languageQuotes = ["en", "it"]
         
         result[language].short = [
             ...result[language].short,
-            ...quotes.filter(q => q.quote.split(/\b/).length < 30)
+            ...quotes.filter(q => q.quote.split(/\b/).length < 40)
         ];
 
         result[language].medium = [
             ...result[language].medium,
             ...quotes.filter(q => {
                 const words = q.quote.split(/\b/);
-                return words.length >= 30 && words.length <= 60;
+                return words.length >= 40 && words.length <= 70;
             })
         ];
 
         result[language].long = [
             ...result[language].long,
-            ...quotes.filter(q => q.quote.split(/\b/).length > 60)
+            ...quotes.filter(q => q.quote.split(/\b/).length > 70)
         ];
 
         return result;
